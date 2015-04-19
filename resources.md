@@ -8,6 +8,7 @@ A great [intro into swirl](https://www.youtube.com/watch?v=S1tBTlrx0JY) by its c
 
 # Collections
  - [R by Example](http://www.mayin.org/ajayshah/KB/R/)
+
 # Cheatsheets
 
 - [RStudio cheatsheets](http://www.rstudio.com/resources/cheatsheets/) - all cheatsheets
