@@ -15,7 +15,7 @@ Phone | 472-4864
 
  Class meets twice a week. On **Monday**s will focus on **conceptual** understanding of the processed material, whereas **Friday**s will be dedicated to development of **practical** skills in reporting statistical models.
 
-Date   |Week|Class | Topics  | Chapter | Report due (23:59) |
+Date   |Week|Class | Topics  | Chapter | Assignment Due |
 -------|----|------|---------|---------|--------------------|      
 07 Sep |1 |--| **Labour Day**  |  |  |  
 10 Sep |	|1 |  |  |  |  
