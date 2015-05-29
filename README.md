@@ -41,8 +41,8 @@ Date   |Week|Class | Topics  | Chapter | Report due (23:59) |
 26 Nov |	|18|  |  |  |  
 30 Nov |12|19|  |  |  |  
 03 Dec |	|20|  |  |  |  
-07 Dec |13|--|  |  |  |  
-10 Dec |  |--| **Finals Week**  |  |  |  
+07 Dec |13|--| **Finals Week**  |  |  |  
+10 Dec |  |--|   |  |  |  
 
 Note: H - Hoffman, RB - Raudenbush & Bryk  
 
