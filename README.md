@@ -49,41 +49,17 @@ Note: H - Hoffman, RB - Raudenbush & Bryk
 
 ### Texts
 
-**Required**  
-- [Longitudinal Analysis: Modeling Within-Person Variation and Change](http://www.pilesofvariance.com) (Lesa Hoffman, 2014). 
-
-**Recommended**  
-
- - [Hierarchical linear models: Applications and data analysis methods](http://www.amazon.ca/Hierarchical-Linear-Models-Applications-Analysis/dp/076191904X) (Raudenbush, S. W., and Bryk, A. S., 2002).    
- 
+- [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (James, Witten Hastie, and Tibshirani, 2013). 
 
 - [Data Analysis Using Regression and Multilevel/Hierarchical Models](http://www.stat.columbia.edu/~gelman/arm/) ( Andrew Gelman and Jennifer Hill, 2006)  
-           
-- [Multilevel Analysis: An Introduction to Basic and Advanced Multilevel Modeling](http://www.stats.ox.ac.uk/~snijders/mlbook.htm) (Snijders, Tom A.B., and Bosker, Roel J., 2011).  
-    
-- [Latent Curve Models: A Structural Equation Perspective](http://www.ats.ucla.edu/stat/examples/lcm/) (Kenneth A. Bollen and Patrick J. Curran, 2006).
-
-
-- [Version 6 Mplus Users Guide](http://www.statmodel.com).  
 
 ## Mission Statement
 
-This course will provide an overview of current statistical approaches for the analysis of variation and change. Conceptual and research design issues will be discussed throughout with an emphasis on alternative models for explaining and predicting individual-level change. Hands-on training in analysis of longitudinal data will focus on use of Mplus, SAS, and R, comparing and exploring features of both traditional MLM and SEM approaches. A variety of models will be examined and applied to actual data including models with time invariant and time-varying covariates, factor-level outcomes, alternative time structures, and joint models of variation and change. Substantive examples will be used throughout the course based on published and unpublished results from several major longitudinal studies on developmental and aging-related change.  
-
+...
 
 ## Evaluation and Grading Policy
 
-Course evaluation will be based on the ability to independently analyze data, correctly interpret model estimates, and effectively communicate and discuss results. The assignments are designed to provide experience with model conception and specification, evaluation of model fit and nested models, interpretation of results, and communication of research findings.
-
-
-Throughout the semester you will be earning **course points** which will be used to compute the total percent score. The total of **200** points will come from participating in the class **activities**, producing dynamic **reports**, and  taking the **final** examination.  
-
-what  | when | number of | points each | total points  
---- | --- | --- | --- | --- 
-In-classs activities | Tuesdays| 10 | 8 | 80
-Report| Fridays | 10 | 10 | 100
-Final | March 31 | 1 | 20 | 20
-Total |  |  |  | **200**
+...
 
 
 The final letter grade in the course will be based on total percent score rounded to the third decimal point as shown in the table:    
@@ -103,34 +79,15 @@ F  | 0|49 |Failing grade   Unsatisfactory performance. Wrote final examination a
 
 ## How this will work 
 
-There are the total of 13 weeks in the semester.  Every week (except for the first, the reading week, and the last) 18 points can be earned: 10 points from a dynamic report and 8 points from class participation. 
-
-Dynamic reports will be turned in electronically before 11:59 pm on the Friday the week they are due.
-
-Class participation involves two type of activities: recurring and wildcards. Recurring activities are: quiz question, guess page, guess slide, and Rosetta Stone.
-
-**Quiz Question** Please write the question about the content of the current chapter/lecture that you think should appear on the final exam? Post Anonymously into the corresponding comment thread on the page for the current week of the [course](http://andkov.github.io/psy564/).  
-
-**Guess Page** In the current chapter, what **page** contains one of the most important ideas or concepts? Provide the page number and  the answer why in less than 140 characters, omg, no abbr plz! Post Anonymously into the corresponding comment thread on the page for the current week of the [course](http://andkov.github.io/psy564/). 
-
-**Guess Slide** In the current lecture, what **slide** contains one of the most important ideas or concepts? Provide the slide number and answer why in less than 140 characters, omg, no abbr plz! Post Anonymously into the corresponding comment thread on the page for the current week of the [course](http://andkov.github.io/psy564/)
-
-**NOTE** Quiz Quesion, Guess Page, and Guess Slide must be submitted into the respective comment threads **no later that 10:30 am** of the Tuesday of the current week.
-
-**Rosetta Stone** A question, a series of questions, or other activity that involves learning some programming language or comparing programming languages.
-
-The activities for the other 4 class participation points will be **wildcards** - you will not know what they will be ahead of time to keep things interesting. 
-
+...
 
 **Extra Credit**  
-In addition, each week learners will have the opportunity to earn up to two (2) points of **extra credit**:   
 
-- 1 point will be awared on competitive basis (e.g. only top 3 persons get the point)    
-- 1 point will be awared on noncompetitive basis (e.g. all-or-nothing getting the answer correct)    
+...
 
 ## Prerequisites
 
-This is an advanced course on research methodology and statistical analysis. Students should have familiarity with multivariate statistical methods (e.g., multiple regression, factor analysis). Experience with Mplus, SAS, or R is beneficial, but not expected. Please contact the instructor if you have questions about these prerequisites.
+...
 
 ## Important Course Policy Information  
 
