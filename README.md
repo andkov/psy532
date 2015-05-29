@@ -42,7 +42,7 @@ Date   |Week|Class | Topics  | Chapter | Assignment Due |
 30 Nov |12|19|  |  |  |  
 03 Dec |	|20|  |  |  |  
 07 Dec |13|--| **Finals Week**  |  |  |  
-10 Dec |  |--|   |  |  |  
+10 Dec |  |--| **Finals Week**  |  |  |  
 
 Note: H - Hoffman, RB - Raudenbush & Bryk  
 
