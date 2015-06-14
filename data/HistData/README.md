@@ -7,6 +7,6 @@ that are interesting and important in the history of statistics and data visuali
 
  - [CRAN documentation](http://cran.r-project.org/web/packages/HistData/HistData.pdf)  
  - [List of datasets](http://artax.karlin.mff.cuni.cz/r-help/library/HistData/html/HistData-package.html)  
- - [Advanced list](http://rpackages.ianhowson.com/cran/HistData/http://rpackages.ianhowson.com/cran/HistData/)
+ - [Advanced list](http://rpackages.ianhowson.com/cran/HistData/)
 
 

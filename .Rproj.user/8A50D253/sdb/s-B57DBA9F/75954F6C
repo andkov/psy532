@@ -1,0 +1,17 @@
+{
+    "contents" : "----\nHistData\n----\n\nThe package <code>HistData</code> provides a collection of small data sets\nthat are interesting and important in the history of statistics and data visualization.\n\n - [CRAN documentation](http://cran.r-project.org/web/packages/HistData/HistData.pdf)  \n - [List of datasets](http://artax.karlin.mff.cuni.cz/r-help/library/HistData/html/HistData-package.html)  \n - [Advanced list](http://rpackages.ianhowson.com/cran/HistData/)\n\n\n",
+    "created" : 1434254709370.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "274458561",
+    "id" : "75954F6C",
+    "lastKnownWriteTime" : 1434254722,
+    "path" : "~/GitHub/psy532/data/HistData/README.md",
+    "project_path" : "data/HistData/README.md",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "markdown"
+}
