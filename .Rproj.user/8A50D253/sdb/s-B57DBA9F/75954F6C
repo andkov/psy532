@@ -1,12 +1,12 @@
 {
-    "contents" : "----\nHistData\n----\n\nThe package <code>HistData</code> provides a collection of small data sets\nthat are interesting and important in the history of statistics and data visualization.\n\n - [CRAN documentation](http://cran.r-project.org/web/packages/HistData/HistData.pdf)  \n - [List of datasets](http://artax.karlin.mff.cuni.cz/r-help/library/HistData/html/HistData-package.html)  \n - [Advanced list](http://rpackages.ianhowson.com/cran/HistData/)\n\n\n",
+    "contents" : "----\nHistData\n----\n\nThe package <code>HistData</code> provides a collection of small data sets\nthat are interesting and important in the history of statistics and data visualization.\n\n - [CRAN documentation](http://cran.r-project.org/web/packages/HistData/HistData.pdf)  \n - [List of datasets](http://artax.karlin.mff.cuni.cz/r-help/library/HistData/html/HistData-package.html)  \n - [Description with scripts](http://rpackages.ianhowson.com/cran/HistData/) by Ian Howson\n\n### Useful links\n\n\n[Collection of R software](http://www.datavis.ca/R/) for visualizing data by [Michael Friendly](http://www.datavis.ca/), creater of HistData package. Make sure you visite the [Gallery](http://www.datavis.ca/gallery/) of best and worst statistical graphics. \n\n\n\n",
     "created" : 1434254709370.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "274458561",
+    "hash" : "2153498720",
     "id" : "75954F6C",
-    "lastKnownWriteTime" : 1434254722,
+    "lastKnownWriteTime" : 1434255198,
     "path" : "~/GitHub/psy532/data/HistData/README.md",
     "project_path" : "data/HistData/README.md",
     "properties" : {

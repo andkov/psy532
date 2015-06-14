@@ -1,6 +1,10 @@
----- 
+--- 
 psy532
-----
+---
+
+This graduate course in statistics helps develop the skills in modeling and graphing data needed by a modern applied researcher in social sciences. 
+
+### Basic Info
 
 **Session**:  	Fall 2015 (Sep 9 - Dec 4[)](https://github.com/andkov/psy532/edit/gh-pages/index.md)  
 **Meeting Time**:		MT 11:30 - 13:00    
@@ -13,9 +17,15 @@ Hours | By appointment
 Email | andkov at uvic dot ca
 Phone | 472-4864
 
- Class meets twice a week. On **Monday**s will focus on **conceptual** understanding of the processed material, whereas **Friday**s will be dedicated to development of **practical** skills in reporting statistical models.
+### Quick Links
 
-Date   |Week|Class | Topics  | Chapter | Assignment Due |
+ - [Resources](./resources.md) is a collection of materials that were used extensively to put together this course and this website. Study it for inspiration and scripting detail.
+ - [HistData] Wiki overviews some of the historic datasets that will be used in the course
+
+
+### Calendar 
+
+Date   |Week|Meet-up | Topics  | Chapter | Assignment Due |
 -------|----|------|---------|---------|--------------------|      
 07 Sep |1 |--| **Labour Day**  |  |  |  
 10 Sep |	|1 |  |  |  |  
@@ -52,6 +62,16 @@ Note: H - Hoffman, RB - Raudenbush & Bryk
 - [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (James, Witten Hastie, and Tibshirani, 2013). 
 
 - [Data Analysis Using Regression and Multilevel/Hierarchical Models](http://www.stat.columbia.edu/~gelman/arm/) ( Andrew Gelman and Jennifer Hill, 2006)  
+
+
+### Levels to clear
+
+ 1. Data exploration  
+ 2. Data cleaning  
+ 3. Data screening  
+ 
+ 4. 
+
 
 ## Mission Statement
 

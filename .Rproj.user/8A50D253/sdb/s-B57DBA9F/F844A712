@@ -1,0 +1,18 @@
+{
+    "contents" : "rm(list=ls(all=TRUE)) #Clear the memory of variables from previous run. This is not called by knitr, because it's above the first chunk.\n\n\n## @knitr load_sources\n\n\n\n\n## @knitr load_packages\nlibrary(dplyr)\nlibrary(ggplot2)\nlibrary(reshape2)\nlibrary(HistData)\nlibrary(testit, quietly=TRUE) #For asserts\n\n\n\n## @knitr declare_globals\n\n\n\n## @knitr load_data\ndata(\"Galton\")\nds <- Galton\n\n\n## @knitr tweak_data\n\n\n\n## @kntir basic_table\nstr(ds)\n\ndplyr::tbl_df(ds)\n\n\n## @knitr basic_graph\nwith(Galton, \n\t{\n\tsunflowerplot(parent,child, xlim=c(62,74), ylim=c(62,74))\n\treg <- lm(child ~ parent)\n\tabline(reg)\n\tlines(lowess(parent, child), col=\"blue\", lwd=2)\n\tif(require(car)) {\n\tdataEllipse(parent,child, xlim=c(62,74), ylim=c(62,74), plot.points=FALSE)\n\t\t}\n  })\n\n\n# rmarkdown::render(input = \"./data/HistData/Encyclopedia_HistData.Rmd\", output_format=\"html_document\", clean=TRUE)\n\n",
+    "created" : 1434255468122.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2696160574",
+    "id" : "F844A712",
+    "lastKnownWriteTime" : 1434257161,
+    "path" : "~/GitHub/psy532/data/HistData/Encyclopedia_HistData.R",
+    "project_path" : "data/HistData/Encyclopedia_HistData.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
