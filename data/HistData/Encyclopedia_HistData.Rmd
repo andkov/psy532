@@ -1,0 +1,54 @@
+---
+title: "Encyclopedia of Historical Datasets"
+author: "Andrey Koval"
+date: "June 13, 2015"
+output: 
+  html_document: 
+    highlight: zenburn
+    keep_md: yes
+    number_sections: yes
+    toc: yes
+---
+
+<!--  The 1st mandatory chunck  -->
+<!--  Set the working directory to the repository's base directory -->
+```{r, echo=F, message=F} 
+#Don't combine this call with any other chunk 
+# cat("Working directory: ", getwd()) # check where you are
+  library(knitr)
+# Rmd is in "./reports/reportA/reportA.Rmd", but now the root is "./"
+  knitr::opts_knit$set(root.dir='../../') 
+```
+
+<!--  The 2nd mandatory chunck  -->
+<!-- Set the report-wide options, and point to the external code file. -->
+```{r set_options, echo=F}
+# connect to the file with the underlying R script  
+read_chunk("./reportA/reportA.R") 
+# set options shared by all chunks
+opts_chunk$set(
+  results='show', 
+  comment = NA, 
+  tidy = FALSE,
+  fig.path = 'figure_repA/'
+)
+echoChunks <- FALSE
+```
+
+
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
