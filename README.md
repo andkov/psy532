@@ -54,7 +54,6 @@ Date   |Week|Meet-up | Topics  | Chapter | Assignment Due |
 07 Dec |13|--| **Finals Week**  |  |  |  
 10 Dec |  |--| **Finals Week**  |  |  |  
 
-Note: H - Hoffman, RB - Raudenbush & Bryk  
 
 
 ### Texts
@@ -73,10 +72,34 @@ Note: H - Hoffman, RB - Raudenbush & Bryk
  4. 
 
 
-## Mission Statement
+## Overview
 
-...
+  Elaborating on the graphing templates developed in [DeShea, Toochacher, and Beasley]() we  will look at some famous datasets in the history of statistics ([HistData]() package) and some real-world collections of social science data ([ELSA](), [HRS](), [NLSY]()).
+  
+### Software  
 
+I will be making extensive use of the following packages:
+   - dplyr  
+   - reshape2  
+   - ggplot2  
+   - knitr  
+   - HistData  
+   - stats  
+   
+### Influential individuals  
+   
+   - Will Beasley  
+   - Michael Friendly
+   - Joe Rodgers  
+   - James Steiger  
+   - Edward Tufte
+   - Hadley Wickham  
+
+
+### Defining books
+  - Cookbook for R
+  - 
+   
 ## Evaluation and Grading Policy
 
 ...
