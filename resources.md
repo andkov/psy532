@@ -8,7 +8,7 @@ A great [intro into swirl](https://www.youtube.com/watch?v=S1tBTlrx0JY) by its c
 - [statistical computing for biostatistics](http://www.biostat.jhsph.edu/~hji/courses/statcomputing/) course by Honkgkai Ji , Ph.D., at Johns Hopkins Bloomberg School of Public Health  
 - [Introduction to R course](http://ateucher.github.io/rcourse_site/) by [Andy Teucher](https://github.com/ateucher)
 - [Programming with R](http://swcarpentry.github.io/r-novice-inflammation/) course by [Software carpentry](http://software-carpentry.org/)
-- [Introduction to Biostatistics](https://github.com/fonnesbeck/Bios6301) course at Vanderbilt taught by [Chris Fonnesbeck](https://github.com/fonnesbeck?tab=repositories)
+- [Introduction to Biostatistics](http://stronginference.com/Bios6301/) course taught at Vanderbilt by [Chris Fonnesbeck](https://github.com/fonnesbeck?tab=repositories)
 - Collection of [R Tutorials](http://www.cyclismo.org/tutorial/R/) by Kelly Black at Clarkson Univeristy. Approximately covers an intro to stats undergrad course.  
 - [Statistical Computing in R](http://www.pitt.edu/~njc23/) a biostatistics course by   Nicholas Christian at University of Pittsburgh.  Great series of slides on essential programming vocabulary and techniques  for statistical modeling. Exemplifies SWEAVE for report generation.
 
