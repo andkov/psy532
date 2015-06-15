@@ -1,6 +1,10 @@
 {
-    "path" : "~/GitHub/psy532",
+    "path" : "~/GitHub/psy532/data/HistData",
     "sortOrder" : [
+        {
+            "ascending" : false,
+            "columnIndex" : 1
+        },
         {
             "ascending" : true,
             "columnIndex" : 2

@@ -9,6 +9,7 @@ output:
     toc: yes
 ---
 
+
 <!--  The 1st mandatory chunck  -->
 <!--  Set the working directory to the repository's base directory -->
 ```{r, echo=F, message=F} 
@@ -77,13 +78,18 @@ echoChunks <- FALSE
 ```
 
 
-
+## Galton
 <!-- Basic graph view.   -->
-```{r basic_graph, echo=TRUE, results='show', message=FALSE}
+```{r Galton_1, echo=echoChunks, fig.height=3.5, fig.width=2, out.width="200px"}
 ```
 
+<!-- Basic graph view.   -->
+```{r Galton_2, echo=echoChunks, fig.height=3.5, fig.width=2, out.width="200px"}
+```
 
-
+<!-- Basic graph view.   -->
+```{r Galton_2, echo=echoChunks, fig.height=3.5, fig.width=2, out.width="600px"}
+```
 
 
 
