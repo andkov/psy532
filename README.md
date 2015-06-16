@@ -19,8 +19,8 @@ Phone | 472-4864
 
 ### Quick Links
 
- - [Resources](./resources.md) is a collection of materials that were used extensively to put together this course and this website. Study it for inspiration and scripting detail.
- - [HistData](./data/HistData/Encyclopedia_HistData.md) Wiki overviews some of the historic datasets from the [HistData](./data/HistData/README.md) package that will be used in the course.
+- [Resources](./resources.md) is a collection of materials that were used extensively to put together this course and this website. Study it for inspiration and scripting detail.
+- [Projects](./projects/README.md) lists the projects in the course
 
 
 ### Calendar 

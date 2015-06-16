@@ -32,6 +32,7 @@ I also recommend completing two free interactive courses at DataCamp: [Introduct
 - [Introduction to Biostatistics](http://stronginference.com/Bios6301/) course taught at Vanderbilt by [Chris Fonnesbeck](https://github.com/fonnesbeck?tab=repositories)
 - Collection of [R Tutorials](http://www.cyclismo.org/tutorial/R/) by Kelly Black at Clarkson Univeristy. Approximately covers an intro to stats undergrad course.  
 - [Statistical Computing in R](http://www.pitt.edu/~njc23/) a biostatistics course by   Nicholas Christian at University of Pittsburgh.  Great series of slides on essential programming vocabulary and techniques  for statistical modeling. Exemplifies SWEAVE for report generation.
+- [Introductory modeling course](http://statpower.net/310LectureSlides.html) taught by James Steiger. 
 
 # Tools
 - See an example of a dynamic document in this [markdown simulator](https://demo.ocpu.io/markdownapp/www/), created in javascript by  [Jeroen Ooms](http://jeroenooms.github.io/). 
@@ -39,14 +40,15 @@ I also recommend completing two free interactive courses at DataCamp: [Introduct
 
 # Collections 
 - [R by Example](http://www.mayin.org/ajayshah/KB/R/) organized scripts with examples
-- [HistData dataset description](http://rpackages.ianhowson.com/cran/HistData/http://rpackages.ianhowson.com/cran/HistData/)
+ - [HistData](./data/HistData/Encyclopedia_HistData.md) Wiki overviews some of the historic datasets from the [HistData](./data/HistData/README.md) package that will be used in the course.
 - in-browser [live markdown and R](https://demo.ocpu.io/markdownapp/www/) simulation. Great for immediate feedback on finding the right line editing.
 - [Most useful R commands](http://www.personality-project.org/r/r.commands.html) according to [personality-project.org](http://www.personality-project.org/index.html) ([William Revelle](http://www.personality-project.org/revelle.html))
  - for brief reviews of key books and resources see Will Beasley's [Resources Opinions](https://github.com/OuhscBbmc/RedcapExamplesAndPatterns/blob/master/DocumentationGlobal/ResourcesOpinions.md)
- - another presentation by Will provides an excellent overview of [Statistical Collaboration with GitHub](http://htmlpreview.github.io/?https://raw.githubusercontent.com/OuhscBbmc/StatisticalComputing/master/2014_Presentations/05_May/BeasleyScugGitHub2014-05.html#/)
+- another presentation by Will provides an excellent overview of [Statistical Collaboration with GitHub](http://htmlpreview.github.io/?https://raw.githubusercontent.com/OuhscBbmc/StatisticalComputing/master/2014_Presentations/05_May/BeasleyScugGitHub2014-05.html#/)
  - Winston Chan's [R Cookbook](http://shop.oreilly.com/product/9780596809164.do) is a perfect book to get you started with producing graphs with RStudio
- - [Quick-R](http://www.statmethods.net/) - thorough and convenient resource for R reference
- 
+- [Quick-R](http://www.statmethods.net/) - thorough and convenient resource for R reference
+
+- Excellent [collection of datasets](http://www.statsci.org/datasets.html) 
 
 
 # Cheatsheets 

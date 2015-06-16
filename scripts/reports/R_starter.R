@@ -6,9 +6,9 @@ rm(list=ls(all=TRUE)) #Clear the memory of variables from previous run. This is 
 
 
 ## @knitr load_packages
-library(dplyr)
-library(ggplot2)
-library(reshape2)
+library(dplyr) # for data manipulation
+library(ggplot2) # for graphing
+library(scales) #for formating values in graphs
 library(HistData)
 library(testit, quietly=TRUE) #For asserts
 

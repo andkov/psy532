@@ -1,0 +1,17 @@
+{
+    "contents" : "rm(list=ls(all=TRUE)) #Clear the memory of variables from previous run. This is not called by knitr, because it's above the first chunk.\n\n\n## @knitr load_sources\n\n\n\n## @knitr load_packages\nlibrary(dplyr) # for data manipulation\nlibrary(ggplot2) # for graphing\nlibrary(scales) #for formating values in graphs\nlibrary(HistData)\nlibrary(testit, quietly=TRUE) #For asserts\n\n\n## @knitr declare_globals\n\n\n\n## @knitr load_data\n\n\n\n## @knitr tweak_data\n\n\n\n## @kntir basic_table\n\n\n## @knitr basic_graph",
+    "created" : 1434399297732.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3344612719",
+    "id" : "3165462B",
+    "lastKnownWriteTime" : 1434417642,
+    "path" : "~/GitHub/psy532/scripts/reports/R_starter.R",
+    "project_path" : "scripts/reports/R_starter.R",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

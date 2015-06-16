@@ -14,21 +14,26 @@
 <!--  The 2nd mandatory chunck  -->
 <!-- Set the report-wide options, and point to the external code file. -->
 ```{r set_options, echo=F}
-# connect to the file with the underlying R script  
-read_chunk("./reportA/reportA.R") 
 # set options shared by all chunks
 opts_chunk$set(
   results='show', 
+  message = TRUE,
   comment = NA, 
   tidy = FALSE,
-#   fig.width = 6.5, 
-#   fig.height = 4, 
-  fig.path = 'figure_repA/'
+  fig.height = 4, 
+  fig.width = 5.5, 
+  out.width = "550px",
+  fig.path = 'figure_rmd/',     
+  dev = "png",
+  dpi = 400
+  # fig.path = 'figure_pdf/',     
+  # dev = "pdf"#,
+  # dev.args=list(pdf = list(colormodel = 'cmyk'))
 )
-# dpi = 400,
-# out.width = "650px", #This affects only the markdown, not the underlying png file.  The height will be scaled appropriately.
-
 echoChunks <- FALSE
+options(width=120) #So the output is 50% wider than the default.
+# connect to the file with the underlying R script  
+read_chunk("./reportA/reportA.R") 
 ```
 
 
