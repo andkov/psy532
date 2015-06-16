@@ -37,7 +37,7 @@ I also recommend completing two free interactive courses at DataCamp: [Introduct
 - Collection of [R Tutorials](http://www.cyclismo.org/tutorial/R/) by Kelly Black at Clarkson Univeristy. Approximately covers an intro to stats undergrad course.
 - [Introduction to Biostatistics](http://stronginference.com/Bios6301/) course taught at Vanderbilt by [Chris Fonnesbeck](https://github.com/fonnesbeck?tab=repositories)
 - [Statistical Computing in R](http://www.pitt.edu/~njc23/) a biostatistics course by   Nicholas Christian at University of Pittsburgh.  Great series of slides on essential programming vocabulary and techniques  for statistical modeling. Exemplifies SWEAVE for report generation.
-- [Introductory modeling course](http://statpower.net/310LectureSlides.html) taught by James Steiger (lecture slides)
+- [Introductory modeling course](http://statpower.net/310LectureSlides.html) introductory course in Statistical Inference for graduate students in Psychological Sciences  by James Steiger
 
 
 # Collections 
