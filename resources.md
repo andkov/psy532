@@ -44,7 +44,7 @@ I also recommend completing two free interactive courses at DataCamp: [Introduct
 - [RStudio cheatsheets](http://www.rstudio.com/resources/cheatsheets/) such a great resource I have put it into a single [pdf](./materials/pdf/R_Studio_Cheat_Sheets.pdf) and keep it on my Desktop.
 - [R by Example](http://www.mayin.org/ajayshah/KB/R/) organized example scripts 
 - [Most useful R commands](http://www.personality-project.org/r/r.commands.html) according to [personality-project.org](http://www.personality-project.org/index.html) ([William Revelle](http://www.personality-project.org/revelle.html))
- - [Resources Opinions](https://github.com/OuhscBbmc/RedcapExamplesAndPatterns/blob/master/DocumentationGlobal/ResourcesOpinions.md)  Will Beasley gives  brief reviews of key books and resources
+- [Resources Opinions](https://github.com/OuhscBbmc/RedcapExamplesAndPatterns/blob/master/DocumentationGlobal/ResourcesOpinions.md)  Will Beasley gives  brief reviews of key books and resources
 - [Quick-R](http://www.statmethods.net/) - thorough and convenient resource for R reference
 
 # Data 
@@ -92,21 +92,6 @@ Mark van der Loo.
  
 
  
-
-
-
-
- 
-
-
-# Cheatsheets 
-
-
-
-
-# Books and Guides
-
-
 # Views and conventions 
 
 - I do my best to follow the [Best Practices for Scientific Computing](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
