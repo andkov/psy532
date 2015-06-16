@@ -40,7 +40,6 @@ I also recommend completing two free interactive courses at DataCamp: [Introduct
 
 # Collections 
 - [R by Example](http://www.mayin.org/ajayshah/KB/R/) organized scripts with examples
- - [HistData](./data/HistData/Encyclopedia_HistData.md) Wiki overviews some of the historic datasets from the [HistData](./data/HistData/README.md) package that will be used in the course.
 - in-browser [live markdown and R](https://demo.ocpu.io/markdownapp/www/) simulation. Great for immediate feedback on finding the right line editing.
 - [Most useful R commands](http://www.personality-project.org/r/r.commands.html) according to [personality-project.org](http://www.personality-project.org/index.html) ([William Revelle](http://www.personality-project.org/revelle.html))
  - for brief reviews of key books and resources see Will Beasley's [Resources Opinions](https://github.com/OuhscBbmc/RedcapExamplesAndPatterns/blob/master/DocumentationGlobal/ResourcesOpinions.md)
@@ -48,7 +47,10 @@ I also recommend completing two free interactive courses at DataCamp: [Introduct
  - Winston Chan's [R Cookbook](http://shop.oreilly.com/product/9780596809164.do) is a perfect book to get you started with producing graphs with RStudio
 - [Quick-R](http://www.statmethods.net/) - thorough and convenient resource for R reference
 
+# Data 
+
 - Excellent [collection of datasets](http://www.statsci.org/datasets.html) 
+- [HistData](./data/HistData/Encyclopedia_HistData.md) Wiki overviews some of the historic datasets from the [HistData](./data/HistData/README.md) package that will be used in the course.
 
 
 # Cheatsheets 
