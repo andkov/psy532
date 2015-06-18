@@ -21,7 +21,7 @@ Phone | 472-4864
 
 - [Resources](./resources.md) is a collection of materials that were used extensively to put together this course and this website. Study it for inspiration and scripting detail.
 - [Projects](./projects/README.md) lists the projects in the course  
-- [Swirl course](https://github.com/swirldev/swirl_courses)
+- [Swirl course](https://github.com/swirldev/swirl_courses) and my [annotations](./materials/swirl/course_notes.md) to them 
 
 ### Texts
 
