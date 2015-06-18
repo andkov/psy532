@@ -1,0 +1,43 @@
+Course Notes
+----
+
+My notes and comments about available (2015-Jun-18) swirl courses
+
+# TOC
+
+ 1: Data Analysis
+ 2: Exploratory Data Analysis
+ 3: Getting and Cleaning Data
+ 4: Mathematical Biostatistics Boot Camp
+ 5: Overview of Statistics
+ 6: R Programming
+ 7: Regression Models
+ 8: Statistical Inference
+ 9: Writing swirl Courses
+ 
+ 
+ # Notes
+ 
+ ## 1: Data Analysis
+1: Central Tendency
+2: Dispersion
+3: Data Visualization
+ ## 2: Exploratory Data Analysis
+ ## 3: Getting and Cleaning Data
+ ## 4: Mathematical Biostatistics Boot Camp
+ ## 5: Overview of Statistics
+ ## 6: R Programming
+ ## 7: Regression Models
+ ## 8: Statistical Inference
+ ## 9: Writing swirl Courses
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -20,8 +20,14 @@ Phone | 472-4864
 ### Quick Links
 
 - [Resources](./resources.md) is a collection of materials that were used extensively to put together this course and this website. Study it for inspiration and scripting detail.
-- [Projects](./projects/README.md) lists the projects in the course
+- [Projects](./projects/README.md) lists the projects in the course  
+- [Swirl course](https://github.com/swirldev/swirl_courses)
 
+### Texts
+
+- [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (James, Witten Hastie, and Tibshirani, 2013). 
+
+- [Data Analysis Using Regression and Multilevel/Hierarchical Models](http://www.stat.columbia.edu/~gelman/arm/) ( Andrew Gelman and Jennifer Hill, 2006)  
 
 ### Calendar 
 
@@ -56,11 +62,6 @@ Date   |Week|Meet-up | Topics  | Chapter | Assignment Due |
 
 
 
-### Texts
-
-- [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (James, Witten Hastie, and Tibshirani, 2013). 
-
-- [Data Analysis Using Regression and Multilevel/Hierarchical Models](http://www.stat.columbia.edu/~gelman/arm/) ( Andrew Gelman and Jennifer Hill, 2006)  
 
 
 ### Levels to clear
