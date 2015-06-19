@@ -4,7 +4,7 @@ Course Notes
 My notes and comments about available (2015-Jun-18) swirl courses
 
 # Table of 
-  1: Data Analysis  
+  1: Data Analysis 
   2: Exploratory Data Analysis  
   3: Getting and Cleaning Data  
   4: Mathematical Biostatistics Boot Camp  
@@ -17,12 +17,9 @@ My notes and comments about available (2015-Jun-18) swirl courses
 # Notes
  
 ## 1: Data Analysis
-  1: Central Tendency  
-  2: Dispersion 
-   - range()
-   - var()
-   - sd()
-  3: Data Visualization  
+  1: [Central Tendency](https://github.com/swirldev/swirl_courses/blob/master/Data_Analysis/Central_Tendency/lesson.yaml)   
+  2: [Dispersion ](https://github.com/swirldev/swirl_courses/blob/master/Data_Analysis/Dispersion/lesson.yaml)
+  3: [Data Visualization](https://github.com/swirldev/swirl_courses/blob/master/Data_Analysis/Data_Visualization/lesson.yaml)  
 
 ## 2: Exploratory Data Analysis
   1: Principles of Analytic Graphs   
@@ -85,7 +82,7 @@ My notes and comments about available (2015-Jun-18) swirl courses
   13: Count Outcomes  
 
 ## 7: Statistical Inference
-  1: Introduction               
+  1: [Introduction](https://github.com/swirldev/swirl_courses/blob/master/Statistical_Inference/Introduction/lesson)               
   2: Probability1          
   3: Probability2             
   4: ConditionalProbability
