@@ -23,6 +23,7 @@ Phone | 472-4864
 - [Projects](./projects/README.md): gallery of reports
 - [Swirl courses](https://github.com/swirldev/swirl_courses) and my [annotations](./materials/swirl/course_notes.md) to them 
 - [Data Science Specialization](https://github.com/DataScienceSpecialization) and particularly their [Curated Knowledge](http://datasciencespecialization.github.io/curated/) page.  
+- [Data Science Toolbox](http://datasciencetoolbox.org/) virtual environment for data science
 
 ### Texts
 
