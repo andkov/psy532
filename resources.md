@@ -76,7 +76,7 @@ Mark van der Loo.
 
 
 ## Graph Production
-- Winston Chan's [R Cookbook](http://shop.oreilly.com/product/9780596809164.do) is a perfect book to get you started with producing graphs with RStudio
+- Winston Chang's [R Graphics Cookbook](http://www.cookbook-r.com/) is a perfect book to get you started with producing graphs with RStudio
 
 ## Statistical Modeling
 
