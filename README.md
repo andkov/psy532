@@ -26,57 +26,20 @@ Phone | 472-4864
 
 ### Texts
 
-- [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (James, Witten Hastie, and Tibshirani, 2013).  
+- [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (James, Witten Hastie, and Tibshirani, 2013), free online text and lecture slides are available. 
 
-- [Data Analysis Using Regression and Multilevel/Hierarchical Models](http://www.stat.columbia.edu/~gelman/arm/) ( Andrew Gelman and Jennifer Hill, 2006)  
-
-### Calendar 
-
-Date   |Week|Meet-up | Topics  | Chapter | Assignment Due |
--------|----|------|---------|---------|--------------------|      
-07 Sep |1 |--| **Labour Day**  |  |  |  
-10 Sep |	|1 |  |  |  |  
-14 Sep |2 |2 |  |  |  |  
-17 Sep |	|3 |  |  |  |  
-21 Sep |3	|4 |  |  |  |  
-28 Sep |	|5 |  |  |  |  
-01 Oct |4	|6 |  |  |  |     	
-05 Oct |	|7 |  |  |  |  
-08 Oct |5	|8 |  |  |  |   	
-12 Oct |	|--| **Thanksgiving**  |  |  |  
-15 Oct |6	|9 |  |  |  |  
-19 Oct | 	|10|  |  |  |  
-22 Oct |7	|11|  |  |  |    
-26 Oct |	|12|  |  |  |  
-02 Nov |8	|13|  |  |  |    	
-05 Nov |	|14|  |  |  |  
-09 Nov |9	|--| **Reading Week**  |  |  |  
-12 Nov |	|--| **Reading Week** |  |  |  
-16 Nov |10|15|  |  |  |  
-19 Nov |	|16|  |  |  |  
-23 Nov |11|17|  |  |  |  
-26 Nov |	|18|  |  |  |  
-30 Nov |12|19|  |  |  |  
-03 Dec |	|20|  |  |  |  
-07 Dec |13|--| **Finals Week**  |  |  |  
-10 Dec |  |--| **Finals Week**  |  |  |  
+- [Data Analysis Using Regression and Multilevel/Hierarchical Models](http://www.stat.columbia.edu/~gelman/arm/) ( Andrew Gelman and Jennifer Hill, 2006) : really is about multilevel modelling, but has excellent treatment of basic regression, model diagnostics, and offers rich procedural wisdom of practical modelling. 
 
 
+- [R Cookbook](http://shop.oreilly.com/product/9780596809164.do) by Winston Chan  is a perfect book to get you started with producing graphs with RStudio
 
 
-
-### Levels to clear
-
- 1. Data exploration  
- 2. Data cleaning  
- 3. Data screening  
- 
- 4. 
 
 
 ## Overview
 
-  Elaborating on the graphing templates developed in [DeShea, Toochacher, and Beasley]() we  will look at some famous datasets in the history of statistics ([HistData]() package) and some real-world collections of social science data ([ELSA](), [HRS](), [NLSY]()).
+  
+Elaborating on the graphing templates developed in [DeShea, Toochacher, and Beasley]() we  will look at some famous datasets in the history of statistics (e.g. [HistData]() package) and some real-world collections of social science data (e.g. [ELSA](), [HRS](), [NLSY]()).
   
 ### Software  
 
@@ -88,21 +51,17 @@ I will be making extensive use of the following packages:
    - HistData  
    - stats  
    
-### Influential individuals  
-   
-   - Will Beasley  
-   - Michael Friendly
-   - Joe Rodgers  
-   - James Steiger  
-   - Edward Tufte
-   - Hadley Wickham  
 
+### Noteworthy books
 
-### Defining books
-  - Cookbook for R
   - 
-   
-## Evaluation and Grading Policy
+  
+  
+
+# Important Course Policy Information  
+
+
+### Evaluation and Grading 
 
 ...
 
@@ -122,19 +81,7 @@ C |60|64 |Unacceptable work
 D |50|59 |Unacceptable work  
 F  | 0|49 |Failing grade   Unsatisfactory performance. Wrote final examination and completed course requirements. 
 
-## How this will work 
 
-...
-
-**Extra Credit**  
-
-...
-
-## Prerequisites
-
-...
-
-## Important Course Policy Information  
 
 ### Commitment to Inclusivity and Diversity
 
