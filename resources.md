@@ -42,12 +42,12 @@ I also recommend completing two free interactive courses at DataCamp: [Introduct
 
 
 # Collections 
-
-- [RStudio cheatsheets](http://www.rstudio.com/resources/cheatsheets/) such a great resource I have put it into a single [pdf](./materials/pdf/R_Studio_Cheat_Sheets.pdf) and keep it on my Desktop.
-- [R by Example](http://www.mayin.org/ajayshah/KB/R/) organized example scripts 
+- [Quick-R](http://www.statmethods.net/) - thorough and convenient resource for R reference. One of the first results to show up in search engines. 
+- [RStudio cheatsheets](http://www.rstudio.com/resources/cheatsheets/) are so well done that I have put them all into a single [pdf](./materials/pdf/R_Studio_Cheat_Sheets.pdf) and keep it on my Desktop.
+- [R by Example](http://www.mayin.org/ajayshah/KB/R/) organized example scripts. 
 - [Most useful R commands](http://www.personality-project.org/r/r.commands.html) according to [personality-project.org](http://www.personality-project.org/index.html) ([William Revelle](http://www.personality-project.org/revelle.html))
 - [Resources Opinions](https://github.com/OuhscBbmc/RedcapExamplesAndPatterns/blob/master/DocumentationGlobal/ResourcesOpinions.md)  Will Beasley gives  brief reviews of key books and resources
-- [Quick-R](http://www.statmethods.net/) - thorough and convenient resource for R reference
+
 
 ## Videos
 - [twotorials](http://www.twotorials.com/) A collection of video tutorials on R
@@ -59,10 +59,9 @@ I also recommend completing two free interactive courses at DataCamp: [Introduct
 - [HistData](./data/HistData/Encyclopedia_HistData.md) Wiki overviews some of the historic datasets from the [HistData](./data/HistData/README.md) package that will be used in the course.
 
 
-## Extra
+## Open science
 
 -  [Statistical Collaboration with GitHub](http://htmlpreview.github.io/?https://raw.githubusercontent.com/OuhscBbmc/StatisticalComputing/master/2014_Presentations/05_May/BeasleyScugGitHub2014-05.html#/) presentation by Will Beasley.
-
 
 
 
@@ -74,6 +73,7 @@ I also recommend completing two free interactive courses at DataCamp: [Introduct
 
 -  [Introduction to data cleaning in R](http://cran.r-project.org/doc/contrib/de_Jonge+van_der_Loo-Introduction_to_data_cleaning_with_R.pdf), a discussion paper by Edwin de Jonge and 
 Mark van der Loo.
+
 
 ## Graph Production
 - Winston Chan's [R Cookbook](http://shop.oreilly.com/product/9780596809164.do) is a perfect book to get you started with producing graphs with RStudio
@@ -88,6 +88,7 @@ Mark van der Loo.
 ## Dynamic reporting
 
 - in-browser [live markdown and R](https://demo.ocpu.io/markdownapp/www/) simulation. Great for immediate feedback on finding the right line editing.
+- another good [simulator](http://markdown-here.com/livedemo.html) with a different feel.
 
 ### Markdown
 - [markdown in R](http://jeromyanglim.blogspot.ca/2012/05/getting-started-with-r-markdown-knitr.html) : a blog entry on getting started with **rmarkdown** - a version of markdown enhanced for the use with RStudio.  By Jeromy Anglim.
