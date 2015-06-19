@@ -3,22 +3,31 @@ Course Notes
 
 My notes and comments about available (2015-Jun-18) swirl courses
 
-# Table of 
-  1: Data Analysis 
-  2: Exploratory Data Analysis  
+# Table of Course
+
+## Overlapping with DSS
+
+  1:
+  2: R Programming   
   3: Getting and Cleaning Data  
-  4: Mathematical Biostatistics Boot Camp  
-  5: R Programming  
-  6: Regression Models  
-  7: Statistical Inference  
-  8: Writing swirl Courses  
+  4: Exploratory Data Analysis 
+  5:
+  6: Statistical Inference 
+  7: Regression Models 
+  8: 
+  9: 
+
+## Additional  
+  4a: Data Analysis  
+  6a: Mathematical Biostatistics Boot Camp  
+  10: Writing swirl Courses  
  
  
 # Notes
  
 ## 1: Data Analysis
   1: [Central Tendency](https://github.com/swirldev/swirl_courses/blob/master/Data_Analysis/Central_Tendency/lesson.yaml)   
-  2: [Dispersion ](https://github.com/swirldev/swirl_courses/blob/master/Data_Analysis/Dispersion/lesson.yaml)
+  2: [Dispersion ](https://github.com/swirldev/swirl_courses/blob/master/Data_Analysis/Dispersion/lesson.yaml)  
   3: [Data Visualization](https://github.com/swirldev/swirl_courses/blob/master/Data_Analysis/Data_Visualization/lesson.yaml)  
 
 ## 2: Exploratory Data Analysis
