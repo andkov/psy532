@@ -7,20 +7,20 @@ My notes and comments about available (2015-Jun-18) swirl courses
 
 ## Overlapping with DSS
 
-  1:
-  2: R Programming   
-  3: Getting and Cleaning Data  
-  4: Exploratory Data Analysis 
-  5:
-  6: Statistical Inference 
-  7: Regression Models 
-  8: 
-  9: 
+  1:   
+  2: R Programming    
+  3: Getting and Cleaning Data   
+  4: Exploratory Data Analysis   
+  5:   
+  6: Statistical Inference   
+  7: Regression Models   
+  8:   
+  9:   
 
 ## Additional  
-  4a: Data Analysis  
-  6a: Mathematical Biostatistics Boot Camp  
-  10: Writing swirl Courses  
+  4a: Data Analysis    
+  6a: Mathematical Biostatistics Boot Camp    
+  10: Writing swirl Courses    
  
  
 # Notes
