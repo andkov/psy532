@@ -1,8 +1,8 @@
-# Learning R 
+# Quick start with R
 
-[A GOOD PLACE TO START LEARNING R](http://www.rstudio.com/resources/training/online-learning/) - The RStudio team collects the best online resources. Check out every link they mention, it's worth it.
+- [A GOOD PLACE TO START LEARNING R](http://www.rstudio.com/resources/training/online-learning/): RStudio team collects the best online resources. Check out every link they mention, it's worth it.  
 
-[Data Science Specialization](https://github.com/DataScienceSpecialization) well-composed series of courses on data science. 
+- [Data Science Specialization](https://github.com/DataScienceSpecialization) well-composed series of courses on data science.  
 
 
 Start learning R interactively with [swirl](http://swirlstats.com/students.html), an R package that creates a dialogue environment inside RStudio.  
@@ -25,45 +25,49 @@ I also recommend completing two free interactive courses at DataCamp: [Introduct
 
 
 
-
-# Videos
-- [twotorials](http://www.twotorials.com/) A collection of video tutorials on R
-- [Hastie and Tibshirani](http://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/) narrate their book.  
-
 # Courses
 
 ## R
-- [Introduction to R](http://ateucher.github.io/rcourse_site/) course by [Andy Teucher](https://github.com/ateucher)
-- [Programming with R](http://swcarpentry.github.io/r-novice-inflammation/) course by [Software carpentry](http://software-carpentry.org/)
+- [Introduction to R](https://www.datacamp.com/courses/introduction-to-r)  by DataCamp   
+- [Introduction to R](http://ateucher.github.io/rcourse_site/)  by [Andy Teucher](https://github.com/ateucher)
+- [Programming with R](http://swcarpentry.github.io/r-novice-inflammation/)  by [Software carpentry](http://software-carpentry.org/)
 
 ## Statistics
-
-- [statistical computing for biostatistics](http://www.biostat.jhsph.edu/~hji/courses/statcomputing/) course by Honkgkai Ji , Ph.D., at Johns Hopkins Bloomberg School of Public Health  
+- [Data Analysis and Statistical Inference](https://www.datacamp.com/courses/data-analysis-and-statistical-inference_mine-cetinkaya-rundel-by-datacamp) by DataCamp  
+- [statistical computing for biostatistics](http://www.biostat.jhsph.edu/~hji/courses/statcomputing/)  by Honkgkai Ji , Ph.D., at Johns Hopkins Bloomberg School of Public Health  
 - Collection of [R Tutorials](http://www.cyclismo.org/tutorial/R/) by Kelly Black at Clarkson Univeristy. Approximately covers an intro to stats undergrad course.
-- [Introduction to Biostatistics](http://stronginference.com/Bios6301/) course taught at Vanderbilt by [Chris Fonnesbeck](https://github.com/fonnesbeck?tab=repositories)
-- [Statistical Computing in R](http://www.pitt.edu/~njc23/) a biostatistics course by   Nicholas Christian at University of Pittsburgh.  Great series of slides on essential programming vocabulary and techniques  for statistical modeling. Exemplifies SWEAVE for report generation.
-- [Introductory modeling course](http://statpower.net/310LectureSlides.html) introductory course in Statistical Inference for graduate students in Psychological Sciences  by James Steiger
+- [Introduction to Biostatistics](http://stronginference.com/Bios6301/)  taught at Vanderbilt by [Chris Fonnesbeck](https://github.com/fonnesbeck?tab=repositories)
+- [Statistical Computing in R](http://www.pitt.edu/~njc23/) a biostatistics course by   Nicholas Christian at University of Pittsburgh.  Great series of slides on essential programming vocabulary and techniques  for statistical modeling. Exemplifies SWEAVE for report generation.  
+- [Introductory modeling course](http://statpower.net/310LectureSlides.html) introductory course in Statistical Inference for graduate students in Psychological Sciences  by James Steiger  
 
 
 # Collections 
+
 - [RStudio cheatsheets](http://www.rstudio.com/resources/cheatsheets/) such a great resource I have put it into a single [pdf](./materials/pdf/R_Studio_Cheat_Sheets.pdf) and keep it on my Desktop.
 - [R by Example](http://www.mayin.org/ajayshah/KB/R/) organized example scripts 
 - [Most useful R commands](http://www.personality-project.org/r/r.commands.html) according to [personality-project.org](http://www.personality-project.org/index.html) ([William Revelle](http://www.personality-project.org/revelle.html))
 - [Resources Opinions](https://github.com/OuhscBbmc/RedcapExamplesAndPatterns/blob/master/DocumentationGlobal/ResourcesOpinions.md)  Will Beasley gives  brief reviews of key books and resources
 - [Quick-R](http://www.statmethods.net/) - thorough and convenient resource for R reference
 
-# Data 
+## Videos
+- [twotorials](http://www.twotorials.com/) A collection of video tutorials on R
+- [Hastie and Tibshirani](http://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/) narrate their book.  
+
+## Data 
 
 - Excellent [collection of datasets](http://www.statsci.org/datasets.html) 
 - [HistData](./data/HistData/Encyclopedia_HistData.md) Wiki overviews some of the historic datasets from the [HistData](./data/HistData/README.md) package that will be used in the course.
 
 
-# Extra
+## Extra
 
 -  [Statistical Collaboration with GitHub](http://htmlpreview.github.io/?https://raw.githubusercontent.com/OuhscBbmc/StatisticalComputing/master/2014_Presentations/05_May/BeasleyScugGitHub2014-05.html#/) presentation by Will Beasley.
 
+
+
+
 # Skill sets
-  Links grouped by the skillset
+  Links grouped by the skillset. 
 
 
 ## Data Management

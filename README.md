@@ -2,7 +2,7 @@
 psy532
 ---
 
-This graduate course in statistics helps develop the skills in modeling and graphing data needed by a modern applied researcher in social sciences. 
+Introduction to Statistical Modeling  for Social Sciences. 
 
 ### Basic Info
 
@@ -18,15 +18,15 @@ Email | andkov at uvic dot ca
 Phone | 472-4864
 
 ### Quick Links
-
-- [Resources](./resources.md) is a collection of materials that were used extensively to put together this course and this website. Study it for inspiration and scripting detail.
-- [Projects](./projects/README.md) lists the projects in the course  
-- [Swirl course](https://github.com/swirldev/swirl_courses) and my [annotations](./materials/swirl/course_notes.md) to them 
-- [Data Science Specialization](https://github.com/DataScienceSpecialization)
+- [Calendar](./calendar.md): course events and timetables
+- [Resources](./resources.md): collection of materials that were used extensively to put together this course and this website. Study it for inspiration and scripting detail.
+- [Projects](./projects/README.md): gallery of reports
+- [Swirl courses](https://github.com/swirldev/swirl_courses) and my [annotations](./materials/swirl/course_notes.md) to them 
+- [Data Science Specialization](https://github.com/DataScienceSpecialization) and particularly their [Curated Knowledge](http://datasciencespecialization.github.io/curated/) page.  
 
 ### Texts
 
-- [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (James, Witten Hastie, and Tibshirani, 2013). 
+- [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (James, Witten Hastie, and Tibshirani, 2013).  
 
 - [Data Analysis Using Regression and Multilevel/Hierarchical Models](http://www.stat.columbia.edu/~gelman/arm/) ( Andrew Gelman and Jennifer Hill, 2006)  
 
