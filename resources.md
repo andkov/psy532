@@ -1,5 +1,7 @@
 [edit me](https://github.com/andkov/psy532/edit/master/resources.md)  
-----   
+
+
+  
 # Quick start with R
 
 - [A GOOD PLACE TO START LEARNING R](http://www.rstudio.com/resources/training/online-learning/): RStudio team collects the best online resources. Check out every link they mention, it's worth it.  
@@ -112,7 +114,6 @@ Mark van der Loo.
 
 # More 
 
----  
 [edit me](https://github.com/andkov/psy532/edit/master/resources.md)  
  
  
