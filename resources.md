@@ -1,3 +1,5 @@
+[edit me](https://github.com/andkov/psy532/edit/master/resources.md)  
+----   
 # Quick start with R
 
 - [A GOOD PLACE TO START LEARNING R](http://www.rstudio.com/resources/training/online-learning/): RStudio team collects the best online resources. Check out every link they mention, it's worth it.  
@@ -79,7 +81,8 @@ Mark van der Loo.
 - Winston Chang's [R Graphics Cookbook](http://www.cookbook-r.com/) is a perfect book to get you started with producing graphs with RStudio.  
 - [ggplots for publication](http://www.noamross.net/blog/2013/11/20/formatting-plots-for-pubs.html).  
 
-## Statistical Modeling
+## Statistical Modeling 
+   - Doug Bates on statistical modeling with Julia([video](https://www.youtube.com/watch?v=v9Io-p_iymI)   
 
 ### Package support  
 
@@ -109,7 +112,8 @@ Mark van der Loo.
 
 # More 
 
-
+---  
+[edit me](https://github.com/andkov/psy532/edit/master/resources.md)  
  
  
  
