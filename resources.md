@@ -88,16 +88,19 @@ Mark van der Loo.
 
 ### Package support  
 
-##### lm 
+#### stats::
 
-##### glm
+##### stats::lm()
+##### stats::glm()
 
-##### gls  
+#### lme4::  
+ - lme4::lmer()  
 
-##### lme4
+#### nlme::
+##### nlme::gls() 
+##### nlme::lme()
 
-#### nlme
-
+nlme::gls() vs. nlme::lme() in the nlme package](http://stackoverflow.com/questions/1395102/gls-vs-lme-in-the-nlme-package)  
 
 
 
