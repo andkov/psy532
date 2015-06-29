@@ -88,8 +88,14 @@ Mark van der Loo.
 
 ### Package support  
 
-- [lm]()  
-- [glm]()  
+##### lm 
+
+##### glm
+
+##### gls  
+
+##### lme4
+
 
 ## Dynamic reporting
 
