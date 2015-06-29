@@ -96,6 +96,10 @@ Mark van der Loo.
 
 ##### lme4
 
+#### nlme
+
+
+
 
 ## Dynamic reporting
 
