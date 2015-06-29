@@ -101,10 +101,12 @@ Mark van der Loo.
  - lme4::lmer()  
 
 #### nlme::
-##### nlme::gls() 
+##### nlme::gls()  
+ -    
+ 
 ##### nlme::lme()
 
-nlme::gls() vs. nlme::lme() in the nlme package](http://stackoverflow.com/questions/1395102/gls-vs-lme-in-the-nlme-package)  
+ - [nlme::gls() vs. nlme::lme() in the nlme package](http://stackoverflow.com/questions/1395102/gls-vs-lme-in-the-nlme-package)  
 
 
 
