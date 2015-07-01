@@ -1,0 +1,18 @@
+{
+    "contents" : "rm(list=ls())\n\nlist = id <- 1:24\nact <- c(21, 22, 26, 23, 21, 26, 19, 18, 24, 18, 19, 25, 19, 20, 14, 21, 29, 27, 28, 23, 25,25, 23, 20)\ngpa <- c(3.5,\t2.9,\t3.8,\t2.8,\t3.6,\t3.1,\t3.2,\t2.4,\t3.5,\t3.1,\t2.9,\t2.5,\t3.5,\t3.1,\t2.9,\t2.6,\t2.8,\t3.2,\t3.5,\t3.9,\t3.8,\t3.1,\t3.2,\t2.8)\n\ngroup <- c(rep(1,8), rep(2, 8), rep(3, 8))\nds <- as.data.frame(cbind(id, act, gpa, group))\nstr(ds)\n# Random Assignment\nds$group <- factor(ds$group, levels = c(1, 2, 3),\n                   labels = c(\"Control\", \"Drug A\", \"Drug B\"))\n# \n# ds$group <- factor(ds$group, levels = c(\"1\" = \"White\", \"2\" = \"Black, \"3\" = \"Asian\"))\n\nstr(ds)\nds\n\nm0 <- glm(act ~ 1, data = ds)\nsummary(m0)\n\n\n\n##########\n\nanova(ds0)\n",
+    "created" : 1435694297390.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "1124434604",
+    "id" : "416B8DDB",
+    "lastKnownWriteTime" : 8243122654764020275,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
