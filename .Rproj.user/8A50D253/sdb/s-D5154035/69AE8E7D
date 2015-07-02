@@ -1,0 +1,18 @@
+{
+    "contents" : "psy532\n---\n\nIntroduction to Statistical Modeling  for Social Sciences. \n\n###Basic\n\n**Session**:  \tFall 2015 (Sep 9 - Dec 4[)](https://github.com/andkov/psy532/edit/gh-pages/index.md)  \n**Meeting Time**:\t\tMT 11:30 - 13:00    \n**Meeting Place**:\t\tHSD A150  \n\nInstructor | Dr. Andrey Koval\n--- | --- | ---\nOffice       | Cornett B335g\nHours | By appointment\nEmail | andkov at uvic dot ca\nPhone | 472-4864\n\n###Quick Links\n- [Calendar](./calendar.md): course events and timetables\n- [Resources](./resources.md): collection of materials that were used extensively to put together this course and this website. Study it for inspiration and scripting detail.\n- [Projects](./projects/README.md): gallery of reports\n- [Swirl courses](https://github.com/swirldev/swirl_courses) and my [annotations](./materials/swirl/course_notes.md) to them \n- [Data Science Specialization](https://github.com/DataScienceSpecialization) and particularly their [Curated Knowledge](http://datasciencespecialization.github.io/curated/) page.  \n- [Data Science Toolbox](http://datasciencetoolbox.org/) virtual environment for data science\n\n###Texts\n\n- [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (James, Witten Hastie, and Tibshirani, 2013), free online text and lecture slides are available. \n\n- [Data Analysis Using Regression and Multilevel/Hierarchical Models](http://www.stat.columbia.edu/~gelman/arm/) ( Andrew Gelman and Jennifer Hill, 2006) : really is about multilevel modelling, but has excellent treatment of basic regression, model diagnostics, and offers rich procedural wisdom of practical modelling. \n\n\n- [R Cookbook](http://shop.oreilly.com/product/9780596809164.do) by Winston Chan  is a perfect book to get you started with producing graphs with RStudio\n\n\n\n\n##Overview\n\n  \nElaborating on the graphing templates developed in [DeShea, Toochacher, and Beasley]() we  will look at some famous datasets in the history of statistics (e.g. [HistData]() package) and some real-world collections of social science data (e.g. [ELSA](), [HRS](), [NLSY]()).\n  \n###Software  \n\nI will be making extensive use of the following packages:\n   - dplyr  \n   - reshape2  \n   - ggplot2  \n   - knitr  \n   - HistData  \n   - stats  \n   \n\n##Info\n  \n\n[IMPORTANT COURSE POLICY INFORMATION](./policy.md)\n\n\n\n",
+    "created" : 1435799172070.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "219637922",
+    "id" : "69AE8E7D",
+    "lastKnownWriteTime" : 1435799224,
+    "path" : "~/GitHub/psy532/README.md",
+    "project_path" : "README.md",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "markdown"
+}
