@@ -1,9 +1,10 @@
-psy532
+Introduction to Statistical Modeling  for Social Sciences. 
 ---
 
-Introduction to Statistical Modeling  for Social Sciences. 
+
 
 ###Basic
+[Info](#info)
 
 **Session**:  	Fall 2015 (Sep 9 - Dec 4[)](https://github.com/andkov/psy532/edit/gh-pages/index.md)  
 **Meeting Time**:		MT 11:30 - 13:00    
@@ -24,14 +25,28 @@ Phone | 472-4864
 - [Data Science Specialization](https://github.com/DataScienceSpecialization) and particularly their [Curated Knowledge](http://datasciencespecialization.github.io/curated/) page.  
 - [Data Science Toolbox](http://datasciencetoolbox.org/) virtual environment for data science
 
-###Texts
+##Texts
 
-- [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (James, Witten Hastie, and Tibshirani, 2013), free online text and lecture slides are available. 
+###Books 
+</br>
+[![Maxwell & Delaney](./materials/texts/images/maxwell.png)](http://www.amazon.com/Designing-Experiments-Analyzing-Data-Perspective/dp/0805837183/ref=sr_1_1?ie=UTF8&qid=1435939865&sr=8-1&keywords=maxwell+and+delaney&pebp=1435939865576&perid=1FN4621XSDDF6FZ9EX2N)   
+[Designing Experiments and Analyzing Data](http://www.designingexperiments.com/) the book has a [website](http://www.designingexperiments.com/) with  scripts used in the text, datasets are on the CD that comes with the book. Uvic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1337909)
 
-- [Data Analysis Using Regression and Multilevel/Hierarchical Models](http://www.stat.columbia.edu/~gelman/arm/) ( Andrew Gelman and Jennifer Hill, 2006) : really is about multilevel modelling, but has excellent treatment of basic regression, model diagnostics, and offers rich procedural wisdom of practical modelling. 
+</br>
+     
+[![ISL](./materials/texts/images/isl.png)](http://www.amazon.com/Introduction-Statistical-Learning-Applications-Statistics/dp/1461471370/ref=sr_1_1?ie=UTF8&qid=1435938322&sr=8-1&keywords=introduction+to+statistical+learning)   
+[Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) free text, slides, and videos online. UVic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=3011282)
+
+</br>
+
+[![Gelman & Hill](./materials/texts/images/gelman.png)](http://www.amazon.com/Analysis-Regression-Multilevel-Hierarchical-Models/dp/052168689X/ref=sr_1_1?ie=UTF8&qid=1435941155&sr=8-1&keywords=gelman+and+hill&pebp=1435941155428&perid=00K1D3Y3KKE3XF87ED1B)     
+[Data Analysis Using Regression and Multilevel/Hierarchical Models](http://www-bcf.usc.edu/~gareth/ISL/). Uvic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1553520)
 
 
-- [R Cookbook](http://shop.oreilly.com/product/9780596809164.do) by Winston Chan  is a perfect book to get you started with producing graphs with RStudio
+</br>
+
+[![R Cookbook](./materials/texts/images/chang.png)](http://www.amazon.ca/R-Graphics-Cookbook-Winston-Chang/dp/1449316956)   
+[R Cookbook](http://shop.oreilly.com/product/9780596809164.do) by Winston Chang  is a perfect book to get you started with producing graphs with RStudio
 
 
 

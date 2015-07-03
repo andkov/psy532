@@ -1,0 +1,18 @@
+{
+    "contents" : "[![Dalgaard](./materials/texts/images/Dalgaard.png=100x80)](http://www.amazon.com/Introductory-Statistics-R-Computing/dp/0387954759)  |  [Introductory Statistics with R](http://www.springer.com/us/book/9780387790534)\n\n",
+    "created" : 1435938231011.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "4126649795",
+    "id" : "F100C3B8",
+    "lastKnownWriteTime" : 30681274979123311,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
