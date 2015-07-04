@@ -5,7 +5,7 @@ Introduction to Statistical Modeling  for Social Sciences.
 **PSYC 532**   
 | When  | Where  | Semester  | Duration  |
 |---|---|---|---|
-| MT 11:30 - 13:00   | HSD A150    | Winter 2015   | Sep 9 - Dec 4[.](https://github.com/andkov/psy532/edit/gh-pages/index.md)  |
+| MTh 11:30 - 13:00   | HSD A150    | Winter 2015   | Sep 9 - Dec 4[.](https://github.com/andkov/psy532/edit/gh-pages/index.md)  |
 
 **Dr. Andrey Koval**  
 |Email   |Office   | Hours | Phone  |
