@@ -12,6 +12,8 @@ Hours | By appointment
 Email | andkov at uvic dot ca
 Phone | 472-4864
 
+![covers](./materials/texts/images/covers.png)
+
 ##Quick Links
 - [Calendar](./calendar.md) events and timetables
 - [Library](./library.md) books and articles 
