@@ -12,7 +12,9 @@ Hours | By appointment
 Email | andkov at uvic dot ca
 Phone | 472-4864
 
-![covers](./materials/texts/images/covers.png)
+![covers](./materials/texts/images/covers-02.png)
+
+
 
 ##Quick Links
 - [Calendar](./calendar.md) events and timetables
@@ -23,6 +25,5 @@ Phone | 472-4864
 - Follow [instructions](./materials/swirl/quickstart.md) for a quick start with swirl.  
 - Install [Data Science Toolbox](http://datasciencetoolbox.org/), a virtual environment for data science    
 - [IMPORTANT COURSE POLICY INFORMATION](./policy.md)  
-
 
 
