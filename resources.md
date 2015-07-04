@@ -4,11 +4,12 @@
 
 
 ##Online courses: R & Data science
-- [Swirl courses](https://github.com/swirldev/swirl_courses) and my [annotations](./materials/swirl/course_notes.md) to them. Follow [instructions](./materials/swirl/quickstart.md) for a quick start with swirl.  
+- [Swirl courses](https://github.com/swirldev/swirl_courses) and my [annotations](./materials/swirl/course_notes.md) to them. 
 - [Introduction to R](https://www.datacamp.com/courses/introduction-to-r)  by DataCamp   
 - [Introduction to R](http://ateucher.github.io/rcourse_site/)  by [Andy Teucher](https://github.com/ateucher)
 - [Programming with R](http://swcarpentry.github.io/r-novice-inflammation/)  by [Software carpentry](http://software-carpentry.org/)  
 - [Data Science Specialization](https://github.com/DataScienceSpecialization) and particularly their [Curated Knowledge](http://datasciencespecialization.github.io/curated/) page  
+
 
 
 ##Online courses: Statistics
@@ -21,6 +22,7 @@
 
 
 ##Go-to places 
+- [A GOOD PLACE TO START LEARNING R](http://www.rstudio.com/resources/training/online-learning/): RStudio team collects the best online resources. Check out every link they mention, it's worth it.  
 - [Quick-R](http://www.statmethods.net/) - thorough and convenient resource for R reference. One of the first results to show up in search engines. 
 - [RStudio cheatsheets](http://www.rstudio.com/resources/cheatsheets/) are so well done that I have put them all into a single [pdf](./materials/pdf/R_Studio_Cheat_Sheets.pdf) and keep it on my Desktop.
 - [R by Example](http://www.mayin.org/ajayshah/KB/R/) organized example scripts. 
