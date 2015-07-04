@@ -11,3 +11,5 @@ Temporarily Homeless Links
 #### Blood Circulation
  - see description of Harvey's reasoning in [Mathematics Is Biology's Next Microscope, Only Better; Biology Is Mathematics' Next Physics, Only Better](https://www.youtube.com/watch?v=lgs7d5saFFc)
 
+
+- Install [Data Science Toolbox](http://datasciencetoolbox.org/), a virtual environment for data science 

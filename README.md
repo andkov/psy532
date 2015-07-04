@@ -2,21 +2,21 @@ Introduction to Statistical Modeling  for Social Sciences.
 ---
 ![covers](./materials/texts/images/covers-02.png)
 
-### *PSYC-532* at UVic by **Dr. Andrey V. Koval**  
+*Psyc-532* at UVic by Dr. **[Andrey V. Koval](https://github.com/andkov)**  
 
-| Meeting time  | Where  | Semester  | Dates  | Email   |Office   | Hours | Phone  |
+| When  | Where  | Semester  | Dates  | Email   |Office   | Hours | Phone  |
 |---|---|---|---|---|---|---|---|
-| MTh 11:30 - 13:00   | HSD A150    | Winter 2015   | Sep 9 - Dec 4[.](https://github.com/andkov/psy532/edit/gh-pages/index.md)  |andkov at uvic dot ca |Cornett B335g|   By appointment  | 472-4864  |
+| M,Th    11:30 - 13:00   | HSD A150    | Winter 2015   | Sep 9 - Dec 4[.](https://github.com/andkov/psy532/edit/gh-pages/index.md)  |andkov at uvic dot ca |Cornett B335g|   By appointment  | 472-4864  |
 
 
-###Quick Links
-- [Calendar](./calendar.md) events and timetables
-- [Library](./library.md) books and articles 
-- [Resources](./resources.md) online materials
-- [Howtos](./howtos.md) links on how to do things in R, classified by 4 skillsets
-- [Projects](./projects/README.md) gallery of reports produced in the course
-- Follow [instructions](./materials/swirl/quickstart.md) for a quick start with swirl.  
-- Install [Data Science Toolbox](http://datasciencetoolbox.org/), a virtual environment for data science    
-- [IMPORTANT COURSE POLICY INFORMATION](./policy.md)  
+###See
+- [Calendar](./calendar.md) for events and timetables
+- [Library](./library.md) for books and articles 
+- [Resources](./resources.md) for various online materials
+- [Howtos](./howtos.md) for links on how to do things in R, classified by 4 skillsets
+- [Projects](./projects/README.md) for reports produced in the course
+- [IMPORTANT COURSE POLICY INFORMATION](./policy.md) to be safe  
 
 
+</br>
+[quick start with swirl](./materials/swirl/quickstart.md)
