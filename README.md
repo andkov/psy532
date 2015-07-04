@@ -2,7 +2,7 @@ Introduction to Statistical Modeling  for Social Sciences.
 ---
 ![covers](./materials/texts/images/covers-02.png)
 
-**PSYC 532**  
+**PSYC 532**   
 | When  | Where  | Semester  | Duration  |
 |---|---|---|---|
 | MT 11:30 - 13:00   | HSD A150    | Winter 2015   | Sep 9 - Dec 4[.](https://github.com/andkov/psy532/edit/gh-pages/index.md)  |
