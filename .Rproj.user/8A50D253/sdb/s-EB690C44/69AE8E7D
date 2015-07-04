@@ -1,12 +1,12 @@
 {
-    "contents" : "Introduction to Statistical Modeling  for Social Sciences. \n---\n![covers](./materials/texts/images/covers-02.png)\n\n\n**Session**:  \tFall 2015 (Sep 9 - Dec 4[)](https://github.com/andkov/psy532/edit/gh-pages/index.md)  \n**Meeting Time**:\t\tMT 11:30 - 13:00    \n**Meeting Place**:\t\tHSD A150  \n\nInstructor | Dr. Andrey Koval\n--- | --- | ---\nOffice       | Cornett B335g\nHours | By appointment\nEmail | andkov at uvic dot ca\nPhone | 472-4864\n\n\n\n##Quick Links\n- [Calendar](./calendar.md) events and timetables\n- [Library](./library.md) books and articles \n- [Resources](./resources.md) online materials\n- [Howtos](./howtos.md) links on how to do things in R, classified by 4 skillsets\n- [Projects](./projects/README.md) gallery of reports produced in the course\n- Follow [instructions](./materials/swirl/quickstart.md) for a quick start with swirl.  \n- Install [Data Science Toolbox](http://datasciencetoolbox.org/), a virtual environment for data science    \n- [IMPORTANT COURSE POLICY INFORMATION](./policy.md)  \n\n\n",
+    "contents" : "Introduction to Statistical Modeling  for Social Sciences. \n---\n![covers](./materials/texts/images/covers-02.png)\n\n## PSYC 532\n| When  | Where  | Semester  | Duration  |\n|---|---|---|---|\n| MT 11:30 - 13:00   | HSD A150    | Winter 2015   | Sep 9 - Dec 4[.](https://github.com/andkov/psy532/edit/gh-pages/index.md)  |\n\n## Dr. Andrey Koval\n\n|Email   |Office   | Hours | Phone  |\n|---|---|---|---|\nandkov at uvic dot ca |Cornett B335g|   By appointment  | 472-4864  |\n\n\n##Quick Links\n- [Calendar](./calendar.md) events and timetables\n- [Library](./library.md) books and articles \n- [Resources](./resources.md) online materials\n- [Howtos](./howtos.md) links on how to do things in R, classified by 4 skillsets\n- [Projects](./projects/README.md) gallery of reports produced in the course\n- Follow [instructions](./materials/swirl/quickstart.md) for a quick start with swirl.  \n- Install [Data Science Toolbox](http://datasciencetoolbox.org/), a virtual environment for data science    \n- [IMPORTANT COURSE POLICY INFORMATION](./policy.md)  \n\n\n",
     "created" : 1435799172070.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3744610519",
+    "hash" : "696018624",
     "id" : "69AE8E7D",
-    "lastKnownWriteTime" : 1435971906,
+    "lastKnownWriteTime" : 1435973134,
     "path" : "~/GitHub/psy532/README.md",
     "project_path" : "README.md",
     "properties" : {

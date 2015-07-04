@@ -2,18 +2,16 @@ Introduction to Statistical Modeling  for Social Sciences.
 ---
 ![covers](./materials/texts/images/covers-02.png)
 
+## PSYC 532
+| When  | Where  | Semester  | Duration  |
+|---|---|---|---|
+| MT 11:30 - 13:00   | HSD A150    | Winter 2015   | Sep 9 - Dec 4[.](https://github.com/andkov/psy532/edit/gh-pages/index.md)  |
 
-**Session**:  	Fall 2015 (Sep 9 - Dec 4[)](https://github.com/andkov/psy532/edit/gh-pages/index.md)  
-**Meeting Time**:		MT 11:30 - 13:00    
-**Meeting Place**:		HSD A150  
+## Dr. Andrey Koval
 
-Instructor | Dr. Andrey Koval
---- | --- | ---
-Office       | Cornett B335g
-Hours | By appointment
-Email | andkov at uvic dot ca
-Phone | 472-4864
-
+|Email   |Office   | Hours | Phone  |
+|---|---|---|---|
+andkov at uvic dot ca |Cornett B335g|   By appointment  | 472-4864  |
 
 
 ##Quick Links
