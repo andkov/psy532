@@ -1,5 +1,7 @@
 Introduction to Statistical Modeling  for Social Sciences. 
 ---
+![covers](./materials/texts/images/covers-02.png)
+
 
 **Session**:  	Fall 2015 (Sep 9 - Dec 4[)](https://github.com/andkov/psy532/edit/gh-pages/index.md)  
 **Meeting Time**:		MT 11:30 - 13:00    
@@ -11,8 +13,6 @@ Office       | Cornett B335g
 Hours | By appointment
 Email | andkov at uvic dot ca
 Phone | 472-4864
-
-![covers](./materials/texts/images/covers-02.png)
 
 
 
