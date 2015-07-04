@@ -30,7 +30,7 @@
 )  
 
 [![Deshea](./materials/texts/images/deshea.png)](http://www.amazon.com/Introductory-Statistics-Health-Sciences-DeShea/dp/1466565330/ref=sr_1_1?ie=UTF8&qid=1435986355&sr=8-1&keywords=Introductory+Statistics+for+the+Health+Sciences&pebp=1435986356585&perid=14VVYKK768NKSE8AB6RE)     
-[Introductory Statistics for the Health Sciences](https://www.crcpress.com/Introductory-Statistics-for-the-Health-Sciences/DeShea-Toothaker/9781466565333) covers an undergraduate statistics course and offers a rich collection of script examples for graph making with R.
+[Introductory Statistics for the Health Sciences](http://desheastats.com/) covers an undergraduate statistics course and offers a collection of templates for visualizing basic statistical tests in R. See their [GitHub repository](https://github.com/OuhscBbmc/DeSheaToothakerIntroStats) for scripts and graph examples.
 
 
 
