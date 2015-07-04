@@ -1,6 +1,6 @@
 Introduction to Statistical Modeling  for Social Sciences. 
 ---
-![covers](./materials/texts/images/covers-02.png)
+[![covers](./materials/texts/images/covers-02.png)](./library.md)
 
 *Psyc-532* at UVic by Dr. **[Andrey V. Koval](https://github.com/andkov)**  
 
