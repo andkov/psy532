@@ -1,4 +1,5 @@
-
+## Scope
+ 
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|  
 |[![Shadish](./materials/texts/images/shadish.png)]()|.|[![James](./materials/texts/images/james.png)]()|.|[![Spector](./materials/texts/images/spector.png)]()|.|[![Dalgaard](./materials/texts/images/dalgaard.png)]()|.|[![Deshea](./materials/texts/images/deshea.png)]()|.|[![R Cookbook](./materials/texts/images/chang.png)]()|    
 |. | |. | |. | |. | |. | |. |  
