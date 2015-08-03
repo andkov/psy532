@@ -18,13 +18,15 @@ References
 
 ## Books
 
- - Dalgaard, P. (2008). [Introductory Statistics with R](http://down.cenet.org.cn/upfile/28/200612374427146.pdf). Springer Science & Business Media.
+- Dalgaard, P. (2008). [Introductory Statistics with R](http://down.cenet.org.cn/upfile/28/200612374427146.pdf). Springer Science & Business Media.
  
- - Murrell, P. (2011). [R graphics](http://www.e-reading.club/bookreader.php/137370/C486x_C06.pdf). CRC Press.
+- Murrell, P. (2011). [R graphics](http://www.e-reading.club/bookreader.php/137370/C486x_C06.pdf). CRC Press.
 
- - Verzani, J. (2014). [Using R for Introductory Statistics](https://cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf). CRC Press.
+- William R. Shadish, Cook, T. D., & Campbell, D. T. (2002). *[Experimental and quasi-experimental designs for generalized causal inference](http://impact.cgiar.org/pdf/147.pdf)*. Wadsworth Cengage learning.
+
+- Verzani, J. (2014). [Using R for Introductory Statistics](https://cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf). CRC Press.
  
- - Venables, W. N., Smith, D. M., & R Development Core Team. (2002). [An introduction to R](http://www.ms.uky.edu/~molzon/courses/ma320/R/Introduction-to-R.pdf).
+- Venables, W. N., Smith, D. M., & R Development Core Team. (2002). [An introduction to R](http://www.ms.uky.edu/~molzon/courses/ma320/R/Introduction-to-R.pdf).
  
  
  
