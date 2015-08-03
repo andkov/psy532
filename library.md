@@ -11,11 +11,8 @@
 
 
 |:--|---|---|
-|[![Shadish](./materials/texts/images/shadish.png)](http://impact.cgiar.org/pdf/147.pdf)|:::::|  William R. Shadish, Cook, T. D., & Campbell, D. T. (2002). [*Experimental and quasi-experimental designs for generalized causal inference*](http://impact.cgiar.org/pdf/147.pdf). Wadsworth Cengage learning.   [publisher](http://shop.oreilly.com/product/9780596809164.do),  [amazon](http://www.amazon.com/Experimental-Quasi-Experimental-Designs-Generalized-Inference/dp/0395615569/ref=sr_1_1?ie=UTF8&qid=1435984771&sr=8-1&keywords=shadish+cook+and+campbell&pebp=1435984771016&perid=1DMRH03RWE7YCWQZE31Z) |    
+|[![Shadish](./materials/texts/images/shadish.png)](http://impact.cgiar.org/pdf/147.pdf)|:::::|  William R. Shadish, Cook, T. D., & Campbell, D. T. (2002). [*Experimental and quasi-experimental designs for generalized causal inference*](http://impact.cgiar.org/pdf/147.pdf). Wadsworth Cengage learning.   [publisher](http://shop.oreilly.com/product/9780596809164.do),  [amazon](http://www.amazon.com/Experimental-Quasi-Experimental-Designs-Generalized-Inference/dp/0395615569/ref=sr_1_1?ie=UTF8&qid=1435984771&sr=8-1&keywords=shadish+cook+and+campbell&pebp=1435984771016&perid=1DMRH03RWE7YCWQZE31Z),UVic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1328797)[.](https://drive.google.com/file/d/0B8KlNxv-FHyjdVNmdm9ZZDloMDQ/view?usp=sharing)  |   
 
-
-
-UVic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1328797)[.](https://drive.google.com/file/d/0B8KlNxv-FHyjdVNmdm9ZZDloMDQ/view?usp=sharing)
 
 
 [![James](./materials/texts/images/james.png)](http://www.amazon.com/Introduction-Statistical-Learning-Applications-Statistics/dp/1461471370/ref=sr_1_1?ie=UTF8&qid=1435938322&sr=8-1&keywords=introduction+to+statistical+learning)   
