@@ -2,7 +2,8 @@
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |[![Shadish](./materials/texts/images/shadish.png)]()|.|[![James](./materials/texts/images/james.png)]()|.|[![Spector](./materials/texts/images/spector.png)]()|.|[![Dalgaard](./materials/texts/images/dalgaard.png)]()|.|[![Deshea](./materials/texts/images/deshea.png)]()|.|[![R Cookbook](./materials/texts/images/chang.png)]()|  
 |. | |. | |. | |. | |. | |. |
-|[![Maxwell & Delaney](./materials/texts/images/maxwell.png)]()|.|[![Gelman & Hill](./materials/texts/images/gelman.png)]()|.|[![Venables](./materials/texts/images/venables.png)]()|.|[![Verzani](./materials/texts/images/verzani.png)]()|.|[![Everitt](./materials/texts/images/everitt.png)]()|.|[![Murrell](./materials/texts/images/murrell.png)]()| 
+|[![Maxwell & Delaney](./materials/texts/images/maxwell.png)]()|.|[![Gelman & Hill](./materials/texts/images/gelman.png)]()|.|[![Venables](./materials/texts/images/venables.png)]()|.|[![Verzani](./materials/texts/images/verzani.png)]()|.|[![Everitt](./materials/texts/images/everitt.png)]()|.|[![Murrell](./materials/texts/images/murrell.png)]()|  
+
 
 [References](./references.md)
 
