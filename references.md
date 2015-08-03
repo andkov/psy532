@@ -1,5 +1,9 @@
  References
  ---
+
+- Appelbaum, M. I., & Cramer, E. M. (1974). Some problems in the nonorthogonal analysis of variance. *Psychological Bulletin*, *81*(6), 335.
+
+- Cramer, E. M., & Appelbaum, M. I. (1980). Nonorthogonal analysis of variance—once again. *Psychological Bulletin*, *87*(1), 51.
  
  - Jones, L. V., & Tukey, J. W. (2000). [A sensible formulation of the significance test](http://forrest.psych.unc.edu/jones-tukey112399.html). *Psychological methods*, *5*(4), 411.
  
@@ -9,5 +13,4 @@
 
 - Wickham, H. (2014). [Tidy Data](http://www.jstatsoft.org/v59/i10/paper). *Journal of Statistical SOftware*, *59*(10). 
 
- 
  

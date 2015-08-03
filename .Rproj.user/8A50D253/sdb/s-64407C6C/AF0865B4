@@ -1,0 +1,17 @@
+{
+    "contents" : "---\ntitle: \"Reporting Statistical Models (demo)\"\nauthor: \"Psyc 564\"\ndate: \"Friday, January 30, 2015\"\noutput:\n  html_document:\n    css: ~/GitHub/Diabetes-Tri-Study/libs/css/sidebar.css\n    highlight: haddock\n    theme: spacelab\n    toc: yes\n---\n\n<!--  Set the working directory to the repository's base directory; this assumes the report is nested inside of only one directory.-->\n```{r, echo=F, message=F} \nlibrary(knitr)\nopts_knit$set(root.dir='../../')  #Don't combine this call with any other chunk -especially one that uses file paths.\n```\n\n<!-- Set the report-wide options, and point to the external script file. -->\n```{r, echo=F, message=T}\nrequire(knitr)\nopts_chunk$set(\n  results='show', \n  message = TRUE,\n  comment = NA, \n  tidy = FALSE,\n#   fig.height = 4.8, \n#   fig.width = 6.5, \n  out.width = NULL,\n  fig.path = 'figure_rmd/',     \n  dev = \"png\",\n  dpi = 70\n)\nechoChunks <- FALSE\nwarningChunks<- FALSE\nmessageChunks<- FALSE\noutwidthChunks <- \"130%\"\noptions(width=120) #So the output is 50% wider than the default.\nread_chunk(\"./Reports/ELSA_report/ELSA_report.R\") # the file to which knitr calls for the chunks\n```\n\n##   LoadPackages\n```{r LoadPackages}\n```\n\n## Load data\n```{r LoadData}\n```\n  \n##   Load mplus.R Elements\n```{r Load_mplusR_Elements}\n```\n\n##   LoadGraphThemes\n```{r LoadGraphThemes}\n```\n\n##   Total Count\n```{r TotalCount, out.width=\"900px\", echo=F,results='hide'}\n```\n\n##   Sampled Count\n```{r SampledCount, out.width=\"900px\", echo=F,results='hide'}\n```\n\n##   Observed Lines\n```{r ObservedLines, warning=F,out.width=\"900px\", echo=F,results='hide'}\n```\n\n## Modeled Lines (Recovered random terms)\n```{r ModeledLines_0, warning=F, out.width=\"900px\", echo=F,results='hide'}\n```\n\n\n```{r LoadModel_ELSA, echo=F,echo=F,results='hide'}\n```\n\n##   Modeled Lines with Effects\n```{r ModeledLines_1,  out.width=\"1200px\", fig.retina=3}\n```\n\n\n\n\n\n\n\n\n\n  \n\n  \n \n",
+    "created" : 1436024511045.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2152917652",
+    "id" : "AF0865B4",
+    "lastKnownWriteTime" : 1426897008,
+    "path" : "~/GitHub/Diabetes-Tri-Study/Reports/ELSA_2/ELSA_report.Rmd",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}
