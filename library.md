@@ -1,5 +1,38 @@
-##Books 
 
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|[![Shadish](./materials/texts/images/shadish.png)]()|.|[![James](./materials/texts/images/james.png)]()|.|[![Spector](./materials/texts/images/spector.png)]()|.|[![Dalgaard](./materials/texts/images/dalgaard.png)]()|.|[![Deshea](./materials/texts/images/deshea.png)]()|.|[![R Cookbook](./materials/texts/images/chang.png)]()|  
+|. | |. | |. | |. | |. | |. |
+|[![Maxwell & Delaney](./materials/texts/images/maxwell.png)]()|.|[![Gelman & Hill](./materials/texts/images/gelman.png)]()|.|[![Venables](./materials/texts/images/venables.png)]()|.|[![Verzani](./materials/texts/images/verzani.png)]()|.|[![Everitt](./materials/texts/images/everitt.png)]()|.|[![Murrell](./materials/texts/images/murrell.png)]()| 
+
+[References](./references.md)
+
+
+## Statistics with R
+
+[![Verzani](./materials/texts/images/verzani.png)](https://www.crcpress.com/Using-R-for-Introductory-Statistics-Second-Edition/Verzani/9781466590731)   
+Verzani, J. (2014). [Using R for introductory statistics](https://cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf). CRC Press.
+
+[![Dalgaard](./materials/texts/images/dalgaard.png)](http://www.springer.com/us/book/9780387790534)   
+[Introductory Statistics with R](http://down.cenet.org.cn/upfile/28/200612374427146.pdf). Peter Dalgaard walks through the major statistical methods in R. UVic Library has an [ecopy](http://link.springer.com.ezproxy.library.uvic.ca/book/10.1007%2F978-0-387-79054-1)
+
+[![Everitt](./materials/texts/images/everitt.png)](http://www.amazon.com/Handbook-Statistical-Analyses-Using-Second/dp/1420079336/ref=sr_1_2?ie=UTF8&qid=1435986045&sr=8-2&keywords=A+Handbook+of+Statistical+Analyses+Using+R&pebp=1435986048108&perid=177DZ3S2R9QC4EQ6H5TD)   
+[A handbook of statistical analyses using R](http://xa.yimg.com/kq/groups/16412409/783160322/name/A%2BHandbook%2Bof%2BStatistical%2BAnalyses%2BUsing%2BR.pdf). UVic Library has an [ecopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1551977
+)  
+
+[![Deshea](./materials/texts/images/deshea.png)](http://www.amazon.com/Introductory-Statistics-Health-Sciences-DeShea/dp/1466565330/ref=sr_1_1?ie=UTF8&qid=1435986355&sr=8-1&keywords=Introductory+Statistics+for+the+Health+Sciences&pebp=1435986356585&perid=14VVYKK768NKSE8AB6RE)     
+[Introductory Statistics for the Health Sciences](http://desheastats.com/) covers an undergraduate statistics course and offers a collection of templates for visualizing basic statistical tests in R. See their [GitHub repository](https://github.com/OuhscBbmc/DeSheaToothakerIntroStats) for scripts and graph examples.
+
+
+## R
+[![Venables](./materials/texts/images/venables.png)](http://www.ms.uky.edu/~molzon/courses/ma320/R/Introduction-to-R.pdf)
+Venables, W. N., Smith, D. M., & R Development Core Team. (2002). [An introduction to R](http://www.ms.uky.edu/~molzon/courses/ma320/R/Introduction-to-R.pdf).
+
+
+[![Spector](./materials/texts/images/spector.png)](http://www.amazon.com/Data-Manipulation-R-Use/dp/0387747303/ref=sr_1_1?ie=UTF8&qid=1435985565&sr=8-1&keywords=data+manipulation+with+r&pebp=1435985565937&perid=09BPKFCSYR1GTK7HR0MC)   
+[Data Manipulation with R](http://www.springer.com/us/book/9780387747309). UVic Library has an [ecopy](http://link.springer.com.ezproxy.library.uvic.ca/book/10.1007%2F978-0-387-74731-6)
+
+
+## Methods 
 [![ISL](./materials/texts/images/james.png)](http://www.amazon.com/Introduction-Statistical-Learning-Applications-Statistics/dp/1461471370/ref=sr_1_1?ie=UTF8&qid=1435938322&sr=8-1&keywords=introduction+to+statistical+learning)   
 [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) free text, slides, and videos online. UVic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=3011282)
 
@@ -14,23 +47,17 @@
 [Experimental and Quasi-Experimental Designs for Generalized Causal Inference](http://shop.oreilly.com/product/9780596809164.do) by Shadish, Cook, and Campbell . UVic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1328797)
 
 
-[![Spector](./materials/texts/images/spector.png)](http://www.amazon.com/Data-Manipulation-R-Use/dp/0387747303/ref=sr_1_1?ie=UTF8&qid=1435985565&sr=8-1&keywords=data+manipulation+with+r&pebp=1435985565937&perid=09BPKFCSYR1GTK7HR0MC)   
-[Data Manipulation with R](http://www.springer.com/us/book/9780387747309). UVic Library has an [ecopy](http://link.springer.com.ezproxy.library.uvic.ca/book/10.1007%2F978-0-387-74731-6)
 
 
-[![Dalgaard](./materials/texts/images/dalgaard.png)](http://www.amazon.com/Introductory-Statistics-R-Computing/dp/0387790535/ref=sr_1_fkmr0_1?ie=UTF8&qid=1435985611&sr=8-1-fkmr0&keywords=Statistical+methods+with+r+dalgaard&pebp=1435985634427&perid=1B7XAVVSXY8JAM9GQFJD)   
-[Introductory Statistics with R](http://www.springer.com/us/book/9780387790534). Peter Dalgaard walks through the major statistical methods in R. UVic Library has an [ecopy](http://link.springer.com.ezproxy.library.uvic.ca/book/10.1007%2F978-0-387-79054-1)
-
+## Graphics
 
 [![R Cookbook](./materials/texts/images/chang.png)](http://www.amazon.ca/R-Graphics-Cookbook-Winston-Chang/dp/1449316956)   
 [R Cookbook](http://shop.oreilly.com/product/9780596809164.do) by Winston Chang  is a perfect book to get you started with producing graphs with RStudio   
 
-[![Everitt](./materials/texts/images/everitt.png)](http://www.amazon.com/Handbook-Statistical-Analyses-Using-Second/dp/1420079336/ref=sr_1_2?ie=UTF8&qid=1435986045&sr=8-2&keywords=A+Handbook+of+Statistical+Analyses+Using+R&pebp=1435986048108&perid=177DZ3S2R9QC4EQ6H5TD)   
-[A handbook of statistical analyses using R](). UVic Library has an [ecopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1551977
-)  
 
-[![Deshea](./materials/texts/images/deshea.png)](http://www.amazon.com/Introductory-Statistics-Health-Sciences-DeShea/dp/1466565330/ref=sr_1_1?ie=UTF8&qid=1435986355&sr=8-1&keywords=Introductory+Statistics+for+the+Health+Sciences&pebp=1435986356585&perid=14VVYKK768NKSE8AB6RE)     
-[Introductory Statistics for the Health Sciences](http://desheastats.com/) covers an undergraduate statistics course and offers a collection of templates for visualizing basic statistical tests in R. See their [GitHub repository](https://github.com/OuhscBbmc/DeSheaToothakerIntroStats) for scripts and graph examples.
+[![Murrell](./materials/texts/images/murrell.png)](https://www.stat.auckland.ac.nz/~paul/RG2e/)  
+Murrell, P. (2011). [R graphics](http://www.e-reading.club/bookreader.php/137370/C486x_C06.pdf). CRC Press.
+
 
 
 

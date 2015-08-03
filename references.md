@@ -11,6 +11,18 @@
  
 - Rodgers, J. L. (2010). [The epistemology of mathematical and statistical modeling: a quiet methodological revolution](http://www.researchgate.net/profile/Joe_Rodgers/publication/40906532_The_epistemology_of_mathematical_and_statistical_modeling_a_quiet_methodological_revolution/links/546b68ae0cf2f5eb18091cbd.pdf). *American Psychologist*, *65*(1), 1.
 
-- Wickham, H. (2014). [Tidy Data](http://www.jstatsoft.org/v59/i10/paper). *Journal of Statistical SOftware*, *59*(10). 
+- Wickham, H. (2014). [Tidy Data](http://www.jstatsoft.org/v59/i10/paper). *Journal of Statistical Software*, *59*(10). 
 
+
+## Books
+
+ - Dalgaard, P. (2008). [Introductory Statistics with R](http://down.cenet.org.cn/upfile/28/200612374427146.pdf). Springer Science & Business Media.
+ 
+ - Murrell, P. (2011). [R graphics](http://www.e-reading.club/bookreader.php/137370/C486x_C06.pdf). CRC Press.
+
+ - Verzani, J. (2014). [Using R for Introductory Statistics](https://cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf). CRC Press.
+ 
+ - Venables, W. N., Smith, D. M., & R Development Core Team. (2002). [An introduction to R](http://www.ms.uky.edu/~molzon/courses/ma320/R/Introduction-to-R.pdf).
+ 
+ 
  

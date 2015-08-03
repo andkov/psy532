@@ -1,6 +1,9 @@
 Introduction to Statistical Modeling  for Social Sciences. 
 ---
-[![covers](./materials/texts/images/covers-02.png)](./library.md)
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|[![Shadish](./materials/texts/images/shadish.png)]()|.|[![James](./materials/texts/images/james.png)]()|.|[![Spector](./materials/texts/images/spector.png)]()|.|[![Dalgaard](./materials/texts/images/dalgaard.png)]()|.|[![Deshea](./materials/texts/images/deshea.png)]()|.|[![R Cookbook](./materials/texts/images/chang.png)]()|  
+|. | |. | |. | |. | |. | |. |
+|[![Maxwell & Delaney](./materials/texts/images/maxwell.png)]()|.|[![Gelman & Hill](./materials/texts/images/gelman.png)]()|.|[![Venables](./materials/texts/images/venables.png)]()|.|[![Verzani](./materials/texts/images/verzani.png)]()|.|[![Everitt](./materials/texts/images/everitt.png)]()|.|[![Murrell](./materials/texts/images/murrell.png)]()| 
 
 *Psyc-532* at UVic by Dr. **[Andrey V. Koval](https://github.com/andkov)**  
 
@@ -11,7 +14,7 @@ Introduction to Statistical Modeling  for Social Sciences.
 
 ###See
 - [Calendar](./calendar.md) for events and timetables
-- [Library](./library.md) for books and articles 
+- [Library](./library.md) and [References](./references.md) for books and articles
 - [Resources](./resources.md) for various online materials
 - [Howtos](./howtos.md) for links on how to do things in R, classified by 4 skillsets
 - [Projects](./projects/README.md) for reports produced in the course
