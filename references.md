@@ -19,14 +19,20 @@ References
 ## Books
 
 - Dalgaard, P. (2008). [Introductory Statistics with R](http://down.cenet.org.cn/upfile/28/200612374427146.pdf). Springer Science & Business Media.
+
+- James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). [*An introduction to statistical learning*](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20First%20Printing.pdf). New York: springer.
+
+- Gelman, A., & Hill, J. (2006). [*Data analysis using regression and multilevel/hierarchical models*](). Cambridge University Press.
+
+- Maxwell, S. E., & Delaney, H. D. (2004). [Designing experiments and analyzing data: A model comparison perspective (Vol. 1)](https://books.google.ca/books?id=gKZbD3lL88AC&printsec=frontcover#v=onepage&q&f=false). Psychology Press.
  
 - Murrell, P. (2011). [R graphics](http://www.e-reading.club/bookreader.php/137370/C486x_C06.pdf). CRC Press.
 
-- William R. Shadish, Cook, T. D., & Campbell, D. T. (2002). *[Experimental and quasi-experimental designs for generalized causal inference](http://impact.cgiar.org/pdf/147.pdf)*. Wadsworth Cengage learning.
+- William R. Shadish, Cook, T. D., & Campbell, D. T. (2002). [*Experimental and quasi-experimental designs for generalized causal inference*](http://impact.cgiar.org/pdf/147.pdf). Wadsworth Cengage learning.
+
+- Venables, W. N., Smith, D. M., & R Development Core Team. (2002). [An introduction to R](http://www.ms.uky.edu/~molzon/courses/ma320/R/Introduction-to-R.pdf).
 
 - Verzani, J. (2014). [Using R for Introductory Statistics](https://cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf). CRC Press.
  
-- Venables, W. N., Smith, D. M., & R Development Core Team. (2002). [An introduction to R](http://www.ms.uky.edu/~molzon/courses/ma320/R/Introduction-to-R.pdf).
- 
- 
+
  

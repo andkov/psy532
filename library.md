@@ -9,14 +9,27 @@
 
 ## Quantitative Methods
 
+[![Shadish](./materials/texts/images/shadish.png)](http://impact.cgiar.org/pdf/147.pdf)    
+- William R. Shadish, Cook, T. D., & Campbell, D. T. (2002). [*Experimental and quasi-experimental designs for generalized causal inference*](http://impact.cgiar.org/pdf/147.pdf). Wadsworth Cengage learning.   
+- [publisher](http://shop.oreilly.com/product/9780596809164.do),  [amazon](http://www.amazon.com/Experimental-Quasi-Experimental-Designs-Generalized-Inference/dp/0395615569/ref=sr_1_1?ie=UTF8&qid=1435984771&sr=8-1&keywords=shadish+cook+and+campbell&pebp=1435984771016&perid=1DMRH03RWE7YCWQZE31Z),UVic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1328797)[.](https://drive.google.com/file/d/0B8KlNxv-FHyjdVNmdm9ZZDloMDQ/view?usp=sharing)  
 
-|:--|---|---|
-|[![Shadish](./materials/texts/images/shadish.png)](http://impact.cgiar.org/pdf/147.pdf)|:::::|  William R. Shadish, Cook, T. D., & Campbell, D. T. (2002). [*Experimental and quasi-experimental designs for generalized causal inference*](http://impact.cgiar.org/pdf/147.pdf). Wadsworth Cengage learning.   [publisher](http://shop.oreilly.com/product/9780596809164.do),  [amazon](http://www.amazon.com/Experimental-Quasi-Experimental-Designs-Generalized-Inference/dp/0395615569/ref=sr_1_1?ie=UTF8&qid=1435984771&sr=8-1&keywords=shadish+cook+and+campbell&pebp=1435984771016&perid=1DMRH03RWE7YCWQZE31Z),UVic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1328797)[.](https://drive.google.com/file/d/0B8KlNxv-FHyjdVNmdm9ZZDloMDQ/view?usp=sharing)  |   
+</br>
+
+[![Maxwell & Delaney](./materials/texts/images/maxwell.png)](https://books.google.ca/books?id=gKZbD3lL88AC&printsec=frontcover#v=onepage&q&f=false)   
+- Maxwell, S. E., & Delaney, H. D. (2004). [Designing experiments and analyzing data: A model comparison perspective (Vol. 1)](https://books.google.ca/books?id=gKZbD3lL88AC&printsec=frontcover#v=onepage&q&f=false). Psychology Press.    
+- The book has a [website](http://www.designingexperiments.com/) with  scripts used in the text, datasets are on the CD that comes with the book. Uvic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1337909)
+
+</br>
+ 
+
+[![James](./materials/texts/images/james.png)](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20First%20Printing.pdf)     
+- James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). [*An introduction to statistical learning*](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20First%20Printing.pdf). New York: springer.   
+- Text, slides, and videos are available online for free. UVic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=3011282)  
 
 
-
-[![James](./materials/texts/images/james.png)](http://www.amazon.com/Introduction-Statistical-Learning-Applications-Statistics/dp/1461471370/ref=sr_1_1?ie=UTF8&qid=1435938322&sr=8-1&keywords=introduction+to+statistical+learning)   
-[Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) free text, slides, and videos online. UVic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=3011282)
+[![Gelman & Hill](./materials/texts/images/gelman.png)](http://www.amazon.com/Analysis-Regression-Multilevel-Hierarchical-Models/dp/052168689X/ref=sr_1_1?ie=UTF8&qid=1435941155&sr=8-1&keywords=gelman+and+hill&pebp=1435941155428&perid=00K1D3Y3KKE3XF87ED1B)     
+- Gelman, A., & Hill, J. (2006). [*Data analysis using regression and multilevel/hierarchical models*](http://www-bcf.usc.edu/~gareth/ISL/). Cambridge University Press.   
+- Uvic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1553520)    
 
 
 
@@ -49,11 +62,6 @@ Venables, W. N., Smith, D. M., & R Development Core Team. (2002). [An introducti
 
 
 
-[![Maxwell & Delaney](./materials/texts/images/maxwell.png)](http://www.amazon.com/Designing-Experiments-Analyzing-Data-Perspective/dp/0805837183/ref=sr_1_1?ie=UTF8&qid=1435939865&sr=8-1&keywords=maxwell+and+delaney&pebp=1435939865576&perid=1FN4621XSDDF6FZ9EX2N)   
-[Designing Experiments and Analyzing Data](http://www.designingexperiments.com/) the book has a [website](http://www.designingexperiments.com/) with  scripts used in the text, datasets are on the CD that comes with the book. Uvic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1337909)
-
-[![Gelman & Hill](./materials/texts/images/gelman.png)](http://www.amazon.com/Analysis-Regression-Multilevel-Hierarchical-Models/dp/052168689X/ref=sr_1_1?ie=UTF8&qid=1435941155&sr=8-1&keywords=gelman+and+hill&pebp=1435941155428&perid=00K1D3Y3KKE3XF87ED1B)     
-[Data Analysis Using Regression and Multilevel/Hierarchical Models](http://www-bcf.usc.edu/~gareth/ISL/). Uvic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1553520)
 
 
 
