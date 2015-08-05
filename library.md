@@ -5,7 +5,7 @@
 [![Maxwell & Delaney](./materials/texts/images/maxwell.png)]() [![Gelman & Hill](./materials/texts/images/gelman.png)]() [![Venables](./materials/texts/images/venables.png)]()  [![Verzani](./materials/texts/images/verzani.png)]() [![Everitt](./materials/texts/images/everitt.png)]() [![Murrell](./materials/texts/images/murrell.png)]()    
 
 
-[References](./library.md#References)
+[References](./library.md#references)
 
 ## Design and Methods
 
