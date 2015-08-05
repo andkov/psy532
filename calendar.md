@@ -4,7 +4,7 @@
 Date   |Week|Meet-up | Topics  | Reading | Swirl | Due
 -------|----|------|---------|---------|--------------------|---|      
 07 Sep |1 |--| **Labour Day**  |  |  |  |  
-10 Sep |	|1 |  |  |  |  |   
+10 Sep |	|1 | Course mechanics |  |  |  |   
 14 Sep |2 |2 |  |  |  |  |   
 17 Sep |	|3 |  |  |  |  |   
 21 Sep |3	|4 |  |  |  |  |   

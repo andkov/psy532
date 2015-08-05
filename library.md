@@ -7,7 +7,7 @@
 
 [References](./references.md)
 
-## Quantitative Methods
+## Design and Methods
 
 [![Shadish](./materials/texts/images/shadish.png)](http://impact.cgiar.org/pdf/147.pdf)    
 - William R. Shadish, Cook, T. D., & Campbell, D. T. (2002). [*Experimental and quasi-experimental designs for generalized causal inference*](http://impact.cgiar.org/pdf/147.pdf). Wadsworth Cengage learning.   
@@ -21,6 +21,7 @@
 
 </br>
  
+## Methods in R
 
 [![James](./materials/texts/images/james.png)](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20First%20Printing.pdf)     
 - James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). [*An introduction to statistical learning*](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20First%20Printing.pdf). New York: Springer.   
@@ -32,8 +33,17 @@
 - Uvic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1553520)    
 
 
+## R
 
-## Statistics with R
+[![Spector](./materials/texts/images/spector.png)](http://www.amazon.com/Data-Manipulation-R-Use/dp/0387747303/ref=sr_1_1?ie=UTF8&qid=1435985565&sr=8-1&keywords=data+manipulation+with+r&pebp=1435985565937&perid=09BPKFCSYR1GTK7HR0MC)   
+[Data Manipulation with R](http://www.springer.com/us/book/9780387747309). UVic Library has an [ecopy](http://link.springer.com.ezproxy.library.uvic.ca/book/10.1007%2F978-0-387-74731-6)
+
+
+[![Venables](./materials/texts/images/venables.png)](http://www.ms.uky.edu/~molzon/courses/ma320/R/Introduction-to-R.pdf)
+Venables, W. N., Smith, D. M., & R Development Core Team. (2002). [An introduction to R](http://www.ms.uky.edu/~molzon/courses/ma320/R/Introduction-to-R.pdf).
+
+
+## R for Statistics
 
 [![Verzani](./materials/texts/images/verzani.png)](https://www.crcpress.com/Using-R-for-Introductory-Statistics-Second-Edition/Verzani/9781466590731)   
 Verzani, J. (2014). [Using R for introductory statistics](https://cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf). CRC Press.
@@ -45,28 +55,13 @@ Verzani, J. (2014). [Using R for introductory statistics](https://cran.r-project
 [A handbook of statistical analyses using R](http://xa.yimg.com/kq/groups/16412409/783160322/name/A%2BHandbook%2Bof%2BStatistical%2BAnalyses%2BUsing%2BR.pdf). UVic Library has an [ecopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1551977
 )  
 
+
+
+
+## Statistics and Graphics
+
 [![Deshea](./materials/texts/images/deshea.png)](http://www.amazon.com/Introductory-Statistics-Health-Sciences-DeShea/dp/1466565330/ref=sr_1_1?ie=UTF8&qid=1435986355&sr=8-1&keywords=Introductory+Statistics+for+the+Health+Sciences&pebp=1435986356585&perid=14VVYKK768NKSE8AB6RE)     
 [Introductory Statistics for the Health Sciences](http://desheastats.com/) covers an undergraduate statistics course and offers a collection of templates for visualizing basic statistical tests in R. See their [GitHub repository](https://github.com/OuhscBbmc/DeSheaToothakerIntroStats) for scripts and graph examples.
-
-
-## R
-[![Venables](./materials/texts/images/venables.png)](http://www.ms.uky.edu/~molzon/courses/ma320/R/Introduction-to-R.pdf)
-Venables, W. N., Smith, D. M., & R Development Core Team. (2002). [An introduction to R](http://www.ms.uky.edu/~molzon/courses/ma320/R/Introduction-to-R.pdf).
-
-
-[![Spector](./materials/texts/images/spector.png)](http://www.amazon.com/Data-Manipulation-R-Use/dp/0387747303/ref=sr_1_1?ie=UTF8&qid=1435985565&sr=8-1&keywords=data+manipulation+with+r&pebp=1435985565937&perid=09BPKFCSYR1GTK7HR0MC)   
-[Data Manipulation with R](http://www.springer.com/us/book/9780387747309). UVic Library has an [ecopy](http://link.springer.com.ezproxy.library.uvic.ca/book/10.1007%2F978-0-387-74731-6)
-
-
-## Methods 
-
-
-
-
-
-
-
-
 
 ## Graphics
 
