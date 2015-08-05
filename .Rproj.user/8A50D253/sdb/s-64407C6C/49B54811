@@ -1,0 +1,18 @@
+{
+    "contents" : "# Calendar \n\n\nDate   |Week|Meet-up | Topics  | Chapter | Assignment Due |\n-------|----|------|---------|---------|--------------------|      \n07 Sep |1 |--| **Labour Day**  |  |  |  \n10 Sep |\t|1 |  |  |  |  \n14 Sep |2 |2 |  |  |  |  \n17 Sep |\t|3 |  |  |  |  \n21 Sep |3\t|4 |  |  |  |  \n28 Sep |\t|5 |  |  |  |  \n01 Oct |4\t|6 |  |  |  |     \t\n05 Oct |\t|7 |  |  |  |  \n08 Oct |5\t|8 |  |  |  |   \t\n12 Oct |\t|--| **Thanksgiving**  |  |  |  \n15 Oct |6\t|9 |  |  |  |  \n19 Oct | \t|10|  |  |  |  \n22 Oct |7\t|11|  |  |  |    \n26 Oct |\t|12|  |  |  |  \n02 Nov |8\t|13|  |  |  |    \t\n05 Nov |\t|14|  |  |  |  \n09 Nov |9\t|--| **Reading Week**  |  |  |  \n12 Nov |\t|--| **Reading Week** |  |  |  \n16 Nov |10|15|  |  |  |  \n19 Nov |\t|16|  |  |  |  \n23 Nov |11|17|  |  |  |  \n26 Nov |\t|18|  |  |  |  \n30 Nov |12|19|  |  |  |  \n03 Dec |\t|20|  |  |  |  \n07 Dec |13|--| **Finals Week**  |  |  |  \n10 Dec |  |--| **Finals Week**  |  |  |  ",
+    "created" : 1438797151486.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "461791546",
+    "id" : "49B54811",
+    "lastKnownWriteTime" : 1434747289,
+    "path" : "~/GitHub/psy532/calendar.md",
+    "project_path" : "calendar.md",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "markdown"
+}

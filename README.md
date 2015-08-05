@@ -12,12 +12,14 @@ Introduction to Statistical Modeling  for Social Sciences.
 
 
 ###See
-- [Calendar](./calendar.md) for events and timetables
-- [Library](./library.md) and [References](./references.md) for books and articles
-- [Resources](./resources.md) for various online materials
-- [Howtos](./howtos.md) for links on how to do things in R, classified by 4 skillsets
-- [Projects](./projects/README.md) for reports produced in the course
-- [IMPORTANT COURSE POLICY INFORMATION](./policy.md) to be safe  
+- [Calendar](./calendar.md) for events and timetables  
+- [Library](./library.md) for books and articles  
+- [Resources](./resources.md) for learning online  
+- [Howtos](./howtos.md) for practical R knowledge
+- [Forest](./forest.md) for a big picture  
+- [Trees](./trees.md) for the details  
+- [Projects](./projects/README.md) for students' reports  
+- [IMPORTANT COURSE POLICY INFORMATION](./policy.md) for all the rules  
 
 
 </br>

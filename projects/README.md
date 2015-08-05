@@ -3,7 +3,7 @@ Student Projects
 
 During the semester each learner will complete 10 dynamic reporting projects that will constitute learner's final grade.
 
-0. Basic
+0. Basics
 1. Distributions
 2. T-tests
 3. One-way ANOVA
