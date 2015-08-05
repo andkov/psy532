@@ -5,7 +5,7 @@
 [![Maxwell & Delaney](./materials/texts/images/maxwell.png)]() [![Gelman & Hill](./materials/texts/images/gelman.png)]() [![Venables](./materials/texts/images/venables.png)]()  [![Verzani](./materials/texts/images/verzani.png)]() [![Everitt](./materials/texts/images/everitt.png)]() [![Murrell](./materials/texts/images/murrell.png)]()    
 
 
-[References](./references.md)
+[References](./library.md#References)
 
 ## Design and Methods
 
@@ -93,7 +93,7 @@ Murrell, P. (2011). [R graphics](http://www.e-reading.club/bookreader.php/137370
 
 
 
-## References
+##References
 
 
 #### Articles  
