@@ -25,7 +25,7 @@
 
 [![James](./materials/texts/images/james.png)](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20First%20Printing.pdf)     
 - James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). [*An introduction to statistical learning*](https://scholar.google.ca/scholar?q=An+introduction+to+statistical+learning&btnG=&hl=en&as_sdt=0%2C5). New York: Springer.   
-- Full text, [slides and videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) are available online for free. UVic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=3011282)  
+- Full text, [slides and videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) are available online for free. Book's [website](http://www.statlearning.com). UVic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=3011282).  
 
 
 [![Gelman & Hill](./materials/texts/images/gelman.png)](http://www.amazon.com/Analysis-Regression-Multilevel-Hierarchical-Models/dp/052168689X/ref=sr_1_1?ie=UTF8&qid=1435941155&sr=8-1&keywords=gelman+and+hill&pebp=1435941155428&perid=00K1D3Y3KKE3XF87ED1B)     

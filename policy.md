@@ -3,7 +3,12 @@
 
 ### Evaluation and Grading 
 
-...
+ Exam I - 50 points
+ Exam II - 100 points
+ Project - 100 + 50 points 
+
+
+
 
 
 The final letter grade in the course will be based on total percent score rounded to the third decimal point as shown in the table:    

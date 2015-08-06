@@ -28,4 +28,4 @@ Date   |Week|Meet-up | Topics  | Reading | Swirl | Due
 30 Nov |12|19|  |  |  |  |   
 03 Dec |	|20|  |  |  |  |   
 07 Dec |13|--| **Finals Week**  |  |  |  |   
-10 Dec |  |--| **Finals Week**  |  |  |  |   
+10 Dec |  |--| **Student Presentation**  |  |  |  |   
