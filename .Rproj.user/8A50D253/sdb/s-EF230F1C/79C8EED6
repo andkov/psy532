@@ -1,0 +1,18 @@
+{
+    "contents" : "forest\n========================================================\nauthor: \ndate: \n\nFirst Slide\n========================================================\n\nFor more details on authoring R presentations click the\n**Help** button on the toolbar.\n\n- Bullet 1\n- Bullet 2\n- Bullet 3\n\nSlide With Code\n========================================================\n\n\n```r\nsummary(cars)\n```\n\n```\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n```\n\nSlide With Plot\n========================================================\n\n![plot of chunk unnamed-chunk-2](forest-figure/unnamed-chunk-2-1.png) \n",
+    "created" : 1438799428835.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "358025374",
+    "id" : "79C8EED6",
+    "lastKnownWriteTime" : 1438965115,
+    "path" : "~/GitHub/psy532/forest.md",
+    "project_path" : "forest.md",
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "type" : "markdown"
+}

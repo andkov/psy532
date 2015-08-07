@@ -17,3 +17,5 @@
 ## Linear regression
 
 - [Linear regression basics](http://www.statpower.net/Content/312/Lecture%20Slides/Gelman%20Hill%203.pdf) James Steiger works along chapter 3 of Gelman and Hill(2006).
+
+

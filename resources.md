@@ -9,6 +9,9 @@
 - [Introduction to R](http://ateucher.github.io/rcourse_site/)  by [Andy Teucher](https://github.com/ateucher)
 - [Programming with R](http://swcarpentry.github.io/r-novice-inflammation/)  by [Software carpentry](http://software-carpentry.org/)  
 - [Data Science Specialization](https://github.com/DataScienceSpecialization) and particularly their [Curated Knowledge](http://datasciencespecialization.github.io/curated/) page  
+- [Introduction to data analysis](http://stat405.had.co.nz/) course Hadley Wickham taught at Rice University in 2012  
+- [Data School](http://www.dataschool.io/about/) by [Kevin Markham](https://github.com/justmarkham)
+
 
 
 
@@ -18,7 +21,7 @@
 - Collection of [R Tutorials](http://www.cyclismo.org/tutorial/R/) by Kelly Black at Clarkson Univeristy. Approximately covers an intro to stats undergrad course.
 - [Introduction to Biostatistics](http://stronginference.com/Bios6301/)  taught at Vanderbilt by [Chris Fonnesbeck](https://github.com/fonnesbeck?tab=repositories)
 - [Statistical Computing in R](http://www.pitt.edu/~njc23/) a biostatistics course by   Nicholas Christian at University of Pittsburgh.  Great series of slides on essential programming vocabulary and techniques  for statistical modeling. Exemplifies SWEAVE for report generation.  
-- [Introductory modeling course](http://statpower.net/310LectureSlides.html) introductory course in Statistical Inference for graduate students in Psychological Sciences  by James Steiger  
+- [Introductory modeling course](http://statpower.net/310LectureSlides.html) introductory course in Statistical Inference for graduate students in Psychological Sciences by James Steiger  at Vanderbilt University   
 
 
 ##Go-to places 
