@@ -1,71 +1,71 @@
 [edit me](https://github.com/andkov/psy532/edit/master/resources.md)  
 
 
-
-
-## R & Data science
-- [Swirl courses](https://github.com/swirldev/swirl_courses) and my [annotations](./materials/swirl/course_notes.md) to them. [quick start with swirl](./materials/swirl/quickstart.md) if you want to learn inside the environment where you'll end up spending all the time anyway. Think of this as a prompt-only computer game from the 80s: programming calculators never been so much fun!     
+##Programming in R
 - [Introduction to R](https://www.datacamp.com/courses/introduction-to-r)  by DataCamp. Slick, responsive interface. Great place to start for complete newbies to programming in general.      
-- [Introduction to R](http://ateucher.github.io/rcourse_site/)  by [Andy Teucher](https://github.com/ateucher), a
 - [Programming with R](http://swcarpentry.github.io/r-novice-inflammation/)  by [Software carpentry](http://software-carpentry.org/) 
 
 
-- [Data Science Specialization](https://github.com/DataScienceSpecialization) and particularly their [Curated Knowledge](http://datasciencespecialization.github.io/curated/) (*DSS*) page. One of the best resources on data science has been coming from John Hopkins University, as this lecture series on Coursera.  
-- [Introduction to data analysis](http://stat405.had.co.nz/) course Hadley Wickham taught at Rice University in 2012  
-- [Data School](http://www.dataschool.io/about/) blog and learning space by [Kevin Markham](https://github.com/justmarkham), former *DSS* TA and developer. 
-
-
+##Data Science
+- [Introduction to data analysis](http://stat405.had.co.nz/) course Hadley Wickham taught at Rice University in 2012    
+- [Information Visualization](https://www.stat.auckland.ac.nz/~ihaka/courses/120/lectures.html) course by Ross Ihaka, one of the creators of R language. Also see his courses on [Statistical Computing](https://www.stat.auckland.ac.nz/~stats380/?Lecture_Slides) and  [Statistical Graphics](https://www.stat.auckland.ac.nz/~ihaka/courses/787/)
+- [Data Science Specialization](https://github.com/DataScienceSpecialization) and particularly their [Curated Knowledge](http://datasciencespecialization.github.io/curated/) page. One of the best resources on data science has been coming from John Hopkins University, as did this lecture series on Coursera.   
+- [Swirl courses](https://github.com/swirldev/swirl_courses) and my [annotations](./materials/swirl/course_notes.md) to them. [quick start with swirl](./materials/swirl/quickstart.md). Most of the courses overlap with (*DSS*), giving the same material in the interactive environment of RStudio. It also have unique courses, which number is expected to increase in the future.    
 
 
 ##Statistics
-- [Data Analysis and Statistical Inference](https://www.datacamp.com/courses/data-analysis-and-statistical-inference_mine-cetinkaya-rundel-by-datacamp) by DataCamp  
-
-- [Statistical computing for biostatistics](http://www.biostat.jhsph.edu/~hji/courses/statcomputing/)  by Honkgkai Ji, at Johns Hopkins Bloomberg School of Public Health  
-
-- Collection of [R Tutorials](http://www.cyclismo.org/tutorial/R/) by Kelly Black at Clarkson Univeristy. Approximately covers an intro to stats undergrad course.
-
-- [Introduction to Biostatistics](http://stronginference.com/Bios6301/)  taught at Vanderbilt by [Chris Fonnesbeck](https://github.com/fonnesbeck?tab=repositories)
-
+- [Data Analysis and Statistical Inference](https://www.datacamp.com/courses/data-analysis-and-statistical-inference_mine-cetinkaya-rundel-by-datacamp) by DataCamp.    
+- [Introduction to R](http://ateucher.github.io/rcourse_site/)  by [Andy Teucher](https://github.com/ateucher). Great example of github use. Local option.  
+- [Introduction to Biostatistics](http://stronginference.com/Bios6301/)  taught by [Chris Fonnesbeck](https://github.com/fonnesbeck?tab=repositories) at Vanderbilt University.    
+- Collection of [R Tutorials](http://www.cyclismo.org/tutorial/R/) by Kelly Black at Clarkson Univeristy. Approximately covers an intro to stats undergrad course.  
+- [Statistical Computing for Biostatistics](http://www.biostat.jhsph.edu/~hji/courses/statcomputing/)  by Honkgkai Ji, at Johns Hopkins Bloomberg School of Public Health.    
 - [Statistical Computing in R](http://www.pitt.edu/~njc23/) a biostatistics course by   Nicholas Christian at University of Pittsburgh.  Great series of slides on essential programming vocabulary and techniques  for statistical modeling. Exemplifies SWEAVE for report generation.  
+- [Statistical Inference](http://statpower.net/310LectureSlides.html), introductory course in statistics for graduate students at Vanderbilt University, taught by James Steiger.      
 
-- [Introductory modeling course](http://statpower.net/310LectureSlides.html) introductory course in Statistical Inference for graduate students in Psychological Sciences by James Steiger  at Vanderbilt University   
 
-- [Information Visualization](https://www.stat.auckland.ac.nz/~ihaka/courses/120/lectures.html) course by Ross Ihaka, one of the creators of R language. Also see his courses on [Statistical Computing](https://www.stat.auckland.ac.nz/~stats380/?Lecture_Slides) and  [Statistical Graphics](https://www.stat.auckland.ac.nz/~ihaka/courses/787/)
+##Blogs 
 
-##Go-to places 
-- [A GOOD PLACE TO START LEARNING R](http://www.rstudio.com/resources/training/online-learning/): RStudio team collects the best online resources. Check out every link they mention, it's worth it.  
-- [Quick-R](http://www.statmethods.net/) - thorough and convenient resource for R reference. One of the first results to show up in search engines. 
-- [RStudio cheatsheets](http://www.rstudio.com/resources/cheatsheets/) are so well done that I have put them all into a single [pdf](./materials/pdf/R_Studio_Cheat_Sheets.pdf) and keep it on my Desktop.
-- [R by Example](http://www.mayin.org/ajayshah/KB/R/) organized example scripts. 
-- [Most useful R commands](http://www.personality-project.org/r/r.commands.html) according to [personality-project.org](http://www.personality-project.org/index.html) ([William Revelle](http://www.personality-project.org/revelle.html))
-- [areaF](https://github.com/andkov/areaF/blob/master/concept.md) is a visual display of ANOVA table, comparing and contrasting the properties of restricted (basic, null) and full(saturated, alternative) models.
+- [Data School](http://www.dataschool.io/about/) blog and learning space by [Kevin Markham](https://github.com/justmarkham), former *DSS* TA and developer.    
+- [rbloggers](http://www.r-bloggers.com/) central hub for blogging about data science with R.    
+
+
+##Handy PDFs
+- [RStudio cheatsheets](http://www.rstudio.com/resources/cheatsheets/) are so well done that I have put them all into a single [pdf](./materials/pdf/R_Studio_Cheat_Sheets.pdf) and keep it on my Desktop.   
+- [Computing for Data Analysis](), coursera course.     
+- [Data Science Specialization](https://drive.google.com/file/d/0B8KlNxv-FHyjSzJtWWw1NXNYSE0/view),  slides from all nine courses.       
+- [Introduction to Statistical Learning](https://drive.google.com/file/d/0B8KlNxv-FHyjSzJtWWw1NXNYSE0/view),  all slides  from Hastie and Tibshirani videos (James et al., 2013).    
+- [Topics in Computational Data Analysis and Graphics](https://drive.google.com/file/d/0B8KlNxv-FHyjbXhGWGtCbTczSFk/view), slide to Ross Ihaka's course.    
+- [Statistical Computing](./materials/pdf/Ihaka and Murrell (2015) Statistical Computing.pdf), quick review of basic R syntax. 
+- [Introduction to data analysis](https://drive.google.com/file/d/0B8KlNxv-FHyjdTE3OVhad3kzSE0/view), Hadley Wickham's slides from Rice University.   
+
+
+##Goto places 
+- [A GOOD PLACE TO START LEARNING R](http://www.rstudio.com/resources/training/online-learning/): RStudio team collects the best online resources. Check out every link they mention, it's worth it.    
+- [Quick-R](http://www.statmethods.net/) - thorough and convenient resource for R reference. One of the first results to show up in search engines.   
+- [R by Example](http://www.mayin.org/ajayshah/KB/R/) organized example scripts.   
+- [Most useful R commands](http://www.personality-project.org/r/r.commands.html) according to [personality-project.org](http://www.personality-project.org/index.html) ([William Revelle](http://www.personality-project.org/revelle.html)).  
+- [areaF](https://github.com/andkov/areaF/blob/master/concept.md) is a visual display of ANOVA table, comparing and contrasting the properties of restricted (basic, null) and full(saturated, alternative) models.  
 
 
 ## Videos
 
 ###Collections
 - [twotorials](http://www.twotorials.com/) A collection of video tutorials on R
-- [Hastie and Tibshirani](http://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/) narrate their book.  
+- [Hastie and Tibshirani](http://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/) narrate their book.   
 
 ###Particulars
 - [lady tasting tea](https://www.youtube.com/watch?v=lgs7d5saFFc) short video on designing experiment in words of R.A. Fisher.    
-- [dude tapping bear](https://www.youtube.com/watch?v=bVMVGHkt2cg) or p-value extravaganza. 
+- [dude tapping bear](https://www.youtube.com/watch?v=bVMVGHkt2cg) or p-value extravaganza.   
 
 
 ##Data 
 
-- Excellent [collection of datasets](http://www.statsci.org/datasets.html) 
-- [HistData](./data/HistData/Encyclopedia_HistData.md) Wiki overviews some of the historic datasets from the [HistData](./data/HistData/README.md) package that will be used in the course.
+- Excellent [collection of datasets](http://www.statsci.org/datasets.html).   
+- [HistData](./data/HistData/Encyclopedia_HistData.md) Wiki overviews some of the historic datasets from the [HistData](./data/HistData/README.md) package that will be used in the course.  
 
 
 
-
-  
-
- 
-
- 
-# Views and conventions 
+## Views and conventions 
 
 - I do my best to follow the [Best Practices for Scientific Computing](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
 
