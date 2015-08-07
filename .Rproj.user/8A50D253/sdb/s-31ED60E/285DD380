@@ -1,12 +1,12 @@
 {
-    "contents" : "|:--|---|---|---|---|\n|\n|---|---|---|---|---|\n\n\n0. Basics\n1. Distributions\n2. T-tests\n3. One-way ANOVA\n4. Simple Regression\n5. Multi-way ANOVA\n6. Multiple Regression\n7. ANCOVA\n8. Strategies\n9. Longitudinal\n\n## \n[Linear regression basics](http://www.statpower.net/Content/312/Lecture%20Slides/Gelman%20Hill%203.pdf) James Steiger works along chapter 3 of Gelman and Hill(2006).",
+    "contents" : "|:--|---|---|---|---|\n|\n|---|---|---|---|---|\n\n\n0. Basics\n1. Distributions\n2. T-tests\n3. One-way ANOVA\n4. Simple Regression\n5. Multi-way ANOVA\n6. Multiple Regression\n7. ANCOVA\n8. Strategies\n9. Longitudinal\n\n## Linear regression\n\n- [Linear regression basics](http://www.statpower.net/Content/312/Lecture%20Slides/Gelman%20Hill%203.pdf) James Steiger works along chapter 3 of Gelman and Hill(2006).",
     "created" : 1438799446833.000,
-    "dirty" : true,
+    "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2398707029",
+    "hash" : "137944840",
     "id" : "285DD380",
-    "lastKnownWriteTime" : 1438800871,
+    "lastKnownWriteTime" : 1438920248,
     "path" : "~/GitHub/psy532/trees.md",
     "project_path" : "trees.md",
     "properties" : {
