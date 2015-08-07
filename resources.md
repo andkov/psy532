@@ -7,10 +7,11 @@
 - [Introduction to R](http://ateucher.github.io/rcourse_site/)  by [Andy Teucher](https://github.com/ateucher). Great example of github use. Local option.   
 
 ##Data Science
+- [Swirl courses](https://github.com/swirldev/swirl_courses) and my [annotations](./materials/swirl/course_notes.md) to them. [quick start with swirl](./materials/swirl/quickstart.md). Most of the courses overlap with (*DSS*), giving the same material in the interactive environment of RStudio. It also have unique courses, which number is expected to increase in the future.    
+- [Data Science Specialization](https://github.com/DataScienceSpecialization) and particularly their [Curated Knowledge](http://datasciencespecialization.github.io/curated/) page. One of the best resources on data science has been coming from John Hopkins University, as did this lecture series on Coursera.   
 - [Introduction to data analysis](http://stat405.had.co.nz/) course Hadley Wickham taught at Rice University in 2012    
 - [Information Visualization](https://www.stat.auckland.ac.nz/~ihaka/courses/120/lectures.html) course by Ross Ihaka, one of the creators of R language. Also see his courses on [Statistical Computing](https://www.stat.auckland.ac.nz/~stats380/?Lecture_Slides) and  [Statistical Graphics](https://www.stat.auckland.ac.nz/~ihaka/courses/787/)
-- [Data Science Specialization](https://github.com/DataScienceSpecialization) and particularly their [Curated Knowledge](http://datasciencespecialization.github.io/curated/) page. One of the best resources on data science has been coming from John Hopkins University, as did this lecture series on Coursera.   
-- [Swirl courses](https://github.com/swirldev/swirl_courses) and my [annotations](./materials/swirl/course_notes.md) to them. [quick start with swirl](./materials/swirl/quickstart.md). Most of the courses overlap with (*DSS*), giving the same material in the interactive environment of RStudio. It also have unique courses, which number is expected to increase in the future.    
+ 
 
 
 ##Statistics
