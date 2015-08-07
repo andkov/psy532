@@ -8,7 +8,7 @@ Introduction to Statistical Modeling  for Social Sciences.
 
 | When  | Where  | Semester  | Dates  | Email   |Office   | Hours | Phone  |
 |---|---|---|---|---|---|---|---|
-| M,Th    11:30 - 13:00   | HSD A150    | Winter 2015   | Sep 9 - Dec 4[.](https://github.com/andkov/psy532/edit/gh-pages/index.md)  |andkov at uvic dot ca |Cornett B335g|   By appointment  | 472-4864  |
+| Monday, Thursday    11:30 - 13:00   | HSD A150    | Winter 2015   | Sep 9 - Dec 10[.](https://github.com/andkov/psy532/edit/gh-pages/index.md)  |andkov at uvic dot ca |Cornett B335g|   By appointment  | 472-4864  |
 
 
 ###See

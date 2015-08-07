@@ -1,10 +1,10 @@
 {
-    "contents" : "",
+    "contents" : "# install.packages(\"ISLR\")\nlibrary(ISLR)\n\n",
     "created" : 1438881185183.000,
-    "dirty" : false,
+    "dirty" : true,
     "encoding" : "",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "2309383153",
     "id" : "E49946AD",
     "lastKnownWriteTime" : 30681274979123311,
     "path" : null,

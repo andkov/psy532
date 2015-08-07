@@ -1,0 +1,18 @@
+{
+    "contents" : "Introduction to Statistical Modeling  for Social Sciences. \n---\n\n[![Shadish](./materials/texts/images/shadish.png)]() [![James](./materials/texts/images/james.png)]() [![Spector](./materials/texts/images/spector.png)]() [![Dalgaard](./materials/texts/images/dalgaard.png)]() [![Deshea](./materials/texts/images/deshea.png)]() [![R Cookbook](./materials/texts/images/chang.png)]()   \n[![Maxwell & Delaney](./materials/texts/images/maxwell.png)]() [![Gelman & Hill](./materials/texts/images/gelman.png)]() [![Venables](./materials/texts/images/venables.png)]()  [![Verzani](./materials/texts/images/verzani.png)]() [![Everitt](./materials/texts/images/everitt.png)]() [![Murrell](./materials/texts/images/murrell.png)]()   \n\n*Psyc-532* at UVic by Dr. **[Andrey V. Koval](https://github.com/andkov)**  \n\n| When  | Where  | Semester  | Dates  | Email   |Office   | Hours | Phone  |\n|---|---|---|---|---|---|---|---|\n| Monday, Thursday    11:30 - 13:00   | HSD A150    | Winter 2015   | Sep 9 - Dec 10[.](https://github.com/andkov/psy532/edit/gh-pages/index.md)  |andkov at uvic dot ca |Cornett B335g|   By appointment  | 472-4864  |\n\n\n###See\n- [Calendar](./calendar.md) for events and timetables  \n- [Library](./library.md) for books and articles  \n- [Resources](./resources.md) for learning online  \n- [Howtos](./howtos.md) for practical R knowledge\n- [Forest](./forest.md) for a big picture  \n- [Trees](./trees.md) for the details  \n- [Projects](./projects/README.md) for students' reports  \n- [IMPORTANT COURSE POLICY INFORMATION](./policy.md) for all the rules  \n\n\n</br>\n[quick start with swirl](./materials/swirl/quickstart.md)\n",
+    "created" : 1435799172070.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3151947875",
+    "id" : "69AE8E7D",
+    "lastKnownWriteTime" : 1438909623,
+    "path" : "~/GitHub/psy532/README.md",
+    "project_path" : "README.md",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "markdown"
+}
