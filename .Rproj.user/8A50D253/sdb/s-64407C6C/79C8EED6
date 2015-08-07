@@ -1,12 +1,12 @@
 {
-    "contents" : "",
+    "contents" : "## Learning outcomes\n\nAfter completing this course you are expected to:\n\n\n- understand the connection between research design and statistical methods behind them\n- have a solid conceptual understanding of General Linear Model\n- use R for manipulating data, estimating statistical models, and produce dynamic reports with text, graphs, and tables explaining the results of data analysis\n- use RStudio for generating dynamic reports\n- use GitHub to organize the analytic workflow and publish results",
     "created" : 1438799428835.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "1960214493",
     "id" : "79C8EED6",
-    "lastKnownWriteTime" : 1438799443,
+    "lastKnownWriteTime" : 1438905989,
     "path" : "~/GitHub/psy532/forest.md",
     "project_path" : "forest.md",
     "properties" : {
