@@ -32,7 +32,7 @@
 ##Handy PDFs
 - [RStudio cheatsheets](http://www.rstudio.com/resources/cheatsheets/) are so well done that I have put them all into a single [pdf](./materials/pdf/R_Studio_Cheat_Sheets.pdf) and keep it on my Desktop.   
 - [Computing for Data Analysis](), coursera course.     
-- [Data Science Specialization](https://drive.google.com/file/d/0B8KlNxv-FHyjSzJtWWw1NXNYSE0/view),  slides from all nine courses.       
+- [Data Science Specialization](https://drive.google.com/file/d/0B8KlNxv-FHyjQ0R1QUM0cE4tQm8/view),  slides from all nine courses. Files is too big to view online (130 MB), download first.          
 - [Introduction to Statistical Learning](https://drive.google.com/file/d/0B8KlNxv-FHyjSzJtWWw1NXNYSE0/view),  all slides  from Hastie and Tibshirani videos (James et al., 2013).    
 - [Topics in Computational Data Analysis and Graphics](https://drive.google.com/file/d/0B8KlNxv-FHyjbXhGWGtCbTczSFk/view), slide to Ross Ihaka's course.    
 - [Statistical Computing](./materials/pdf/Ihaka and Murrell (2015) Statistical Computing.pdf), quick review of basic R syntax. 
