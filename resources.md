@@ -4,7 +4,7 @@
 ##Programming in R
 - [Introduction to R](https://www.datacamp.com/courses/introduction-to-r)  by DataCamp. Slick, responsive interface. Great place to start for complete newbies to programming in general.      
 - [Programming with R](http://swcarpentry.github.io/r-novice-inflammation/)  by [Software carpentry](http://software-carpentry.org/) 
-
+- [Introduction to R](http://ateucher.github.io/rcourse_site/)  by [Andy Teucher](https://github.com/ateucher). Great example of github use. Local option.   
 
 ##Data Science
 - [Introduction to data analysis](http://stat405.had.co.nz/) course Hadley Wickham taught at Rice University in 2012    
@@ -15,7 +15,6 @@
 
 ##Statistics
 - [Data Analysis and Statistical Inference](https://www.datacamp.com/courses/data-analysis-and-statistical-inference_mine-cetinkaya-rundel-by-datacamp) by DataCamp.    
-- [Introduction to R](http://ateucher.github.io/rcourse_site/)  by [Andy Teucher](https://github.com/ateucher). Great example of github use. Local option.  
 - [Introduction to Biostatistics](http://stronginference.com/Bios6301/)  taught by [Chris Fonnesbeck](https://github.com/fonnesbeck?tab=repositories) at Vanderbilt University.    
 - Collection of [R Tutorials](http://www.cyclismo.org/tutorial/R/) by Kelly Black at Clarkson Univeristy. Approximately covers an intro to stats undergrad course.  
 - [Statistical Computing for Biostatistics](http://www.biostat.jhsph.edu/~hji/courses/statcomputing/)  by Honkgkai Ji, at Johns Hopkins Bloomberg School of Public Health.    
