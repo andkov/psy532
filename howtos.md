@@ -41,7 +41,7 @@ Mark van der Loo.
 
 ##### stats::lm()
 
-##### stats::glm()htthttps://www.reddit.com/r/rstats/comments/2izyw1/difference_between_glm_and_lm_lmyxz_and_glmyxz/)  
+##### stats::glm() 
 
  - [difference btw lm() and glm()](https://www.reddit.com/r/rstats/comments/2izyw1/difference_between_glm_and_lm_lmyxz_and_glmyxz/)  
  - 
