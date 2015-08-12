@@ -1,12 +1,12 @@
 {
-    "contents" : "\n##Aristotle\n[![aristotle](./libs/images/people/raw/aristotle.jpg)](https://en.wikipedia.org/wiki/Aristotle)  Aristotle (384 – 322 BC)\n\n\n##Bacon\n\n \n[![bacon](./libs/images/people/raw/bacon.jpg)](https://en.wikipedia.org/wiki/Francis_Bacon)    Francis Bacon (1561-Jan-22 : 1626-Apr-9)    \n\n\n##Mill\n[![mill](./libs/images/people/raw/mill.jpg)](https://en.wikipedia.org/wiki/John_Stuart_Mill)  John Stuart Mill (1806-May-20 : 1873-May-8)\n\n\n##Fisher\n[![fisher](./libs/images/people/raw/fisher.jpg)](https://en.wikipedia.org/wiki/Ronald_Fisher)  Ronald Aylmer Fisher (1890-Feb-17 : 1962-Jul-29)  \n\n\n##Tukey\n[![tukey](./libs/images/people/raw/tukey.jpg)](https://en.wikipedia.org/wiki/John_Tukey)  John Wilder Tukey (1915-Jun-16 : 2000-Jul-26) \n\n\n##Thurstone\n[![thurstone](./libs/images/people/raw/thurstone.jpg)](https://en.wikipedia.org/wiki/Louis_Leon_Thurstone)  Louis Leon Thurstone (1887-May-29 : 1955-Sep-30) \n\n##Wickham\n[![wickham](./libs/images/people/raw/wickham.jpg)](https://en.wikipedia.org/wiki/Hadley_Wickham)    \n\n\n\n",
+    "contents" : "\n##Aristotle\n[![aristotle](./libs/images/people/raw/aristotle.jpg)](https://en.wikipedia.org/wiki/Aristotle)  \nAristotle (384 – 322 BC)\n\n\n##Bacon\n\n \n[![bacon](./libs/images/people/raw/bacon.jpg)](https://en.wikipedia.org/wiki/Francis_Bacon)    \nFrancis Bacon (1561 -1626)    \n\n\n##Mill\n[![mill](./libs/images/people/raw/mill.jpg)](https://en.wikipedia.org/wiki/John_Stuart_Mill)  \nJohn Stuart Mill (1806 - 1873)  \n\n\n##Fisher\n[![fisher](./libs/images/people/raw/fisher.jpg)](https://en.wikipedia.org/wiki/Ronald_Fisher)  \nRonald Aylmer Fisher (1890 - 1962)  \n\n\n##Tukey\n[![tukey](./libs/images/people/raw/tukey.jpg)](https://en.wikipedia.org/wiki/John_Tukey)  \nJohn Wilder Tukey (1915 - 2000)  \n\n\n##Thurstone\n[![thurstone](./libs/images/people/raw/thurstone.jpg)](https://en.wikipedia.org/wiki/Louis_Leon_Thurstone)  \nLouis Leon Thurstone (1887 - 1955) \n\n##Wickham\n[![wickham](./libs/images/people/raw/wickham.jpg)](https://en.wikipedia.org/wiki/Hadley_Wickham)    \nHadley Wickham \n\n\n\n",
     "created" : 1439407787555.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3372142515",
+    "hash" : "3302359587",
     "id" : "EB4AC66",
-    "lastKnownWriteTime" : 1439410738,
+    "lastKnownWriteTime" : 1439411266,
     "path" : "~/GitHub/psy532/people.md",
     "project_path" : "people.md",
     "properties" : {
