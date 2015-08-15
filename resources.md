@@ -40,23 +40,31 @@
 
 
 ##Goto places 
-- [A GOOD PLACE TO START LEARNING R](http://www.rstudio.com/resources/training/online-learning/): RStudio team collects the best online resources. Check out every link they mention, it's worth it.    
+- [Online Learning](http://www.rstudio.com/resources/training/online-learning/) by RStudio team,  a continuously updated collection of learning reasorces.    
 - [Quick-R](http://www.statmethods.net/) - thorough and convenient resource for R reference. One of the first results to show up in search engines.   
 - [R by Example](http://www.mayin.org/ajayshah/KB/R/) organized example scripts.   
 - [Most useful R commands](http://www.personality-project.org/r/r.commands.html) according to [personality-project.org](http://www.personality-project.org/index.html) ([William Revelle](http://www.personality-project.org/revelle.html)).  
 - [areaF](https://github.com/andkov/areaF/blob/master/concept.md) is a visual display of ANOVA table, comparing and contrasting the properties of restricted (basic, null) and full(saturated, alternative) models.  
 
 
-## Videos
+##Multimedia
 
 ###Collections
+- [Hastie and Tibshirani](http://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/) narrate their book.  Arranged by Data School. 
 - [twotorials](http://www.twotorials.com/) A collection of video tutorials on R
-- [Hastie and Tibshirani](http://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/) narrate their book.   
+ 
 
-###Particulars
+###Video
 - [lady tasting tea](https://www.youtube.com/watch?v=lgs7d5saFFc) short video on designing experiment in words of R.A. Fisher.    
 - [dude tapping bear](https://www.youtube.com/watch?v=bVMVGHkt2cg) or p-value extravaganza.   
 
+###Audio
+ 
+ - [Baconian Science](http://www.bbc.co.uk/programmes/b00jdb6c) episode of *In Our Time Science* by BBC4.   
+
+ - [Induction](http://www.bbc.co.uk/programmes/b04hvrr5) episode of *The Philosopher's Arms* by BBC4.  
+ 
+ - C-SPAN Booknotes: An [hour-long interview](http://www.booknotes.org/Watch/181230-1/Nicholas+Capaldi.aspx) with Nicholas Capaldi, the author of "*John Stuart Mill: A Biography*" , [publisher](http://www.cambridge.org/ca/academic/subjects/philosophy/nineteenth-century-philosophy/john-stuart-mill-biography) [amazon](http://www.amazon.ca/John-Stuart-Mill-Nicholas-Capaldi-ebook/dp/B001CP9LO8/ref=sr_1_2?ie=UTF8&qid=1439638025&sr=8-2&keywords=John+Stuart+Mill%3A+A+Biography), [google books](https://books.google.ca/books/about/John_Stuart_Mill.html?id=rq-tLkiXsdUC&redir_esc=y). 
 
 ##Data 
 
