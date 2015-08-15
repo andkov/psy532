@@ -1,8 +1,8 @@
 Reproducible Research requires fou4 sets of skills:  
-1. Data Manipulation  
-2. Graph Production  
-3. Statistical Modeling  
-4. Dynamic Reporting  
+1. [Data Management](./skills.md#Data-Management)  
+2. [Graph Production](./skills.md#Graph-Production)  
+3. [Statistical Modeling](./skills.md#Statistical-Modeling)  
+4. [Dynamic Reporting](./skills.md#Dynamic-Reporting)  
 
 You can review my discussion of toolbox and skillset of reproducible research in slides and videoes [here](http://ialsa.github.io/COAG-colloquium-2014F/)
 
@@ -10,20 +10,20 @@ You can review my discussion of toolbox and skillset of reproducible research in
 #Skill sets
   Links grouped by the skillset. 
 
-##
 
-## Data Management
+
+##Data Management
 
 -  [Introduction to data cleaning in R](http://cran.r-project.org/doc/contrib/de_Jonge+van_der_Loo-Introduction_to_data_cleaning_with_R.pdf), a discussion paper by Edwin de Jonge and 
 Mark van der Loo.
 
-- 
+ 
 
 
 
 
 
-## Graph Production
+##Graph Production
 - Winston Chang's [R Graphics Cookbook](http://www.cookbook-r.com/) is a perfect book to get you started with producing graphs with RStudio.  
 - [ggplots for publication](http://www.noamross.net/blog/2013/11/20/formatting-plots-for-pubs.html).  
 
@@ -32,7 +32,7 @@ Mark van der Loo.
 
 
 
-## Statistical Modeling 
+##Statistical Modeling 
    - Doug Bates on statistical modeling with Julia([video](https://www.youtube.com/watch?v=v9Io-p_iymI)   
 
 ### Package support  
@@ -73,7 +73,7 @@ Mark van der Loo.
 
 
 
-## Dynamic reporting
+##Dynamic Reporting
 
 ###Git and GitHub
 - [GitHub cheat sheet](https://github.com/justmarkham/github-cheat-sheet) by Kevin Markham. All issues have screen-shots. More resources in the README after the link.
