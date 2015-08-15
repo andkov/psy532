@@ -49,7 +49,7 @@ Mark van der Loo.
 
 ##### Function stats::glm() 
 
- - [difference btw lm() and glm()](https://www.reddit.com/r/rstats/comments/2izyw1/difference_between_glm_and_lm_lmyxz_and_glmyxz/)  
+ - Comparing functions [stats::lm() vs stats::glm()](https://www.reddit.com/r/rstats/comments/2izyw1/difference_between_glm_and_lm_lmyxz_and_glmyxz/)  
  
 #### Package lme4::  
  - lme4::lmer()  
@@ -61,7 +61,7 @@ Mark van der Loo.
  
 ##### Function nlme::lme()
 
- - [nlme::gls() vs. nlme::lme() in the nlme package](http://stackoverflow.com/questions/1395102/gls-vs-lme-in-the-nlme-package)  
+ - Comparing functions [nlme::gls() vs. nlme::lme()](http://stackoverflow.com/questions/1395102/gls-vs-lme-in-the-nlme-package)  
 
 
 
@@ -82,12 +82,13 @@ Mark van der Loo.
 
 
 ### Markdown
+- in-browser [markdown simulator](https://demo.ocpu.io/markdownapp/www/), created in javascript by  [Jeroen Ooms](http://jeroenooms.github.io/). Great for playing with markdown formatting and doing simple tasks and demonstrations in R without installation.
+
 - [markdown in R](http://jeromyanglim.blogspot.ca/2012/05/getting-started-with-r-markdown-knitr.html) : a blog entry on getting started with **rmarkdown** - a version of markdown enhanced for the use with RStudio.  By Jeromy Anglim.
 - [markdown guide](http://daringfireball.net/projects/markdown/) : a well-written "breaking into" guide. Gives ample verbal description. Recommended for newbies. By John Gruber.  
-- [markdown cheat-sheet](http://support.mashery.com/docs/customizing_your_portal/Markdown_Cheat_Sheet) : brief, simple, parallel view of what the code is doing.By Mashery group.   
-*Simulators*  
-- in-browser[markdown simulator](https://demo.ocpu.io/markdownapp/www/), created in javascript by  [Jeroen Ooms](http://jeroenooms.github.io/). Great for immediate feedback on finding the right line editing.   
-- another good [simulator](http://markdown-here.com/livedemo.html) with a different feel.
+- [markdown cheat-sheet](http://support.mashery.com/docs/customizing_your_portal/Markdown_Cheat_Sheet) : brief, simple, parallel view of what the code is doing. By Mashery group.   
+
+- another [markdown simulator](http://markdown-here.com/livedemo.html) with a different feel. You can't run R script in here, but it's good for understanding the formatting. Give a link to a decent cheatsheet on markdown. 
 
 
 ### Rmarkdown
