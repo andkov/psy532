@@ -1,4 +1,10 @@
-#Class Participation
+Reproducible Research requires fou4 sets of skills:  
+1. Data Manipulation  
+2. Graph Production  
+3. Statistical Modeling  
+4. Dynamic Reporting  
+
+You can review my discussion of toolbox and skillset of reproducible research in slides and videoes [here](http://ialsa.github.io/COAG-colloquium-2014F/)
 
 
 #Skill sets
@@ -31,29 +37,29 @@ Mark van der Loo.
 
 ### Package support  
 
-#### dplyr::
+#### Package dplyr::
 - [Introduction to dplyr](https://cran.r-project.org/web/packages/dplyr/vignettes/introduction.html) the official vignette of the package.  
 - [Tutorials for the dplyr package in R](https://github.com/justmarkham/dplyr-tutorial) by [Kevin Markham](https://github.com/justmarkham)
 - A work-along scripts following Wickham's [Tidy data](https://github.com/justmarkham/tidy-data) paper, but re-doing it in dplyr. 
 
 
-#### stats::
+#### Package stats::
 
-##### stats::lm()
+##### Function stats::lm()
 
-##### stats::glm() 
+##### Function stats::glm() 
 
  - [difference btw lm() and glm()](https://www.reddit.com/r/rstats/comments/2izyw1/difference_between_glm_and_lm_lmyxz_and_glmyxz/)  
- - 
-
-#### lme4::  
+ 
+#### Package lme4::  
  - lme4::lmer()  
 
-#### nlme::
-##### nlme::gls()  
+#### Package nlme::
+
+##### Function nlme::gls()  
  -    
  
-##### nlme::lme()
+##### Function nlme::lme()
 
  - [nlme::gls() vs. nlme::lme() in the nlme package](http://stackoverflow.com/questions/1395102/gls-vs-lme-in-the-nlme-package)  
 
@@ -84,6 +90,8 @@ Mark van der Loo.
 - another good [simulator](http://markdown-here.com/livedemo.html) with a different feel.
 
 
+### Rmarkdown
+- see the official [documentation](http://rmarkdown.rstudio.com/) by RStudio, best starting point IMHO
 
 ### Slides  
 - RStudio provides a native format for creating presentations - **.Rpres**, availible in the "New file" option. For a quick start with .Rpres see this [article](https://support.rstudio.com/hc/en-us/articles/200486468-Authoring-R-Presentations)
