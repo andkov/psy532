@@ -14,11 +14,11 @@ Oct 1  |	|7 |Big Picture. Paper discussion. Review. |Rodgers, 2010  |  |  |
 05     |5	|8 |Exam I.  |  |  | |     
 08     |	|9 |Debrief Exam I.  |  |  | |     	
 12     |6	|--| **Thanksgiving**  |  |  | |    
-15     |	|10|  |  |  |  |   
-19     |7 |11|  |  |  |  |   
-22     |	|12|  |  |  |  |    
-26     |8	|13|  |  |  |  | 
-29     |	|14| Reading Day | Wickham, 2014  |  | Academic Drop Deadline (Oct 31)  | 
+15     |	|10| Regression Strategies | James 6  |  |  |
+19     |7 |11| Beyond Linearity | James 7  |  |  |   
+22     |	|12| Longitudinal Models |  |  |  |    
+26     |8	|13| Longitudinal Models  |  |  |  | 
+29     |	|14| **Reading Day**  | Wickham, 2014  |  | Academic Drop Deadline (Oct 31)  | 
 Nov 02 |9	|15| "Tidy data" discussion. Review.  |  |  |  |      	
 05     |	|16| |  |  |  |   
 09     |10|--| **Reading Week**  |  |  |  |   

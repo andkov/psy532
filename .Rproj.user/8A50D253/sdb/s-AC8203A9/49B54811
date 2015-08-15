@@ -1,0 +1,18 @@
+{
+    "contents" : "# Calendar \n\n\nDate   |Week|Meet-up | Topics  | Reading | Swirl | Due\n-------|----|------|---------|---------|--------------------|---|      \nSep 07 |1 |--| **Labour Day**  |  |  |  |  \n10     |\t|1 | Course mechanics. Big Picture. | James 1  |  |  |   \n14     |2 |2 |Theory: Big Picture.    | James 2  |  |  |   \n17     |\t|3 |Toolboox and Skillset of Data Science.  |James 2  |  |  |   \n21     |3\t|4 |Theory:    |James 3  |  |  |   \n24     |\t|5 |Theory:   |James 3  |  |  |   \n28     |4\t|6 |Theory:   |James 3  |  |  |       \t\nOct 1  |\t|7 |Big Picture. Paper discussion. Review. |Rodgers, 2010  |  |  |   \n05     |5\t|8 |Exam I.  |  |  | |     \n08     |\t|9 |Debrief Exam I.  |  |  | |     \t\n12     |6\t|--| **Thanksgiving**  |  |  | |    \n15     |\t|10| Regression Strategies | James 6  |  |  |\n19     |7 |11| Beyond Linearity | James 7  |  |  |   \n22     |\t|12| Longitudinal Models |  |  |  |    \n26     |8\t|13| Longitudinal Models  |  |  |  | \n29     |\t|14| **Reading Day**  | Wickham, 2014  |  | Academic Drop Deadline (Oct 31)  | \nNov 02 |9\t|15| \"Tidy data\" discussion. Review.  |  |  |  |      \t\n05     |\t|16| |  |  |  |   \n09     |10|--| **Reading Week**  |  |  |  |   \n12     |\t|--| Exam II |  |  |  |   \n16     |11|17| Debrief Exam II |  |  |  |   \n19     |\t|18| Production: Reports |  |  |  |   \n23     |12|19| Production: Reports |  |  |  |   \n26     |\t|20| Production: Slides |  |  |  |   \n30     |13|21| Production: Slides |  |  |  |   \nDec 03 |\t|22| Production: Poster |  |  |  |   \n07     |14|23| **Finals Week**  |  |  |  |   \n10     |  |23| **Student Presentation**  |  |  |  |   ",
+    "created" : 1438797151486.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "577045699",
+    "id" : "49B54811",
+    "lastKnownWriteTime" : 1439667992,
+    "path" : "~/GitHub/psy532/calendar.md",
+    "project_path" : "calendar.md",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "markdown"
+}
