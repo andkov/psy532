@@ -19,8 +19,7 @@ John Stuart Mill (1806 - 1873)
 
 
 ##Fisher
-[![fisher](../../libs/images/people/raw/fisher.jpg)](https://en.wikipedia.org/wiki/Ronald_Fisher)   
-[![mill](../../libs/images/people/raw/fisher2.jpg)](https://en.wikipedia.org/wiki/John_Stuart_Mill)   
+[![fisher](../../libs/images/people/raw/fisher2.jpg)](https://en.wikipedia.org/wiki/Ronald_Fisher)   
 Ronald Aylmer Fisher (1890 - 1962)  
 
 ##Tukey
