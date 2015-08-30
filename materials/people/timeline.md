@@ -45,7 +45,7 @@
 - [1886 - Regression towards mediocrity in hereditary stature](https://books.google.ca/books?id=JPcRAAAAYAAJ&pg=PA246&hl=en#v=onepage&q&f=false)
 - [Account of the Invention of Correlation](http://projecteuclid.org/download/pdf_1/euclid.ss/1177012580)
 
-## Karl Pearson
+##Karl Pearson
 - [1857-1936](https://en.wikipedia.org/wiki/Karl_Pearson)  
 - [1895 - Note on Regression and Inheritance](http://rspl.royalsocietypublishing.org/content/58/347-352/240.full.pdf+html) 
 
