@@ -28,11 +28,11 @@ John Wilder Tukey (1915 - 2000)
 
 
 ##Thurstone
-[![thurstone](./libs/images/people/raw/thurstone.jpg)](https://en.wikipedia.org/wiki/Louis_Leon_Thurstone)  
+[![thurstone](../../libs/images/people/raw/thurstone.jpg)](https://en.wikipedia.org/wiki/Louis_Leon_Thurstone)  
 Louis Leon Thurstone (1887 - 1955) 
 
 ##Wickham
-[![wickham](./libs/images/people/raw/wickham.jpg)](https://en.wikipedia.org/wiki/Hadley_Wickham)    
+[![wickham](../../libs/images/people/raw/wickham.jpg)](https://en.wikipedia.org/wiki/Hadley_Wickham)    
 Hadley Wickham 
 
 
