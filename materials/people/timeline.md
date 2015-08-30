@@ -30,14 +30,33 @@
 ##Karl Popper
 - [1902-1994](https://en.wikipedia.org/wiki/Karl_Popper)
 - [1934 - The Logic of Scientific Discovery](https://en.wikipedia.org/wiki/The_Logic_of_Scientific_Discovery) 
- 
+
+##Thomas Kuhn
+- [1922-1996](https://en.wikipedia.org/wiki/Thomas_Kuhn)  
+- [1962 - The Structure of Scientific Revolutions](https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions) 
 
 
 ##John Stewart Mill
 - [1806-1873](https://en.wikipedia.org/wiki/John_Stuart_Mill) 
 - [1843 - A System of Logic](https://en.wikipedia.org/wiki/A_System_of_Logic)  
 
+##Francis Galton
+- [1822-1911](https://en.wikipedia.org/wiki/Francis_Galton)
+- [1886 - Regression towards mediocrity in hereditary stature](https://books.google.ca/books?id=JPcRAAAAYAAJ&pg=PA246&hl=en#v=onepage&q&f=false)
+- [Account of the Invention of Correlation](http://projecteuclid.org/download/pdf_1/euclid.ss/1177012580)
 
+## Karl Pearson
+- [1857-1936](https://en.wikipedia.org/wiki/Karl_Pearson)  
+- [1895 - Note on Regression and Inheritance](http://rspl.royalsocietypublishing.org/content/58/347-352/240.full.pdf+html) 
 
+##Ronald Fisher
+- [1890-1962](https://en.wikipedia.org/wiki/Ronald_Fisher)  
+- [1921, 1923 - Studies in Crop Variantion](https://drmc.library.adelaide.edu.au/dspace/bitstream/2440/15179/1/32.pdf)  
+- [1935 - Design of Experiments](https://en.wikipedia.org/wiki/The_Design_of_Experiments)  
 
-- [
+##John Tukey 
+- [1915-2000](https://en.wikipedia.org/wiki/John_Tukey)  
+- [1977 - Exploratory Data Analysis](https://scholar.google.ca/scholar?q=author%3Atukey+exploratory+data+analysis&btnG=&hl=en&as_sdt=0%2C5)  
+ 
+
+ 
