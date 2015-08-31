@@ -24,9 +24,10 @@ My notes and comments about available (2015-Jun-18) swirl courses
  
  
 # Notes
+Number 1 to 9 represent course in the Coursera's Data Science Track. Swirl courses 4a, 6a, and 10 are unique to the swirl repository. 
 
 ## 1: The Data Scientist’s Toolbox
-
+- Coursera's Data Science track, swirl course 
  
 ## 2: R Programming
   1: Basic Building Blocks        
@@ -71,7 +72,7 @@ My notes and comments about available (2015-Jun-18) swirl courses
   
 
 ## 5: Reproducible Research 
-  
+- Coursera's Data Science track, swirl course   
 
 ## 6: Statistical Inference
   1: [Introduction](https://github.com/swirldev/swirl_courses/blob/master/Statistical_Inference/Introduction/lesson)               
@@ -105,9 +106,10 @@ My notes and comments about available (2015-Jun-18) swirl courses
   13: Count Outcomes   
   
 ## 8:  Practical Machine Learning
+- Coursera's Data Science track, swirl course 
 
 ##  9: Developing Data Products
-  
+- Coursera's Data Science track, swirl course   
   
 ## 4a: Data Analysis
   1: [Central Tendency](https://github.com/swirldev/swirl_courses/blob/master/Data_Analysis/Central_Tendency/lesson.yaml)   
