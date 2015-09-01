@@ -1,7 +1,7 @@
 # Calendar 
 
 
-Date   |Week|Meet-up | Topics  | Reading | Swirl | Due
+Date   |Week|Meet-up | Topic  | Support | Homework | Practice
 -------|----|------|---------|---------|--------------------|---|      
 Sep 07 |1 |--| **Labour Day**  |  |  |  |  
 10     |	|1 | Course mechanics. Big Picture. | James 1  |  |  |   
