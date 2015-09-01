@@ -1,0 +1,17 @@
+{
+    "contents" : " \nGLM tree\n\n|   |   |   |   |   |\n|---|---|---|---|---|\n|   |   |   |   |   |\n|   |   |   |   |   |\n|   |   |   |   |   |\n ",
+    "created" : 1441121603228.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "780050852",
+    "id" : "E6B52133",
+    "lastKnownWriteTime" : 1441121758,
+    "path" : "~/GitHub/psy532/materials/glm_tree.md",
+    "project_path" : "materials/glm_tree.md",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "markdown"
+}

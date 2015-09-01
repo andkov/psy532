@@ -18,7 +18,7 @@ Please visit
 - [Skills](./skills.md) for practical R knowledge
 - [Forest](./forest.md) for a big picture  
 - [Trees](./trees.md) for the details   
-- [People](./people.md) for key individuals  
+- [People](./materials/people.md) for key individuals  
 - [Policy](./policy.md) for IMPORTANT COURSE POLICY INFORMATION 
 </br>
 - [Projects](./projects/README.md) for students' work  
