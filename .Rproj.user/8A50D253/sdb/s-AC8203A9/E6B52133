@@ -1,12 +1,12 @@
 {
-    "contents" : " \nGLM tree\n\n|   |   |   |   |   |\n|---|---|---|---|---|\n|   |   |   |   |   |\n|   |   |   |   |   |\n|   |   |   |   |   |\n ",
+    "contents" : " \nGLM tree\n\n|   |   |   |   |   |\n|---|---|---|---|---|\n|   |   |   |   |   |\n|$Y{i_j} = \\alpha  + {\\beta _1} + {\\varepsilon _{ij}}$   |   |   |   |   |\n|   |   |   |   |   |\n ",
     "created" : 1441121603228.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "780050852",
+    "hash" : "955018482",
     "id" : "E6B52133",
-    "lastKnownWriteTime" : 1441121758,
+    "lastKnownWriteTime" : 1441122060,
     "path" : "~/GitHub/psy532/materials/glm_tree.md",
     "project_path" : "materials/glm_tree.md",
     "properties" : {
