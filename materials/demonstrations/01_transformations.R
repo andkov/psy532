@@ -20,6 +20,9 @@ library(ISLR)
 ## @knitr load_data
 # https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/women.html
 ds <- datasets::women
+ds$id <- seq_along(ds$height)
+ds <- ds[,c("id","height","weight")]
+ds
 
 ## @knitr inspect_ds
 str(ds)
@@ -47,8 +50,8 @@ ds <- ds[!(names(ds) %in% drop)]
 
 
 ## @knitr
-ds <- datasets::women
-ds <- ds[-2]
+# ds <- datasets::women
+# ds <- ds[-2]
 
 ## @knitr
 Mh <- mean(ds$height)

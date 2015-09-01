@@ -1,6 +1,44 @@
 [edit me](https://github.com/andkov/psy532/edit/master/resources.md)  
 
 
+##Multimedia
+
+###Collections
+- [Hastie and Tibshirani](http://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/) narrate their book.  Arranged by Data School. See also the [solutions](http://blog.princehonest.com/stat-learning/) to their exercises
+- [twotorials](http://www.twotorials.com/) A collection of brief video tutorials on bits and pieces of all things R. Very useful for targeted reference.   
+ 
+
+###Video
+- [lady tasting tea](https://www.youtube.com/watch?v=lgs7d5saFFc) short video on designing experiment in words of R.A. Fisher.    
+- [dude tapping bear](https://www.youtube.com/watch?v=bVMVGHkt2cg) or p-value extravaganza.   
+- C-SPAN Booknotes: An [hour-long interview](http://www.booknotes.org/Watch/181230-1/Nicholas+Capaldi.aspx) with Nicholas Capaldi, the author of "*John Stuart Mill: A Biography*" , [publisher](http://www.cambridge.org/ca/academic/subjects/philosophy/nineteenth-century-philosophy/john-stuart-mill-biography) [amazon](http://www.amazon.ca/John-Stuart-Mill-Nicholas-Capaldi-ebook/dp/B001CP9LO8/ref=sr_1_2?ie=UTF8&qid=1439638025&sr=8-2&keywords=John+Stuart+Mill%3A+A+Biography), [google books](https://books.google.ca/books/about/John_Stuart_Mill.html?id=rq-tLkiXsdUC&redir_esc=y). 
+
+
+###Audio
+ 
+ - [Baconian Science](http://www.bbc.co.uk/programmes/b00jdb6c) episode of *In Our Time Science* by BBC4.   
+
+ - [Induction](http://www.bbc.co.uk/programmes/b04hvrr5) episode of *The Philosopher's Arms* by BBC4.  
+ 
+##Handy PDFs
+- [RStudio cheatsheets](http://www.rstudio.com/resources/cheatsheets/) are so well done that I have put them all into a single [pdf](./materials/pdf/R_Studio_Cheat_Sheets.pdf) and keep it on my Desktop.   
+- [Computing for Data Analysis](), coursera course.     
+- [Data Science Specialization](https://drive.google.com/file/d/0B8KlNxv-FHyjQ0R1QUM0cE4tQm8/view),  slides from all nine courses. Files is too big to view online (130 MB), download first.          
+- [Introduction to Statistical Learning](https://drive.google.com/file/d/0B8KlNxv-FHyjSzJtWWw1NXNYSE0/view),  all slides  from Hastie and Tibshirani videos (James et al., 2013).    
+- [Topics in Computational Data Analysis and Graphics](https://drive.google.com/file/d/0B8KlNxv-FHyjbXhGWGtCbTczSFk/view), slide to Ross Ihaka's course.    
+- [Statistical Computing](./materials/pdf/Ihaka and Murrell (2015) Statistical Computing.pdf), quick review of basic R syntax. 
+- [Introduction to data analysis](https://drive.google.com/file/d/0B8KlNxv-FHyjdTE3OVhad3kzSE0/view), Hadley Wickham's slides from Rice University.   
+
+
+##Goto places 
+- [Online Learning](http://www.rstudio.com/resources/training/online-learning/) by RStudio team,  a continuously updated collection of learning reasorces.    
+- [Quick-R](http://www.statmethods.net/) - thorough and convenient resource for R reference. One of the first results to show up in search engines.   
+- [R by Example](http://www.mayin.org/ajayshah/KB/R/) organized example scripts.   
+- [Most useful R commands](http://www.personality-project.org/r/r.commands.html) according to [personality-project.org](http://www.personality-project.org/index.html) ([William Revelle](http://www.personality-project.org/revelle.html)).  
+- [areaF](https://github.com/andkov/areaF/blob/master/concept.md) is a visual display of ANOVA table, comparing and contrasting the properties of restricted (basic, null) and full(saturated, alternative) models.  
+
+
+
 ##Programming in R
 - [Introduction to R](https://www.datacamp.com/courses/introduction-to-r)  by DataCamp. Slick, responsive interface. Great place to start for complete newbies to programming in general.      
 - [Programming with R](http://swcarpentry.github.io/r-novice-inflammation/)  by [Software carpentry](http://software-carpentry.org/) 
@@ -29,42 +67,7 @@
 - [rbloggers](http://www.r-bloggers.com/) central hub for blogging about data science with R.    
 
 
-##Handy PDFs
-- [RStudio cheatsheets](http://www.rstudio.com/resources/cheatsheets/) are so well done that I have put them all into a single [pdf](./materials/pdf/R_Studio_Cheat_Sheets.pdf) and keep it on my Desktop.   
-- [Computing for Data Analysis](), coursera course.     
-- [Data Science Specialization](https://drive.google.com/file/d/0B8KlNxv-FHyjQ0R1QUM0cE4tQm8/view),  slides from all nine courses. Files is too big to view online (130 MB), download first.          
-- [Introduction to Statistical Learning](https://drive.google.com/file/d/0B8KlNxv-FHyjSzJtWWw1NXNYSE0/view),  all slides  from Hastie and Tibshirani videos (James et al., 2013).    
-- [Topics in Computational Data Analysis and Graphics](https://drive.google.com/file/d/0B8KlNxv-FHyjbXhGWGtCbTczSFk/view), slide to Ross Ihaka's course.    
-- [Statistical Computing](./materials/pdf/Ihaka and Murrell (2015) Statistical Computing.pdf), quick review of basic R syntax. 
-- [Introduction to data analysis](https://drive.google.com/file/d/0B8KlNxv-FHyjdTE3OVhad3kzSE0/view), Hadley Wickham's slides from Rice University.   
 
-
-##Goto places 
-- [Online Learning](http://www.rstudio.com/resources/training/online-learning/) by RStudio team,  a continuously updated collection of learning reasorces.    
-- [Quick-R](http://www.statmethods.net/) - thorough and convenient resource for R reference. One of the first results to show up in search engines.   
-- [R by Example](http://www.mayin.org/ajayshah/KB/R/) organized example scripts.   
-- [Most useful R commands](http://www.personality-project.org/r/r.commands.html) according to [personality-project.org](http://www.personality-project.org/index.html) ([William Revelle](http://www.personality-project.org/revelle.html)).  
-- [areaF](https://github.com/andkov/areaF/blob/master/concept.md) is a visual display of ANOVA table, comparing and contrasting the properties of restricted (basic, null) and full(saturated, alternative) models.  
-
-
-##Multimedia
-
-###Collections
-- [Hastie and Tibshirani](http://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/) narrate their book.  Arranged by Data School. 
-- [twotorials](http://www.twotorials.com/) A collection of video tutorials on R
- 
-
-###Video
-- [lady tasting tea](https://www.youtube.com/watch?v=lgs7d5saFFc) short video on designing experiment in words of R.A. Fisher.    
-- [dude tapping bear](https://www.youtube.com/watch?v=bVMVGHkt2cg) or p-value extravaganza.   
-
-###Audio
- 
- - [Baconian Science](http://www.bbc.co.uk/programmes/b00jdb6c) episode of *In Our Time Science* by BBC4.   
-
- - [Induction](http://www.bbc.co.uk/programmes/b04hvrr5) episode of *The Philosopher's Arms* by BBC4.  
- 
- - C-SPAN Booknotes: An [hour-long interview](http://www.booknotes.org/Watch/181230-1/Nicholas+Capaldi.aspx) with Nicholas Capaldi, the author of "*John Stuart Mill: A Biography*" , [publisher](http://www.cambridge.org/ca/academic/subjects/philosophy/nineteenth-century-philosophy/john-stuart-mill-biography) [amazon](http://www.amazon.ca/John-Stuart-Mill-Nicholas-Capaldi-ebook/dp/B001CP9LO8/ref=sr_1_2?ie=UTF8&qid=1439638025&sr=8-2&keywords=John+Stuart+Mill%3A+A+Biography), [google books](https://books.google.ca/books/about/John_Stuart_Mill.html?id=rq-tLkiXsdUC&redir_esc=y). 
 
 ##Data 
 
