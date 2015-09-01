@@ -89,6 +89,8 @@ Mark van der Loo.
 - [markdown cheat-sheet](http://support.mashery.com/docs/customizing_your_portal/Markdown_Cheat_Sheet) : brief, simple, parallel view of what the code is doing. By Mashery group.   
 
 - another [markdown simulator](http://markdown-here.com/livedemo.html) with a different feel. You can't run R script in here, but it's good for understanding the formatting. Give a link to a decent cheatsheet on markdown. 
+- [MultiMarkdown](https://github.com/fletcher/MultiMarkdown/blob/master/Documentation/MultiMarkdown%20User's%20Guide.md) allows for mathematical formulas and other features   
+
 
 
 ### Rmarkdown
