@@ -1,0 +1,18 @@
+{
+    "contents" : "cat(\"\\f\")\nrm(list=ls(all=TRUE)) #Clear the memory of variables from previous run. This is not called by knitr, because it's above the first chunk.\noptions(digits = 3)\n\n## @knitr load_sources\n\n\n\n## @knitr load_packages\nlibrary(dplyr) # for data manipulation\nlibrary(ggplot2) # for graphing\nlibrary(scales) #for formating values in graphs\nlibrary(HistData)\nlibrary(testit, quietly=TRUE) #For asserts\nlibrary(ISLR)\n\n## @knitr declare_globals\n\n\n## @knitr load_data\n# https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/women.html\nds <- datasets::women\nds$id <- seq_along(ds$height)\nds <- ds[,c(\"id\",\"height\",\"weight\")]\nds\n\n## @knitr inspect_ds\nstr(ds)\nhead(ds, 15)\n\n## @knitr tweak_data\n\n\n## @knitr in_to_cm\nds$h_cm <- ds$height * 2.54\n## @knitr lbs_to_kg\nds$w_kg <- ds$weight * .454 \n\n## @knitr into_z\nds$h_z <- (ds$height - mean(ds$height))/sd(ds$height)\nds$w_z <- (ds$weight - mean(ds$weight))/sd(ds$weight)\n\n## @knitr scale_function\nds$h_s <- base::scale(ds$height, center = TRUE, scale = TRUE)\nds$w_s <- base::scale(ds$weight, center = TRUE, scale = TRUE)\n\n## @knitr remove_column_from_ds\ndrop <- c(\"h_s\",\"w_s\")\nds <- ds[!(names(ds) %in% drop)]\n\n\n## @knitr\n# ds <- datasets::women\n# ds <- ds[-2]\n\n## @knitr\nMh <- mean(ds$height)\nMw <- mean(ds$weight)\nMh; Mw\n\n## @knitr\nSDh <- sd(ds$height)\nSDw <- sd(ds$weight)\nSDh; SDw\n\n## @knitr\nds$mean <-mean(ds$height)\nds$SD <- sd(ds$height)\nds$deviation <- ds$mean - ds$height\nds$z <- ds$deviation / ds$SD\nds\n\n## @kntir basic_table\n\n\n## @knitr basic_graph\n\n\n\nm1 <- lm(height ~ 1, ds)\n\nds$m1 <- predict(m1)\nds\n\n\nm1a <- lm(z ~ 1, ds)\nds$m1a <- predict(m1a)\nds\n\n\n\n\n##################### dev script below this line\n\n\n\n\n\n\n\n\n\n\n\n",
+    "created" : 1441123022259.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2467380682",
+    "id" : "F86D369E",
+    "lastKnownWriteTime" : 1441149939,
+    "path" : "~/GitHub/psy532/materials/demonstrations/01_transformations.R",
+    "project_path" : "materials/demonstrations/01_transformations.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

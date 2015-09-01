@@ -1,0 +1,18 @@
+{
+    "contents" : "# Calendar \n\n\nDate   | Topic                    | Reading        |Points (350) | Notes\n-------|--------------------------|----------------|----------|---------|\nSep 07 |**Labour Day**            |                |  |  |  \n10     |Syllabus. Intro.          |James 1         |  |  |   \n14     |History & Philosophy      |M&D 1, James 2  |  |  |   \n17     |Threats to Validity       |M&D 2, James 2  |Homework 1 (20)  |  |   \n21     |History of GLM            |M&D 2           |  |  | \n24     |Anatomy of GLM            |M&D 3, James 3  |  |  |   \n28     |Model Comparison          |M&D 3, James 3  |  |  |       \t\nOct 1  |Modeling                  |Rodgers, 2010   |Homework 2 (30)  |  |   \n05     |EXAM I.Test               |                |EXAM I (50)  |  |     \n08     |EXAM I.Debriefing         |                |  |  |     \t\n12     |**Thanksgiving**          |                |  |  |    \n15     |Regression Strategies     |James 6         |  |  |\n19     |Interactions &Nonlinearity|James 7         |  |  |   \n22     |Longitudinal Models       |M&D 8           |  |  |    \n26     |Tidy Data                 |Wickham, 2014   |Homework 3 (40)  |  | \n29     |**No class**              |                |  | Academic Drop Deadline (Oct 31)  | \nNov 02 |Discussion. Review        |                |  |  |      \t\n05     |Exam II.Test              |                |EXAM II (100)  |  |   \n09     |**Reading Week**          |                |  |  |   \n12     |EXAM II. Debriefing       |                |  |  |   \n16     |Production: Reports       |                |  |  |   \n19     |Production: Reports       |                |Reports (40)  |  |   \n23     |Production: Slides        |                |  |  |   \n26     |**No class**              |                |  |  |   \n30     |Production: Poster        |                |  |  |   \nDec 03 |**Student Presentations** |                |Slides (20)  |  |   \n07     |**Rest Day **             |                |  |  |   \n10     |**Student Posters**       |                |Posters (30)  |  |   \n",
+    "created" : 1441127427331.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2876379674",
+    "id" : "E7AD20F9",
+    "lastKnownWriteTime" : 1441149937,
+    "path" : "~/GitHub/psy532/calendar.md",
+    "project_path" : "calendar.md",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "type" : "markdown"
+}
