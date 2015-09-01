@@ -40,7 +40,7 @@ Number 1 to 9 represent course in the Coursera's Data Science Track. Swirl cours
   8: Logic                   
   9: Functions                 
   10: lapply and sapply       
-  11: vapply and tapp ly         
+  11: [vapply and tapply](https://github.com/swirldev/swirl_courses/blob/master/R_Programming/lapply_and_sapply/lesson.yaml)         
   12: Looking at Data         
   13: Simulation                
   14: Dates and Times         
