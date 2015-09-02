@@ -13,7 +13,6 @@
 - [ITSL: videos](http://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/) Hastie and Tibshirani narrate their book.  Arranged by Data School. See also the [solutions](http://blog.princehonest.com/stat-learning/) to their exercises
 - [twotorials video](http://www.twotorials.com/) compact video tutorials on bits and pieces of all things R. Very useful for targeted reference. 
 - [Google R videos ](http://www.r-bloggers.com/google-developers-r-programming-video-lectures/) - Google Developers R Programming Video Lectures series. 
-
 - [R Tutorials](http://www.cyclismo.org/tutorial/R/) by Kelly Black at Clarkson Univeristy. Approximately covers an intro to stats undergrad course.   
 - [R by Example](http://www.mayin.org/ajayshah/KB/R/) organized example scripts.  
 
@@ -31,23 +30,33 @@
 ##Courses
 
 
-##Data Science
-- [Swirl courses](https://github.com/swirldev/swirl_courses) and my [annotations](./materials/swirl/course_notes.md) to them. [quick start with swirl](./materials/swirl/quickstart.md). Most of the courses overlap with (*DSS*), giving the same material in the interactive environment of RStudio. It also have unique courses, which number is expected to increase in the future.    
-- [Data Science Specialization](https://github.com/DataScienceSpecialization) and particularly their [Curated Knowledge](http://datasciencespecialization.github.io/curated/) page. One of the best resources on data science has been coming from John Hopkins University, as did this lecture series on Coursera.   
+###Getting started with R
+- [Swirl courses](https://github.com/swirldev/swirl_courses) and my [annotations](./materials/swirl/course_notes.md) to them. [quick start with swirl](./materials/swirl/quickstart.md). Most of the courses overlap with (*DSS*), giving the same material in the interactive environment of RStudio. It also have unique courses, which number is expected to increase in the future. 
+- [Introduction to R](https://www.datacamp.com/courses/introduction-to-r) interactive course by DataCamp. Slick, responsive interface. Great place to start for complete newbies to programming in general. 
+- [Try R](http://tryr.codeschool.com/) interactive course by Code School
+- [Intro to Statistical Programming in R](https://www.teamleada.com/tutorials/introduction-to-statistical-programming-in-r) interactive course by Leada
+ 
+
+
+###Data Science
+   
+- [Data Science Specialization](https://github.com/DataScienceSpecialization) (*DSS*) and particularly their [Curated Knowledge](http://datasciencespecialization.github.io/curated/) page. One of the best resources on data science has been coming from John Hopkins University, as did this lecture series on Coursera. 
+nteractive course by DataCamp. 
 - [Introduction to data analysis](http://stat405.had.co.nz/) course Hadley Wickham taught at Rice University in 2012
 - [Information Visualization](https://www.stat.auckland.ac.nz/~ihaka/courses/120/lectures.html) course by Ross Ihaka, one of the creators of R language. Also see his courses on [Statistical Computing](https://www.stat.auckland.ac.nz/~stats380/?Lecture_Slides) and  [Statistical Graphics](https://www.stat.auckland.ac.nz/~ihaka/courses/787/)
 
-##Programming in R
-- [Introduction to R](https://www.datacamp.com/courses/introduction-to-r)  by DataCamp. Slick, responsive interface. Great place to start for complete newbies to programming in general.      
+###Programming in R
+    
 - [Programming with R](http://swcarpentry.github.io/r-novice-inflammation/)  by [Software carpentry](http://software-carpentry.org/) 
 - [Introduction to R](http://ateucher.github.io/rcourse_site/)  by [Andy Teucher](https://github.com/ateucher). Great example of github use. Local option.   
 
-##Statistics
-- [Data Analysis and Statistical Inference](https://www.datacamp.com/courses/data-analysis-and-statistical-inference_mine-cetinkaya-rundel-by-datacamp) interactive course by DataCamp.    
+
+###Statistics
+- [Statistical Inference. I](http://statpower.net/310LectureSlides.html), introductory course in statistics for graduate students at Vanderbilt University, taught by James Steiger. Also see his [Statistical Inference. II](http://statpower.net/311LectureSlides.html) and  [Multivariate](http://statpower.net/312LectureSlides.html) courses.   
 - [Introduction to Biostatistics](http://stronginference.com/Bios6301/) - fundamental skills for effective statistical programming. A course taught by [Chris Fonnesbeck](https://github.com/fonnesbeck?tab=repositories) at Vanderbilt University    
-- [Statistical Computing for Biostatistics](http://www.biostat.jhsph.edu/~hji/courses/statcomputing/)  by Honkgkai Ji, at Johns Hopkins Bloomberg School of Public Health.    
 - [Statistical Computing in R](http://www.pitt.edu/~njc23/) a biostatistics course by   Nicholas Christian at University of Pittsburgh.  Great series of slides on essential programming vocabulary and techniques  for statistical modeling. Exemplifies SWEAVE for report generation.  
-- [Statistical Inference](http://statpower.net/310LectureSlides.html), introductory course in statistics for graduate students at Vanderbilt University, taught by James Steiger.  
+- [Data Analysis and Statistical Inference](https://www.datacamp.com/courses/data-analysis-and-statistical-inference_mine-cetinkaya-rundel-by-datacamp) i
+ 
 
 
  
@@ -72,16 +81,11 @@
 - [rbloggers](http://www.r-bloggers.com/) central hub for blogging about data science with R.    
 
 
-
-
-##Data 
+###Data 
 
 - Excellent [collection of datasets](http://www.statsci.org/datasets.html).   
 - [HistData](./data/HistData/Encyclopedia_HistData.md) Wiki overviews some of the historic datasets from the [HistData](./data/HistData/README.md) package that will be used in the course.  
-
-
-
-
+S
 
 
 # Notes  
