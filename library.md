@@ -28,8 +28,8 @@
 - Full text, [slides and videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) are available online for free. Book's [website](http://www.statlearning.com). UVic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=3011282).  
 
 
-[![Gelman & Hill](./materials/texts/images/gelman.png)](http://www.amazon.com/Analysis-Regression-Multilevel-Hierarchical-Models/dp/052168689X/ref=sr_1_1?ie=UTF8&qid=1435941155&sr=8-1&keywords=gelman+and+hill&pebp=1435941155428&perid=00K1D3Y3KKE3XF87ED1B)     
-- Gelman, A., & Hill, J. (2006). [*Data analysis using regression and multilevel/hierarchical models*](http://www-bcf.usc.edu/~gareth/ISL/). Cambridge University Press.   
+[![Gelman & Hill](./materials/texts/images/gelman.png)](https://books.google.ca/books?id=c9xLKzZWoZ4C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)     
+- Gelman, A., & Hill, J. (2006). [*Data analysis using regression and multilevel/hierarchical models*](https://scholar.google.ca/scholar?hl=en&q=Data+analysis+using+regression+and+multilevel%2Fhierarchical+models&btnG=&as_sdt=1%2C5&as_sdtp=). Cambridge University Press.   
 - Uvic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1553520)    
 
 
