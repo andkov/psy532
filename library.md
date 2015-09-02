@@ -76,9 +76,11 @@ Murrell, P. (2011). [R graphics](http://www.e-reading.club/bookreader.php/137370
 - [publisher](), [amazon](), Uvic Library [hard copy]()
 
 ##Papers
- - Jones, L. V., & Tukey, J. W. (2000). [A sensible formulation of the significance test](http://forrest.psych.unc.edu/jones-tukey112399.html). *Psychological methods*, *5*(4), 411.
+- Friendly, M., & Denis, D. (2005).[The early origins and development of the scatterplot](http://euclid.psych.yorku.ca/datavis.ca/papers/friendly-scat.pdf). Journal of the History of the Behavioral Sciences, 41(2), 103-130.
+
+- Jones, L. V., & Tukey, J. W. (2000). [A sensible formulation of the significance test](http://forrest.psych.unc.edu/jones-tukey112399.html). *Psychological methods*, *5*(4), 411.
  
- - Mook, D. G. (1983). [In defense of external invalidity](http://www.vanderbilt.edu/psychological_sciences/graduate/programs/quantitative-methods/quantitative-content/mook_1983.pdf). *American psychologist*, *38*(4), 379.
+- Mook, D. G. (1983). [In defense of external invalidity](http://www.vanderbilt.edu/psychological_sciences/graduate/programs/quantitative-methods/quantitative-content/mook_1983.pdf). *American psychologist*, *38*(4), 379.
  
 - Rodgers, J. L. (2010). [The epistemology of mathematical and statistical modeling: a quiet methodological revolution](http://www.researchgate.net/profile/Joe_Rodgers/publication/40906532_The_epistemology_of_mathematical_and_statistical_modeling_a_quiet_methodological_revolution/links/546b68ae0cf2f5eb18091cbd.pdf). *American Psychologist*, *65*(1), 1.
 
