@@ -28,8 +28,8 @@
 - Full text, [slides and videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) are available online for free. Book's [website](http://www.statlearning.com). UVic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=3011282).  
 
 
-[![Gelman & Hill](./materials/texts/images/gelman.png)](http://www.amazon.com/Analysis-Regression-Multilevel-Hierarchical-Models/dp/052168689X/ref=sr_1_1?ie=UTF8&qid=1435941155&sr=8-1&keywords=gelman+and+hill&pebp=1435941155428&perid=00K1D3Y3KKE3XF87ED1B)     
-- Gelman, A., & Hill, J. (2006). [*Data analysis using regression and multilevel/hierarchical models*](http://www-bcf.usc.edu/~gareth/ISL/). Cambridge University Press.   
+[![Gelman & Hill](./materials/texts/images/gelman.png)](https://books.google.ca/books?id=c9xLKzZWoZ4C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)     
+- Gelman, A., & Hill, J. (2006). [*Data analysis using regression and multilevel/hierarchical models*](https://scholar.google.ca/scholar?hl=en&q=Data+analysis+using+regression+and+multilevel%2Fhierarchical+models&btnG=&as_sdt=1%2C5&as_sdtp=). Cambridge University Press.   
 - Uvic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1553520)    
 
 
@@ -76,9 +76,11 @@ Murrell, P. (2011). [R graphics](http://www.e-reading.club/bookreader.php/137370
 - [publisher](), [amazon](), Uvic Library [hard copy]()
 
 ##Papers
- - Jones, L. V., & Tukey, J. W. (2000). [A sensible formulation of the significance test](http://forrest.psych.unc.edu/jones-tukey112399.html). *Psychological methods*, *5*(4), 411.
+- Friendly, M., & Denis, D. (2005).[The early origins and development of the scatterplot](http://euclid.psych.yorku.ca/datavis.ca/papers/friendly-scat.pdf). Journal of the History of the Behavioral Sciences, 41(2), 103-130.
+
+- Jones, L. V., & Tukey, J. W. (2000). [A sensible formulation of the significance test](http://forrest.psych.unc.edu/jones-tukey112399.html). *Psychological methods*, *5*(4), 411.
  
- - Mook, D. G. (1983). [In defense of external invalidity](http://www.vanderbilt.edu/psychological_sciences/graduate/programs/quantitative-methods/quantitative-content/mook_1983.pdf). *American psychologist*, *38*(4), 379.
+- Mook, D. G. (1983). [In defense of external invalidity](http://www.vanderbilt.edu/psychological_sciences/graduate/programs/quantitative-methods/quantitative-content/mook_1983.pdf). *American psychologist*, *38*(4), 379.
  
 - Rodgers, J. L. (2010). [The epistemology of mathematical and statistical modeling: a quiet methodological revolution](http://www.researchgate.net/profile/Joe_Rodgers/publication/40906532_The_epistemology_of_mathematical_and_statistical_modeling_a_quiet_methodological_revolution/links/546b68ae0cf2f5eb18091cbd.pdf). *American Psychologist*, *65*(1), 1.
 
