@@ -20,7 +20,7 @@
 - Maxwell, S. E., & Delaney, H. D. (2004). [*Designing experiments and analyzing data: A model comparison perspective* (Vol. 1)](https://books.google.ca/books?id=gKZbD3lL88AC&printsec=frontcover#v=onepage&q&f=false). Psychology Press.    
 - The book has a [website](http://www.designingexperiments.com/) with  scripts used in the text, datasets are on the CD that comes with the book. Uvic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1337909)
 
-</br>
+
  
 ##Methods in R
 
@@ -28,6 +28,7 @@
 - James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). [*An introduction to statistical learning*](https://scholar.google.ca/scholar?q=An+introduction+to+statistical+learning&btnG=&hl=en&as_sdt=0%2C5). New York: Springer.   
 - Full text, [slides and videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) are available online for free. Book's [website](http://www.statlearning.com). UVic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=3011282).  
 
+</br>
 
 [![Gelman & Hill](./materials/texts/images/gelman.png)](https://books.google.ca/books?id=c9xLKzZWoZ4C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)     
 - Gelman, A., & Hill, J. (2006). [*Data analysis using regression and multilevel/hierarchical models*](https://scholar.google.ca/scholar?hl=en&q=Data+analysis+using+regression+and+multilevel%2Fhierarchical+models&btnG=&as_sdt=1%2C5&as_sdtp=). Cambridge University Press.   
@@ -40,21 +41,25 @@
 - Spector, P. (2008). [Data manipulation with R](https://scholar.google.ca/scholar?hl=en&q=data+manipulation+with+R&btnG=&as_sdt=1%2C5&as_sdtp=). Springer Science & Business Media.  
 - [publisher](http://www.springer.com/us/book/9780387747309), [amazon](http://www.amazon.com/Data-Manipulation-R-Use/dp/0387747303/ref=sr_1_1?ie=UTF8&qid=1435985565&sr=8-1&keywords=data+manipulation+with+r&pebp=1435985565937&perid=09BPKFCSYR1GTK7HR0MC), UVic Library has an [ecopy](http://link.springer.com.ezproxy.library.uvic.ca/book/10.1007%2F978-0-387-74731-6)  
 
+</br>
 
 [![Venables](./materials/texts/images/venables.png)](http://www.ms.uky.edu/~molzon/courses/ma320/R/Introduction-to-R.pdf)
 - Venables, W. N., Smith, D. M., & R Development Core Team. (2002). [An introduction to R](https://scholar.google.ca/scholar?q=An+introduction+to+R&btnG=&hl=en&as_sdt=0%2C5).
 
+
 ##R for Statistics
 
-[![Dalgaard](./materials/texts/images/dalgaard.png)](http://download.springer.com.ezproxy.library.uvic.ca/static/pdf/621/bok%253A978-0-387-79054-1.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-0-387-79054-1&token2=exp=1441289085~acl=%2Fstatic%2Fpdf%2F621%2Fbok%25253A978-0-387-79054-1.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Fbook%252F10.1007%252F978-0-387-79054-1*~hmac=1dc50612dc0082b664e0d3d9554c03f205e2f3bc181df1943844bffd0cac3b16)   
-- Dalgaard, P. (2008). [Introductory Statistics with R](http://down.cenet.org.cn/upfile/28/200612374427146.pdf). Springer Science & Business Media. Peter Dalgaard walks through the major statistical methods in R. 
+[![Dalgaard](./materials/texts/images/dalgaard.png)](http://link.springer.com.ezproxy.library.uvic.ca/book/10.1007/978-0-387-79054-1)   
+- Dalgaard, P. (2008). [Introductory Statistics with R](https://scholar.google.ca/scholar?q=Introductory+Statistics+with+R&btnG=&hl=en&as_sdt=0%2C5). Springer Science & Business Media. Peter Dalgaard walks through the major statistical methods in R. 
 - [publisher](http://www.springer.com/us/book/9780387790534), [amazon](http://www.amazon.com/Introductory-Statistics-R-Computing/dp/0387954759),  UVic Library has an [ecopy](http://link.springer.com.ezproxy.library.uvic.ca/book/10.1007%2F978-0-387-79054-1)
 
+</br>
 
 [![Verzani](./materials/texts/images/verzani.png)](https://cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf)   
 - Verzani, J. (2014). [Using R for introductory statistics](https://cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf).  CRC Press.
 - [publisher](https://www.crcpress.com/Using-R-for-Introductory-Statistics-Second-Edition/Verzani/9781466590731), [amazon](http://www.amazon.ca/Using-Introductory-Statistics-Second-Chapman-ebook/dp/B00L2EBHXM/ref=sr_1_1?ie=UTF8&qid=1441288302&sr=8-1&keywords=Using+R+for+Introductory+Statistics%2C+Second+Edition)
 
+</br>
 
 [![Everitt](./materials/texts/images/everitt.png)](http://www.ecostat.unical.it/tarsitano/Didattica/LabStat2/Everitt.pdf)   
 - Hothorn, T., & Everitt, B. S. (2014). [A handbook of statistical analyses using R](https://scholar.google.ca/scholar?q=A+Handbook+of+Statistical+Analyses+using+R&btnG=&hl=en&as_sdt=0%2C5). CRC press.
@@ -69,13 +74,15 @@
 ##Graphics
 
 [![R Cookbook](./materials/texts/images/chang.png)](http://www.cookbook-r.com/)   
-- Chang, W. (2012). [R Cookbook](http://shop.oreilly.com/product/9780596809164.do). O'Reilly Media, Inc.
-- by Winston Chang  is a perfect book to get you started producing graphs with ggplot2 in RStudio
+- Chang, W. (2012). [R Cookbook](https://scholar.google.ca/scholar?hl=en&q=r+graphic+cookbook&btnG=&as_sdt=1%2C5&as_sdtp=). O'Reilly Media, Inc.
+- perfect book to get you started producing graphs with ggplot2 in RStudio
 - [publisher](http://shop.oreilly.com/product/9780596809164.do), [amazon](http://www.amazon.ca/R-Graphics-Cookbook-Winston-Chang/dp/1449316956)
+- I recommend hardcopy + ecopy bundle from the publisher's website  
 
+</br>
 
 [![Murrell](./materials/texts/images/murrell.png)](https://www.stat.auckland.ac.nz/~paul/RG2e/)  
-Murrell, P. (2011). [R graphics](http://www.e-reading.club/bookreader.php/137370/C486x_C06.pdf). CRC Press.
+- Murrell, P. (2011). [R graphics](http://www.e-reading.club/bookreader.php/137370/C486x_C06.pdf). CRC Press.
 - [publisher](), [amazon](), Uvic Library [hard copy]()
 
 
