@@ -35,7 +35,7 @@
 
 ##R
 
-- [![Spector](./materials/texts/images/spector.png)](http://download.springer.com.ezproxy.library.uvic.ca/static/pdf/189/bok%253A978-0-387-74731-6.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-0-387-74731-6&token2=exp=1441288256~acl=%2Fstatic%2Fpdf%2F189%2Fbok%25253A978-0-387-74731-6.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Fbook%252F10.1007%252F978-0-387-74731-6*~hmac=c8954468cfa04c69bf2161ee9c6cac32257939209a208c3681221f76558c09a9)  
+[![Spector](./materials/texts/images/spector.png)](http://download.springer.com.ezproxy.library.uvic.ca/static/pdf/189/bok%253A978-0-387-74731-6.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-0-387-74731-6&token2=exp=1441288256~acl=%2Fstatic%2Fpdf%2F189%2Fbok%25253A978-0-387-74731-6.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Fbook%252F10.1007%252F978-0-387-74731-6*~hmac=c8954468cfa04c69bf2161ee9c6cac32257939209a208c3681221f76558c09a9)  
 - Spector, P. (2008). [Data manipulation with R](https://scholar.google.ca/scholar?hl=en&q=data+manipulation+with+R&btnG=&as_sdt=1%2C5&as_sdtp=). Springer Science & Business Media.  
 - [publisher](http://www.springer.com/us/book/9780387747309), [amazon](http://www.amazon.com/Data-Manipulation-R-Use/dp/0387747303/ref=sr_1_1?ie=UTF8&qid=1435985565&sr=8-1&keywords=data+manipulation+with+r&pebp=1435985565937&perid=09BPKFCSYR1GTK7HR0MC), UVic Library has an [ecopy](http://link.springer.com.ezproxy.library.uvic.ca/book/10.1007%2F978-0-387-74731-6)  
 
@@ -45,7 +45,7 @@
 
 ##R for Statistics
 
-- [![Dalgaard](./materials/texts/images/dalgaard.png)](http://download.springer.com.ezproxy.library.uvic.ca/static/pdf/621/bok%253A978-0-387-79054-1.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-0-387-79054-1&token2=exp=1441289085~acl=%2Fstatic%2Fpdf%2F621%2Fbok%25253A978-0-387-79054-1.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Fbook%252F10.1007%252F978-0-387-79054-1*~hmac=1dc50612dc0082b664e0d3d9554c03f205e2f3bc181df1943844bffd0cac3b16)   
+[![Dalgaard](./materials/texts/images/dalgaard.png)](http://download.springer.com.ezproxy.library.uvic.ca/static/pdf/621/bok%253A978-0-387-79054-1.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-0-387-79054-1&token2=exp=1441289085~acl=%2Fstatic%2Fpdf%2F621%2Fbok%25253A978-0-387-79054-1.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Fbook%252F10.1007%252F978-0-387-79054-1*~hmac=1dc50612dc0082b664e0d3d9554c03f205e2f3bc181df1943844bffd0cac3b16)   
 - Dalgaard, P. (2008). [Introductory Statistics with R](http://down.cenet.org.cn/upfile/28/200612374427146.pdf). Springer Science & Business Media. Peter Dalgaard walks through the major statistical methods in R. 
 - [publisher](http://www.springer.com/us/book/9780387790534), [amazon](http://www.amazon.com/Introductory-Statistics-R-Computing/dp/0387954759),  UVic Library has an [ecopy](http://link.springer.com.ezproxy.library.uvic.ca/book/10.1007%2F978-0-387-79054-1)
 
@@ -75,9 +75,8 @@
 
 [![Murrell](./materials/texts/images/murrell.png)](https://www.stat.auckland.ac.nz/~paul/RG2e/)  
 Murrell, P. (2011). [R graphics](http://www.e-reading.club/bookreader.php/137370/C486x_C06.pdf). CRC Press.
-
-
 - [publisher](), [amazon](), Uvic Library [hard copy]()
+
 
 ##Papers
 - Friendly, M., & Denis, D. (2005).[The early origins and development of the scatterplot](http://euclid.psych.yorku.ca/datavis.ca/papers/friendly-scat.pdf). Journal of the History of the Behavioral Sciences, 41(2), 103-130.
