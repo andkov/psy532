@@ -1,0 +1,18 @@
+{
+    "contents" : "Introduction to Statistical Modeling  for Social Sciences. \n---\n\n[![Shadish](./materials/texts/images/shadish.png)](./materials/texts/toc/core_SCC_toc.pdf) [![James](./materials/texts/images/james.png)](./materials/texts/toc/model_JWHT_toc.pdf) [![Spector](./materials/texts/images/spector.png)](./materials/texts/toc/R_Spector_toc.pdf) [![Dalgaard](./materials/texts/images/dalgaard.png)](./materials/texts/toc/stat_Dalgaard_toc.pdf) [![Deshea](./materials/texts/images/deshea.png)](./materials/texts/toc/) [![R Cookbook](./materials/texts/images/chang.png)](./materials/texts/toc/graph_Chang_toc.pdf)   \n[![Maxwell & Delaney](./materials/texts/images/maxwell.png)](./materials/texts/toc/core_MD_toc.pdf) [![Gelman & Hill](./materials/texts/images/gelman.png)](./materials/texts/toc/model_GH_toc.pdf) [![Venables](./materials/texts/images/venables.png)](./materials/texts/toc/R_Venables_toc.pdf)  [![Verzani](./materials/texts/images/verzani.png)](./materials/texts/toc/stat_Verzani_toc.pdf) [![Everitt](./materials/texts/images/everitt.png)](./materials/texts/toc/stat_EH_toc.pdf) [![Murrell](./materials/texts/images/murrell.png)](./materials/texts/toc/graph_Murrell_toc.pdf)   \n\n*PSYC-532* at [University of Victoria](http://www.uvic.ca/socialsciences/psychology/)  by Dr. **[Andrey V. Koval](https://github.com/andkov)**  \n\n| When  | Where  | Semester  | Dates  | Email   |Office   | Hours | Phone  |\n|---|---|---|---|---|---|---|---|\n| Monday, Thursday    11:30 - 13:00   | HSD A150    | Winter 2015   | Sep 9 [-](https://github.com/andkov/psy532/edit/gh-pages/index.md) Dec 10  |andkov at uvic dot ca |Cornett B335g|   By appointment  | 472-4864  |\n\nPlease visit   \n- [Calendar](./calendar.md) for events and timetables \n- [To do](./todo.md) for assignments and homework\n- [Library](./library.md) for books and articles  \n- [Resources](./resources.md) for learning online  \n- [Skills](./skills.md) for practical R knowledge\n- [Forest](./forest.md) for a big picture  \n- [Trees](./trees.md) for the details   \n- [People](./materials/people.md) for key individuals  \n- [Policy](./policy.md) for IMPORTANT COURSE POLICY INFORMATION \n</br>\n- [Projects](./projects/README.md) for students' work  \n</br>\n[quick start with swirl](./materials/swirl/quickstart.md)\n",
+    "created" : 1441251919787.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "288556798",
+    "id" : "5CC46761",
+    "lastKnownWriteTime" : 1441252194,
+    "path" : "~/GitHub/psy532/README.md",
+    "project_path" : "README.md",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "markdown"
+}
