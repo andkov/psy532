@@ -12,17 +12,17 @@
 
 [![Shadish](./materials/texts/images/shadish.png)](http://impact.cgiar.org/pdf/147.pdf)    
 - William R. Shadish, Cook, T. D., & Campbell, D. T. (2002). [*Experimental and quasi-experimental designs for generalized causal inference*](https://scholar.google.ca/scholar?q=Experimental+and+quasi-experimental+designs+for+generalized+causal+inference&btnG=&hl=en&as_sdt=0%2C5). Wadsworth Cengage learning.   
-- [publisher](http://shop.oreilly.com/product/9780596809164.do),  [amazon](http://www.amazon.com/Experimental-Quasi-Experimental-Designs-Generalized-Inference/dp/0395615569/ref=sr_1_1?ie=UTF8&qid=1435984771&sr=8-1&keywords=shadish+cook+and+campbell&pebp=1435984771016&perid=1DMRH03RWE7YCWQZE31Z),UVic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1328797)[.](https://drive.google.com/file/d/0B8KlNxv-FHyjdVNmdm9ZZDloMDQ/view?usp=sharing)  
+- [amazon](http://www.amazon.com/Experimental-Quasi-Experimental-Designs-Generalized-Inference/dp/0395615569/ref=sr_1_1?ie=UTF8&qid=1435984771&sr=8-1&keywords=shadish+cook+and+campbell&pebp=1435984771016&perid=1DMRH03RWE7YCWQZE31Z),UVic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1328797)[.](https://drive.google.com/file/d/0B8KlNxv-FHyjdVNmdm9ZZDloMDQ/view?usp=sharing)  
 
 </br>
 
 [![Maxwell & Delaney](./materials/texts/images/maxwell.png)](https://books.google.ca/books?id=gKZbD3lL88AC&printsec=frontcover#v=onepage&q&f=false)   
-- Maxwell, S. E., & Delaney, H. D. (2004). [*Designing experiments and analyzing data: A model comparison perspective* (Vol. 1)](https://books.google.ca/books?id=gKZbD3lL88AC&printsec=frontcover#v=onepage&q&f=false). Psychology Press.    
+- Maxwell, S. E., & Delaney, H. D. (2004). [*Designing experiments and analyzing data: A model comparison perspective* (Vol. 1)](https://scholar.google.ca/scholar?q=+Designing+experiments+and+analyzing+data%3A+A+model+comparison+perspective&btnG=&hl=en&as_sdt=0%2C5). Psychology Press.    
 - The book has a [website](http://www.designingexperiments.com/) with  scripts used in the text, datasets are on the CD that comes with the book. Uvic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1337909)
 
 
  
-##Methods in R
+##Statistical Modeling
 
 [![James](./materials/texts/images/james.png)](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20First%20Printing.pdf)     
 - James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). [*An introduction to statistical learning*](https://scholar.google.ca/scholar?q=An+introduction+to+statistical+learning&btnG=&hl=en&as_sdt=0%2C5). New York: Springer.   
@@ -63,7 +63,7 @@
 
 [![Everitt](./materials/texts/images/everitt.png)](http://www.ecostat.unical.it/tarsitano/Didattica/LabStat2/Everitt.pdf)   
 - Hothorn, T., & Everitt, B. S. (2014). [A handbook of statistical analyses using R](https://scholar.google.ca/scholar?q=A+Handbook+of+Statistical+Analyses+using+R&btnG=&hl=en&as_sdt=0%2C5). CRC press.
-- [publisher](https://www.crcpress.com/A-Handbook-of-Statistical-Analyses-using-R-Third-Edition/Hothorn-Everitt/9781482204582), [amazon](http://www.amazon.com/Handbook-Statistical-Analyses-Using-Second/dp/1420079336/ref=sr_1_2?ie=UTF8&qid=1435986045&sr=8-2&keywords=A+Handbook+of+Statistical+Analyses+Using+R&pebp=1435986048108&perid=177DZ3S2R9QC4EQ6H5TD), UVic Library has an [hard copy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1551977)
+- [publisher](https://www.crcpress.com/A-Handbook-of-Statistical-Analyses-using-R-Third-Edition/Hothorn-Everitt/9781482204582), [amazon](http://www.amazon.com/Handbook-Statistical-Analyses-Using-Second/dp/1420079336/ref=sr_1_2?ie=UTF8&qid=1435986045&sr=8-2&keywords=A+Handbook+of+Statistical+Analyses+Using+R&pebp=1435986048108&perid=177DZ3S2R9QC4EQ6H5TD), UVic Library has an [hard copy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1551977), 
  [direct download link](http://xa.yimg.com/kq/groups/16412409/783160322/name/A%2BHandbook%2Bof%2BStatistical%2BAnalyses%2BUsing%2BR.pdf)
 
 ##Statistics and Graphics
@@ -81,9 +81,10 @@
 
 </br>
 
-[![Murrell](./materials/texts/images/murrell.png)](https://www.stat.auckland.ac.nz/~paul/RG2e/)  
-- Murrell, P. (2011). [R graphics](http://www.e-reading.club/bookreader.php/137370/C486x_C06.pdf). CRC Press.
-- [publisher](), [amazon](), Uvic Library [hard copy]()
+[![Murrell](./materials/texts/images/murrell.png)](http://www.e-reading.club/bookreader.php/137370/C486x_C06.pdf)  
+- Murrell, P. (2011). [R graphics](https://scholar.google.ca/scholar?q=R+Graphics&btnG=&hl=en&as_sdt=0%2C5). CRC Press.
+- [publisher](), [amazon](), Uvic Library [hard copy](),
+- see [book's website](https://www.stat.auckland.ac.nz/~paul/RG2e/) for the R code for all the graphs in the book
 
 
 ##Papers
