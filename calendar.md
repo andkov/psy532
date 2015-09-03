@@ -7,7 +7,7 @@ Sep 07|**Labour Day**            |                |                 |  |
 10    |Syllabus. *R graphics.*   |       James 1  |                 | Wage (ITSL)|   
 14    |History & Philosophy      |M&D 1, James 2  |Homework 0    (5)|  |   
 17    |*data workshop*           |M&D 2, James 2  |Homework 1   (20)|  |   
-21    |History of GLM            |M&D 2, Rodgers  |                 |Galton  | 
+21    |GLM in 7 People           |M&D 2, Rodgers  |                 |Galton  | 
 24    |*data workshop*           |M&D 3, James 3  |                 |  |   
 28    |Anatomy of GLM            |M&D 3, James 3  |                 |  |       	
 Oct 1 |*data workshop*           |M&D 3, James 3  |Homework 2   (30)|  |   
