@@ -54,9 +54,56 @@
 - [1921, 1923 - Studies in Crop Variantion](https://drmc.library.adelaide.edu.au/dspace/bitstream/2440/15179/1/32.pdf)  
 - [1935 - Design of Experiments](https://en.wikipedia.org/wiki/The_Design_of_Experiments)  
 
-##John Tukey 
+
+##Egon Pearson
+- [1895 - 1980](https://en.wikipedia.org/wiki/Egon_Pearson)
+- co-author of [Neyman-Pearson lemma](https://en.wikipedia.org/wiki/Neyman%E2%80%93Pearson_lemma) ( null hypothesis testing)
+- Son of Karl Pearson
+- Teacher of George E.P. Box
+
+##Raymond Cattell
+- [1905 - 1988](https://en.wikipedia.org/wiki/Raymond_Cattell)  
+- University of Illinois 1945 - 1973
+- factor analysis, personality
+- worked with Charlse Spearman
+- founded Society of Multivariate Experimental Psychology (1960)
+- founded *Multivariate Behavioral Research*, journal of SMEP
+- 
+
+##L.L. Thurstone
+- [1887 - 1955](https://en.wikipedia.org/wiki/Louis_Leon_Thurstone)
+- University of chicago ( 1924 - 1952)
+- opposed singular general intelligence (Spearman's Model)
+- founded Psychometric Society (1935) 
+- found *Psychometrika*, journal of Psychometric Society
+- 
+
+## George E.P. Box
+- [1949 -2013](https://en.wikipedia.org/wiki/George_E._P._Box)
+- University Wisconsin-Madison (1960 - 1992)
+- married to Joan Fisher, daughter of Ronald Fisher
+- Time-series, Bayesian
+- "all models are wrong, but some are useful" 
+
+
+Jerzy Neyman
+- [1894 - 1981](https://en.wikipedia.org/wiki/Jerzy_Neyman)  
+- [confidence interval](https://en.wikipedia.org/wiki/Confidence_interval)
+- [hypothesis testing](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing) and [null hypothesis significance testing (NHST)](https://en.wikipedia.org/wiki/Null_hypothesis) 
+ 
+
+
+- ##John Tukey 
 - [1915-2000](https://en.wikipedia.org/wiki/John_Tukey)  
 - [1977 - Exploratory Data Analysis](https://scholar.google.ca/scholar?q=author%3Atukey+exploratory+data+analysis&btnG=&hl=en&as_sdt=0%2C5)  
  
+
+##Paul Meehl
+- [1920 - 2003](https://en.wikipedia.org/wiki/Paul_E._Meehl)
+- follower of Popper
+- critic of NHST
+
+
+
 
  
