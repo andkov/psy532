@@ -80,9 +80,9 @@
 - [1887 - 1955](https://en.wikipedia.org/wiki/Louis_Leon_Thurstone)
 - University of chicago ( 1924 - 1952)
 - opposed singular general intelligence (Spearman's Model)
-- founded Psychometric Society (1935) 
-- found *Psychometrika*, journal of Psychometric Society
-- 
+- founded Psychometric Society (1935)   
+- founded *Psychometrika*, journal of Psychometric Society
+
 
 ## George E.P. Box
 - [1949 -2013](https://en.wikipedia.org/wiki/George_E._P._Box)
