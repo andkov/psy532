@@ -98,8 +98,7 @@
 - [hypothesis testing](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing) and [null hypothesis significance testing (NHST)](https://en.wikipedia.org/wiki/Null_hypothesis)   
  
 
-
-- ##John Tukey 
+##John Tukey 
 - [1915-2000](https://en.wikipedia.org/wiki/John_Tukey)  
 - [1977 - Exploratory Data Analysis](https://scholar.google.ca/scholar?q=author%3Atukey+exploratory+data+analysis&btnG=&hl=en&as_sdt=0%2C5)  
  
