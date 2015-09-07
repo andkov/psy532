@@ -17,7 +17,7 @@ Introduction to Statistical Modeling  for Social Sciences.
 - [Skills](./skills.md) for practical R knowledge
 - [Forest](./forest.md) for a big picture  
 - [Trees](./trees.md) for the details   
-- [People](./materials/people.md) for key individuals  
+- [Timeline](./materials/people/timeline.md) for key individuals  
 - [Policy](./policy.md) for IMPORTANT COURSE POLICY INFORMATION 
 - [Projects](./projects/README.md) for students' work  
 - [QUICK START](./materials/swirl/quickstart.md) with swirl
