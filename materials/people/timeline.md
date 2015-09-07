@@ -68,7 +68,13 @@
 - worked with Charlse Spearman
 - founded Society of Multivariate Experimental Psychology (1960)
 - founded *Multivariate Behavioral Research*, journal of SMEP
-- 
+
+
+##Ewdard Thorndike
+- [1874 - 1949](https://en.wikipedia.org/wiki/Edward_Thorndike)
+- Columbia University
+- intelligence, learning, law of effect
+- invited Cattell to US from England
 
 ##L.L. Thurstone
 - [1887 - 1955](https://en.wikipedia.org/wiki/Louis_Leon_Thurstone)
