@@ -80,22 +80,22 @@
 - [1887 - 1955](https://en.wikipedia.org/wiki/Louis_Leon_Thurstone)
 - University of chicago ( 1924 - 1952)
 - opposed singular general intelligence (Spearman's Model)
-- founded Psychometric Society (1935)   
-- founded *Psychometrika*, journal of Psychometric Society
+- founded Psychometric Society (1935)    
+- founded *Psychometrika*, journal of Psychometric Society    
 
 
-## George E.P. Box
-- [1949 -2013](https://en.wikipedia.org/wiki/George_E._P._Box)
-- University Wisconsin-Madison (1960 - 1992)
-- married to Joan Fisher, daughter of Ronald Fisher
-- Time-series, Bayesian
-- "all models are wrong, but some are useful" 
+##George E.P. Box   
+- [1949 -2013](https://en.wikipedia.org/wiki/George_E._P._Box)  
+- University Wisconsin-Madison (1960 - 1992)  
+- married to Joan Fisher, daughter of Ronald Fisher  
+- Time-series, Bayesian  
+- "all models are wrong, but some are useful"   
 
 
-Jerzy Neyman
-- [1894 - 1981](https://en.wikipedia.org/wiki/Jerzy_Neyman)  
-- [confidence interval](https://en.wikipedia.org/wiki/Confidence_interval)
-- [hypothesis testing](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing) and [null hypothesis significance testing (NHST)](https://en.wikipedia.org/wiki/Null_hypothesis) 
+##Jerzy Neyman  
+- [1894 - 1981](https://en.wikipedia.org/wiki/Jerzy_Neyman)    
+- [confidence interval](https://en.wikipedia.org/wiki/Confidence_interval)  
+- [hypothesis testing](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing) and [null hypothesis significance testing (NHST)](https://en.wikipedia.org/wiki/Null_hypothesis)   
  
 
 
@@ -105,9 +105,9 @@ Jerzy Neyman
  
 
 ##Paul Meehl
-- [1920 - 2003](https://en.wikipedia.org/wiki/Paul_E._Meehl)
-- follower of Popper
-- critic of NHST
+- [1920 - 2003](https://en.wikipedia.org/wiki/Paul_E._Meehl)  
+- follower of Popper  
+- critic of NHST  
 
 
 
