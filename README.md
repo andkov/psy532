@@ -24,7 +24,7 @@ Introduction to Statistical Modeling  for Social Sciences.
 
 Date  | Topic/Activity           | Reference      |Points      (350)| Cases
 ------|--------------------------|----------------|-----------------|---------|
-Sep 07|**Labour Day**            |                |                 |  |  
+Sep 07|**Labour Day**            |**Required**/*Suggested*                |                 |  |  
 10    |Syllabus. *R graphics.*   |       James 1  |                 | Wage (ITSL)|   
 14    |History & Philosophy      |M&D 1, James 2  |Homework 0    (5)|  |   
 17    |*data workshop*           |M&D 2, James 2  |Homework 1   (20)|  |   
