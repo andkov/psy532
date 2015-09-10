@@ -23,7 +23,7 @@ Introduction to Statistical Modeling  for Social Sciences.
 
 Date  | Theory                   | Read           |Due              | Practice
 ------|--------------------------|----------------|-----------------|---------|
-10    |Syllabus. *R graphics.*   |                |                 |         |   
+10    |Syllabus. Toolbox.        |                |                 |         |   
 14    |1) NHST on Trail          |                |HM0         (5)  |         |   
 17    |                          |Rodgers (2010)  |Paper model (10) |Primitive Models. Area F.|   
 21    |2) Logic of Research      |                |                 |  | 
