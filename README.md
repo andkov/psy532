@@ -5,7 +5,7 @@
 [![Maxwell & Delaney](./materials/texts/images/maxwell.png)](./materials/texts/toc/core_MD_toc.pdf) [![Gelman & Hill](./materials/texts/images/gelman.png)](./materials/texts/toc/model_GH_toc.pdf) [![Venables](./materials/texts/images/venables.png)](./materials/texts/toc/R_Venables_toc.pdf)  [![Verzani](./materials/texts/images/verzani.png)](./materials/texts/toc/stat_Verzani_toc.pdf) [![Everitt](./materials/texts/images/everitt.png)](./materials/texts/toc/stat_EH_toc.pdf) [![Murrell](./materials/texts/images/murrell.png)](./materials/texts/toc/graph_Murrell_toc.pdf)   
 [ToC](https://github.com/andkov/psy532/raw/master/materials/texts/toc/toc.pdf)
 
-*PSYC-532* at [University of Victoria](http://www.uvic.ca/socialsciences/psychology/)  by Dr. **[Andriy V. Koval](https://github.com/andkov)** [editme](https://github.com/andkov/psy532/edit/master/README.md) 
+*PSYC-532* at [University of Victoria](http://www.uvic.ca/socialsciences/psychology/)  by Dr. **[Andriy V. Koval](https://github.com/andkov)**[.](https://github.com/andkov/psy532/edit/master/README.md) 
 
 | When  | Where  | Semester  | Dates  | Email   |Office   | Hours | Phone  |
 |---|---|---|---|---|---|---|---|
@@ -36,7 +36,7 @@ Oct 2 |                          |ITSL 3          |HM 2        (10) |Multiple Re
 15    |4) History of Science     |                |                 |  |
 19    |                          | ITSL 6.1, 6.5  |HM 3        (10) |Validation. Subset. Fit.  |   
 22    |5) Of Graphs and Models   |             |                 |  |    
-26    |                          |ITSL 7.1-2,7.5    |HM 4        (10) |Polynomial. Nonlinear.GAM.  | 
+26    |                          |ITSL 7.1-2, 7.5    |HM 4        (10) |Polynomial. Nonlinear.GAM.  | 
 29    |**No class**              |                |                 |Academic Drop Deadline (Oct 31)  | 
 Nov 02|                          |Wickham (2014)  |                 |*Tidy Data Workshop*   |      	
 05    |Exam II. Test             |                |EXAM II     (100)|  |   
