@@ -69,10 +69,13 @@ Assigment: ITSL 7 #6, 7, 8, 9, 10
 *Tidy Data (Wickham, 2014)*
 Value: 10 points
 Due: Nov 2
-
 Assingment: 
  - read [Wickham (2014)](http://vita.had.co.nz/papers/tidy-data.pdf)
  - watch [Hadley Wickham's talk](http://vimeo.com/33727555) on this paper
  - follow the [slides](http://stat405.had.co.nz/lectures/18-tidy-data.pdf) from his course on data  analysis](http://stat405.had.co.nz/)
+Using a letter size sheet of paper, create a model of Wickham (2014):
+- must be handwritten
+- must be on one side
+- must allow for nonlinear narrative
  
  
