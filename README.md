@@ -12,6 +12,7 @@ Introduction to Statistical Modeling  for Social Sciences.
 | Monday, Thursday    11:30 - 13:00   | HSD A150    | Winter 2015   | Sep 9 [-](https://github.com/andkov/psy532/edit/gh-pages/index.md) Dec 10  |andkov at uvic dot ca |Cornett B335g|   By appointment  | 472-4864  |
 
 - [To do](./todo.md) for assignments and homework
+- [Scope](./materials/scope.md) for content universe
 - [Library](./library.md) for books and articles  
 - [Resources](./resources.md) for learning online  
 - [Skills](./skills.md) for practical R knowledge
@@ -19,16 +20,16 @@ Introduction to Statistical Modeling  for Social Sciences.
 - [Policy](./policy.md) for IMPORTANT COURSE POLICY INFORMATION 
 - [QUICK START](./materials/swirl/quickstart.md) with swirl
 
-Date  | Topic/Activity           | Reference      |Points      (350)| Cases
+
+Date  | Theory                   | Read           |Due      | Practic
 ------|--------------------------|----------------|-----------------|---------|
-Sep 07|**Labour Day**            |**Required**/*Suggested*                |                 |  |  
-10    |Syllabus. *R graphics.*   |       James 1  |                 | Wage (ITSL)|   
-14    |History & Philosophy      |M&D 1, James 2  |Homework 0    (5)|  |   
-17    |*data workshop*           |M&D 2, James 2  |Homework 1   (20)|  |   
-21    |GLM in 7 People           |M&D 2, Rodgers  |                 |Galton  | 
-24    |*data workshop*           |M&D 3, James 3  |                 |  |   
-28    |Anatomy of GLM            |M&D 3, James 3  |                 |  |       	
-Oct 1 |*data workshop*           |M&D 3, James 3  |Homework 2   (30)|  |   
+10    |Syllabus. *R graphics.*   |                |                 | Wage (ITSL)|   
+14    |Story 1: NHST on Trail    |                |Homework 0    (5)|  |   
+17    |                          |Rodgers (2010)  |Homework 1   (20)|  |   
+21    |Story 2: Logic of Research|  |                 |Galton  | 
+24    |                          |M&D 3, James 3  |                 |  |   
+28    |Story 3: Anatomy of GLM   |M&D 3, James 3  |                 |  |       	
+Oct 2 |                          |M&D 3, James 3  |Homework 2   (30)|  |   
 05    |EXAM I. Test              |                |EXAM I       (50)|  |     
 08    |EXAM I. Debriefing        |                |                 |  |     	
 12    |**Thanksgiving**          |                |                 |  |    
@@ -49,3 +50,5 @@ Nov 02|Discussion. Review        |                |                 |  |
 Dec 03|**Student Presentations** |                |Slides       (20)|  |   
 07    |**Rest Day **             |                |                 |  |   
 10    |**Student Posters**       |                |Poster       (30)|  |   
+
+
