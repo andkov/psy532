@@ -15,15 +15,11 @@ A. Create a 3” x 5” flash card to help me get to know you.
 
 You will receive 1 point for meeting each of following criteria:  
 
-- 1. card is 3” x 5”   
-
-- 2. one side has a photo of you 
-
-- 3.  the other side has your name. If you’d prefer to be called something different to your official university name, please say so. And if your name needs it, please include some pronunciation hints.  
- 
-- 4. on the side with your name, include five interesting facts about you.  
-
-- 5. Register account on github.com. Use the same picture from this card as selfie for the userpic. Clearly write your github user name  
+1. card is 3” x 5”   
+2. one side has a photo of you 
+3.  the other side has your name. If you’d prefer to be called something different to your official university name, please say so. And if your name needs it, please include some pronunciation hints.  
+4. on the side with your name, include five interesting facts about you.  
+5. Register account on github.com. Use the same picture from this card as selfie for the userpic. Clearly write your github user name  
 
 
 ##Paper Model 1
