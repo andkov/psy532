@@ -31,7 +31,7 @@ page 59 - 126
 - simple linear regressing (3.1)
 - multiple linear regression (3.2)  
 - categorical predictors, extensions, and problems (3.3)  
-- LAB : Linear Regression. Simple. Multiple. Interactions. Nonlinear transformation. Qualitative predictors.  
+- LAB : Linear Regression. Simple. Multiple. Interactions. Nonlinear transformation. Qualitative predictors. (3.6)  
 
 
 (slides, playlist)
