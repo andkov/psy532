@@ -1,5 +1,5 @@
 
-##PSYC-532: Introduction to Statistical Modeling for Social Sciences
+##Introduction to Statistical Modeling for Social Sciences
 
 | When  | Where  | Semester  | Dates  | Email   |Office   | Hours | Phone  |
 |---|---|---|---|---|---|---|---|
