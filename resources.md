@@ -71,9 +71,16 @@ nteractive course by DataCamp.
 
 
 ###Audio
- - [Baconian Science](http://www.bbc.co.uk/programmes/b00jdb6c) episode of *In Our Time Science* by BBC4.   
- - [Induction](http://www.bbc.co.uk/programmes/b04hvrr5) episode of *The Philosopher's Arms* by BBC4.  
- 
+
+- [Baconian Science](http://www.bbc.co.uk/programmes/b00jdb6c) episode of *In Our Time Science* by BBC4.  
+- [Induction](http://www.bbc.co.uk/programmes/b04hvrr5) episode of *The Philosopher's Arms* by BBC4.   
+- [The Scientific Method](http://www.bbc.co.uk/programmes/b01b1ljm)  
+- [The Scientist](http://www.bbc.co.uk/programmes/p00548jq)  
+- [Popper](http://www.bbc.co.uk/programmes/b00773y4)  
+- [Probability](http://www.bbc.co.uk/programmes/b00bqf61)  
+- [Logical Positivism](http://www.bbc.co.uk/programmes/b00lbsj3)  
+
+- [Learn Statistics with Keith Bower](http://keithbower.com/) - has nice, itemized podcasts on the basic statistics concepts. Both video and audio podcasts. 
 
 ###Blogs 
 
@@ -84,8 +91,7 @@ nteractive course by DataCamp.
 ###Data 
 
 - Excellent [collection of datasets](http://www.statsci.org/datasets.html).   
-- [HistData](./data/HistData/Encyclopedia_HistData.md) Wiki overviews some of the historic datasets from the [HistData](./data/HistData/README.md) package that will be used in the course.  
-S
+- [HistData](./data/HistData/Encyclopedia_HistData.md) Wiki overviews some of the historic datasets from the [HistData](./data/HistData/README.md) package. Visualization challanges await.   
 
 
 # Notes  
