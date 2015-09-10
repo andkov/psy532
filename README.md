@@ -47,8 +47,8 @@ Nov 02|                          |Wickham (2014)  |                 |*Tidy Data 
 23    |                          |                |                 |Production: Slides  |   
 26    |**No class**              |                |                 |  **No class** |   
 30    |                          |                |Report       (40)|Production: Poster  |   
-Dec 03|Student Presentations     |                |Slides       (20)|  |   
-07    |*Rest Day*               |                |                 |  |   
-10    |**Student Posters**       |                |Poster       (30)|  |   
+Dec 03|                          |                |Slides       (20)|**Student Presentations**  |   
+07    |*Rest Day*               |                |                 |*Rest Day*   |   
+10    |                         |                |Poster       (30)|**Student Posters**   |   
 
 
