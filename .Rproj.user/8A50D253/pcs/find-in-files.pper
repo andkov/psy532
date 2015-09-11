@@ -4,7 +4,7 @@
         "filePatterns" : [
         ],
         "path" : "~/GitHub/psy532",
-        "query" : "<img",
+        "query" : "try R",
         "regex" : false
     }
 }
