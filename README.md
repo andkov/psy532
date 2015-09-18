@@ -34,22 +34,22 @@ Oct 2 |                          |ITSL 3          |HM 2        (10) |Multiple Re
 08    |EXAM I. Analysis          |                |                 |  |     	
 12    |**Thanksgiving**          |                |                 |  |    
 15    |4) History of Science     |                |                 |  |
-19    |                          | ITSL 6.1, 6.5  |HM 3        (10) |Validation. Subset. Fit.  |   
-22    |5) Of Graphs and Models   |             |                 |  |    
-26    |                          |ITSL 7.1-2, 7.5    |HM 4        (10) |Polynomial. Nonlinear.GAM.  | 
+19    |                          |ITSL 6.1, 6.5   |HM 3        (10) |Validation. Subset. Fit.  |   
+22    |5) Of Graphs and Models   |                |                 |  |    
+26    |                          |ITSL 7.1-2, 7.5 |HM 4        (10) |Polynomial. Nonlinear.GAM.  | 
 29    |**No class**              |                |                 |Academic Drop Deadline (Oct 31)  | 
-Nov 02|                          |Wickham (2014)  |                 |*Tidy Data Workshop*   |      	
+Nov 02|                          |Wickham (2014)  |Paper model (10) |*Tidy Data Workshop*   |      	
 05    |Exam II. Test             |                |EXAM II     (100)|  |   
 09    |**Reading Week**          |                |                 |  |   
 12    |EXAM II. Analysis         |                |                 |  |   
-16    |6) Reproducible Research|            |                 |  |   
+16    |6) Reproducible Research  |                |                 |  |   
 19    |                          |                |                 |Production: Reports     
 23    |                          |                |                 |Production: Slides  |   
-26    |**No class**              |                |                 |  **No class** |   
+26    |**No class**              |                |                 | **No class** |   
 30    |                          |                |Report       (40)|Production: Poster  |   
 Dec 03|                          |                |Slides       (20)|**Student Presentations**  |   
-07    |*Rest Day*               |                |                 |*Rest Day*   |   
-10    |                         |                |Poster       (30)|**Student Posters**   |   
+07    |*Rest Day*                |                |                 |*Rest Day*   |   
+10    |                          |                |Poster       (30)|**Student Posters**   |   
 
 </br>
 The development of the course materials is partially funded by the ICRR grant from [Learning and Teaching Centre](http://www.uvic.ca/learningandteaching/) at [UVic](http://www.uvic.ca/). See current (18 Sep 2015) [progress report](http://htmlpreview.github.io/?https://github.com/andkov/psy532/blob/master/documentation/LTDG/LTC_UVic_18_Sep_2015.html).

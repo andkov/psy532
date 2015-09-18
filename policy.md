@@ -3,9 +3,16 @@
 
 ### Evaluation and Grading 
 
- Exam I - 50 points
- Exam II - 100 points
- Project - 100 + 50 points 
+Paper Models - 2 x 10 - 20 points
+Homework - 4 x 10 - 40 points
+Exam I - 50 points
+Exam II - 100 points
+Project     
+ - Dynamic Report - 40 points
+ - Presentation Slides - 20 points
+ - Printed Poster - 30 points
+ 
+ Total : 300 points
 
 
 
