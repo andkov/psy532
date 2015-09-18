@@ -1,19 +1,19 @@
 Swirl Course Notes
 ----
 
-My notes and comments about available (2015-Jun-18) swirl courses
+My notes and comments about existing (2015-Jun-18) [swirl courses](https://github.com/swirldev/swirl_courses)
 
 # Table of Courses
 
 ## Overlapping with DSS
 
   1: The Data Scientist’s Toolbox  
-  2: **R Programming**    
-  3: **Getting and Cleaning Data**   
-  4: **Exploratory Data Analysis**   
+  2: **R Programming** ([swirl](https://github.com/swirldev/swirl_courses/tree/master/R_Programming))    
+  3: **Getting and Cleaning Data** ([swirl](https://github.com/swirldev/swirl_courses/tree/master/Getting_and_Cleaning_Data))  
+  4: **Exploratory Data Analysis** ([swirl](https://github.com/swirldev/swirl_courses/tree/master/Exploratory_Data_Analysis))   
   5: Reproducible Research  
-  6: **Statistical Inference**   
-  7: **Regression Models**   
+  6: **Statistical Inference**  ([swirl](https://github.com/swirldev/swirl_courses/tree/master/Statistical_Inference))  
+  7: **Regression Models**  ([swirl](https://github.com/swirldev/swirl_courses/tree/master/Regression_Models))  
   8: Practical Machine Learning  
   9: Developing Data Products  
 
@@ -76,7 +76,7 @@ Number 1 to 9 represent course in the Coursera's Data Science Track. Swirl cours
 - Coursera's Data Science track, no swirl course   
 
 ## 6: Statistical Inference
-  1: [Introduction](https://github.com/swirldev/swirl_courses/blob/master/Statistical_Inference/Introduction/lesson)               
+  1: [Introduction](https://github.com/swirldev/swirl_courses/blob/master/Statistical_Inference/Introduction/lesson)         
   2: Probability1          
   3: Probability2             
   4: ConditionalProbability
