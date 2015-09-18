@@ -13,6 +13,7 @@
 - [1610 - Jupiter moons](https://en.wikipedia.org/wiki/Galilean_moons)
 
 ##Francis Bacon
+- [1561 - 1561](https://en.wikipedia.org/wiki/Francis_Bacon) 
 - [1620 - Novum Organum](https://en.wikipedia.org/wiki/Novum_Organum) 
  
 ##David Hume
