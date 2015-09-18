@@ -1,0 +1,17 @@
+{
+    "contents" : "PSYC-532: Flipping graduate stat course\n========================================================\nauthor: Andriy Koval  \ndate: 18-Sep-2015\n\nLearning and Teaching Development Grant (LTDG) \n\n\n\nCurriculum Needs\n========================================================\nThe curriculum revision by the Psychology Department recognized, among others, the following needs:\n\n1.\t**R** as the primary language of statistical computing \n2.\tAugment methodological training with practical **data science** skills\n\n\nGeneral Goals of the Project\n========================================================\n- to update and flip introductory graduaduate statistics course\n![span](images/span.png)\n\n\n\nSpecific Goals of the Grant\n========================================================\n- production of interactive lessons with [swirl](https://github.com/andkov/psy532/blob/master/materials/swirl/quickstart.md)\n- to adapt and to extend the existing [collection of swirl courses](../materials/swirl/course_notes.md)\n![swirlselection](images/swirlselection.jpg)\n\n\nProgress Report\n========================================================\n- [github repository](https://github.com/andkov/psy532/blob/master/README.md) as the course portal",
+    "created" : 1442597507607.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1344173201",
+    "id" : "9C089F68",
+    "lastKnownWriteTime" : 1442597518,
+    "path" : "~/GitHub/psy532/documentation/LTDG/LTC_UVic_18_Sep_2015.Rpres",
+    "project_path" : "documentation/LTDG/LTC_UVic_18_Sep_2015.Rpres",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_presentation"
+}

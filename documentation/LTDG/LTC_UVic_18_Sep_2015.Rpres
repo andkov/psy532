@@ -1,0 +1,34 @@
+PSYC-532: Flipping graduate stat course
+========================================================
+author: Andriy Koval  
+date: 18-Sep-2015
+
+Learning and Teaching Development Grant (LTDG) 
+
+
+
+Curriculum Needs
+========================================================
+The curriculum revision by the Psychology Department recognized, among others, the following needs:
+
+1.	**R** as the primary language of statistical computing 
+2.	Augment methodological training with practical **data science** skills
+
+
+General Goals of the Project
+========================================================
+- to update and flip introductory graduaduate statistics course
+![span](images/span.png)
+
+
+
+Specific Goals of the Grant
+========================================================
+- production of interactive lessons with [swirl](https://github.com/andkov/psy532/blob/master/materials/swirl/quickstart.md)
+- to adapt and to extend the existing [collection of swirl courses](../materials/swirl/course_notes.md)
+![swirlselection](images/swirlselection.jpg)
+
+
+Progress Report
+========================================================
+- [github repository](https://github.com/andkov/psy532/blob/master/README.md) as the course portal
