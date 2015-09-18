@@ -1,4 +1,7 @@
 
+##Aristotel
+- ![aristotel](images/aristotel.png) [384 - 322 B.C.](https://en.wikipedia.org/wiki/Aristotle)   
+- "the first geniune scientist in history"
 
 ##Nikolaus Copernicus
 - [1473 - 1543](https://en.wikipedia.org/wiki/Nicolaus_Copernicus)

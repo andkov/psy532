@@ -33,6 +33,6 @@ Progress Report
 ========================================================
 - [github repository](https://github.com/andkov/psy532/blob/master/README.md) as the course portal
 - professional [library](https://github.com/andkov/psy532/blob/master/library.md) and defined [scope](https://github.com/andkov/psy532/blob/master/materials/scope.md) of the course
-- comprehensive review of [online resources](https://github.com/andkov/psy532/blob/master/resources.md)   
+- comprehensive review of [online resources](https://github.com/andkov/psy532/blob/master/resources.md)     
 - practice-oriented collection of tips and resources based on [skill sets of data science](https://github.com/andkov/psy532/blob/master/skills.md)
 - extendable [timeline](https://github.com/andkov/psy532/blob/master/materials/people/timeline.md) with key figures in the history of the discipline and the general history of science. 
