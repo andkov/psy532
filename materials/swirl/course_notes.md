@@ -3,7 +3,7 @@ Swirl Course Notes
 
 My notes and comments about existing (2015-Jun-18) [swirl courses](https://github.com/swirldev/swirl_courses)
 
-# Table of Courses
+# Table of Existing Courses
 
 ## Overlapping with DSS
 
