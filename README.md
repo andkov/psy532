@@ -51,4 +51,5 @@ Dec 03|                          |                |Slides       (20)|**Student P
 07    |*Rest Day*               |                |                 |*Rest Day*   |   
 10    |                         |                |Poster       (30)|**Student Posters**   |   
 
-
+</br>
+The development of the course materials is partially funded by the ICRR grant from [Learning and Teaching Centre](http://www.uvic.ca/learningandteaching/) at [UVic](http://www.uvic.ca/).
