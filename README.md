@@ -11,6 +11,7 @@
 |---|---|---|---|---|---|---|---|
 | Monday, Thursday    11:30 - 13:00   | HSD A150    | Winter 2015   | Sep 10 [-](https://github.com/andkov/psy532/edit/master/README.md) Dec 10  |andkov at uvic dot ca |Cornett B335g|   By appointment  | 472-4864  |
 
+- [log](./log.md) for updates and links
 - [To do](./todo.md) for assignments and homework
 - [Scope](./materials/scope.md) for content universe
 - [Library](./library.md) for books and articles  
