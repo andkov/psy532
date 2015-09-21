@@ -3,7 +3,7 @@ cat("\014")
 
 #### Input data ####
 
-# enter the observed scored into a vector object
+# enter the observed scores into a vector object
 
 # compute the variance of iq
 
