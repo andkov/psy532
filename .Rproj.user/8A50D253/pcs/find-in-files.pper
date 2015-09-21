@@ -1,0 +1,10 @@
+{
+    "dialog-state" : {
+        "caseSensitive" : false,
+        "filePatterns" : [
+        ],
+        "path" : "~/GitHub/IALSA-2015-Portland",
+        "query" : "scale_color_manual",
+        "regex" : false
+    }
+}
