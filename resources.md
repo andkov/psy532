@@ -18,14 +18,14 @@
 
 
 ##Handy PDFs
-- [RStudio cheatsheets](http://www.rstudio.com/resources/cheatsheets/) are so well done that I have put them all into a single [pdf](./materials/pdf/R_Studio_Cheat_Sheets.pdf) and keep it on my Desktop.   
+- (**Chef's choice**) [RStudio cheatsheets](http://www.rstudio.com/resources/cheatsheets/) are so well done that I have put them all into a single [pdf](./materials/pdf/R_Studio_Cheat_Sheets.pdf) and keep it on my Desktop.   
 - [Data Science Specialization](https://drive.google.com/file/d/0B8KlNxv-FHyjQ0R1QUM0cE4tQm8/view),  slides from all nine courses. Files is too big to view online (130 MB), download first.          
 - [Introduction to Statistical Learning](https://drive.google.com/file/d/0B8KlNxv-FHyjSzJtWWw1NXNYSE0/view),  all slides  from Hastie and Tibshirani videos (James et al., 2013).    
 - [Topics in Computational Data Analysis and Graphics](https://drive.google.com/file/d/0B8KlNxv-FHyjbXhGWGtCbTczSFk/view), slide to Ross Ihaka's course.    
-- [Statistical Computing](./materials/pdf/Ihaka and Murrell (2015) Statistical Computing.pdf), quick review of basic R syntax. 
+- (**Chef's choice**) [Statistical Computing](./materials/pdf/slides/Ihaka_Murrell_(2015)_Statistical_Computing.pdf), quick review of basic R syntax. 
 - [Introduction to data analysis](https://drive.google.com/file/d/0B8KlNxv-FHyjdTE3OVhad3kzSE0/view), Hadley Wickham's slides from Rice University.   
 - [Computing for Data Analysis](), coursera course. 
-
+- (**Chef's choice**) [Answering Theoretical Questions with R](http://statpower.net/Content/310/Lecture%20Notes/UsingR.pdf) , [Descriptive Statistics with R](http://statpower.net/Content/311/Lecture%20Notes/CH02.pdf) - great overview lectures by James Steiger. Browse his website [statpower.net](http://statpower.net/) for lecture slides to his statistical courses at Vanderbilt university.   
 
 ##Courses
 
