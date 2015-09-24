@@ -11,7 +11,7 @@
 
 
 ##Collections
-- (**CC**) [ITSL: videos](http://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/) Hastie and Tibshirani narrate their book.  Arranged by Data School. See also the [solutions](http://blog.princehonest.com/stat-learning/) to their exercises
+- (**CC**) [ITSL: videos](http://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/) Hastie and Tibshirani narrate their [book](http://www-bcf.usc.edu/~gareth/ISL/).  Arranged by Data School. See also the [solutions](http://blog.princehonest.com/stat-learning/) to their exercises
 - [twotorials video](http://www.twotorials.com/) compact video tutorials on bits and pieces of all things R. Very useful for targeted reference. 
 - [Google R videos ](http://www.r-bloggers.com/google-developers-r-programming-video-lectures/) - Google Developers R Programming Video Lectures series. 
 - [R Tutorials](http://www.cyclismo.org/tutorial/R/) by Kelly Black at Clarkson Univeristy. Approximately covers an intro to stats undergrad course.   
@@ -75,13 +75,13 @@ nteractive course by DataCamp.
 
 - [Baconian Science](http://www.bbc.co.uk/programmes/b00jdb6c) episode of *In Our Time Science* by BBC4.  
 - [Induction](http://www.bbc.co.uk/programmes/b04hvrr5) episode of *The Philosopher's Arms* by BBC4.   
-- [The Scientific Method](http://www.bbc.co.uk/programmes/b01b1ljm)  
-- (**CC**) [The Scientist](http://www.bbc.co.uk/programmes/p00548jq)  
+- [The Scientific Method](http://www.bbc.co.uk/programmes/b01b1ljm)   
+- (**CC**) [The Scientist](http://www.bbc.co.uk/programmes/p00548jq)    
 - (**CC**) [Popper](http://www.bbc.co.uk/programmes/b00773y4)  
 - [Probability](http://www.bbc.co.uk/programmes/b00bqf61)  
 - [Logical Positivism](http://www.bbc.co.uk/programmes/b00lbsj3)  
+- [Learn Statistics with Keith Bower](http://keithbower.com/) - has nice, itemized podcasts on the basic statistics concepts. Both video and audio podcasts.   
 
-- [Learn Statistics with Keith Bower](http://keithbower.com/) - has nice, itemized podcasts on the basic statistics concepts. Both video and audio podcasts. 
 
 ###Blogs 
 

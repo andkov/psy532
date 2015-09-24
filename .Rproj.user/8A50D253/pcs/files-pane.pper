@@ -1,6 +1,10 @@
 {
-    "path" : "~/GitHub/psy532",
+    "path" : "~/GitHub/psy532/projects/homework/chapter2",
     "sortOrder" : [
+        {
+            "ascending" : false,
+            "columnIndex" : 1
+        },
         {
             "ascending" : true,
             "columnIndex" : 2
