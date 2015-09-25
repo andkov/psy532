@@ -87,17 +87,6 @@
 - see [book's website](https://www.stat.auckland.ac.nz/~paul/RG2e/) for the R code for all the graphs in the book
 
 
-##Papers
-- Friendly, M., & Denis, D. (2005).[The early origins and development of the scatterplot](http://euclid.psych.yorku.ca/datavis.ca/papers/friendly-scat.pdf). Journal of the History of the Behavioral Sciences, 41(2), 103-130.
-
-- Jones, L. V., & Tukey, J. W. (2000). [A sensible formulation of the significance test](http://forrest.psych.unc.edu/jones-tukey112399.html). *Psychological methods*, *5*(4), 411.
- 
-- Mook, D. G. (1983). [In defense of external invalidity](http://www.vanderbilt.edu/psychological_sciences/graduate/programs/quantitative-methods/quantitative-content/mook_1983.pdf). *American psychologist*, *38*(4), 379.
- 
-- Rodgers, J. L. (2010). [The epistemology of mathematical and statistical modeling: a quiet methodological revolution](http://www.researchgate.net/profile/Joe_Rodgers/publication/40906532_The_epistemology_of_mathematical_and_statistical_modeling_a_quiet_methodological_revolution/links/546b68ae0cf2f5eb18091cbd.pdf). *American Psychologist*, *65*(1), 1.
-
-- Wickham, H. (2014). [Tidy Data](http://www.jstatsoft.org/v59/i10/paper). *Journal of Statistical SOftware*, *59*(10). 
-
 
 ## Meta resources
 - [Resources Opinions](https://github.com/OuhscBbmc/RedcapExamplesAndPatterns/blob/master/DocumentationGlobal/ResourcesOpinions.md)  Will Beasley gives  brief reviews of key books and resources    
@@ -107,7 +96,7 @@
 
 
 
-##References
+##Academic Sources
 
 
 #### Articles  
@@ -115,11 +104,17 @@
 - Appelbaum, M. I., & Cramer, E. M. (1974). Some problems in the nonorthogonal analysis of variance. *Psychological Bulletin*, *81*(6), 335.
 
 - Cramer, E. M., & Appelbaum, M. I. (1980). Nonorthogonal analysis of variance—once again. *Psychological Bulletin*, *87*(1), 51.
- 
+
+- Friendly, M., & Denis, D. (2005).[The early origins and development of the scatterplot](http://euclid.psych.yorku.ca/datavis.ca/papers/friendly-scat.pdf). Journal of the History of the Behavioral Sciences, 41(2), 103-130.
+
 - Jones, L. V., & Tukey, J. W. (2000). [A sensible formulation of the significance test](http://forrest.psych.unc.edu/jones-tukey112399.html). *Psychological methods*, *5*(4), 411.
  
 - Mook, D. G. (1983). [In defense of external invalidity](http://www.vanderbilt.edu/psychological_sciences/graduate/programs/quantitative-methods/quantitative-content/mook_1983.pdf). *American psychologist*, *38*(4), 379.
- 
+
+- Lee Rodgers, J., & Nicewander, W. A. (1988). [Thirteen ways to look at the correlation coefficient](http://www.mapleprimes.com/DocumentFiles/131581/432006/rodgers-nicewander-1.pdf). The American Statistician, 42(1), 59-66.
+
+- Rodgers, J. L. (1999).[The Bootstrap, the Jackknife, and the Randomization Test: A Sampling Taxonomy](http://www.tandfonline.com/doi/pdf/10.1207/S15327906MBR3404_2). Multivariate Behavioral Research, 34(4), 441-456.    
+
 - Rodgers, J. L. (2010). [The epistemology of mathematical and statistical modeling: a quiet methodological revolution](http://www.researchgate.net/profile/Joe_Rodgers/publication/40906532_The_epistemology_of_mathematical_and_statistical_modeling_a_quiet_methodological_revolution/links/546b68ae0cf2f5eb18091cbd.pdf). *American Psychologist*, *65*(1), 1.
 
 - Wickham, H. (2014). [Tidy Data](http://www.jstatsoft.org/v59/i10/paper). *Journal of Statistical Software*, *59*(10). 

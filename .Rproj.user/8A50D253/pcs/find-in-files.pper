@@ -3,8 +3,8 @@
         "caseSensitive" : false,
         "filePatterns" : [
         ],
-        "path" : "~/GitHub/IALSA-2015-Portland",
-        "query" : "scale_color_manual",
+        "path" : "~/GitHub/Steiger_Multivariate",
+        "query" : "standardize",
         "regex" : false
     }
 }
