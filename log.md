@@ -1,5 +1,5 @@
 ## 28 Sep 2015
-
+- new script that explores the numeric example from Maxwell & Delaney (2004, p.91), [table 3.3 - mood induction study](https://github.com/andkov/psy532/blob/master/materials/cases/MD_3_mood/one_way_designs.R)
 - new starter script is added on using the [glm function](https://github.com/andkov/psy532/blob/master/scripts/modeling/glm_starter.R). Use it to get started with statistical modeling. 
 - new script added that allows you to [generate correlated data data](https://github.com/andkov/psy532/blob/master/scripts/data/generate_correlated_data.R), that is exact data that exhibit the specific interdependencies (correlations)
 - *areaF* : Quick graphs of model comparison. Copy/past the following content to get started.
