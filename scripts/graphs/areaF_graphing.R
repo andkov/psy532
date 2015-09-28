@@ -1,5 +1,5 @@
-rm(list=ls(all=TRUE)) #Clear the memory of variables from previous run. This is not called by knitr, because it's above the first chunk.
-cat("\014")
+# rm(list=ls(all=TRUE)) #Clear the memory of variables from previous run. This is not called by knitr, because it's above the first chunk.
+# cat("\014")
 
 # ds <- readRDS("./data/simulated/dsX.rds")
 # mdl <- glm(formula=iq ~ 1 + ses + parent_edu + house_cost, data=ds)
