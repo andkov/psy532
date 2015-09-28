@@ -2,6 +2,10 @@ rm(list=ls(all=TRUE)) #Clear the memory of variables from previous run. This is 
 cat("\014")
 
 ## @knitr load_sources
+# see Andrey's guest lectures in Vanderbilt
+# data simulation example
+# Dropbox\Teach\Vandy\Guest.Lectures\Multiple.Regression
+
 
 
 ## @knitr load_packages
