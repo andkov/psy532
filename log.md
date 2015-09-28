@@ -2,8 +2,7 @@
 
 - new starter script is added on using the [glm function](https://github.com/andkov/psy532/blob/master/scripts/modeling/glm_starter.R). Use it to get started with statistical modeling. 
 - new script added that allows you to [generate correlated data data](https://github.com/andkov/psy532/blob/master/scripts/data/generate_correlated_data.R), that is exact data that exhibit the specific interdependencies (correlations)
-
-*areaF* - Quick graphs of model comparison
+- *areaF* : Quick graphs of model comparison. Copy/past the following content to get started.
 ```
 rm(list=ls(all=TRUE)) # clear environment
 cat("\f") # clear console
