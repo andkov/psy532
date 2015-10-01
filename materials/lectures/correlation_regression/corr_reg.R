@@ -27,7 +27,6 @@ source("https://raw.githubusercontent.com/andkov/psy532/master/scripts/graphs/ma
 ds <- HistData::Galton 
 head(ds)
 nrow(ds)
-??
 
 ## @knitr tweak_data
 # ds$parent <- ds$parent * c(2.54)
@@ -41,7 +40,7 @@ g <- g + geom_point()
 g <- g + geom_smooth(method=lm, se=T)
 g <- g + main_theme
 g
-??geom_smooth
+
 
 
 ## @knitr basic_graph_parent

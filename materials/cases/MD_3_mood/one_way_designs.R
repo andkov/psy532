@@ -34,40 +34,27 @@ t(psych::describe(ds))
 str(a)
 a["pleasant"]
 
-#create a list containing means using lapply
-(M <- lapply(ds, mean))
-str(M)
-str(M["pleasant"])
-str(M[["pleasant"]])
-str(M["pleasant"][[1]])
-as.numeric(M)
+
+#create a list containing  group means using lapply
+(group_mean <- lapply(ds, mean))
+str(group_mean)
+str(group_mean["pleasant"])
+str(group_mean[["pleasant"]])
+str(group_mean["pleasant"][[1]])
+as.numeric(group_mean)
 
 #create a list containing standard deviations using lapply
 (SD <- lapply(ds, sd))
 str(SD)
 as.numeric(SD)
 
+# compute grand mean
+(grand_mean <- mean(c(ds$pleasant, ds$neutral, ds$unpleasant)))
+
 #################################################
 
-# compute errors of pleasant group
-(ds_pleasant <- as.data.frame(pleasant))
-(ds_pleasant <- dplyr::rename(ds_pleasant, y = pleasant))
-(ds_pleasant$error <- ds_pleasant$y - M["pleasant"][[1]])
-(ds_pleasant$error2 <- ds_pleasant$error^2)
-ds_pleasant
 
-
-# compute errors of pleasant group
-(ds_neutral <- as.data.frame(neutral))
-(ds_neutral <- dplyr::rename(ds_neutral, y = neutral))
-(ds_neutral$error <- ds_neutral$y - mean(ds_neutral$y))
-(ds_neutral$error2 <- ds_neutral$error^2) 
-ds_neutral 
-
-y3 <- ds$unpleasant
-e3 <- y3-mean(y3)
-es3 <- e3^2
-(ds_unpleasant <- as.data.frame(cbind(y3, e3, es3)))
+# compute error of each group 
 
 y1 <- ds$pleasant
 e1 <- y1-mean(y1)
@@ -79,22 +66,30 @@ e2 <- y2-mean(y2)
 es2 <- e2^2
 (ds_neutral <- as.data.frame(cbind(y2, e2, es2)))
 
+y3 <- ds$unpleasant
+e3 <- y3-mean(y3)
+es3 <- e3^2
+(ds_unpleasant <- as.data.frame(cbind(y3, e3, es3)))
 
-# write a function that computes error four our file
-compute_errors <- function(ds=ds, group="pleasant"){
-  df <- as.data.frame(ds[group])
-  names(df) <- "y"
-  df$error <- df$y - mean(df$y) 
-  df$error2 <- df$error^2
-  return(df)
-}
-ds_pleasant <- compute_errors(ds=ds, group="pleasant")
-ds_neutral <- compute_errors(ds=ds, group="neutral")
-ds_unpleasant <- compute_errors(ds=ds, group="unpleasant")
-
+# recreate the table 3.4 on the page 92 (Maxwell & Delaney, 2004)
 table_3_4 <- cbind(ds_pleasant, ds_neutral, ds_unpleasant)
 table_3_4
+d <- table_3_4
 
+# compute misfit of the FULL model
+(EF <- sum(es1 + es2 + es3))
+# compute misfit of the REDUCED model
+(ER <- sum( (y1-grand_mean)^2 + (y2-grand_mean)^2 + (y3-grand_mean)^2))
+# count the degrees of freedom of the FULL model
+dfF <- 27
+# count the degrees of freedom of the REDUCED model
+dfR <- 29
+
+# load areaF function
+source("https://raw.githubusercontent.com/andkov/psy532/master/scripts/graphs/areaF_graphing.R")
+areaF(EF, dfF, ER, dfR )
+
+#   
 ###################################################
 # convert from wide to long 
 ds
@@ -122,21 +117,21 @@ dsL$m3 <- (sum(dsL$y * dsL$d3)/(sum(dsL$d3)))*dsL$d3
 head(dsL, 22)
 
 # create a column with group means
-dsL$ybar <- dsL$m1 + dsL$m2 + dsL$m3
+dsL$group_mean <- dsL$m1 + dsL$m2 + dsL$m3
 head(dsL, 22)
 
 # keep only specific variables
-dsL <- dsL[c("y", "group","d1","d2","d3","ybar")]
+dsL <- dsL[c("y", "group","d1","d2","d3","group_mean")]
 
 # create a variable with grand/total mean
-dsL$ydot <- round(mean(dsL$y),2)
+dsL$grand_mean <- round(mean(dsL$y),2)
 head(dsL, 22)
 
 ################################
 m1 <- lm(y ~  group, data=dsL)
 summary(m1)
  
-m2 <- glm(y ~ + group, data=dsL)
+m2 <- glm(y ~ 1 + group, data=dsL)
 summary(m2)
 
 dsL$yhat <- predict(m1)
@@ -145,19 +140,24 @@ dsL
 ###################################
 
 ## @knitr eq65
-SSw <- sum((dsL$y - dsL$ybar)^2) # SS Between
+SSw <- sum((dsL$y - dsL$group_mean)^2) # SS Between
 EF <- SSw # Full model
 
 ## 
-SSt <- sum((dsL$y - dsL$ydot)^2) # SS Within
+SSt <- sum((dsL$y - dsL$grand_mean)^2) # SS Within
 ER <- SSt # Restricted model
 
 ##
-SSb <- sum((dsL$ydot - dsL$ybar)^2)
+SSb <- sum((dsL$grand_mean - dsL$group_mean)^2)
 delta_E <- ER - EF
 all.equal(SSb,delta_E)
 
-##
+# load areaF function
+source("https://raw.githubusercontent.com/andkov/psy532/master/scripts/graphs/areaF_graphing.R")
+areaF(SSw, dfF, SSt, dfR )
+
+
+## Manual computation of the F statistic
 N <- nrow(dsL) # length(dsL$y)
 a <- length(levels(dsL$group))
 

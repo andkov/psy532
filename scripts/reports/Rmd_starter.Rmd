@@ -1,6 +1,13 @@
+---
+title: "Title"
+output:
+  html_document:
+    css: sidebar.css
+    keep_md: yes
+    toc: yes
+---
+
 <!-- These two chunks should be added in the beginning of every .Rmd that you want to source an .R script -->
-
-
 <!--  The 1st mandatory chunck  -->
 <!--  Set the working directory to the repository's base directory -->
 ```{r, echo=F, message=F} 

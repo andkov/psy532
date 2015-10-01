@@ -3,6 +3,7 @@ cat("\014")
 
 
 ds <- readRDS("./data/simulated/dsX.rds")
+str(ds)
 mdl <- glm(formula=iq ~ 1 + ses + parent_edu + house_cost, data=ds)
 mdl
 
@@ -10,6 +11,7 @@ mdl
 summary(mdl) # model summary
 coefficients(mdl) # point estimates of model parameters (aka "model solution")
 vcov(mdl) # covariance matrix of model parameters (inspect for colliniarity)
+cov2cor(vcov(mdl)) # view the correlation matrix of model parameters
 confint(mdl, level=0.95) # confidence intervals for the estimated parameters
 
 predict(mdl); fitted(mld) # generate prediction of the full model (all effects)
@@ -43,3 +45,6 @@ summod$coefficients
 (SS3 <-Anova(mdl,type="III"))  # Type III SS, control for everything
 
 
+# load areaF function
+source("https://raw.githubusercontent.com/andkov/psy532/master/scripts/graphs/areaF_graphing.R")
+areaF(EF, dfF, ER, dfR )
