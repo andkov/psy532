@@ -131,6 +131,8 @@
 
 - Gelman, A., & Hill, J. (2006). [*Data analysis using regression and multilevel/hierarchical models*](). Cambridge University Press.
 
+- Harlow, L. L., Mulaik, S. A., & Steiger, J. H. (2013). [*What if there were no significance tests?*](https://books.google.ca/books?hl=en&lr=&id=5cLeAQAAQBAJ&oi=fnd&pg=PP1&dq=The+world+is+round+p+%3C+.05&ots=oLdpCzuRsL&sig=VZLR5GWWj6TVb6x5isFLhfAFW44). Psychology Press.
+
 - Maxwell, S. E., & Delaney, H. D. (2004). [Designing experiments and analyzing data: A model comparison perspective (Vol. 1)](https://books.google.ca/books?id=gKZbD3lL88AC&printsec=frontcover#v=onepage&q&f=false). Psychology Press.
  
 - Murrell, P. (2011). [R graphics](http://www.e-reading.club/bookreader.php/137370/C486x_C06.pdf). CRC Press.
