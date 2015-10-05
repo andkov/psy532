@@ -103,6 +103,9 @@
 
 - Appelbaum, M. I., & Cramer, E. M. (1974). Some problems in the nonorthogonal analysis of variance. *Psychological Bulletin*, *81*(6), 335.
 
+- Cohen, J. (1995). [The earth is round (p<. 05)](https://scholar.google.ca/scholar?q=The+world+is+round+p+%3C+.05&btnG=&hl=en&as_sdt=0%2C5): Rejoinder. [synopsys](https://smartsite.ucdavis.edu/access/content/group/8af19756-ec27-4c0e-9782-ce901fdb317f/SchankMethodology/Methods.pdf)
+
+
 - Cramer, E. M., & Appelbaum, M. I. (1980). Nonorthogonal analysis of variance—once again. *Psychological Bulletin*, *87*(1), 51.
 
 - Friendly, M., & Denis, D. (2005).[The early origins and development of the scatterplot](http://euclid.psych.yorku.ca/datavis.ca/papers/friendly-scat.pdf). Journal of the History of the Behavioral Sciences, 41(2), 103-130.
