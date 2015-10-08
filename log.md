@@ -1,5 +1,5 @@
 ## 8 October 2015
-- Exam I [results](http://htmlpreview.github.io/?https://raw.githubusercontent.com/andkov/psy532/master/materials/evaluation/exam_i/exam_i.html)
+- Exam I  results:[html](http://htmlpreview.github.io/?https://raw.githubusercontent.com/andkov/psy532/master/materials/evaluation/exam_i/exam_i.html), [md](https://github.com/andkov/psy532/blob/master/materials/evaluation/exam_i/exam_i.md)
 
 ## 1 October 2015
 - Validity in Research Design    
