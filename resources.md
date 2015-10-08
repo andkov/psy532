@@ -96,8 +96,9 @@ nteractive course by DataCamp.
 
 
 # Notes  
-I do my best to follow the [Best Practices for Scientific Computing](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
-
+- I do my best to follow the [Best Practices for Scientific Computing](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
+- Learning R is a bit [challanging](http://www.statmethods.net/about/learningcurve.html).   
+- [Compare](http://datakeyword.blogspot.ca/2012/10/analysis-tools-comparison-r-language.html) various statistical software and languages.
 
 [edit me](https://github.com/andkov/psy532/edit/master/resources.md)  
  
