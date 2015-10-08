@@ -1,6 +1,3 @@
-## 8 October 2015
-- Exam I results[]()
-
 ## 1 October 2015
 - Validity in Research Design    
 - new script added that allows you to [generate correlated data data](https://github.com/andkov/psy532/blob/master/scripts/data/generate_correlated_data.R), that is exact data that exhibit the specific interdependencies (correlations)
