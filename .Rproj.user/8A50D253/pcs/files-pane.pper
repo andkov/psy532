@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "path" : "~/GitHub/psy532/materials/cases/MD_3_WISC-R",
-=======
-    "path" : "~/GitHub/psy532/materials/cases/MD_3_mood",
->>>>>>> master
+    "path" : "~/GitHub/psy532/scripts/reports",
     "sortOrder" : [
         {
             "ascending" : false,
