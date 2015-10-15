@@ -6,12 +6,12 @@
     "folds" : "",
     "hash" : "2088219165",
     "id" : "AB10A57F",
-    "lastKnownWriteTime" : 1443711423,
+    "lastKnownWriteTime" : 1443713562,
     "path" : "~/GitHub/psy532/scripts/modeling/glm_starter.R",
     "project_path" : "scripts/modeling/glm_starter.R",
     "properties" : {
     },
-    "relative_order" : 3,
+    "relative_order" : 4,
     "source_on_save" : false,
     "type" : "r_source"
 }

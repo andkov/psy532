@@ -1,0 +1,17 @@
+{
+    "contents" : "# replicate the Figure 1.1 from James et al, p.2.\n\nrm(list=ls())\ncat(\"\\f\")\n\nlibrary(ISLR)\nlibrary(ggplot2)\n\nfilePath <- file.path(getwd(),\"materials/cases/ITSL_advertising/Advertising.csv\")\nAdvertising <- read.csv(filePath) \nds <- Advertising\nhead(ds)\n\n## @knitr sales_tv\ng <- ggplot2::ggplot(data=ds, ggplot2::aes(x=TV, y=Sales))\ng <- g + geom_point()\ng <- g + geom_smooth(method=lm)\ng\n",
+    "created" : 1444878518728.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4095787739",
+    "id" : "40B5BCB0",
+    "lastKnownWriteTime" : 1444878702,
+    "path" : "~/GitHub/psy532/materials/cases/ITSL_advertising/ITSL_Figure2_1_end.R",
+    "project_path" : "materials/cases/ITSL_advertising/ITSL_Figure2_1_end.R",
+    "properties" : {
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
