@@ -1,4 +1,5 @@
 ## 15 October 2015
+- More on GLM and coefficient estimation.  
 - Case : Advertising](./materials/cases/Advertising/ITSL_advertising/ITSL_figure2.1.R), replicating the figures and graphs   
 - [R_starter.R](./scripts/reports/R_starter.R)   
 - [glm_starter.R](./scripts/modeling/glm_starter.R)
