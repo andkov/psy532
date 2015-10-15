@@ -1,5 +1,5 @@
 ## 15 October 2015
-- More on GLM and coefficient estimation.  
+- More on GLM and coefficient estimation. Check out this lecture on [basic matrix algebra](http://www.statpower.net/Content/313/Lecture%20Notes/RMatrix.pdf) in R by James Steiger.   
 - Case : [Advertising](./materials/cases/Advertising/ITSL_advertising/ITSL_figure2.1.R), replicating the figures and graphs   
 - [R_starter.R](./scripts/reports/R_starter.R)   
 - [glm_starter.R](./scripts/modeling/glm_starter.R)

@@ -1,0 +1,17 @@
+{
+    "contents" : "## 15 October 2015\n- More on GLM and coefficient estimation. Check out this lecture on [basic matrix algebra](http://www.statpower.net/Content/313/Lecture%20Notes/RMatrix.pdf) in R by James Steiger.   \n- Case : [Advertising](./materials/cases/Advertising/ITSL_advertising/ITSL_figure2.1.R), replicating the figures and graphs   \n- [R_starter.R](./scripts/reports/R_starter.R)   \n- [glm_starter.R](./scripts/modeling/glm_starter.R)\n\n## 8 October 2015\n- Exam I  results: [html](http://htmlpreview.github.io/?https://raw.githubusercontent.com/andkov/psy532/master/materials/evaluation/exam_i/exam_i.html), [md](https://github.com/andkov/psy532/blob/master/materials/evaluation/exam_i/exam_i.md)\n\n## 1 October 2015\n- Validity in Research Design    \n- new script added that allows you to [generate correlated data data](https://github.com/andkov/psy532/blob/master/scripts/data/generate_correlated_data.R), that is exact data that exhibit the specific interdependencies (correlations)\n- Explore the data that lead Galton to discovery of [regression](https://github.com/andkov/psy532/blob/master/materials/lectures/correlation_regression/corr_reg.R) \n\n\n## 28 Sep 2015\n- new script that explores the numeric example from Maxwell & Delaney (2004, p.91), [table 3.3 - mood induction study](https://github.com/andkov/psy532/blob/master/materials/cases/MD_3_mood/one_way_designs.R) \n- new starter script is added on using the [glm function](https://github.com/andkov/psy532/blob/master/scripts/modeling/glm_starter.R). Use it to get started with statistical modeling. \n\n- *areaF* : Quick graphs of model comparison. Copy/past the following content to get started.\n```\nrm(list=ls(all=TRUE)) # clear environment\ncat(\"\\f\") # clear console\nlibrary(ggplot2) # load ggplot2 package for graphing\n# load areaF function\nsource(\"https://raw.githubusercontent.com/andkov/psy532/master/scripts/graphs/areaF_graphing.R\")\nareaF(6136, 26, 6525, 29 )\n```\n\n\n## 24 Sep 2015\n- we will be looking at the exercise from ISLR, chapter 2, number 8. \n- we will start with the [unofficial solution](https://raw.githubusercontent.com/asadoughi/stat-learning/master/ch2/applied.R)\n- and end up with an expanded and [annotated version](https://github.com/andkov/psy532/blob/master/projects/homework/chapter2/hw_chapter_2_8.R)\n\n\n##21 Sep 2015\n- we will reproduce the example from Maxwell & Delaney (2004) p.77. Please open the following [script template](https://github.com/andkov/psy532/blob/master/materials/cases/MD_3_WISC-R/WISC_hyperactive_student.R) in RStudio.\n",
+    "created" : 1444932173223.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2872222455",
+    "id" : "B097B101",
+    "lastKnownWriteTime" : 1444932239,
+    "path" : "~/GitHub/psy532/log.md",
+    "project_path" : "log.md",
+    "properties" : {
+    },
+    "relative_order" : 13,
+    "source_on_save" : false,
+    "type" : "markdown"
+}
