@@ -35,3 +35,5 @@ Temporary Items
 packrat/lib*/
 *.ai
 *.pdf
+/materials/evaluation/exam_i/exam_i_m.Rmd
+/materials/evaluation/exam_i/exam_i_grades/*
