@@ -33,6 +33,7 @@ Mark van der Loo.
 
 
 ##Statistical Modeling 
+- [regressing "x on y" or "x on y"?](http://stats.stackexchange.com/questions/22718/what-is-the-difference-between-linear-regression-on-y-with-x-and-x-with-y) 
    - Doug Bates on statistical modeling with Julia([video](https://www.youtube.com/watch?v=v9Io-p_iymI)   
 
 ### Package support  
