@@ -1,3 +1,8 @@
+## 15 October 2015
+- Case : Advertising](./materials/cases/Advertising/ITSL_advertising/ITSL_figure2.1.R), replicating the figures and graphs   
+- [R_starter.R](./scripts/reports/R_starter.R)   
+- [glm_starter.R](./scripts/modeling/glm_starter.R)
+
 ## 8 October 2015
 - Exam I  results: [html](http://htmlpreview.github.io/?https://raw.githubusercontent.com/andkov/psy532/master/materials/evaluation/exam_i/exam_i.html), [md](https://github.com/andkov/psy532/blob/master/materials/evaluation/exam_i/exam_i.md)
 
