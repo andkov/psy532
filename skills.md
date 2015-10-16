@@ -99,3 +99,8 @@ Mark van der Loo.
 
 ### Slides  
 - RStudio provides a native format for creating presentations - **.Rpres**, availible in the "New file" option. For a quick start with .Rpres see this [article](https://support.rstudio.com/hc/en-us/articles/200486468-Authoring-R-Presentations)
+
+
+### Stat Graphing for the Web  
+- [Highcharts](https://cloud.highcharts.com/) point and click implementation for sharing interactive graphs.  
+- 
