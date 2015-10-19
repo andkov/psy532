@@ -1,9 +1,12 @@
 ---
-title: "Title"
+title: "Selected problems from Chapter 3"
 output:
   html_document:
-    css: sidebar.css
+    css: ~/GitHub/psy532/libs/css/sidebar.css
+    highlight: tango
     keep_md: yes
+    self_contained: no
+    theme: readable
     toc: yes
 ---
 
@@ -15,7 +18,7 @@ output:
 # cat("Working directory: ", getwd()) # check where you are
   library(knitr)
 # Rmd is in "./reports/reportA/reportA.Rmd", but now the root is "./"
-  knitr::opts_knit$set(root.dir='../../') 
+  knitr::opts_knit$set(root.dir='../../../') 
 ```
 
 <!--  The 2nd mandatory chunck  -->
@@ -40,20 +43,18 @@ opts_chunk$set(
 echoChunks <- FALSE
 options(width=120) #So the output is 50% wider than the default.
 # connect to the file with the underlying R script  
-read_chunk("./reportA/reportA.R") 
+read_chunk("./projects/homework/chapter3/hw_chapter_3.R") 
 ```
 
 
 
 <!-- Load 'sourced' R files.  Suppress the output when loading packages. --> 
-```{r load_packages, echo=echoChunks, message=FALSE}
+```{r load_packages, echo=TRUE, message=FALSE}
 ```
-
 
 <!-- Load the sources.  Suppress the output when loading sources. --> 
-```{r load_sources, echo=echoChunks, message=FALSE}
+```{r load_sources, echo=TRUE, message=FALSE}
 ```
-
 
 <!-- Load any Global functions and variables declared in the R file.  Suppress the output. --> 
 ```{r declare_globals, echo=echoChunks, results='show', message=FALSE}
@@ -64,14 +65,14 @@ read_chunk("./reportA/reportA.R")
 #Put code in here.  It doesn't call a chunk in the codebehind file.
 ```
 
+## Load data
 <!-- Load the datasets.   -->
-```{r load_data, echo=echoChunks, results='show', message=FALSE}
+```{r load_data, echo=TRUE, results='show', message=FALSE}
 ```
 
 <!-- Tweak the datasets.   -->
-```{r tweak_data, echo=echoChunks, results='show', message=FALSE}
+```{r tweak_data, echo=TRUE, results='show', message=FALSE}
 ```
-
 
 
 <!-- Basic table view.   -->
@@ -82,6 +83,8 @@ read_chunk("./reportA/reportA.R")
 ```{r basic_graph, echo=TRUE, results='show', message=FALSE}
 ```
 
-
+## Problem 8
+```{r itsl_6_8, echo=TRUE, results='show', message=FALSE}
+```
 
 
