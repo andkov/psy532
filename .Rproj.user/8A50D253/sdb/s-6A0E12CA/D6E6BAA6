@@ -1,0 +1,17 @@
+{
+    "contents" : "rm(list=ls(all=TRUE)) #Clear the memory of variables from previous run. This is not called by knitr, because it's above the first chunk.\ncat(\"\\f\") # clear console\n\n\n\n# @knitr load_packages\nlibrary(dplyr) # for data manipulation\nlibrary(ggplot2) # for graphing\n\n\n# @knitr load_sources --------------------------------------- \nsource(\"./scripts/graphs/main_theme.R\")\nsource(\"./scripts/graphs/areaF_graphing.R\")\n\n# @knitr declare_globals ---------------------------------------\n\n\n\n# @knitr load_data ---------------------------------------\nfilePath <- \"./data/ISLR/Auto.data\" \nds <- read.table(filePath, header=T, na.strings=\"?\")\nhead(ds)\ndim(ds)\n\n# @knitr tweak_data ---------------------------------------\nds <- na.omit(ds)\ndim(ds)\n\n# @knitr basic_table ---------------------------------------\nsummary(ds)\n\n# @knitr basic_graph ---------------------------------------\n\n# @knitr itsl_6_8 ---------------------------------------\nmlm <- lm(mpg ~ horsepower, data=ds)\nsummary(mlm)\n\nmglm <- glm(formula=mpg ~ horsepower,data=ds )\nsummary(mglm)\n\n\n# @knitr reproduce ---------------------------------------\n  rmarkdown::render(input = \"./projects/homework/chapter3/hw_chapter_3.Rmd\" ,\n                    output_format=\"html_document\", clean=TRUE)",
+    "created" : 1445178391227.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4142059121",
+    "id" : "D6E6BAA6",
+    "lastKnownWriteTime" : 1445180910,
+    "path" : "~/GitHub/psy532/projects/homework/chapter3/hw_chapter_3.R",
+    "project_path" : "projects/homework/chapter3/hw_chapter_3.R",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
