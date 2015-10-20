@@ -11,7 +11,7 @@ library(HistData)
 library(testit, quietly=TRUE) #For asserts
 
 # @knitr load_sources --------------------------------------- 
-source("./scripts/graphs/main_theme.R")
+source("https://raw.githubusercontent.com/andkov/psy532/master/scripts/graphs/main_theme.R")
 
 
 # @knitr declare_globals ---------------------------------------
