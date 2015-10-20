@@ -1,10 +1,10 @@
 {
     "dialog-state" : {
-        "caseSensitive" : false,
+        "caseSensitive" : true,
         "filePatterns" : [
         ],
-        "path" : "~/GitHub/Steiger_Multivariate",
-        "query" : "standardize",
+        "path" : "~/GitHub/psy532",
+        "query" : "grade_graphs",
         "regex" : false
     }
 }
