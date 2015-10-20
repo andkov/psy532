@@ -37,3 +37,5 @@ packrat/lib*/
 *.pdf
 /materials/evaluation/exam_i/exam_i_m.Rmd
 /materials/evaluation/exam_i/exam_i_grades/*
+.RData
+.RHistory
