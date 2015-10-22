@@ -1,3 +1,9 @@
+# R and RStudio files.
+.Rhistory
+.RData
+.Rproj.user
+.Rproj.user/
+
 # Project
 materials/unshared/*
 
