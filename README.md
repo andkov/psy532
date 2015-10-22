@@ -34,11 +34,11 @@ Oct 2 |                          |ITSL 3          |HM 2        (10) |Multiple Re
 05    |EXAM I. Test              |                |EXAM I      (50) |  |     
 08    |EXAM I. Analysis          |                |                 |  |     	
 12    |**Thanksgiving**          |                |                 |  |    
-15    | GLM: graphs and scripts|                |                 |  |
-19    |                          |ITSL 6.1, 6.5   |HM 3        (10) |Validation. Subset. Fit.  |   
-22    |4) Of Graphs and Models   |                |                 |  |    
-26    |                          |ITSL 7.1-2, 7.5 |HM 4        (10) |Polynomial. Nonlinear.GAM.  | 
-29    |5) History of Science     |                |                 |Academic Drop Deadline (Oct 31)  | 
+15    |GLM: graphs and scripts   |                |                 |  |
+19    |Graphs: Advertising       |ITSL 6.1, 6.5   |HM 3        (10) |Validation. Subset. Fit.  |   
+22    |Graphs & Models: Boston   |                |                 |  |    
+26    |Handling model objects    |ITSL 7.1-2, 7.5 |HM 4        (10) |Polynomial. Nonlinear.GAM.  | 
+29    |History  Of Graphs and Models |                |                 |Academic Drop Deadline (Oct 31)  | 
 Nov 02|                          |Wickham (2014)  |Paper model (10) |*Tidy Data Workshop*   |      	
 05    |Exam II. Test             |                |EXAM II     (100)|  |   
 09    |**Reading Week**          |                |                 |  |   
