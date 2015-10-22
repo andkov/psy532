@@ -39,9 +39,9 @@ summary(ds)
 crime_graph <- function(df,predictor){
 g <- ggplot2::ggplot(data=d, aes_string(x= predictor, y="crim")) +
   geom_point(aes(color=radF), size=5, alpha=.45) + 
-  # scale_color_manual(values=c("Yes"="red", "No"="black"))+
+  scale_color_manual(values=c("Yes"="red", "No"="black"))+
   main_theme 
-  # labs(title=paste0("crime ~ ",predictor), color="Road Access Index \n  (low = easy)")
+  labs(title=paste0("crime ~ ",predictor), color="Road Access Index \n  (low = easy)")
   g 
 }
 
