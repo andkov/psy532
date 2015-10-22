@@ -6,10 +6,27 @@
 - read up on the difference between [geom_smooth]() and [stat_smooth](http://www.rdocumentation.org/packages/ggplot2/functions/stat_smooth) on the RDocumentation. 
 
 #### In-Class Progression
-0. Load the script from ```./scripts/reports/R_starter.R```
-1. create object ```ds``` from ```MASS::Boston```
-2. inspect and explore data
-3. make ```chas``` a factor and add level labels
+0. Load the script from './scripts/reports/R_starter.R`  
+1. Create object 'ds' from 'MASS::Boston'  
+2. Inspect and explore data  
+	- QUESTIONS: what is the key determinant(s) of crime?   
+	- inspect linear model using all variables as predictors of crime  
+3. Create a basic scatter plot with `x=lstat` and `y=crime`  
+4. Walk through all predictors with ggplot  
+5. What predictor(s) could be mapped to color?   
+6. Make `chasF` a factor and add level labels  
+7. As you walk through models again, 
+	a) add custom color values 
+	b) modify `goem_point` to optimize visual exploration
+	c) add custom title to the color scale
+8. Create a function to generate a graph with `y=crime`
+ - remember to use `aes_string`
+9. Map another variable to color (`radF`) 
+10. make the adjustements to the graph to accomodate `rad` variable
+11. Create a dynamic title in `labs()` using `paste0()' 
+12. Subset data to remove target level of the predictor
+13. Re-analyze
+	
 
 
 

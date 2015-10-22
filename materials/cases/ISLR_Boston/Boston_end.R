@@ -35,26 +35,20 @@ summary(ds)
 
 
 # @knitr basic_graph ---------------------------------------
-d <- ds
-# d <- dplyr::filter(ds, rad <= 8)
-d <- dplyr::mutate(d, toofar = rad > 8)
-# d$toofar <- ds$rad > 8
-# d$close <- d$rad * d$toofar
-d <- dplyr::mutate(d, close = rad * toofar)
-d <- dplyr::mutate(d, far = rad * !(toofar))
-head(d)
 
 crime_graph <- function(df,predictor){
 g <- ggplot2::ggplot(data=d, aes_string(x= predictor, y="crim")) +
   geom_point(aes(color=radF), size=5, alpha=.45) + 
-  geom_point(aes(color=radF), size=5, alpha=.45) + 
   # scale_color_manual(values=c("Yes"="red", "No"="black"))+
-  main_theme + 
-  labs(title=paste0("crime ~ ",predictor), color="Road Access Index \n  (low = easy)")
+  main_theme 
+  # labs(title=paste0("crime ~ ",predictor), color="Road Access Index \n  (low = easy)")
   g 
 }
 
-(g <- crime_graph(ds, predictor="indus")); str(ds)
+
+d <- ds
+d <- dplyr::filter(ds, rad <= 8)
+(g <- crime_graph(d, predictor="black")); str(ds)
 #
 
 
