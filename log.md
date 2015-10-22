@@ -1,3 +1,18 @@
+## 22 October 2015
+- have cheatsheets on [ggplot](https://www.rstudio.com/wp-content/uploads/2015/08/ggplot2-cheatsheet.pdf) and [data wrangling](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf) in quick access  
+- refer to the documentation on [geom_smooth()](http://docs.ggplot2.org/0.9.3.1/stat_smooth.html), by Hadley Wickham  
+- exploring [smoothers in graphs](http://www.ats.ucla.edu/stat/r/faq/smooths.htm), UCLA  
+- simple example of adding [polynomials](http://stackoverflow.com/questions/11949331/adding-a-3rd-order-polynomial-and-its-equation-to-a-ggplot-in-r) to ggplot smoother  
+- read up on the difference between [geom_smooth]() and [stat_smooth](http://www.rdocumentation.org/packages/ggplot2/functions/stat_smooth) on the RDocumentation. 
+
+#### In-Class Progression
+0. Load the script from ```./scripts/reports/R_starter.R```
+1. create object ```ds``` from ```MASS::Boston```
+2. inspect and explore data
+3. make ```chas``` a factor and add level labels
+
+
+
 ## 15 October 2015
 - More on GLM and coefficient estimation. Check out this lecture on [basic matrix algebra](http://www.statpower.net/Content/313/Lecture%20Notes/RMatrix.pdf) in R by James Steiger.   
 - Case : [Advertising](https://github.com/andkov/psy532/blob/master/materials/cases/ITSL_advertising/ITSL_Figure2_1.R), replicating the figures and graphs   

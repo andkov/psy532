@@ -6,30 +6,29 @@ cat("\f") # clear console
 # @knitr load_packages
 library(dplyr) # for data manipulation
 library(ggplot2) # for graphing
-library(scales) #for formating values in graphs
-library(HistData)
-library(testit, quietly=TRUE) #For asserts
+library(ISLR) # book
 
 # @knitr load_sources --------------------------------------- 
 source("https://raw.githubusercontent.com/andkov/psy532/master/scripts/graphs/main_theme.R")
 
-
 # @knitr declare_globals ---------------------------------------
-
-
 
 # @knitr load_data ---------------------------------------
 
-
+# @knitr inspect_data ---------------------------------------
 
 # @knitr tweak_data ---------------------------------------
 
-
-
 # @kntir basic_table ---------------------------------------
 
-
 # @knitr basic_graph ---------------------------------------
+
+# @knitr new_chunk ---------------------------------------
+
+
+
+
+
 
 
 # @knitr reproduce ---------------------------------------
