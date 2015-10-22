@@ -3,7 +3,7 @@
 - refer to the documentation on [geom_smooth()](http://docs.ggplot2.org/0.9.3.1/stat_smooth.html), by Hadley Wickham  
 - exploring [smoothers in graphs](http://www.ats.ucla.edu/stat/r/faq/smooths.htm), UCLA  
 - simple example of adding [polynomials](http://stackoverflow.com/questions/11949331/adding-a-3rd-order-polynomial-and-its-equation-to-a-ggplot-in-r) to ggplot smoother  
-- read up on the difference between [geom_smooth]() and [stat_smooth](http://www.rdocumentation.org/packages/ggplot2/functions/stat_smooth) on the RDocumentation. 
+- read up on the difference between [geom_smooth](http://www.rdocumentation.org/packages/ggplot2/functions/geom_smooth) and [stat_smooth](http://www.rdocumentation.org/packages/ggplot2/functions/stat_smooth) on the RDocumentation. 
 
 #### In-Class Progression
 0. Load the script from './scripts/reports/R_starter.R`  
