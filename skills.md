@@ -26,7 +26,7 @@ Mark van der Loo.
 ##Graph Production
 - Winston Chang's [R Graphics Cookbook](http://www.cookbook-r.com/) is a perfect book to get you started with producing graphs with RStudio.  
 - [ggplots for publication](http://www.noamross.net/blog/2013/11/20/formatting-plots-for-pubs.html).  
-
+- working with [multiple plots](http://www.sthda.com/english/wiki/ggplot2-easy-way-to-mix-multiple-graphs-on-the-same-page-r-software-and-data-visualization) examples
 
 
 
