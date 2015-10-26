@@ -1,3 +1,9 @@
+## 26 Oct 2016
+- how to create graphing functions, examplified with [Boston case](https://github.com/andkov/psy532/blob/master/materials/cases/ISLR_Boston/Boston_end.R) 
+- Handling model objects (S3/S4) [glm_starter.R](./scripts/modeling/glm_starter.R)  
+- combine multiple graphs with `grid.arrange`  
+- Introduction to data for potential class projects: [HRS](https://github.com/andkov/psy532/tree/master/data/hrs) and [NLSY97](https://github.com/andkov/psy532/tree/master/data/nlsy97)
+
 ## 22 October 2015
 - have cheatsheets on [ggplot](https://www.rstudio.com/wp-content/uploads/2015/08/ggplot2-cheatsheet.pdf) and [data wrangling](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf) in quick access  
 - refer to the documentation on [geom_smooth()](http://docs.ggplot2.org/0.9.3.1/stat_smooth.html), by Hadley Wickham  
