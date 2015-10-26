@@ -19,8 +19,22 @@ residuals(mdl) # difference b/w observed and modeled values
 anova(mdl) # put results into a familiary ANOVA table
 influence(mdl) # regression diagnostics
 
+
 # create a model summary object to query 
 summod <- summary(mdl)
+
+(a <- AIC(mdl))
+(logLik<-logLik(mdl))
+(dev<-deviance(mdl))
+(AIC <- AIC(mdl)) 
+(BIC <- BIC(mdl))
+# (N<- mdl@devcomp$dims["N"]) # Number of data points 
+# (p<- mdl@devcomp$dims["p"]) # Number of stimated parameters, verify
+# (ids<- (summary(mdl))$ngrps) # Number of units on level-2, here: individuals
+# (mInfo<- c("logLik"=logLik,"dev"=dev,"AIC"=AIC,"BIC"=BIC,"N"=N, "p"=p, "ids"=ids))
+(mInfo<- c("logLik"=logLik,"dev"=dev,"AIC"=AIC,"BIC"=BIC))
+
+
 
 # parameter estimates
 summod$coefficients             
