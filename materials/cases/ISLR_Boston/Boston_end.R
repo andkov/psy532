@@ -35,11 +35,11 @@ summary(ds)
 
 
 # @knitr basic_graph ---------------------------------------
-
+# create a graphing functions
 crime_graph <- function(df,predictor){
 g <- ggplot2::ggplot(data=d, aes_string(x= predictor, y="crim")) +
   geom_point(aes(color=radF), size=5, alpha=.45) + 
-  scale_color_manual(values=c("Yes"="red", "No"="black"))+
+  # scale_color_manual(values=c("Yes"="red", "No"="black"))+
   main_theme 
   labs(title=paste0("crime ~ ",predictor), color="Road Access Index \n  (low = easy)")
   g 
@@ -47,7 +47,7 @@ g <- ggplot2::ggplot(data=d, aes_string(x= predictor, y="crim")) +
 
 
 d <- ds
-d <- dplyr::filter(ds, rad <= 8)
+# d <- dplyr::filter(ds, rad <= 8)
 (g <- crime_graph(d, predictor="black")); str(ds)
 #
 
@@ -56,33 +56,36 @@ d <- dplyr::filter(ds, rad <= 8)
 
 
 # 
-# names(ds)
-# g <- ggplot2::ggplot(data=ds, aes(x=lstat, y=crim, color=chasF)) +
-#   geom_point() + 
-#   geom_smooth(
-#               method="lm", 
-#               # formula = y ~ x + I(x^2) + I(x^3),
-#               formula = y ~ poly(x,3), 
-#               # formula = y ~ x, 
-#               # span = .5,
-#               se=FALSE
-#               ) +
-#   facet_grid(.~chasF)+
-#   main_theme
-# g
-# 
-# 
-#  method="loess", 
-#  color="blue", 
-#  size=1, 
-#  fill="gray80", 
-#  alpha=.3, 
-#  na.rm=T
-#  se = FALSE # removes the CI band
-#  span = .5 # smoothness of the line         
+names(ds)
+p <- ggplot2::ggplot(data=ds, aes(x=lstat, y=crim, color=chasF)) +
+  geom_point() + 
+  geom_smooth(
+              method="lm", 
+              formula = y ~ x, 
+              se=FALSE
+              ) +
+  facet_grid(.~chasF)+
+  main_theme
+p
+
+# Use these options to explore  geom_smooth
+ method="loess", ="lm", ="gml"
+ formula = y ~ x + I(x^2) + I(x^3), # equivalent to line below
+ formula = y ~ poly(x,3), # equivalent to line above
+ color="blue",  # the color of the smoothing line
+ size=1,  # thickness of the smoothing line
+ fill="gray80", # color of the confidence band
+ alpha=.3,  # transparancy of the confidence band
+ na.rm=T, # remove missing observations 
+ se = FALSE # removes the CI band
+ span = .5 # smoothness of the line         
 
 
-
-# @knitr reproduce ---------------------------------------
-#   rmarkdown::render(input = "./reports/report.Rmd" ,
-#                     output_format="html_document", clean=TRUE)
+# create a blank plot to insert into grid
+blankPlot <- ggplot()+geom_blank(aes(1,1)) +
+  cowplot::theme_nothing()
+# arrange several plots into a composite graphic
+gridExtra::grid.arrange(p,blankPlot,g,
+                        ncol=3,  nrow=1,
+                        widths=c(1,.1,1),
+                        hieghts=c(1,1,1))
