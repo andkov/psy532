@@ -1,4 +1,9 @@
-## 26 Oct 2016
+## 29 Oct 2015
+- Student projects example: HRS retirement  [README](https://github.com/andkov/psy532/tree/master/data/hrs)  
+- use [hrs_starter](https://github.com/andkov/psy532/blob/master/projects/hrs/hrs_starter.R)  to get the data in and see the first few graphs  
+- consult [Issue #15](https://github.com/andkov/psy532/issues/15) for ```geom_smooth``` vocabulary
+
+## 26 Oct 201
 - how to create graphing functions, examplified with [Boston case](https://github.com/andkov/psy532/blob/master/materials/cases/ISLR_Boston/Boston_end.R) 
 - Handling model objects (S3/S4) [glm_starter.R](./scripts/modeling/glm_starter.R)  
 - combine multiple graphs with `grid.arrange`  
