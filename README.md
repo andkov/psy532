@@ -38,8 +38,8 @@ Oct 2 |                          |ITSL 3          |HM 2        (10) |Multiple Re
 19    |Graphs: Advertising       |ITSL 6.1, 6.5   |HM 3        (10) |Validation. Subset. Fit.  |   
 22    |Graphs & Models: Boston   |                |                 |  |    
 26    |Handling model objects    |ITSL 7.1-2, 7.5 |                 |Polynomial. Nonlinear.GAM.  | 
-29    |History  Of Graphs and Models |            |HM 4        (10) |Academic Drop Deadline (Oct 31)  | 
-Nov 02|                          |Wickham (2014)  |Paper model (10) |*Tidy Data Workshop*   |      	
+29    |Detecting nonlinearity with graphs |            |HM 4        (10) |Academic Drop Deadline (Oct 31)  | 
+Nov 02|History  Of Graphs and Models                          |Wickham (2014)  |Paper model (10) |*Tidy Data Workshop*   |      	
 05    |Exam II. Test             |                |EXAM II     (100)|  |   
 09    |**Reading Week**          |                |                 |  |   
 12    |EXAM II. Analysis         |                |                 |  |   
