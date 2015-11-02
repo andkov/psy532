@@ -1,0 +1,360 @@
+---
+title: "RR Skills (1): Data Manipulation "
+author: Andrey Koval
+date: October 21, 2014
+output: 
+  ioslides_presentation:
+    widescreen: true
+    transition: faster
+---
+
+<!--  Set the working directory to the repository's base directory; this assumes the report is nested inside of only one directory.-->
+```{r, echo=F, message=F} 
+library(knitr)
+opts_knit$set(root.dir='../../')  #Don't combine this call with any other chunk -especially one that uses file paths.
+```
+
+<!-- Set the report-wide options, and point to the external script file. -->
+```{r, echo=F, message=T}
+require(knitr)
+opts_chunk$set(
+  results='show', 
+  message = TRUE,
+  comment = NA, 
+  tidy = FALSE,
+#   fig.height = 4.8, 
+#   fig.width = 6.5, 
+  out.width = NULL,
+  fig.path = 'figure_rmd_try/',     
+  dev = "png",
+  dpi = 400
+)
+echoChunks <- FALSE
+warningChunks<- FALSE
+messageChunks<- FALSE
+options(width=120) #So the output is 50% wider than the default.
+read_chunk("./scripts/data/dsL_nlsy97.R") # the file to which knitr calls for the chunks
+```
+
+
+## Overview of the Series
+
+- Oct 14  -- Intro to Reproducible Research  
+- **Oct 21  -- RR Basic Skills (1): Data Manipulation** 
+- Oct 28  -- Intro to Latent Class and Latent Transition Models  
+- Nov 4  -- RR Basic Skills (2): Graph Production  
+- Nov 11      
+- Nov 18  -- RR Basic Skills (3): Statistical Modeling   
+- Nov 25  -- RR Basic Skills (4): Dynamic Reporting   
+- Dec 2 -- Migrating into R from other Statistical Software   
+
+## Recap: Intro to Reproducible Research (RR)
+
+<div class="columns-2">
+
+### **Toolbox**
+ - R
+ - RStudio
+ - GitHub
+ 
+### **Skillset**
+ - Data Manipulation  
+ - Graph Production  
+ - Statistical Modeling  
+ - Dynamic Reporting 
+</div>
+
+----
+
+<img src = 'images/ai/DataMap_trad.png' width="100%"></img>  
+
+### Traditional model of research
+
+
+----
+
+<img src = 'images/ai/DataMap_reprod.png' width="100%"></img> 
+
+### Reproducible model of research 
+
+----
+
+<img src = 'images/ai/DataMap_reprod.png' width="100%"></img> 
+
+### Goals of RR 
+
+- *Ultimate* : Answering a research **question**    
+- *Practical* : Publishing a **manuscript**   
+- *Technical* : Producing a **dynamic document**   
+
+----
+
+<img src = 'images/ai/DataMap_today.png' width="100%"></img> 
+
+### TODAY
+
+----
+
+<img src = 'images/ai/DataMap_today.png' width="100%"></img>  
+
+### Tidy data
+
+1. Each variable forms a column
+2. Each observation forms a row
+3. Each type of observational unit forms a table
+
+See [Hadley Wickham's](http://had.co.nz/) paper on [tidy data](http://www.jstatsoft.org/v59/i10/paper)
+
+## Before we begin
+
+### Primary focus 
+ - reproducible research, not R programming.  
+
+### Goal for today
+  - get to the tidy data
+  
+### Part 1 of 4
+  - next 3 lecture complete the mini-project
+  
+
+## Datastages {.smaller} 
+
+<img src = 'images/ai/DataMap_general.png' width="100%"></img>    
+
+
+### ds0 
+ - referred to as <code>ds0</code>
+ - verbatim input from raw files
+ - minimum or no processing
+ - "patient zero"
+
+## Datastages{.smaller} 
+
+<img src = 'images/ai/DataMap_general.png' width="100%"></img>  
+
+### dsL
+  - span of the project
+  - subset of ds0
+  - provides context 
+  - invites future research
+  - stable state
+
+## Datastages {.smaller}
+
+<img src = 'images/ai/DataMap_general.png' width="100%"></img>  
+
+### dsM
+  - model ready
+  - used for estimating models and producing graphs
+  - exists as a query of dsL
+  - usually adds custom data
+  
+
+## Datastages : This project 
+
+<img src = 'images/ai/DataMap_specific.png' width="100%"></img>  
+
+## Datastages : This project 
+
+<img src = 'images/ai/DataMap_full.png' width="100%"></img> 
+
+download the files to work along at [GitHub](https://github.com/IALSA/COAG-colloquium-2014F)
+
+## 
+<img src = 'images/download.png' width="100%"></img>   
+
+
+##  
+
+<img src = 'images/ai/DataMap_brief.png' width="100%"></img> 
+
+With this road map to give us direction, let us approach our data.
+
+## Study in Focus
+
+### NLSY97
+  - [National Longitudinal Study of Youth 1997][NLS]
+  - Household sample
+  - ~ 9,000 respondents
+  - 5 cohorts
+  - ages from 13 to 31
+  - started in 1997 
+  - continues today
+  -  outcome: <div class="red2">Church attendance</div>
+
+##
+
+<img src="./images/lmrNLY97figures_NLSwebView.png" width="100%"/>
+
+## Working with NLS Investigator
+
+To explore the variables in the native context of NLS, 
+
+1. go to [NLS Investigator][NLSWeb] (you will have to register a free account to keep track of your progress),    
+2. select "NLYS97 1997-2011" in the first dropdown box and then   
+3. click  "Choose File" under "Upload Tagset."    
+4. Select the file __NLSY97_Attend_20141021.NLSY97__ from the folder __/Data/Extract/NLSY97_Attend_20141021__. All the variables from this extract will be loaded into NLS Web Investigator.  
+
+Alternatively, one can locate the particular item of interest by copying and pasting its "Variable Title" it into "Word in Title" search line of the [NLS Investigator](https://www.nlsinfo.org/investigator/pages/login.jsp), as indicated in the graphic below. 
+
+
+Using [NLS Investigator][NLSWeb] a list of variables was downloaded from [NLS][NLS] datasets. All the downloaded materials  were unzipped into  the folder 
+```
+/Data/Extracts/NLSY97_Attend_20141021
+``` 
+## {.smaller}
+### The downloaded zip.forlder included:    
+- .cdb -- **codebook** containing item descriptions    
+- .csv -- **data** in comma delimited format  
+- .NLSY97 -- **tagset**, the list of variables in the downloaded dataset  
+- .dtc -- STATA **dictionary** file of selected variables, contains data as well    
+<img src="./images/archiveContent.png" width="100%"/>
+
+
+
+
+
+[NLSWeb]:https://www.nlsinfo.org/investigator/pages/login.jsp
+[NLS]:http://www.bls.gov/nls/
+
+
+
+## ./Scripts/Data/dsL.R
+To follow along, open [./Scripts/Data/dsL.R](https://github.com/IALSA/COAG-colloquium-2014F/blob/master/Scripts/Data/dsL.R)
+```{r LoadPackages, warning=F, message=F}
+```
+
+## ./Scripts/Data/dsL.R
+```{r LoadData, warning=F, message=F}
+```
+
+
+## ./Scripts/Data/dsL.R
+```{r ImportVarLabels, warning=F, message=F}
+```
+
+---- 
+```{r RenameVariables, warning=F, message=F}
+```
+
+## Query Data: $
+```{r QueryData1, warning=F, message=F}
+```
+
+## Query Data: [ , ]
+```{r QueryData2, warning=F, message=F}
+```
+
+
+## Query Data : dplyr 
+```{r QueryData3, warning=F, message=F}
+```
+
+A [tutorial](http://htmlpreview.github.io/?https://github.com/IALSA/tutorials/blob/gh-pages/software/dplyr/Data_Manipulation_Guide.html) elaborates on these three methods of querying data objects in R and provides further documentation
+
+
+## Arrive at dsW 
+```{r arrivedsW, warning=F, message=F}
+```
+
+<img src = 'images/ai/DataMap_brief.png' width="100%"></img> 
+
+```{r RemoveIllegal, echo=F, warning=F, message=F}
+```
+
+
+## Melt  | inspect wide data {.smaller}
+```{r Melt01, warning=F, message=F}
+```
+
+## Melt | define id.vars formula {.smaller}
+```{r Melt02, warning=F, message=F}
+```
+
+
+```{r Melt03, echo=F, warning=F, message=F}
+```
+
+## Melt | edit dsLong {.smaller}
+```{r Melt04, warning=F, message=F}
+```
+
+## Melt | arrive at dsLong {.smaller}
+```{r Melt05, warning=F, message=F}
+```
+
+## Melt | arrive at dsLong {.smaller}
+
+<img src = 'images/ai/DataMap_brief.png' width="100%"></img> 
+```{r, echo=FALSE}
+dplyr::filter(dsLong,id==1)
+
+```
+
+
+
+## Cast | define the cast formula {.smaller}
+```{r Cast01, warning=F, message=F}
+```
+
+## Mutate | create a new variable {.smaller}
+```{r MutateData01, warning=F, message=F}
+```
+
+## Mutate | create a new variable {.smaller}
+```{r MutateData02, warning=F, message=F}
+```
+
+## Label Factors | assign labels to categorical variables {.smaller}
+```{r LabelFactors, warning=F, message=F}
+```
+
+## Label Factors | example from ./Scripts/Data/LabelFactorLabels.R {.smaller}
+```{r, eval=F}
+sexLevels<- c(1,2,0)
+sexLabels<- c("Male","Female","No Information")
+
+varlist<-c("sex")
+for(i in varlist){
+  dsF[,paste0(i,"F")]<-ordered(dsF[,i],
+                                levels = sexLevels,
+                                labels = sexLabels)
+}
+```
+
+##  {.smaller}
+<img src = 'images/ai/DataMap_brief.png' width="100%"></img> 
+Arriving at **dsL**  
+```{r}
+dplyr::filter(dsL,id==1) %>% dplyr::select(id, sex, race, bmonth, byear, age, year, attend)
+
+```
+
+
+## Almost done! | Now, all definitions of the data will reference **dsL**.   {.smaller}
+```{r selectdsM, warning=F, message=F}
+```
+
+```{r LoadGraphSettings, echo=F, warning=F, message=F}
+```
+
+
+## Next : Graphs Production
+```{r BasicGraph, echo=F, warning=F, message=F, out.width="700px"}
+```
+
+```{r DataForModel, echo=F, warning=F, message=F}
+```
+
+## Next : Statistical Model
+```{r BasicModel, echo=F, warning=F, message=F, out.width="700px"}
+```
+
+## Recap and Looking forward
+
+<img src = 'images/ai/DataMap_full.png' width="100%"></img>
+
+- Nov 4  -- RR Basic Skills (2): Graph Production  
+- Nov 18  -- RR Basic Skills (3): Statistical Modeling
+- Nov 25  -- RR Basic Skills (4): Dynamic Reporting   
+
