@@ -1,6 +1,15 @@
 # Clear memory from previous runs
 base::rm(list=base::ls(all=TRUE))
+cat("\f")
 
+# install.packages("knitr")
+# install.packages("markdown")
+# install.packages("testit")
+# install.packages("dplyr")
+# install.packages("reshape2")
+# install.packages("stats")
+# install.packages("ggplot2")
+# install.packages("extrafont")
 
 ## @knitr LoadPackages
 # Load the necessary packages.
