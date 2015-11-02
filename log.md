@@ -1,7 +1,7 @@
 ## Nov 2 2015
  - download and unzip [tidy data repository](https://github.com/hadley/tidy-data/archive/master.zip).  
  - My lecture on [data manipulation](http://ialsa.github.io/COAG-colloquium-2014F/2014-10-21-Data-Manipulation.html) using NLSY97 data.  
- - 
+ - we will be replicating Hadley's script [case-study.r](https://github.com/hadley/tidy-data/blob/master/case-study/case-study.r), by slightly [adjusting](https://github.com/andkov/psy532/blob/master/materials/cases/tidy_data/case-study-andkov.r) it to fit our environment and annotate it better.  
  
 
 ## 29 Oct 2015
