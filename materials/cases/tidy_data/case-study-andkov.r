@@ -51,7 +51,7 @@ str(hod2)
 # hod2 <- dplyr::count_(deaths, c("cod", "hod")) #%>% dplyr::rename(freq=n) 
 # hod2 <- dplyr::filter(hod2, !is.na(hod))
 # hod2 <- dplyr::left_join(hod2, codes, by="cod")
-# hod2 <- dplyr::mutate(hod2, prop = n / sum(n))# %>% dplyr::group_by(cod)
+# http://stackoverflow.com/questions/24133356/how-to-replicate-ddply-behavior-with-dplyr
 # str(hod2)
   
 # Compare to overall abundance
