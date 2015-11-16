@@ -42,11 +42,11 @@ Oct 2 |                          |ITSL 3          |HM 2        (10) |Multiple Re
 Nov 02|History  Of Graphs and Models                          |Wickham (2014)  |Paper model (10) |*Tidy Data Workshop*   |      	
 05    |Exam II. Test             |                |EXAM II     (100)|  |   
 09    |**Reading Week**          |                |                 |  |   
-12    |EXAM II. Analysis         |                |                 |  |   
-16    |7) Reproducible Research  |                |                 |  |   
-19    |                          |                |                 |Production: Reports     
-23    |                          |                |                 |Production: Slides  |   
-26    |**No class**              |                |                 | **No class** |   
+12    |no class       |                |                 |  |   
+16    |EXAM II. Analysis    |                |                 |  |   
+19    |7) Reproducible Research                          |                |                 |Production: Reports     
+23    |                          |                |                 |Production: Reports  |   
+26    |          |                |                 |Production: Slides |   
 30    |                          |                |Report       (40)|Production: Poster  |   
 Dec 03|                          |                |Slides       (20)|**Student Presentations**  |   
 07    |*Rest Day*                |                |                 |*Rest Day*   |   
