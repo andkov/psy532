@@ -45,11 +45,11 @@ Nov 02|History  Of Graphs and Models                          |Wickham (2014)  |
 12    |no class       |                |                 |  |   
 16    |EXAM II. Analysis    |                |                 |  |   
 19    |7) Reproducible Research                          |                |                 |Production: Reports     
-23    |                          |                |                 |Production: Reports  |   
-26    |          |                |                 |Production: Slides |   
-30    |                          |                |Report       (40)|Production: Poster  |   
-Dec 03|                          |                |Slides       (20)|**Student Presentations**  |   
-07    |                          |                |Poster       (30)|**Student Posters**   |   
+23    | workshop                         |                |                 |Production: Reports  |   
+26    | workshop         |                |                 |Production: Slides |   
+30    |                          |                |Report       (40)| |   
+Dec 03|                          |                |Slides       (20)|  |   
+07    |                          |                |Poster       (30)|  |   
 
 </br>
 The development of the course materials is partially funded by the ICRR grant from [Learning and Teaching Centre](http://www.uvic.ca/learningandteaching/) at [UVic](http://www.uvic.ca/). See current (18 Sep 2015) [progress report](http://htmlpreview.github.io/?https://github.com/andkov/psy532/blob/master/documentation/LTDG/LTC_UVic_18_Sep_2015.html).
