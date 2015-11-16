@@ -1,3 +1,7 @@
+## 16 November 2015
+- Exam II  results: [html](http://htmlpreview.github.io/?https://raw.githubusercontent.com/andkov/psy532/master/materials/evaluation/exam_ii/exam_ii.html), [md](https://github.com/andkov/psy532/blob/master/materials/evaluation/exam_ii/exam_ii.md)
+
+
 ## Nov 2 2015
  - Review my lecture on [data manipulation](http://ialsa.github.io/COAG-colloquium-2014F/2014-10-21-Data-Manipulation.html) using NLSY97 data.    
  - Reproduce and enchance the script ([dsL_nlsy97.R](https://github.com/andkov/psy532/blob/master/scripts/data/dsL_nlsy97.R)) that produces the presentation above.   
