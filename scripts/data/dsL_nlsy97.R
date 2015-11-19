@@ -1,3 +1,4 @@
+# For annotations to this file visit ./projects/nlsy97/annotate_data_creation/ 
 # Clear memory from previous runs
 base::rm(list=base::ls(all=TRUE))
 cat("\f")
@@ -11,7 +12,7 @@ cat("\f")
 # install.packages("ggplot2")
 # install.packages("extrafont")
 
-## @knitr LoadPackages
+# @knitr LoadPackages --------------------
 # Load the necessary packages.
 base::require(base)
 base::require(knitr)
@@ -24,18 +25,18 @@ base::require(stats)
 base::require(ggplot2)
 base::require(extrafont)
 
-## @knitr DeclareGlobals
+# @knitr DeclareGlobals --------------------
 
 
-## @knitr LoadData
+# @knitr LoadData --------------------
 # Link to the data source 
-# myExtract <- "./Data/Extract/NLSY97_Attend_20141021/NLSY97_Attend_20141021"
-myExtract <- "https://raw.githubusercontent.com/IALSA/COAG-colloquium-2014F/master/Data/Extract/NLSY97_Attend_20141021/NLSY97_Attend_20141021"
+myExtract <- "./data/nlsy97/NLSY97_Attend_20141021/NLSY97_Attend_20141021"
+# myExtract <- "https://raw.githubusercontent.com/IALSA/COAG-colloquium-2014F/master/Data/Extract/NLSY97_Attend_20141021/NLSY97_Attend_20141021"
 pathSourceData <- paste0(myExtract,".csv") 
 SourceData <- read.csv(pathSourceData,header=TRUE, skip=0,sep=",")
 ds0 <- SourceData
 
-## @knitr ImportVarLabels
+# @knitr ImportVarLabels --------------------
 ### NLSY97 variable "id" is linked to the descriptive label in the header of the STATA formated data file.dtc" ###
 pathSourceLabels <- paste0(myExtract,".dct")
 SourceLabels<-read.csv(pathSourceLabels,header=TRUE, skip=0,nrow=17, sep="")
@@ -49,7 +50,7 @@ SourceLabels<-plyr::rename(SourceLabels,
 SourceLabels<-SourceLabels[ with(SourceLabels, order(RNUM)), ]
 SourceLabels
 
-## @knitr RenameVariables
+# @knitr RenameVariables --------------------
 # rename variables for easier handling
 ds0 <- plyr::rename(ds0, 
             c("R0000100"="id",
@@ -72,31 +73,31 @@ ds0 <- plyr::rename(ds0,
               )
             )
 
-## @knitr QueryData1
+# @knitr QueryData1 --------------------
 # with $
 a <- ds0$id # extracts column "id" from dataset "ds0"
 class(a)
 str(a)
 
-## @knitr QueryData2
+# @knitr QueryData2 --------------------
 # with [ ]
 a <- ds0[,c("id","sex")] # extracts column "id" from dataset "ds0"
 class(a)
 str(a)
 
-## @knitr QueryData3
+# @knitr QueryData3 --------------------
 # with dplyr package
 require(dplyr)
-filter(ds0, id<5) %>% select(id,sex, race)
+dplyr::filter(ds0, id<5) %>% dplyr::select(id,sex, race)
 
-## @knitr arrivedsW
+# @knitr arrivedsW --------------------
 # Manually create the vector that contains the names of the variables you would like to keep. 
 attend_years <- paste0("attend_",c(2000:2011))
 selectVars <- c("id", "sex", "race", "byear", "bmonth", attend_years)
 dsW <- ds0[,selectVars]
 head(dsW)
 
-## @knitr RemoveIllegal 
+# @knitr RemoveIllegal  --------------------
 # Remove illegal values. See codebook for description of missingness
 illegal<-as.integer(c(-5:-1,997,998,999))
 for( variable in names(dsW) ){
@@ -113,30 +114,30 @@ rm(list=setdiff(ls(), c("ds0","dsW")))
 
 
 
-## @knitr Melt01
+# @knitr Melt01 --------------------
 require(dplyr)
 dplyr::filter(dsW, id < 5) 
 
 
-## @knitr Melt02
+# @knitr Melt02 --------------------
 TIvars<-c("id", "sex","race", "bmonth","byear") # Time Invariant (TI)
 # id.vars tells what variables SHOULD NOT be stacked
 dsLong <- reshape2::melt(dsW, id.vars=TIvars) # melt 
 dplyr::filter(dsLong, id == 1)
 
-## @knitr Melt03
+# @knitr Melt03 --------------------
 # nrow(dsLong)/length(unique(dsLong$id)) # should be integer
 dsLong <- dplyr::filter(dsLong,!is.na(id)) # remove obs with invalid id
 # nrow(dsLong)/length(unique(dsLong$id)) # verify that melting is fine
 # dplyr::filter(dsLong,id==1) # inspect
 
-## @knitr Melt04
+# @knitr Melt04 --------------------
 # create varaible "year" by stripping the automatic ending in TV variables' names
 # subset 4 characters from the end of the string a into new variable
 dsLong$year<-str_sub(dsLong$variable,-4,-1) 
 dplyr::filter(dsLong, id == 1)
 
-## @knitr Melt05
+# @knitr Melt05 --------------------
 # remove the automatic ending 
 removePattern <- paste0("_",c(2000:2011))
 for (i in removePattern){
@@ -146,22 +147,22 @@ dsLong$year <- as.integer(dsLong$year) # Convert to a number.
 dplyr::filter(dsLong,id==1) # inspect
 
 
-## @knitr Cast01
+# @knitr Cast01 --------------------
 require(reshape2)
 dsL <- dcast(dsLong, id + sex + race + bmonth + byear + year ~ variable, value.var = "value")
 dplyr::filter(dsL,id==1)
 
-## @knitr MutateData01
+# @knitr MutateData01 --------------------
 #
 dplyr::filter(dsL,id==1) %>% select(id,byear,year,attend)
 
 
-## @knitr MutateData02
+# @knitr MutateData02 --------------------
 dsL <- dplyr::mutate(dsL, age = year - byear)
 dplyr::filter(dsL,id==1) %>% select(id,byear,year,attend, age)
 
 
-## @knitr LabelFactors
+# @knitr LabelFactors --------------------
 dsF <- dsL # add factors to the dataset
 source("./scripts/data/labeling_factor_levels.R")
 dsL <- dsF
@@ -171,18 +172,18 @@ dplyr::filter(dsL,id==1)
 
 
 
-## @knitr LoadGraphSettings
+# @knitr LoadGraphSettings --------------------
 # load themes used to style graphs
 source("./scripts/graphs/graph_themes.R")
 
 
 
-## @knitr selectdsM
+# @knitr selectdsM --------------------
 dsM <- dplyr::filter(dsL,id==47) %>%
   select(id,byear, year, attend, attendF)
 dsM
 
-## @knitr BasicGraph
+# @knitr BasicGraph --------------------
 p <- ggplot(dsM, aes(x=year,y=attend, color=factor(id)))
 p <- p + geom_line(size=.4)
 p <- p + geom_point(size=2)
@@ -198,13 +199,13 @@ p <- p + guides(color = guide_legend(title="Respondents"))
 p <- p + theme1
 p
 
-## @knitr DataForModel
+# @knitr DataForModel --------------------
 dsM <- dplyr::filter(dsL,id==47) %>%
   select(id,byear, year, attend, attendF) 
 dsM$model <-  predict(lm(attend~year,dsM))
 
 
-## @knitr BasicModel
+# @knitr BasicModel --------------------
 p <- ggplot(dsM, aes(x=year,y=attend, color=factor(id)))
 p <- p + geom_line(size=.4)
 p <- p + geom_point(size=2)
@@ -222,14 +223,14 @@ p <- p + theme1
 p
 
 
-## @knitr SaveDerivedData
+# @knitr SaveDerivedData --------------------
 
-pathdsLcsv <- "./Data/Derived/dsL.csv"
+pathdsLcsv <- "./data/nlsy97/dsL.csv"
 write.csv(dsL,pathdsLcsv,  row.names=FALSE)
 
-pathdsLrds <- "./Data/Derived/dsL.rds"
+pathdsLrds <- "./data/nlsy97/dsL.rds"
 saveRDS(object=dsL, file=pathdsLrds, compress="xz")
 
-## @knitr CleanUp
+# @knitr CleanUp --------------------
 # # remove all but specified dataset
 rm(list=setdiff(ls(), c("dsW","dsL")))
