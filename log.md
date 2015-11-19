@@ -1,3 +1,8 @@
+## 19 November 2015
+- RStudio cheatsheet for [building dynamic documents](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)  
+- official documentation to [rmarkdown](http://rmarkdown.rstudio.com/) with illustrative examples
+- 
+
 ## 16 November 2015
 - Exam II  results: [html](http://htmlpreview.github.io/?https://raw.githubusercontent.com/andkov/psy532/master/materials/evaluation/exam_ii/exam_ii.html), [md](https://github.com/andkov/psy532/blob/master/materials/evaluation/exam_ii/exam_ii.md)  
 - interactive visualization of [effect size](http://rpsychologist.com/d3/cohend/) and [NSHT](http://rpsychologist.com/d3/NHST/)
