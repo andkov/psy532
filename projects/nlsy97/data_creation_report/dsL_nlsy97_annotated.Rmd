@@ -4,7 +4,9 @@ output:
   html_document:
     toc: yes
     self_containted: false
+    keep_md: true
 ---  
+<!-- for more options study http://rmarkdown.rstudio.com/html_document_format.html  -->
 <!-- The report is produced from
 REPOSITORY: the-name-of-the-repository
 BRANCH: the-name-of-the-branch
@@ -118,6 +120,3 @@ read_chunk("./scripts/data/dsL_nlsy97.R") # the file to which knitr calls for th
 ```{r CleanUp, echo=C_echo, message=C_message, warning=C_warning}
 ```
 
-<!-- attaches a child containing common links and references -->
-```{r child, child = 'LinksAndRefs.Rmd'}
-```
