@@ -1,0 +1,495 @@
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Hard Minimum: [0]  Hard Maximum: [99999999]
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R05363.00    [KEY!SEX]                                      Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!SEX, RS GENDER (SYMBOL)
+ 
+COMMENT: Gender of Youth
+ 
+    4599       1 Male
+    4385       2 Female
+       0       0 No Information
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Lead In: R00001.00[Default]
+Default Next Question: R05364.00
+--------------------------------------------------------------------------------
+R05364.01    [KEY!BDATE_M]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)
+ 
+COMMENT: Birthdate of Youth
+ 
+     816           1: January
+     693           2: February
+     760           3: March
+     659           4: April
+     689           5: May
+     720           6: June
+     762           7: July
+     782           8: August
+     839           9: September
+     765          10: October
+     763          11: November
+     736          12: December
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             12        Mean:                6.56
+ 
+Earliest (NonMissing): JANUARY/1980
+Latest   (NonMissing): DECEMBER/1984
+ 
+Hard Minimum: [01/01/1880]  Hard Maximum: [the current date]
+ 
+Lead In: R05363.00[Default]
+Default Next Question: R05366.00
+--------------------------------------------------------------------------------
+R05364.02    [KEY!BDATE_Y]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)
+ 
+COMMENT: Birthdate of Youth
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:           1980        Max:           1984        Mean:             1982.01
+ 
+Earliest (NonMissing): JANUARY/1980
+Latest   (NonMissing): DECEMBER/1984
+ 
+Hard Minimum: [01/01/1880]  Hard Maximum: [the current date]
+ 
+Lead In: R05363.00[Default]
+Default Next Question: R05366.00
+--------------------------------------------------------------------------------
+R14826.00    [KEY!RACE_ETHNICITY]                           Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!RACE_ETHNICITY, COMBINED RACE AND ETHNICITY (SYMBOL)
+ 
+COMMENT: Combined race - ethnicity variable
+ 
+    2335       1 Black
+    1901       2 Hispanic
+      83       3 Mixed Race (Non-Hispanic)
+    4665       4 Non-Black / Non-Hispanic
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Lead In: R05387.00[Default]
+Default Next Question: R05389.00
+--------------------------------------------------------------------------------
+R48934.00    [YSAQ-282A]                                    Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R ATTENDED WORSHIP SERVICE IN PAST 12 MONTHS
+ 
+And now a question about your religious background.  In the past 12 months, how 
+often have you attended a worship service (like a church or synagogue service, 
+or a service at a mosque?)
+ 
+UNIVERSE: All
+ 
+    2022       1 Never
+    1770       2 Once or twice
+    1056       3 Less than once a month / 3-12 times
+     506       4 About once a month / 12 times
+     518       5 About twice a month / 24 times
+    1477       6 About once a week
+     617       7 Several times a week
+      53       8 Everyday
+  -------
+    8019
+ 
+Refusal(-1)           44
+Don't Know(-2)        17
+TOTAL =========>    8080   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     904
+ 
+Lead In: R48926.00[Default] R48933.00[Default]  R48927.00[0:0] R48928.00[1:1]
+Default Next Question: R48935.00
+--------------------------------------------------------------------------------
+R65201.00    [YSAQ-282A]                                    Survey Year: 2001
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R ATTENDED WORSHIP SERVICE IN PAST 12 MONTHS
+ 
+And now a question about your religious background. In the past 12 months, how 
+often have you attended a worship service (like a church or synagogue service, 
+or a service at a mosque?)
+ 
+UNIVERSE: All
+ 
+    2062       1 Never
+    1753       2 Once or twice
+    1097       3 Less than once a month / 3-12 times
+     562       4 About once a month / 12 times
+     556       5 About twice a month / 24 times
+    1262       6 About once a week
+     520       7 Several times a week
+      38       8 Everyday
+  -------
+    7850
+ 
+Refusal(-1)           27
+Don't Know(-2)         5
+TOTAL =========>    7882   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1102
+ 
+Lead In: R65048.00[Default] R65104.00[Default] R65200.00[Default]  
+         R65199.00[0:0]
+Default Next Question: R65202.00
+--------------------------------------------------------------------------------
+S09193.00    [YSAQ-282A]                                    Survey Year: 2002
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R ATTENDED WORSHIP SERVICE IN PAST 12 MONTHS
+ 
+And now a question about your religious background. In the past 12 months, how 
+often have you attended a worship service (like a church or synagogue service, 
+or a service at a mosque?)
+ 
+UNIVERSE: All
+ 
+    2351       1 Never
+    1847       2 Once or twice
+    1156       3 Less than once a month / 3-12 times
+     535       4 About once a month / 12 times
+     494       5 About twice a month / 24 times
+    1057       6 About once a week
+     387       7 Several times a week
+      38       8 Everyday
+  -------
+    7865
+ 
+Refusal(-1)           23
+Don't Know(-2)         8
+TOTAL =========>    7896   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1088
+ 
+Lead In: S09192.00[Default]
+Default Next Question: S09194.00
+--------------------------------------------------------------------------------
+S29878.00    [YSAQ-282A]                                    Survey Year: 2003
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R ATTENDED WORSHIP SERVICE IN PAST 12 MONTHS
+ 
+And now a question about your religious background. In the past 12 months, how 
+often have you attended a worship service like a church or synagogue service, or
+a service at a mosque?
+ 
+UNIVERSE: All
+ 
+    2407       1 Never
+    1768       2 Once or twice
+     903       3 Less than once a month
+     573       4 About once a month
+     648       5 About twice a month
+    1000       6 About once a week
+     383       7 Several times a week
+      33       8 Everyday
+  -------
+    7715
+ 
+Refusal(-1)           29
+Don't Know(-2)        10
+TOTAL =========>    7754   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1230
+ 
+Lead In: S29877.00[Default]  S29876.00[0:0]
+Default Next Question: S29879.00
+--------------------------------------------------------------------------------
+S46817.00    [YSAQ-282A]                                    Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R ATTENDED WORSHIP SERVICE IN PAST 12 MONTHS
+ 
+And now a question about your religious background. In the past 12 months, how 
+often have you attended a worship service like a church or synagogue service, or
+a service at a mosque?
+ 
+UNIVERSE: All
+ 
+    2412       1 Never
+    1814       2 Once or twice
+     846       3 Less than once a month
+     476       4 About once a month
+     549       5 About twice a month
+     858       6 About once a week
+     345       7 Several times a week
+      16       8 Everyday
+  -------
+    7316
+ 
+Refusal(-1)           86
+Don't Know(-2)       100
+TOTAL =========>    7502   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1482
+ 
+Lead In: S46816.00[Default] S46815.00[Default]
+Default Next Question: S46818.00
+--------------------------------------------------------------------------------
+S63167.00    [YSAQ-282A]                                    Survey Year: 2005
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R ATTENDED WORSHIP SERVICE IN PAST 12 MONTHS
+ 
+And now a question about your religious background. In the past 12 months, how 
+often have you attended a worship service like a church or synagogue service, or
+a service at a mosque?
+ 
+UNIVERSE: All
+ 
+    2364       1 Never
+    1685       2 Once or twice
+     817       3 Less than once a month
+     511       4 About once a month
+     544       5 About twice a month
+     890       6 About once a week
+     343       7 Several times a week
+      30       8 Everyday
+  -------
+    7184
+ 
+Refusal(-1)           74
+Don't Know(-2)        80
+TOTAL =========>    7338   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1646
+ 
+Lead In: S63166.00[Default] S63165.00[Default]  S63164.00[0:0]
+Default Next Question: S63168.00
+--------------------------------------------------------------------------------
+S83315.00    [YSAQ-282A]                                    Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R ATTENDED WORSHIP SERVICE IN PAST 12 MONTHS
+ 
+And now a question about your religious background. In the past 12 months, how 
+often have you attended a worship service like a church or synagogue service, or
+a service at a mosque?
+ 
+UNIVERSE: All
+ 
+    2643       1 Never
+    1760       2 Once or twice
+     759       3 Less than once a month
+     477       4 About once a month
+     547       5 About twice a month
+     826       6 About once a week
+     340       7 Several times a week
+      19       8 Everyday
+  -------
+    7371
+ 
+Refusal(-1)           95
+Don't Know(-2)        93
+TOTAL =========>    7559   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1425
+ 
+Lead In: S83314.00[Default]
+Default Next Question: S83316.00
+--------------------------------------------------------------------------------
+T07394.00    [YSAQ-282A]                                    Survey Year: 2007
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R ATTENDED WORSHIP SERVICE IN PAST 12 MONTHS
+ 
+And now a question about your religious background. In the past 12 months, how 
+often have you attended a worship service like a church or synagogue service, or
+a service at a mosque?
+ 
+UNIVERSE: All
+ 
+    2592       1 Never
+    1713       2 Once or twice
+     752       3 Less than once a month
+     521       4 About once a month
+     504       5 About twice a month
+     827       6 About once a week
+     334       7 Several times a week
+      21       8 Everyday
+  -------
+    7264
+ 
+Refusal(-1)           80
+Don't Know(-2)        74
+TOTAL =========>    7418   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1566
+ 
+Lead In: T07393.00[Default] T07392.00[Default]  T07391.00[0:0]
+Default Next Question: T07395.00
+--------------------------------------------------------------------------------
+T27817.00    [YSAQ-282A]                                    Survey Year: 2008
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R ATTENDED WORSHIP SERVICE IN PAST 12 MONTHS
+ 
+And now a question about your religious background. In the past 12 months, how 
+often have you attended a worship service like a church or synagogue service, or
+a service at a mosque?
+ 
+UNIVERSE: All
+ 
+    2546       1 Never
+    1746       2 Once or twice
+     765       3 Less than once a month
+     451       4 About once a month
+     496       5 About twice a month
+     898       6 About once a week
+     355       7 Several times a week
+      21       8 Everyday
+  -------
+    7278
+ 
+Refusal(-1)          120
+Don't Know(-2)        92
+TOTAL =========>    7490   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1494
+ 
+Lead In: T27816.00[Default]
+Default Next Question: T27818.00
+--------------------------------------------------------------------------------
+T44950.00    [YSAQ-282A]                                    Survey Year: 2009
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R ATTENDED WORSHIP SERVICE IN PAST 12 MONTHS
+ 
+And now a question about your religious background. In the past 12 months, how 
+often have you attended a worship service like a church or synagogue service, or
+a service at a mosque?
+ 
+UNIVERSE: All
+ 
+    2673       1 Never
+    1730       2 Once or twice
+     818       3 Less than once a month
+     468       4 About once a month
+     485       5 About twice a month
+     811       6 About once a week
+     352       7 Several times a week
+      23       8 Everyday
+  -------
+    7360
+ 
+Refusal(-1)           93
+Don't Know(-2)       106
+TOTAL =========>    7559   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1425
+ 
+Lead In: T44949.00[Default]
+Default Next Question: T44951.00
+--------------------------------------------------------------------------------
+T61434.00    [YSAQ-282A]                                    Survey Year: 2010
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R ATTENDED WORSHIP SERVICE IN PAST 12 MONTHS
+ 
+And now a question about your religious background. In the past 12 months, how 
+often have you attended a worship service like a church or synagogue service, or
+a service at a mosque?
+ 
+UNIVERSE: All
+ 
+    2698       1 Never
+    1654       2 Once or twice
+     707       3 Less than once a month
+     459       4 About once a month
+     497       5 About twice a month
+     906       6 About once a week
+     323       7 Several times a week
+      27       8 Everyday
+  -------
+    7271
+ 
+Refusal(-1)          111
+Don't Know(-2)        94
+TOTAL =========>    7476   VALID SKIP(-4)       3     NON-INTERVIEW(-5)    1505
+ 
+Lead In: T61433.00[Default]
+Default Next Question: T61435.00
+--------------------------------------------------------------------------------
+T76373.00    [YSAQ-282A]                                    Survey Year: 2011
+  PRIMARY VARIABLE
+
+ 
+             HOW OFTEN R ATTENDED WORSHIP SERVICE IN PAST 12 MONTHS
+ 
+And now a question about your religious background. In the past 12 months, how 
+often have you attended a worship service like a church or synagogue service, or
+a service at a mosque?
+ 
+UNIVERSE: All
+ 
+    2555       1 Never
+    1619       2 Once or twice
+     798       3 Less than once a month
+     490       4 About once a month
+     503       5 About twice a month
+     867       6 About once a week
+     338       7 Several times a week
+      22       8 Everyday
+  -------
+    7192
+ 
+Refusal(-1)          108
+Don't Know(-2)       123
+TOTAL =========>    7423   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1561
+ 
+Lead In: T76372.00[Default]
+Default Next Question: T76374.00
