@@ -2,7 +2,7 @@
 
 - RStudio cheatsheet for [building dynamic documents](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)  
 - official documentation to [rmarkdown](http://rmarkdown.rstudio.com/) with illustrative examples  
-- download and save [scripts/data/dsL_nlsy97.R](https://raw.githubusercontent.com/andkov/psy532/master/scripts/data/dsL_nlsy97.R)
+- download and save [dsL_nlsy97.R](https://raw.githubusercontent.com/andkov/psy532/master/scripts/data/dsL_nlsy97.R)
 - download and save [dsL_nlsy97_annotated.Rmd](https://raw.githubusercontent.com/andkov/psy532/master/projects/nlsy97/data_creation_report/dsL_nlsy97_annotated.Rmd) 
 - download and save this [archived file](https://github.com/IALSA/COAG-colloquium-2014F/blob/master/Data/Extract/NLSY97_Attend_20141021.zip) and unzip it in you `./data/raw` folder
 
