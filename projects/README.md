@@ -29,6 +29,6 @@ I **suggest** at least two reports:
 F. The folder `./scripts` in general must contain only .R files (possibly in individual sub-folders (e.g. `./scripts/data` , `./scripts/graphs` ).
 
 G. The folder `./libs` should contain supporting files. Some of the suggested sub-folders:
-* images  
-* css  
-* ppt  
+* `./libs/images`  
+* `./libs/css`  
+ 
