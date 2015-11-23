@@ -1,3 +1,7 @@
+## 23 November 2015
+ - see [final project guidelines](https://github.com/andkov/psy532/tree/master/projects) to help with your development    
+ - study an [example](https://github.com/andkov/Longitudinal_Models_of_Religiosity_NLSY97/tree/master/Data) of a "data creation" report for NLSY97  
+
 ## 19 November 2015
 
 - RStudio cheatsheet for [building dynamic documents](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)  
