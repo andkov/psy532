@@ -1,22 +1,29 @@
-Student Projects
+Final Projects
 --- 
+Guidelines for submitting your final project
 
-## Timing and Grading
+A. Your project must contain the following files:
+* .Rproj file
+* README.md file containing the live links and succinct descriptions of every script and report in your project.
 
-You can submit or re-submit any report at any time during the semester.  
+B. The root of the repository must contain **these and only these** folders: 
+* ./data
+* ./scripts
+* ./reports
+* ./libs
 
-All submission must be in person during regular class hours.   
+C. The folder `./data` must contain :
+* sub-folder `./data/raw` 
+* sub-folder `./data/derived` 
+* `README.md` files with live links to and descriptions of each data file 
+Place the data in EXACT form you obtain it from the source into ./data/raw folder. Everything that happens to it as you prepare it must be accomplished using scripts, to make our reports reproducible. Data processing scripts must result in a data object being placed in ./data/derived for further reference throughout reports.  
 
-Each report can be graded as Unacceptable, Acceptable, Good, and Excellent
+D. The folder `./reports` must contain:
+* a separate folder for each report  
+* Each folder should contain .Rmd and .R files of the same name (optional) 
+* `README.md` files with live links to and descriptions of each report 
 
-##
 
-- formulation of hypothesis and plan for analytic strategy
-- data geneology
- - Description of your data set and how it was obtained  
- - Description of any pre-processing steps you took
- - Description of key data 
-- data exploration
-- model sequencing
-- data presentation
-
+D. The folder ./reports must contain at least the following folders:
+* data_creation
+* analysis
