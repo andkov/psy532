@@ -21,7 +21,7 @@ Place the data in EXACT form you obtain it from the source into ./data/raw folde
 D. The folder `./reports` must contain:
 * a separate folder for each report  
 * Each folder should contain .Rmd and .R files of the same name (optional) 
-* `README.md` files with live links to and descriptions of each report 
+* `README.md` files with live links to and descriptions of each report    
 I **suggest** at least two reports:  
 * `data_preparation` with the report narrating data preparation 
 * `data_analysis` with the report narrating data analysis
