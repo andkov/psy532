@@ -32,7 +32,9 @@ base::require(extrafont)
 
 ```r
 # Link to the data source 
-myExtract <- "./data/nlsy97/NLSY97_Attend_20141021/NLSY97_Attend_20141021"
+pathDir <- getwd()
+myExtract <- file.path(pathDir,"data/nlsy97/NLSY97_Attend_20141021/NLSY97_Attend_20141021")
+# myExtract <- "./data/nlsy97/NLSY97_Attend_20141021/NLSY97_Attend_20141021"
 # myExtract <- "https://raw.githubusercontent.com/IALSA/COAG-colloquium-2014F/master/Data/Extract/NLSY97_Attend_20141021/NLSY97_Attend_20141021"
 pathSourceData <- paste0(myExtract,".csv") 
 SourceData <- read.csv(pathSourceData,header=TRUE, skip=0,sep=",")
@@ -169,7 +171,7 @@ str(a)
 ```r
 # with dplyr package
 require(dplyr)
-dplyr::filter(ds0, id<5) %>% dplyr::select(id,sex, race)
+dplyr::filter(ds0, id<5) %>% dplyr::select(id, sex, race)
 ```
 
 ```

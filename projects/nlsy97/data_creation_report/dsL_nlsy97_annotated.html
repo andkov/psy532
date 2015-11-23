@@ -90,7 +90,9 @@ base::require(stats)
 base::require(ggplot2)
 base::require(extrafont)</code></pre>
 <pre class="r"><code># Link to the data source 
-myExtract &lt;- &quot;./data/nlsy97/NLSY97_Attend_20141021/NLSY97_Attend_20141021&quot;
+pathDir &lt;- getwd()
+myExtract &lt;- file.path(pathDir,&quot;data/nlsy97/NLSY97_Attend_20141021/NLSY97_Attend_20141021&quot;)
+# myExtract &lt;- &quot;./data/nlsy97/NLSY97_Attend_20141021/NLSY97_Attend_20141021&quot;
 # myExtract &lt;- &quot;https://raw.githubusercontent.com/IALSA/COAG-colloquium-2014F/master/Data/Extract/NLSY97_Attend_20141021/NLSY97_Attend_20141021&quot;
 pathSourceData &lt;- paste0(myExtract,&quot;.csv&quot;) 
 SourceData &lt;- read.csv(pathSourceData,header=TRUE, skip=0,sep=&quot;,&quot;)
@@ -180,7 +182,7 @@ class(a)</code></pre>
  $ sex: int  2 1 2 2 1 2 1 2 1 1 ...</code></pre>
 <pre class="r"><code># with dplyr package
 require(dplyr)
-dplyr::filter(ds0, id&lt;5) %&gt;% dplyr::select(id,sex, race)</code></pre>
+dplyr::filter(ds0, id&lt;5) %&gt;% dplyr::select(id, sex, race)</code></pre>
 <pre><code>  id sex race
 1  1   2    4
 2  2   1    2
