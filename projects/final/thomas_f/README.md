@@ -27,10 +27,3 @@ link to data analysis report (html): [data analysis html](./data_analysis/basic_
 ###About the project
 
 This project attempts to model BMI (Body mass index) versus a number of different predictor variables (such as educatior (in years), age, cognition score (a measure that combines working memory and a number of other variables)). Best sub-set selection is used to identify the ideal number of variables to include in the model. Cross-validation was attempted but did not work due to technical errors. Instead, 4 coefficiants (Rss, Rsquared, BIC and Cp) were calculated to assess model fit. Significant variables had their shape (linear, quadratic, cubic, etc.) assessed to determine the most appropriate relationship to BMI. In the end, no multivariate models were modeled, however a number of univariate models of variables that were identified to be significant were used (using the appropriate variable form determined above) and had their relationship to BMI plotted (along with factors that were determined to be significant such as if the participant drank, race or gender)
----
-
-<!--
-pathMd <- base::file.path("./", c("README.md"))
-pathHtml <- base::gsub(pattern=".md$", replacement=".html", x=pathMd)
-markdown::markdownToHTML(file=pathMd, output=pathHtml)
--->
