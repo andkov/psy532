@@ -1,3 +1,6 @@
+## 7 Dec 2015
+- [student presentations](./projects/final/README.md)
+
 ## 23 November 2015
  - see [final project guidelines](https://github.com/andkov/psy532/tree/master/projects) to help with your development    
  - study an [example](https://github.com/andkov/Longitudinal_Models_of_Religiosity_NLSY97/tree/master/Data) of a "data creation" report for NLSY97  
