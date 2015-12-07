@@ -2,7 +2,7 @@
 
 |Student   | Link  | 
 |---|---|
-|aishah b.   | [README ](./aishah_b/README.html)  |
+|aishah b.   | [README ](htmlpreview.github/io/?./aishah_b/README.html)  |
 |hannah m.   | [README ](./hannah_m/README.md)  |
 |jamie k.   | [README ](./jamie_k/README.md)  | 
 |keara r.   | [README ](./keara_r/README.md)  | 
