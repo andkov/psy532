@@ -1,0 +1,99 @@
+
+Data Preparation is Imporatant: An Example Using SATSA
+========================================================
+author: Jamie Knight
+date: University of Victoria
+
+Introduction
+========================================================
+
+Hello!
+
+Things we will cover today:
+- Why is data preparation imporatant
+- An example
+- Introduction to SATSA data set
+
+
+Why is data preparation imporatant?
+========================================================
+
+- You will spend the majority of your time prepping your data set
+  - Do this well to get good, reproducible results
+  - Any errors are likely going to affect your analysis
+- Some of you will use other people's data: Don't assume it is clean!
+  - Even well used and documented data may have problems
+
+
+An Example
+========================================================
+
+Let's examine an example of why data preparation is imporatant using the SATSA data.
+
+SATSA is freely available on the internet.
+It is well used and there are over 30,000 publications using this data set!
+You can access it by signing up on their website here: http://www.icpsr.umich.edu/icpsrweb/DSDR/studies/3843
+
+
+Introduction to SATSA
+========================================================
+
+The data set is comprised of twins raised together and apart and includes data on:
+- Health Status
+- Work Environment
+- Personality
+
+Data for this Project
+========================================================
+A subsample of the participants were interviewed in seven waves of in-person testing and those measurements included smell and taste questions along with cognitive and functional capacity.
+
+This subsample is what we will use in our analysis and includes:
+- Questionnaire 3 and In-Person Testing Time 3 (1990); 
+- In-Person Testing Time 5 (2004); 
+- Questionnaire 6 and In-Person Testing Time 6 (2007); 
+- In-Person Testing Time 7 (2010)
+
+
+Data Preparation
+========================================================
+
+Each wave of SATSA is in a separate data set and combining several waves of data requires a substantial amount of work.
+
+In the folder called reports we have a script dedicated to how we merged 4 waves of in person data colected from questionnaires with the administrative and cognitive data sets.
+
+
+Here comes the problem
+========================================================
+
+At the point where I merge the data you can start to see where the error is
+
+- show photo of frequncy tables
+
+```{r show_values, echo=FALSE, message=C_message, warning=C_warning}
+```
+
+
+The problem
+========================================================
+
+The variables have been coded using different responses over each of the waves.
+This makes longitudinal analysis impossible for these variables
+
+How to deal with issues like this
+========================================================
+1. Contact your supervisor 
+2. Contact the PI for the data set
+3. Fix the problem (for everyone not just your publication)
+
+
+Data Analsyis
+========================================================
+
+I am interested in whether examining whether we can use a decline in smell to predict dementia.
+
+Using the SATSA data I explore the change in smell over time. I am currently missing the diagnoses data (this will be my outcome variable).
+
+Future Analsyis
+========================================================
+
+Once the remaning data has been emailed to me I will have dementia and disease diagnoses data which I will then merge into this existing data I have created in order to see if smell can predict dementia or other neurodegenerative diseases.

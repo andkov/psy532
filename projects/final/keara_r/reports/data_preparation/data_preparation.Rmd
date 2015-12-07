@@ -1,0 +1,95 @@
+---
+title: "Data Preparation for Final Project"
+output:
+  html_document:
+    toc: yes
+    self_containted: false
+    keep_md: true
+---  
+<!-- for more options study http://rmarkdown.rstudio.com/html_document_format.html  -->
+<!-- The report is produced from
+REPOSITORY: the-name-of-the-repository
+BRANCH: the-name-of-the-branch
+PATH: ../Reports/
+-->
+
+<!--  Set the working directory to the repository's base directory; this assumes the report is nested inside of only one directory.-->
+```{r, echo=F, message=F} 
+library(knitr)
+opts_knit$set(root.dir='../../')  #Don't combine this call with any other chunk -especially one that uses file paths.
+```
+
+<!-- Set the report-wide options, and point to the external script file. -->
+```{r, echo=F, message=T}
+require(knitr)
+opts_chunk$set(
+  results='show', # Set
+  message = TRUE, # De
+  comment = NA,   #   fau
+  tidy = FALSE,   #     lts
+#   fig.height = 4.8, # physical dimensions
+#   fig.width = 6.5,  # of produced impage
+  out.width = NULL, # how it looks in html document
+  fig.path = 'figure_rmd/', # where images from this report are stored
+  dev = "png",
+  dpi = 100 # resolution: dots per inch. Use 100 to develop, 300-400 to print. adjust
+)
+C_echo <- TRUE
+C_message<- FALSE
+C_warning<- FALSE
+
+options(width=120) #So the output is 50% wider than the default.
+read_chunk("./reports/data_preparation/data_preparation.R") # the file to which knitr calls for the chunks
+```
+
+##Load Packages
+Prepare RStudio environment for all tasks to follow.
+```{r LoadPackages, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+##HRS Data Set
+#####I used data from [the Health and Retirement Study](http://hrsonline.isr.umich.edu/).  This study, is a longitudinal panel study surveying a representative sample of approximately 20,000 Americans over the age of 50 every two years. 
+
+
+```{r LoadData, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r RenameVariables, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r selectdsM, echo=C_echo, message=C_message, warning=C_warning}
+```
+##Missing Data
+```{r DeleteMissing, echo=C_echo, message=C_message, warning=C_warning}
+```
+####BMI is missing for 2519 participants.  The na.omit() function removed all of these rows that have missing values in any variable. I choose to remove missing values because the data set is quite large, there are many participants so the sample size will still be large.  Additionally, the missing values could skew my results.
+
+
+##Brief summary of 15 variables in the data set.
+```{r summary, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+##Graphical Data Exploration:
+
+
+```{r BasicGraph1, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+####BMI appears to decrease with age.
+
+
+
+
+```{r BasicGraph2, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+####BMI and Cognitive slope appear to have an inverted U shaped curve. It appears a slight decrease in cognitive slope is associated with higher a higher BMI, and no cognitive decline, or very significant cognitive decline is associated with a lower BMI.
+
+
+```{r SaveDerivedData, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r CleanUp, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+

@@ -1,0 +1,129 @@
+---
+title: "Final Project: PSYC 532"
+author: "Pauline Song"
+date: "December 7, 2015"
+output:
+  ioslides_presentation:
+    smaller: yes
+---  
+
+```{r, echo=F, message=F} 
+library(knitr)
+opts_knit$set(root.dir='../../')  #Don't combine this call with any other chunk -especially one that uses file paths.
+```
+
+<!-- Set the report-wide options, and point to the external script file. -->
+```{r, echo=F, message=T}
+require(knitr)
+opts_chunk$set(
+  results='show', # Set
+  message = TRUE, # De
+  comment = NA,   #   fau
+  tidy = FALSE,   #     lts
+#   fig.height = 4.8, # physical dimensions
+#   fig.width = 6.5,  # of produced impage
+  out.width = NULL, # how it looks in html document
+  fig.path = 'figure_rmd/', # where images from this report are stored
+  dev = "png",
+  dpi = 100 # resolution: dots per inch. Use 100 to develop, 300-400 to print. adjust
+)
+C_echo <- TRUE
+C_message<- FALSE
+C_warning<- FALSE
+
+options(width=120) #So the output is 50% wider than the default.
+read_chunk("./reports/data_analysis/data_analysis_hrs.R") # the file to which knitr calls for the chunks
+```
+
+
+##Graphical Exploration of Multiple Variables Predicting One Outcome
+
+
+```{r LoadPackages, echo=F, message=C_message, warning=C_warning}
+```
+
+
+```{r LoadData, echo=F, message=C_message, warning=C_warning}
+```
+
+
+```{r LoadSources, echo=F, message=C_message, warning=C_warning}
+```
+
+##Selecting Variables
+Select desired variables and verify the pulled variables. 
+```{r inspectData, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+##Class Change
+Add new variables to change the the class of the variables to factor/categorical.
+```{r inspectData2, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+##Model
+Created a model to encompass all the factors of the dataset: BMI,  All the factors in the model are significant predictors of self reported health
+```{r BasicModel, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+##Graphical Exploration
+
+
+##Perceived Health Deterioration & Psychiatric Condition
+```{r BasicGraph1, echo=F, message=C_message, warning=C_warning}
+```
+
+##Perceived Health Deterioration & Lung Condition
+```{r BasicGraph3, echo=F, message=C_message, warning=C_warning}
+```
+
+##Perceived Health Deterioration & Heart Condition
+```{r BasicGraph4, echo=F, message=C_message, warning=C_warning}
+```
+
+##Perceived Health Deterioration & Cancer
+```{r BasicGraph5, echo=F, message=C_message, warning=C_warning}
+```
+
+##Perceived Health Deterioration & Diabetes
+```{r BasicGraph6, echo=F, message=C_message, warning=C_warning}
+```
+
+##Exploration of Multiple Variables Contributing to Self-Reported Health
+
+##Basic Graph: Perceived Health Deterioration vs. BMI
+```{r BasicGraph7, echo=F, message=C_message, warning=C_warning}
+```
+
+##Heart, Lung, Diabetes & BMI as Predictors for Health Deterioration
+```{r BasicGraph8, echo=F, message=C_message, warning=C_warning}
+```
+
+##Psych, Heart, Lung & BMI as Predictors for Health Deterioration
+```{r BasicGraph9, echo=F, message=C_message, warning=C_warning}
+```
+
+##Diabetes, Lung, Heart & BMI as Predictors for Health Deterioration
+```{r BasicGraph10, echo=F, message=C_message, warning=C_warning}
+```
+
+##Psych, Heart, Lung & BMI as Predictors for Health Deterioration
+```{r BasicGraph11, echo=F, message=C_message, warning=C_warning}
+```
+
+##Diabetes, Heart, Psych & BMI as Predictors for Health Deterioration
+```{r BasicGraph12, echo=F, message=C_message, warning=C_warning}
+```
+
+##Lung, Heart, Psych & BMI as Predictors for Health Deterioration
+```{r BasicGraph13, echo=F, message=C_message, warning=C_warning}
+```
+
+##Any tentative conclusions? Further explorations?
+--> Heart condition OR Lung condition?
+
+##Thank you!
+```{r SaveDerivedData, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r CleanUp, echo=C_echo, message=C_message, warning=C_warning}
+```

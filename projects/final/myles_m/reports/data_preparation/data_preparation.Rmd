@@ -1,0 +1,94 @@
+---
+title: "Preparing the Community Health Status Indicator Dataset"
+output:
+  html_document:
+    toc: yes
+    self_containted: false
+    keep_md: true
+---  
+<!-- for more options study http://rmarkdown.rstudio.com/html_document_format.html  -->
+<!-- The report is produced from
+REPOSITORY: the-name-of-the-repository
+BRANCH: the-name-of-the-branch
+PATH: ../Reports/
+-->
+
+<!--  Set the working directory to the repository's base directory; this assumes the report is nested inside of only one directory.-->
+```{r, echo=F, message=F} 
+library(knitr)
+opts_knit$set(root.dir='../../')  #Don't combine this call with any other chunk -especially one that uses file paths.
+```
+
+<!-- Set the report-wide options, and point to the external script file. -->
+```{r, echo=F, message=T}
+require(knitr)
+opts_chunk$set(
+  results='show', # Set
+  message = TRUE, # De
+  comment = NA,   #   fau
+  tidy = FALSE,   #     lts
+#   fig.height = 4.8, # physical dimensions
+#   fig.width = 6.5,  # of produced impage
+  out.width = NULL, # how it looks in html document
+  fig.path = 'figure_rmd/', # where images from this report are stored
+  dev = "png",
+  dpi = 100 # resolution: dots per inch. Use 100 to develop, 300-400 to print. adjust
+)
+C_echo <- TRUE
+C_message<- FALSE
+C_warning<- FALSE
+
+options(width=120) #So the output is 50% wider than the default.
+read_chunk("./scripts/data/data_prep_script.R") # the file to which knitr calls for the chunks
+```
+
+By: **Myles A. Maillet**
+![](http://www.huewire.com/wp-content/uploads/2014/04/Obamacare.jpg)
+***
+
+This dataset provides key health indicators for 
+local communities and encourages dialogue about actions that can be taken to improve community health 
+(e.g., obesity, heart disease, cancer). The CHSI and dataset, published in 2000, was designed not only for public health 
+professionals but also for members of the community who are interested in the health of their community. 
+The CHSI report contains over 200 measures for each of the 3,141 United States counties. Although CHSI presents 
+indicators like deaths due to heart disease and cancer, it is imperative to understand that behavioral factors 
+such as obesity, tobacco use, diet, physical activity, alcohol and drug use, sexual behavior and others substantially 
+contribute to these deaths.
+
+The CHSI data set can be examined and downloaded [here](https://catalog.data.gov/dataset/community-health-status-indicators-chsi-to-combat-obesity-heart-disease-and-cancer), and specific county data investigated [here](http://wwwn.cdc.gov/communityhealth).
+
+***
+
+First, we'll load the necessary packages.
+```{r LoadPackages, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Next, we'll load the data into R, and create both a full dataset and a dataset with just the variables of interest.
+```{r LoadData, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Next, we will examine the data to see what we have to work with.
+```{r QueryData1, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+There are null values represented as large negative numbers in this dataset (e.g., -1111, -2222), so let's remove those.
+```{r RemoveIllegal, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+High school diplomas, unemployment, and major depression are counts, so let's make new variables as percentages of the population.
+```{r MutateData01, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Now lets see how the data looks after we've removed the null values and duplicated the count variables as percentages.
+```{r QueryData2, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Let's save the full data set and the modified data set to be used for analysis later.
+```{r SaveDerivedData, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Lastly, lets clean up our mess.
+```{r CleanUp, echo=C_echo, message=C_message, warning=C_warning}
+```
+***
+***

@@ -1,0 +1,84 @@
+---
+title: "Data Preparation"
+output:
+  html_document:
+    toc: yes
+    self_containted: false
+    keep_md: true
+---  
+<!-- for more options study http://rmarkdown.rstudio.com/html_document_format.html  -->
+<!-- The report is produced from
+REPOSITORY: the-name-of-the-repository
+BRANCH: the-name-of-the-branch
+PATH: ../Reports/
+-->
+
+<!--  Set the working directory to the repository's base directory; this assumes the report is nested inside of only one directory.-->
+```{r, echo=F, message=F} 
+library(knitr)
+opts_knit$set(root.dir='../../')  #Don't combine this call with any other chunk -especially one that uses file paths.
+```
+
+<!-- Set the report-wide options, and point to the external script file. -->
+```{r, echo=F, message=T}
+require(knitr)
+opts_chunk$set(
+  results='show', # Set
+  message = TRUE, # De
+  comment = NA,   #   fau
+  tidy = FALSE,   #     lts
+#   fig.height = 4.8, # physical dimensions
+#   fig.width = 6.5,  # of produced impage
+  out.width = NULL, # how it looks in html document
+  fig.path = 'figure_rmd/', # where images from this report are stored
+  dev = "png",
+  dpi = 100 # resolution: dots per inch. Use 100 to develop, 300-400 to print. adjust
+)
+C_echo <- TRUE
+C_message<- FALSE
+C_warning<- FALSE
+
+options(width=120) #So the output is 50% wider than the default.
+read_chunk("./reports/data_preparation/data_preparation.R") # the file to which knitr calls for the chunks
+```
+
+```{r LoadPackages, echo=C_echo, message=C_message, warning=C_warning}
+```
+#Load [Healthy Retirement Study Data](http://hrsonline.isr.umich.edu/)
+```{r LoadData, echo=C_echo, message=C_message, warning=C_warning}
+```
+#Load themes used to style graphs
+```{r LoadGraphSettings, echo=C_echo, message=C_message, warning=C_warning}
+```
+#Select variables from dataset
+Selected variables that look at psychiatric issues, gender, vigorous activity, cognition, age, years of education, and bmi. Also included 'wave' variable so I could pick one timepoint in the dataset to look at
+
+[Information on assessing BMI](http://www.cdc.gov/healthyweight/assessing/bmi/)
+
+I am interested in looking at which variables are predictive of BMI. 
+```{r selectdsM, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+#Look at summary of variables
+```{r summary, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+##Delete missing information
+```{r deletemissinginfo, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+##Select one timepoint (wave=4)
+```{r Timepoint, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+#Look at summary of variables now that missing info is gone and one timepoint has been selected
+Gender, psychiatric issues, and vigorous activity are all categorical variables
+```{r newsummary, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+#Save derived data
+```{r SaveDerivedData, echo=C_echo, message=C_message, warning=C_warning}
+```
+#Remove all datasets except for dsM
+```{r CleanUp, echo=C_echo, message=C_message, warning=C_warning}
+```

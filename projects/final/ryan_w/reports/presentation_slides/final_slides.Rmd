@@ -1,0 +1,147 @@
+---
+title: "Linear Mixed Effects Modeling of BMI and Age"
+author: "Ryan Wong"
+date: "December 3, 2015"
+output: 
+  ioslides_presentation
+---
+
+<!--  Set the working directory to the repository's base directory; this assumes the report is nested inside of only one directory.-->
+```{r, echo=F, message=F} 
+library(knitr)
+opts_knit$set(root.dir='../../')  #Don't combine this call with any other chunk -especially one that uses file paths.
+```
+
+<!-- Set the report-wide options, and point to the external script file. -->
+```{r, echo=F, message=T}
+require(knitr)
+opts_chunk$set(
+  results='show', # Set
+  message = TRUE, # De
+  comment = NA,   #   fau
+  tidy = FALSE,   #     lts
+#   fig.height = 4.8, # physical dimensions
+#   fig.width = 6.5,  # of produced impage
+  out.width = NULL, # how it looks in html document
+  fig.path = 'figure_rmd/', # where images from this report are stored
+  dev = "png",
+  dpi = 100 # resolution: dots per inch. Use 100 to develop, 300-400 to print. adjust
+)
+C_echo <- TRUE
+C_message<- FALSE
+C_warning<- FALSE
+
+options(width=120) #So the output is 50% wider than the default.
+read_chunk("./reports/data_preparation/hrs_final/hrs_final.R") # the file to which knitr calls for the chunks
+```
+
+```{r LoadPackages, echo=FALSE, message=FALSE, warning=FALSE}
+```
+```{r LoadGraphSettings, echo=FALSE, message=FALSE, warning=FALSE}
+```
+```{r LoadAnalysisData, echo=FALSE, message=FALSE, warning=FALSE}
+```
+
+##Overview
+
+- Health and Retirement Survey
+- Initial Observations
+- Linear Mixed Effect Models
+- Creating Models
+- Graphing Model Fits
+
+##Health and Retirement Survey
+
+-US longitudinal panel study
+
+-N = 20000
+
+-Representative Sample
+
+-Every 2 years
+
+##Splitting by Individuals
+```{r AnalysisStart, echo=FALSE, message=FALSE, warning=FALSE}
+```
+
+##Linear Mixed Effects Modeling {.smaller}
+Fixed vs Random Effects (Gelman, 2004)
+
+(1) Fixed effects are constant across individuals, and random effects vary.
+
+(2) Effects are fixed if they are interesting in themselves or random if there is interest in the underlying population.
+
+(3) When a sample exhausts the population, the corresponding variable is fixed; when the sample is a small (i.e., negligible) part of the population the corresponding variable is random.
+
+(4) If an effect is assumed to be a realized value of a random variable, it is called a random effect.
+
+(5) Fixed effects are estimated using least squares (or, more generally, maximum likelihood) and random effects are estimated with shrinkage.
+
+##Creating Models
+
+(a) Fixed Effects Only: Fixed Intercept + Fixed Age
+
+(b) Model 0: Random Intercept (BMI)
+
+(c) Model 1: Random Intercept (BMI) + Fixed Age
+
+(d) Model 2: Random Intercept (BMI) + Fixed Age + Random Age Intercept/Slope
+
+(e) Model 3: Random Intercept (BMI) + Fixed Age + Fixed Arthritis + Random Age Intercept/Slope
+
+(f) Model 4: Random Intercept (BMI) + Fixed Age + Fixed Arthritis + Interaction Age:Arthritis + Random Age Intercept/Slope
+
+##Graphing Models
+```{r MakingModel00, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
+```
+
+```{r MakingModel0, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
+```
+
+```{r MakingModel1, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
+```
+
+```{r MakingModel2, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
+```
+
+```{r MakingModel3, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
+```
+
+```{r MakingModel4, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
+```
+
+```{r GeneratePredictions, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
+```
+
+```{r GraphPredictions, echo=FALSE, message=FALSE, warning=FALSE}
+```
+
+##Model Fit Indices
+
+```{r CombiningFits, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
+```
+
+```{r GraphFits, echo=FALSE, message=FALSE, warning=FALSE}
+```
+
+##Conclusions
+
+When predicting BMI in this group, using a model that contains:
+
+-Fixed-effect of age
+
+-Random-effects of individual age slopes/intercepts
+
+-Random intercept (BMI)
+
+Arthritis is not a good variable for predicting BMI
+
+##Further Directions
+
+Nonlinearity
+
+Larger Sample
+
+##References
+
+Gelman, A. (2004). Analysis of variance? Why it is more important than ever. The Annals of Statistics, 1-53.

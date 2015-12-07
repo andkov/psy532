@@ -1,0 +1,125 @@
+---
+title: "PSYC 532 Final Report"
+output:
+  html_document:
+    toc: yes
+    self_containted: false
+    keep_md: true
+---  
+<!-- for more options study http://rmarkdown.rstudio.com/html_document_format.html  -->
+<!-- The report is produced from
+REPOSITORY: PSYC532 Final Project
+BRANCH: the-name-of-the-branch
+PATH: ../reports/
+-->
+
+<!--  Set the working directory to the repository's base directory; this assumes the report is nested inside of only one directory.-->
+```{r, echo=F, message=F} 
+library(knitr)
+opts_knit$set(root.dir='../../')  #Don't combine this call with any other chunk -especially one that uses file paths.
+```
+
+<!-- Set the report-wide options, and point to the external script file. -->
+```{r, echo=F, message=T}
+require(knitr)
+opts_chunk$set(
+  results='show', # Set
+  message = TRUE, # De
+  comment = NA,   #   fau
+  tidy = FALSE,   #     lts
+#   fig.height = 4.8, # physical dimensions
+#   fig.width = 6.5,  # of produced impage
+  out.width = NULL, # how it looks in html document
+  fig.path = 'figure_rmd/', # where images from this report are stored
+  dev = "png",
+  dpi = 100 # resolution: dots per inch. Use 100 to develop, 300-400 to print. adjust
+)
+C_echo <- TRUE
+C_message<- FALSE
+C_warning<- FALSE
+
+options(width=120) #So the output is 50% wider than the default.
+read_chunk("./reports/data_preparation/dsL_nlsy97.R") # the file to which knitr calls for the chunks
+```
+
+##Load Packages
+Prepare RStudio environment for all tasks
+```{r LoadPackages, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r DeclareGlobals, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Now I bring in the data as it was saved from the [NLS Investigator](https://www.nlsinfo.org/investigator/pages/login.jsp)
+```{r LoadData, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r ImportVarLabels, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r RenameVariables, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r QueryData1, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r QueryData2, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r QueryData3, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r arrivedsW, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r RemoveIllegal , echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r Melt01, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r Melt02, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r Melt03, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r Melt04, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r Melt05, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r Cast01, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r MutateData01, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r MutateData02, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r LabelFactors, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r LoadGraphSettings, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r selectdsM, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r BasicGraph, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r DataForModel, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r BasicModel, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r SaveDerivedData, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r CleanUp, echo=C_echo, message=C_message, warning=C_warning}
+```
+

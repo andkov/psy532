@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Dial Turning Test</title>
+  <meta name="description" content="">
+  <meta name="author" content="Morgan Teskey">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/reveal.min.css">
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/theme/Sky.css" id="theme">
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/googlecode.css" id="theme">
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->  <link rel="stylesheet" href = "libraries/widgets/quiz/css/demo.css">
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section class='class' data-state='' id='slide-1'>
+  <h2>Dial Turning Test</h2>
+  <h3>532 Final Report</h3>
+
+<p><br></p>
+
+<h4>Morgan Teskey</h4>
+
+<h5>December 7, 2015</h5>
+
+</section>
+<section class='class' data-state='' id='slide-2'>
+  <h3>Pop Quiz</h3>
+  <h4>Answer these four questions with either &#39;counterclockwise&#39; or &#39;clockwise&#39;</h4>
+
+<ol>
+<li>Which way do you turn a lightbulb to unscrew it?<br>
+<br></li>
+<li>Which way do you turn your car wheel to turn right?<br>
+<br></li>
+<li>Which way do you turn your cars volume knob to increase the volume?<br>
+<br></li>
+<li>Which way do you turn a jar lid to open it?<br>
+<br>
+Which, if any, questions did you get wrong?  Is there any particular question that took longer to think about? Is there any question that stands out as being the hardest to answer?<br>
+<br></li>
+</ol>
+
+<p>We will come back to this in a minute. </p>
+
+</section>
+<section class='class' data-state='' id='id'>
+  <h3>The Question of Embodied Reading</h3>
+  <p>Does reading sentences that describe an action activate motor processes associated with that action?<br>
+<br>
+Tested with a dial turning paradigm<br>
+<br>
+Study 1: Reading times were faster when the subject was turning in a way congruent with the actor and slower when they were turning in an incongruent direction.<br>
+<br>
+Study 2: Reading times were slower when the subject was turning in a way congruent with the actor and faster when they were turning in an incongruent direction.<br>
+<br>
+The critical difference between these two studies were the types of actions being described in the sentence  </p>
+
+</section>
+<section class='class' data-state='' id='id'>
+  <h3>Current Study</h3>
+  <p><i>The Question</i>: Do we respond differently to sentences describing opening/closing actions than sentences describing other clockwise/counterclockwise motions?<br>
+<br></p>
+
+<p><i>The Task</i>: After completing a task aimed to replicate the results of study 1 and 2, 32 partcipants completed a short post-test in which they read 32 sentences describing an actor carrying out a clockwise or counterclockwise action. Using a dial mechanism in front of the subjects turned the dial in the direction they believed matched the direction of the actor in the sentence.<br>
+<br></p>
+
+<p><i>The Hypothesis</i>: Opening/closing sentences will be responded to incorrectly more often than other critical sentences.<br>
+<br></p>
+
+<p><i>The Data</i>: We can now use R to analyze the results of this post-test.   </p>
+
+</section>
+<section class='class' data-state='' id='id'>
+  <h2>Loading Packages</h2>
+  <p>First we load into R the packages nessesary for the analysis:</p>
+
+<pre><code class="r">base::require(base)
+base::require(knitr)
+base::require(markdown)
+base::require(testit)
+base::require(dplyr)
+base::require(reshape2)
+base::require(stringr)
+base::require(stats)
+base::require(ggplot2)
+base::require(extrafont)
+</code></pre>
+
+</section>
+<section class='class' data-state='' id='id'>
+  <h2>Loading Data</h2>
+  <p>There are two data sets for this study- <i>ddsub</i> presents means for each participant across trials and <i>dssent</i> presents means for trials averaged across particpants. </p>
+
+<pre><code class="r">dssent &lt;- readRDS(&quot;../../data/derived/dialsentence.rds&quot;)
+dssub &lt;- readRDS(&quot;../../data/derived/dialsubject.rds&quot;)
+</code></pre>
+
+</section>
+<section class='class' data-state='' id='id'>
+  <h2>Comparing Sentence Types</h2>
+  <h4>Accuracy</h4>
+
+<p>We can first see if subjects differ in their accuracy when responding to the two sentence types. We use &#39;Jar&#39; to denote any sentences that refer to opening/closing a container and &#39;Key&#39; to refer to any other sentences describing clockwise or counterclockwise actions. </p>
+
+<pre><code>
+    Welch Two Sample t-test
+
+data:  dssub$accuracy by dssub$type
+t = -4.7706, df = 61.994, p-value = 1.156e-05
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.2728455 -0.1117098
+sample estimates:
+mean in group Jar mean in group Key 
+        0.5691807         0.7614583 
+</code></pre>
+
+<p>There is a significant difference in accuracy rates for the two sentence types- with Key sentences being answered correctly 20% more often than Jar sentences. </p>
+
+</section>
+<section class='class' data-state='' id='id'>
+  <h2>Comparing Sentence Types</h2>
+  <h4>Accuracy</h4>
+
+<p>We can now inspect these different accuracy rates visually. It is reasonable to estimate that accuracy may change over the course of the experiment with exposure, so here we will plot accuracy averaged across subjects by the experimental trial number.<br>
+<br></p>
+
+<p><img src="figure/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" /></p>
+
+</section>
+<section class='class' data-state='' id='id'>
+  <h2>Comparing Sentence Types</h2>
+  <h4>Accuracy</h4>
+
+<p>We can also look at the pattern of accuracy rates by subject:<br>
+<br></p>
+
+<p><img src="figure/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" /></p>
+
+</section>
+<section class='class' data-state='' id='id'>
+  <h2>Comparing Sentence Types</h2>
+  <h4>Reaction Time</h4>
+
+<p>Reation Times reflect the amount of time between sentence presentation and a responce initialtion on the dial mechanism divided by the number of characters in the sentence as a means of standardization. 
+As with accuracy we can first run a t-test of reaction times by sentence type.</p>
+
+<pre><code>
+    Welch Two Sample t-test
+
+data:  dssub$rt by dssub$type
+t = -2.9118, df = 61.573, p-value = 0.004999
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -13.210641  -2.454784
+sample estimates:
+mean in group Jar mean in group Key 
+         45.10010          52.93281 
+</code></pre>
+
+<p>Jar reaction times are significantly faster than Key reaction times.</p>
+
+</section>
+<section class='class' data-state='' id='id'>
+  <h2>Comparing Sentence Types</h2>
+  <h4>Reaction Time</h4>
+
+<p>Key reaction times are significantly longer than Jar sentence reaction times. As wil accuracy we can plot this to see if it changes over the course of the experiment:<br>
+<br></p>
+
+<p><img src="figure/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto;" /></p>
+
+</section>
+<section class='class' data-state='' id='id'>
+  <h3>Comparing Sentence Types</h3>
+  <h4>Accuracy and Reaction Time</h4>
+
+<p>Finally we can plot accuracy and reaction time together to discern if there is a relationship between the two variables:
+<br></p>
+
+<p><img src="figure/unnamed-chunk-8-1.png" alt="plot of chunk unnamed-chunk-8"> </p>
+
+</section>
+<section class='class' data-state='' id='id'>
+  <h3>Conclusions</h3>
+  <p>These results support our hypothesis that &#39;Jar&#39; sentences are responded to less accurately than &#39;Key&#39; sentences. 
+<br></p>
+
+<p>A 57% accuracy rate for &#39;Jar&#39; are shockingly low.  According to the claims of the two studies described in the introduction, our knowledge of turning directions is implicit and emobodied. If subjects missunderstand which way the actor in the sentence is turning 43% of the time how can any conclusions about congruency and embodiment be drawn from studies utilizing this paradigm? 
+<br></p>
+
+<p>Moving forward we can use this data to inform the conclusions drawn from studies within the embodied framework. </p>
+
+</section>
+    </div>
+  </div>
+</body>
+  <script src="libraries/frameworks/revealjs/lib/js/head.min.js"></script>
+  <script src="libraries/frameworks/revealjs/js/reveal.min.js"></script>
+  <script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    theme: Reveal.getQueryHash().theme || 'Sky', 
+    transition: Reveal.getQueryHash().transition || 'slide', 
+    dependencies: [
+    // Cross-browser shim that fully implements classList -
+    // https://github.com/eligrey/classList.js/
+      { src: 'libraries/frameworks/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList;}},
+      // Zoom in and out with Alt+click
+      { src: 'libraries/frameworks/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Speaker notes
+      { src: 'libraries/frameworks/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Remote control your reveal.js presentation using a touch device
+      //{ src: 'libraries/frameworks/revealjs/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+  });
+  </script>  
+<!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+ 
+
+</html>

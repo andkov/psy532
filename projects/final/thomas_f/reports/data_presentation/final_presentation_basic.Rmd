@@ -1,0 +1,95 @@
+---
+title: "Final Project"
+author: "Thomas Ferguson"
+date: "December 5, 2015"
+output: 
+  ioslides_presentation: 
+    smaller: yes
+    widescreen: yes
+---
+
+<!--  Set the working directory to the repository's base directory; this assumes the report is nested inside of only one directory.-->
+```{r, echo=F, message=F} 
+library(knitr)
+opts_knit$set(root.dir='../../')  #Don't combine this call with any other chunk -especially one that uses file paths.
+```
+
+<!-- Set the report-wide options, and point to the external script file. -->
+```{r, echo=F, message=T}
+require(knitr)
+opts_chunk$set(
+  results='show', # Set
+  message = TRUE, # De
+  comment = NA,   #   fau
+  tidy = FALSE,   #     lts
+#   fig.height = 4.8, # physical dimensions
+#   fig.width = 6.5,  # of produced impage
+  out.width = NULL, # how it looks in html document
+  fig.path = 'figure_rmd/', # where images from this report are stored
+  dev = "png",
+  dpi = 100 # resolution: dots per inch. Use 100 to develop, 300-400 to print. adjust
+)
+C_echo <- FALSE
+C_message<- FALSE
+C_warning<- FALSE
+
+options(width=120) #So the output is 50% wider than the default.
+read_chunk("./reports/data_analysis/basic_analysis.R") # the file to which knitr calls for the chunks
+```
+
+##Load Packages
+Prepare RStudio environment for all tasks to follow. 
+```{r LoadPackages, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r load_sources, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r DeclareGlobals, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+We load the data derived by the script "./reports/data_preparation/dsL_hrs.R"" 
+Variables chosen are age in years, eduction in years, gender, race, if they drink currently, if they smoked ever,
+```{r LoadData, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+##Slide 1
+Load graph settings for creating figures
+```{r LoadGraphSettings, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+##Slide 2
+Chooses variables for model - End up with model of ~6 or 7 due to conflicting results (seemed reasonable)
+```{r model_selection, echo=C_echo message=C_message, warning=C_warning}
+```
+
+##Slide 3
+Create Plots of cognition, number of chronic conditions, education in years and age in years by BMI (with gender, if they drank, and race included as factors)
+```{r add_graphs, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+
+##Slide 4
+Creates prediction function for models
+```{r get_prediction_function, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+
+##Slide 5
+Creates models of variables of interest
+```{r define_models, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+##Slide 6
+Adds models to figures produced above
+```{r add_model_data, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+##Slide 7 - Conclusions
+
+## Appendix
+
+Removes all variables except variables conisdered for models
+```{r CleanUp, echo=C_echo, message=C_message, warning=C_warning}
+```
+

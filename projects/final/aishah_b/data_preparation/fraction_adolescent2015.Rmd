@@ -1,0 +1,72 @@
+---
+title: "Data Preparation for Analysis"
+author: "Aishah Bakhtiar"
+date: "November 30, 2015"
+output:
+  html_document:
+    toc: yes
+---
+
+```{r, echo=F, message=F} 
+library(knitr)
+opts_knit$set(root.dir='../../')  #Don't combine this call with any other chunk -especially one that uses file paths. #the root of the folder is two levels up 
+```
+
+<!-- Set the report-wide options, and point to the external script file. -->
+```{r, echo=F, message=T}
+require(knitr)
+opts_chunk$set(
+  results='show', # Set
+  message = TRUE, # De
+  comment = NA,   #   fau
+  tidy = FALSE,   #     lts
+#   fig.height = 4.8, # physical dimensions
+#   fig.width = 6.5,  # of produced impage
+  out.width = NULL, # how it looks in html document
+  fig.path = 'figure_rmd/', # where images from this report are stored
+  dev = "png",
+  dpi = 100 # resolution: dots per inch. Use 100 to develop, 300-400 to print. adjust
+)
+C_echo <- TRUE
+C_message<- FALSE
+C_warning<- FALSE
+
+options(width=120) #So the output is 50% wider than the default.
+read_chunk("./reports/data_preparation/fraction_adolescent2015.R") # the file to which knitr calls for the chunks
+```
+
+####Load Packages
+Prepare RStudio environment for all tasks to follow. 
+```{r LoadPackages, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r DeclareGlobals, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Access to this data is limited to researchers listed on the research ethics application. 
+```{r LoadData, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r CleanData, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+####Data Inspection
+```{r DataInspection, echo=C_echo, message=C_message, warning=C_warning}
+```
+Label for Categorical Variable
+
+|Value|Gender|
+|:-:|---|
+| 1  | Male |
+| 2  | Female |
+
+####Data Manipulation
+```{r DataManipulation, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r SaveDerivedData, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r CleanUp, echo=C_echo, message=C_message, warning=C_warning}
+```
+

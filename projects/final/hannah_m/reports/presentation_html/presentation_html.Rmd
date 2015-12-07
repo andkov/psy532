@@ -1,0 +1,290 @@
+---
+title: "Predictors of BMI, by Hannah Mohun"
+output: 
+  ioslides_presentation: 
+    smaller: yes
+      
+---
+
+<!-- for more options study http://rmarkdown.rstudio.com/html_document_format.html  -->
+<!-- The report is produced from
+REPOSITORY: the-name-of-the-repository
+BRANCH: the-name-of-the-branch
+PATH: ../Reports/
+-->
+
+<!--  Set the working directory to the repository's base directory; this assumes the report is nested inside of only one directory.-->
+```{r, echo=F, message=F} 
+library(knitr)
+opts_knit$set(root.dir='../../')  #Don't combine this call with any other chunk -especially one that uses file paths.
+```
+
+<!-- Set the report-wide options, and point to the external script file. -->
+```{r, echo=F, message=T}
+require(knitr)
+opts_chunk$set(
+  results='show', # Set
+  message = TRUE, # De
+  comment = NA,   #   fau
+  tidy = FALSE,   #     lts
+#   fig.height = 4.8, # physical dimensions
+#   fig.width = 6.5,  # of produced impage
+  out.width = NULL, # how it looks in html document
+  fig.path = 'figure_rmd/', # where images from this report are stored
+  dev = "png",
+  dpi = 100 # resolution: dots per inch. Use 100 to develop, 300-400 to print. adjust
+)
+C_echo <- TRUE
+C_message<- FALSE
+C_warning<- FALSE
+
+options(width=120) #So the output is 50% wider than the default.
+read_chunk("./reports/slides_preparation/slides_preparation.R") # the file to which knitr calls for the chunks
+```
+
+
+```{r LoadPackages, echo=F, message=C_message, warning=C_warning}
+```
+
+```{r LoadSources, echo=F, message=C_message, warning=C_warning}
+```
+
+##Data
+
+![](http://hrsonline.isr.umich.edu/images/logo2zz2.gif)
+
+
+The Health and Retirement Study is a longitudinal study of health, retirement and aging sponsored by the National Institute on Aging
+
+- Conducted through University of Michigan
+
+- Launched in 1992
+
+- Longitudinal study
+
+- Testing adults over 50 once every 2 years
+
+##Load Data
+
+- Removed missing data
+
+- Chose one timepoint within dataset (wave=4)
+
+```{r LoadData, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+##Variables of interest
+
+- BMI
+- Gender
+- Age
+- Years of education
+- Vigorous activity
+- Cognition
+- Psychiatric issues
+
+#Data Exploration
+
+##Histogram BMI
+```{r histogram1, echo=F, message=C_message, warning=C_warning}
+```
+
+##Histogram Age
+```{r histogram2, echo=F, message=C_message, warning=C_warning}
+```
+
+##Histogram Cognition
+```{r histogram3, echo=F, message=C_message, warning=C_warning}
+```
+
+##Histogram Years of Education
+```{r histogram4, echo=F, message=C_message, warning=C_warning}
+```
+
+##Scatterplot
+```{r Scatterplot1, echo=FALSE, message=C_message, warning=C_warning}
+```
+The general trend of this scatterplot suggests that BMI increases as cognition increases
+
+##Scatterplot
+```{r Scatterplot2, echo=FALSE, message=C_message, warning=C_warning}
+```
+The general trend of this scatterplot suggests that as individuals get older, BMI decreases
+
+##Scatterplot
+```{r Scatterplot3, echo=FALSE, message=C_message, warning=C_warning}
+```
+The general trend of this scatterplot suggests that as years of education increases, BMI decreases 
+
+##Data
+To view a snapshot of the data
+```{r Dataview, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+#Creating a Model to Predict BMI
+
+##Subset Selection
+
+- Regsubsets function performs best subset selection (using RSS)
+
+- Best subset selection fits a separate least squares regression for each possible combination of the p predictors
+
+##Best Subset Selection
+```{r Bestsubsetselection, echo=FALSE, message=C_message, warning=C_warning}
+```
+
+##Best Subset Selection Forward Stepwise
+
+- Forward stepwise begins with a model containing no predictors, and then adds predictors to the model one-at-a-time, until all predictors are in the model.
+
+##Forward
+```{r SubsetSelectionForward, echo=FALSE, message=C_message, warning=C_warning}
+```
+
+##Best Subset Selection Backward Stepwise
+
+- Backward stepwise begins with the full least squares model containing all p predictors, and then removes the least useful predictor one-at-a-time.
+
+##Backward
+```{r SubsetSelectionBackward, echo=FALSE, message=C_message, warning=C_warning}
+```
+
+##Adjusted r-squared, Cp, and BIC
+
+- Adjusted r-squared says that a model with 5 factors is optimal
+
+```{r adjustedrsquared, echo=FALSE, message=C_message, warning=C_warning}
+```
+
+- Cp says that a model with 4 factors is optimal
+
+```{r cp, echo=FALSE, message=C_message, warning=C_warning}
+```
+
+- BIC says that a model with 4 factors is optimal
+
+```{r bic, echo=F, message=C_message, warning=C_warning}
+```
+
+##Plot
+
+- Plot Adjusted r-squared with a point on the which.max() value calculated above
+
+```{r plottingadjr2, echo=F, message=C_message, warning=C_warning}
+```
+
+##Plot
+
+- Plot Cp with a point on the which.min() value calculated above
+
+```{r plottingcp, echo=F, message=C_message, warning=C_warning}
+```
+
+##Plot
+
+- Plot BIC with a point on the which.min() value calculated above
+
+```{r plottingbic, echo=F, message=C_message, warning=C_warning}
+```
+
+##Linear Models
+
+- Linear model with all 6 factors
+- The linear model with all 6 factors shows that all variables are significant predictors of BMI except for psychiatric issues and cognition.
+
+```{r Analysis1, echo=F, message=C_message, warning=C_warning}
+```
+
+##Model with 5 factors
+
+- Relationship of BMI with vigorous activity, age, gender, years of education, and psychiatric issues
+
+- These variables chosen by looking at best subset selection
+
+- This is the optimal model size suggested by adjusted r-squared which.max() function
+
+##Model with 5 factors
+
+- The linear model with 5 variables shows that all variables are significant predictors of BMI except for psychiatric issues
+
+```{r Analysis2, echo=F, message=C_message, warning=C_warning}
+```
+
+##Model with 4 factors
+
+- Relationship of BMI with vigorous activity, age, gender, and years of education
+
+- Variables were chosen by looking at best subset selection
+
+- This is the optimal model size suggested by Cp and BIC which.min() function
+
+##Model with 4 factors
+
+- The linear model with 4 variables shows that all variables are significant predictors of BMI
+
+```{r Analysis3, echo=F, message=C_message, warning=C_warning}
+```
+
+
+##Linear model with cognition
+
+- Wanted to explore whether cognition would be a significant predictor on its own in a model since it was not significant in the model with 6 factors
+
+```{r Analysis7, echo=F, message=C_message, warning=C_warning}
+```
+
+- WOW! How deceiving.
+
+##Linear model with psychiatric issues
+
+```{r Analysis8, echo=F, message=C_message, warning=C_warning}
+```
+
+- WOW! How deceiving.
+
+##Linear model with cognition and psychiatric issues
+
+```{r Analysis9, echo=F, message=C_message, warning=C_warning}
+```
+
+- WOW! How deceiving.
+
+
+##Final linear model
+
+- The final model I chose to predict BMI is the model with 4 factors (age, years of education, gender, and vigorous activity). 
+
+- Both BIC and Cp had the lowest values with this model size, and best subset selection (all 3 methods) suggested that these 4 factors should be the factors included in this size model.
+
+- All factors within this model are statistically significant predictors of BMI, whereas in the 5 factor model psychiatric issues wasn't significant
+
+##Final linear model
+
+```{r Finalanalysis, echo=F, message=C_message, warning=C_warning}
+```
+
+##Coefficients
+The coefficients tell us the as BMI increases by 1 point:
+
+- vigorous activity decreases by (.82, SD=.103)
+
+- age decreases by (.15, SD=.007)
+
+- the effect of being male increases by (.63, SD=.101)
+
+- and years of education decreases by (.14, SD=.015).
+
+#Conclusion
+
+##To summarize
+
+- From the 6 initial predictors in my dataset, I found that the model with age, years of education, vigorous activity and gender best predicts BMI
+
+- The coefficients tell us that as BMI increases:
+- age decreases
+- years of education decreases
+- effect of being male increases
+
+- Also discovered how misleading linear models can be when I looked into cognition and psychiatric issues on their own
+
+#![](http://www.weepop.net/wp-content/uploads/2015/02/thatsall.jpg)

@@ -1,0 +1,114 @@
+---
+title: "SATSA Data Preparation"
+author: "Jamie Knight"
+date: "November 26, 2015"
+output: html_document
+---  
+<!-- for more options study http://rmarkdown.rstudio.com/html_document_format.html  -->
+<!-- The report is produced from
+REPOSITORY: SATSA
+BRANCH: the-name-of-the-branch
+PATH: ../Reports/
+-->
+
+<!--  Set the working directory to the repository's base directory; this assumes the report is nested inside of only one directory.-->
+```{r, echo=F, message=F} 
+library(knitr)
+opts_knit$set(root.dir='../../')  #Don't combine this call with any other chunk -especially one that uses file paths.
+```
+
+<!-- Set the report-wide options, and point to the external script file. -->
+```{r, echo=F, message=T}
+require(knitr)
+opts_chunk$set(
+  results='show', # Set
+  message = TRUE, # De
+  comment = NA,   #   fau
+  tidy = FALSE,   #     lts
+#   fig.height = 4.8, # physical dimensions
+#   fig.width = 6.5,  # of produced impage
+  out.width = NULL, # how it looks in html document
+  fig.path = 'figure_rmd/', # where images from this report are stored
+  dev = "png",
+  dpi = 100 # resolution: dots per inch. Use 100 to develop, 300-400 to print. adjust
+)
+C_echo <- TRUE
+C_message<- FALSE
+C_warning<- FALSE
+
+options(width=120) #So the output is 50% wider than the default.
+read_chunk("./reports/data_preparation/data_preparationFINAL.R") # the file to which knitr calls for the chunks
+```
+
+##Introduction
+
+In this report we are preparing a derived data set using the SATSA data available online at (http://www.icpsr.umich.edu/icpsrweb/DSDR/studies/3843). 
+
+Within the SATSA study a subsample of the participants were interviewed in seven waves of in-person testing and those measurements included smell and taste questions along with cognitive and functional capacity.
+
+This subsample is what we will use in our analysis and includes:  
+- Questionnaire 3 and In-Person Testing Time 3 (1990);   
+- In-Person Testing Time 5 (2004);   
+- Questionnaire 6 and In-Person Testing Time 6 (2007);   
+- In-Person Testing Time 7 (2010)  
+
+In this script we will derive a data set which will include smell, taste, sex, cognitive MMSE scores and id variables. I will also explore an issue with the original coding of the data that could potentially have consequences for data analysis. 
+
+
+##Load Packages
+This section prepares the RStudio environment for all tasks to follow.
+
+If the packages are not insalled:  
+(1) Uncomment the install.packages list by highlighting them and holding down Shift CTRL C  
+(2) Run the code   
+(3) Comment out the insall.packages list using the same process as #1.   
+(4) Load the packages.  
+
+Installing packages will only need to be done once.
+Loading packages will need to be done at the beginning of each session.
+```{r LoadPackages, message=C_message, warning=C_warning}
+```
+
+##Raw Data 
+If you haven't done so already, you will need to sign up and download the required raw data from the SATSA website (http://www.icpsr.umich.edu/icpsrweb/DSDR/studies/3843). Directions for this process can be found in the README file in the raw data folder. 
+
+##Load and Rename Data
+We are going to load, rename and subset the data to just the variables we need: smell and taste across waves 3, 5, 6, and 7.
+
+In this section we begin to see that there is a major issue with the coding for the questionnaires across waves.
+```{r LoadRename, echo=TRUE, message=C_message, warning=C_warning}
+```
+
+##Frequency Tables 
+The frequncy tables for smell for each wave are shown here.
+You can clearly see how they have coded each wave differently using a combination of numbers and words that do not match between waves.
+
+This means that smell is not an ordered variable across waves even though it is within each wave. This makes longitudinal analysis very difficult.
+```{r show_values, echo=TRUE, message=C_message, warning=C_warning}
+```
+
+##Recode Sex
+```{r RenameSex, echo=TRUE, message=C_message, warning=C_warning}
+```
+
+##Recode Smell and Taste
+As you saw above the coding for these is not ordinal.  
+Each wave has a different question they are asking when it comes to smell and taste.  
+In one wave they ask: "How is your smell?" with the responses being either Good, Pretty Good or Bad.
+
+In the next wave they wil ask the same question but the respons options being: Good, Not So Good, or Bad.
+
+This means that we cannot use smell and taste across waves, as the answers are not equivalent.
+
+##Recode Anyway
+We are going to recode them as if they are ordinal with Good, Pretty Good, Not So Good, and Bad being equivalent to a score of 1, 2, 3 and 4 respectively in order to see what the individual growth plots look like over the waves for each individual. I would normally expect to see a linear decline. We can see these growth plots in the next section called data_analysis. 
+
+```{r RenameVariables, echo=TRUE}
+```
+##Save Derived Data
+```{r SaveDerivedData, echo=TRUE}
+```
+##Clean Up 
+```{r CleanUp, echo=TRUE}
+```
+

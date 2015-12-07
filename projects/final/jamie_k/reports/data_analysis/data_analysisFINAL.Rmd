@@ -1,0 +1,99 @@
+---
+title: "SATSA Data Analysis"
+author: "Jamie Knight"
+date: "November 26, 2015"
+output: html_document
+---  
+<!-- for more options study http://rmarkdown.rstudio.com/html_document_format.html  -->
+<!-- The report is produced from
+REPOSITORY: SATSA
+BRANCH: the-name-of-the-branch
+PATH: ../Reports/
+-->
+
+<!--  Set the working directory to the repository's base directory; this assumes the report is nested inside of only one directory.-->
+```{r, echo=F, message=F} 
+library(knitr)
+opts_knit$set(root.dir='../../')  #Don't combine this call with any other chunk -especially one that uses file paths.
+```
+
+<!-- Set the report-wide options, and point to the external script file. -->
+```{r, echo=F, message=T}
+require(knitr)
+opts_chunk$set(
+  results='show', # Set
+  message = TRUE, # De
+  comment = NA,   #   fau
+  tidy = FALSE,   #     lts
+#   fig.height = 4.8, # physical dimensions
+#   fig.width = 6.5,  # of produced impage
+  out.width = NULL, # how it looks in html document
+  fig.path = 'figure_rmd/', # where images from this report are stored
+  dev = "png",
+  dpi = 100 # resolution: dots per inch. Use 100 to develop, 300-400 to print. adjust
+)
+C_echo <- TRUE
+C_message<- FALSE
+C_warning<- FALSE
+
+options(width=120) #So the output is 50% wider than the default.
+read_chunk("./reports/data_analysis/data_analysisFINAL.R") # the file to which knitr calls for the chunks
+```
+
+In our data analysis we are looking at how smell changes over time in individuals within the SATSA data.As you will have seen from the data preparation file we have discovered a coding issue that will prevent us from proceeding with our desired analysis and instead we will look for visual confirmation of the coding issue in the data set.
+
+This current longituinal analysis is the beginning of my thesis research where I will examine whether we can predict neurodegenerative diseases with a decline in the sense of smell. 
+
+In this data analysis we explore how smell changes over time for the individuals in our sample, using empirical growth plots. We would normally expect to see a decline in smell over time. However, with the coding issue I would expect to see some kind of quadratic relationship over time surrounding the 2 and 3 (Pretty Good and Not So Good) smell variable. 
+
+```{r Intro, message=C_message, warning=C_warning}
+```
+
+##Load Packages
+This section prepares the RStudio environment for all tasks to follow.
+
+If the packages are not insalled:  
+(1) Uncomment the install.packages list by highlighting them and holding down Shift CTRL C  
+(2) Run the code   
+(3) Comment out the insall.packages list using the same process as #1.   
+(4) Load the packages.  
+
+Installing packages will only need to be done once.  
+Loading packages will need to be done at the beginning of each session.
+```{r LoadPackages, message=C_message, warning=C_warning}
+```
+
+If you haven't done so already, you will need to run the data preparation files which can be found in the data preparation folder. Running the data preparation will give you a long format subset of the data that we are going to work with.
+```{r LoadData, echo=TRUE, message=C_message, warning=C_warning}
+```
+
+##Subset Data
+Here we will generate a small random number of individuals. Our goal is to look at how smell is changing over time in individuals. I would normally expect a liner decline over time however we should see some interesting patterns that reflect the coding issues we have encountered.
+
+```{r Subset, echo=TRUE, message=C_message, warning=C_warning}
+```
+
+##Empirical Growth Plots
+Now we will look at some longitudinal exploration. Empirical growth plots are a simple way of examining how a person changes over time. In this case Waves are our time variable and we examine how smell changes over time in a small subset of our SATSA data. This will show us who is increasing and who is decreasing over time.
+
+```{r LongitudinalExploration, echo=TRUE}
+```
+
+It appears that smell and taste are reported very similarily. This is to be expected. In the sample shown above it appears that one person is showing a decline over time. Some have no change and other show an unverse U shape.
+
+##By ID
+Identify and look at one individual's change over time
+
+```{r DatabyID, echo=TRUE}
+```
+##Future Analysis
+I am currently waiting to recieve the disease diagnoses data for the SATSA data. This additional variable will be my outcome variable and will include dementia. I will use this to see whether decline in smell over time can predict dementia. Once we resolve the coding issue with how smell is coded over different waves we can proceed with analysis of the data.
+
+##Clean Up
+Clean up the global environment and the console.
+
+```{r CleanUp, echo=TRUE}
+```
+
+
+

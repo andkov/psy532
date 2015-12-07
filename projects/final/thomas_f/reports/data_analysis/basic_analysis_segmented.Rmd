@@ -1,0 +1,215 @@
+---
+title: "Data analysis for final report"
+author: "Thomas Ferguson"
+output:
+  html_document:
+    toc: yes
+    self_containted: false
+    keep_md: true
+---  
+<!-- for more options study http://rmarkdown.rstudio.com/html_document_format.html  -->
+<!-- The report is produced from
+REPOSITORY: the-name-of-the-repository
+BRANCH: the-name-of-the-branch
+PATH: ../Reports/
+-->
+
+<!--  Set the working directory to the repository's base directory; this assumes the report is nested inside of only one directory.-->
+```{r, echo=F, message=F} 
+library(knitr)
+opts_knit$set(root.dir='../../')  #Don't combine this call with any other chunk -especially one that uses file paths.
+```
+
+<!-- Set the report-wide options, and point to the external script file. -->
+```{r, echo=F, message=T}
+require(knitr)
+opts_chunk$set(
+  results='show', # Set
+  message = TRUE, # De
+  comment = NA,   #   fau
+  tidy = FALSE,   #     lts
+#   fig.height = 4.8, # physical dimensions
+#   fig.width = 6.5,  # of produced impage
+  out.width = NULL, # how it looks in html document
+  fig.path = 'figure_rmd/', # where images from this report are stored
+  dev = "png",
+  dpi = 100 # resolution: dots per inch. Use 100 to develop, 300-400 to print. adjust
+)
+C_echo <- TRUE
+C_message<- FALSE
+C_warning<- FALSE
+
+options(width=120) #So the output is 50% wider than the default.
+read_chunk("./reports/data_analysis/basic_analysis_segmented.R") # the file to which knitr calls for the chunks
+```
+
+
+Prepare RStudio environment for all tasks to follow. 
+```{r LoadPackages, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r load_sources, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r DeclareGlobals, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+We load the data derived by the script "./reports/data_preparation/dsL_hrs.R"" 
+Variables chosen are age in years, eduction in years, gender, race, if they drink currently, if they smoked ever,
+```{r LoadData, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Load graph settings for creating figures
+```{r LoadGraphSettings, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Chooses variables for model - End up with model of ~6 or 7 due to conflicting results (seemed reasonable - dropped the least significant factors which were gender, mstot, depressive symptoms and sample weight
+```{r model_selection1, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r model_selection2, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r model_selection3, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Create Plots of cognition versus BMI (with race as a factor)
+```{r add_graphs1, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs2, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs3, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs4, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs5, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs6, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs7, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs8, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs9, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs10, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs11, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs12, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs13, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs14, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs15, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs16, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs17, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs18, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs19, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs20, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs21, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs22, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs23, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_graphs24, echo=C_echo, message=C_message, warning=C_warning}
+```
+Creates prediction function for models
+```{r get_prediction_function, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Creates models of variables of interest
+```{r define_variables1, echo=TRUE, message=C_message, warning=C_warning}
+```
+
+```{r define_variables2, echo=TRUE, message=C_message, warning=C_warning}
+```
+
+```{r define_variables3, echo=TRUE, message=C_message, warning=C_warning}
+```
+
+```{r define_variables4, echo=TRUE, message=C_message, warning=C_warning}
+```
+
+Adds models to figures produced above
+```{r add_model_data1, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_model_data2, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_model_data3, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r add_model_data4, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+### Conclusions
+
+### Health conditions
+
+Data show that the more health conditions you have, the higher your BMI. Given the high co-incidence of obesity (see Patterson et al., 2004) with certain health conditions such as diabetes and heart disease, this is not a surprising finding.
+
+### Age
+
+Data show that the older you are, the lower your BMI is. This is not a suprising finding, given that people who live longer tend to have better health, which would ideally correlate with a lower BMI.
+
+###Cogtot
+
+Data show that the higher your cognition, the lower your BMI.
+
+###Education
+
+Data seem show that the more years of education you have, the higher your BMI. This is somewhat suprising given that conventional wisdom (my bias?) says that education tends to correlate with wealth which correlates with better health. This could either indicate a problem with my conflation of BMI as a measurement of overall health or with differences in the retired population.
+
+###Race
+
+Race seems to show that being african american correlates with a higher BMI, this is not a super suprising finding, somewhat expected.
+
+###Drink
+
+Drinking data seems to show that when participants drink, they are more likely to have a lower BMI. This is a very suprising finding, although it could indicate a problem with their definition of drinking. Unfortunately I was unable to find the operation definition of if a participant drank or not, which could mean either quite a bit of drinking or just a certain number of drinks per week. 
+
+
+###Shlt
+
+Participants rating of their health (self-rated health score) indicates that people who rate their health lower tend to have a higher BMI.
+
+
+## Appendix
+
+Removes all variables except variables conisdered for models
+```{r CleanUp, echo=C_echo, message=C_message, warning=C_warning}
+```
+

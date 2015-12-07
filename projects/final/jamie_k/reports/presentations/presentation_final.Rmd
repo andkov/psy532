@@ -1,0 +1,162 @@
+---
+title: "Data Preparation is Imporatant: An Example Using SATSA"
+author: "Jamie Knight"
+date: "University of Victoria"
+output: 
+  ioslides_presentation:
+  fig_width: 7
+  fig_height: 6
+incremental: "true" 
+logo: jamieknighticon.jpg
+---
+
+
+```{r, echo=F, message=F} 
+library(knitr)
+opts_knit$set(root.dir='../../')  #Don't combine this call with any other chunk -especially one that uses file paths.
+```
+
+<!-- Set the report-wide options, and point to the external script file. -->
+```{r, echo=F, message=T}
+require(knitr)
+opts_chunk$set(
+  results='show', # Set
+  message = TRUE, # De
+  comment = NA,   #   fau
+  tidy = FALSE,   #     lts
+#   fig.height = 4.8, # physical dimensions
+#   fig.width = 6.5,  # of produced impage
+  out.width = NULL, # how it looks in html document
+  fig.path = 'figure_rmd/', # where images from this report are stored
+  dev = "png",
+  dpi = 100 # resolution: dots per inch. Use 100 to develop, 300-400 to print. adjust
+)
+C_echo <- TRUE
+C_message<- FALSE
+C_warning<- FALSE
+
+options(width=120) #So the output is 50% wider than the default.
+read_chunk("./reports/data_preparation/data_preparationFINAL.R") # the file to which knitr calls for the chunks
+```
+
+
+##Introduction {.build}
+
+Hello!
+
+Things we will cover today:  
+
+- Why is data preparation imporatant
+- An example
+- Introduction to SATSA data set
+
+
+##Why is data preparation imporatant? {.build}
+
+* You will spend the majority of your time prepping your data set
+  + Do this well to get good, reproducible results
+  + Any errors are likely going to affect your analysis
+* Some of you will use other people's data: Don't assume it is clean!
+  + Even well used and documented data may have problems
+
+
+##An Example 
+
+###Let's examine an example of why data preparation is imporatant using the SATSA data.###
+
+SATSA is freely available on the internet.
+It is well used and there are over 30,000 publications using this data set!
+You can access it by signing up on their website here:
+
+[http://www.icpsr.umich.edu/icpsrweb/DSDR/studies/3843](http://www.icpsr.umich.edu/icpsrweb/DSDR/studies/3843)
+
+
+##Introduction to SATSA
+The data set is comprised of twins raised together and apart and includes data on:  
+
+- Health Status
+- Work Environment
+- Personality
+
+##Data for this Project {.build}
+
+A subsample of the participants were interviewed in seven waves of in-person testing and those measurements included smell and taste questions along with cognitive and functional capacity.
+
+This subsample is what we will use in our analysis and includes:
+
+>- Questionnaire 3 and In-Person Testing Time 3 (1990); 
+>- In-Person Testing Time 5 (2004); 
+>- Questionnaire 6 and In-Person Testing Time 6 (2007); 
+>- In-Person Testing Time 7 (2010)
+
+##My Research
+
+Can olfactory decline predict neurodegenerative disease?
+
+A good use for SATSA
+
+##Data Preparation
+
+Each wave of SATSA is in a separate data set and combining several waves of data requires a substantial amount of work.
+
+> In the folder called reports we have a script dedicated to how we merged 4 waves of in person data colected from questionnaires with the administrative and cognitive data sets.
+
+[reports/data_preparation/data_preparationFINAL.Rmd](reports/data_preparation/data_preparationFINAL.Rmd)
+
+
+##Here comes the problem
+
+At the point where I merge the data you can start to see where the error is.
+
+The variables have been coded using different responses over each of the waves.
+This makes longitudinal analysis impossible for these variables.
+
+```{r echo=FALSE, message=C_message, warning=C_warning}
+pathDir <- getwd()
+load(file.path(pathDir,"data/derived/dslong.rda"))
+load(file.path(pathDir,"data/derived/idfsample2.rda"))
+```
+
+```{r show_values, echo=FALSE, message=C_message, warning=C_warning}
+```
+
+
+##Can You Spot the Problem?
+
+```{r LoadPackages, echo=FALSE, message=C_message, warning=C_warning}
+```
+
+```{r echo=FALSE, message=C_message, warning=C_warning}
+pathDir <- getwd()
+load(file.path(pathDir,"data/derived/dslong.rda"))
+```
+
+```{r show_values, echo=FALSE, fig.show='animate', message=C_message, warning=C_warning}
+```
+
+##How to deal with issues like this {.build}
+>1. Contact your supervisor 
+>2. Contact the PI for the data set
+>3. Fix the problem (for everyone not just your publication)
+
+##Data Analsyis
+**My Research**
+
+I am interested in whether examining whether we can use a decline in smell to predict dementia.
+
+Using the SATSA data I explore the change in smell over time. I am currently missing the diagnoses data (this will be my outcome variable).
+
+##Visual | Exploring how a person changes over time
+Fitted OLS trajectories superimposed on empirical growth plots
+```{r echo=FALSE, message=C_message, warning=C_warning}
+xyplot(smell ~ WAVE | TWINNR, data=idfsample2, 
+       panel = function(x, y){
+         panel.xyplot(x, y)
+         panel.lmline(x, y)
+       }, ylim=c(0, 5), as.table=T)
+```
+
+##next
+
+
+

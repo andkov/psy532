@@ -1,0 +1,121 @@
+---
+title: "Data analysis for final report - Thomas Ferguson"
+output:
+  html_document:
+    toc: yes
+    self_containted: false
+    keep_md: true
+---  
+<!-- for more options study http://rmarkdown.rstudio.com/html_document_format.html  -->
+<!-- The report is produced from
+REPOSITORY: the-name-of-the-repository
+BRANCH: the-name-of-the-branch
+PATH: ../Reports/
+-->
+
+<!--  Set the working directory to the repository's base directory; this assumes the report is nested inside of only one directory.-->
+```{r, echo=F, message=F} 
+library(knitr)
+opts_knit$set(root.dir='../../')  #Don't combine this call with any other chunk -especially one that uses file paths.
+```
+
+<!-- Set the report-wide options, and point to the external script file. -->
+```{r, echo=F, message=T}
+require(knitr)
+opts_chunk$set(
+  results='show', # Set
+  message = TRUE, # De
+  comment = NA,   #   fau
+  tidy = FALSE,   #     lts
+#   fig.height = 4.8, # physical dimensions
+#   fig.width = 6.5,  # of produced impage
+  out.width = NULL, # how it looks in html document
+  fig.path = 'figure_rmd/', # where images from this report are stored
+  dev = "png",
+  dpi = 100 # resolution: dots per inch. Use 100 to develop, 300-400 to print. adjust
+)
+C_echo <- FALSE
+C_message<- FALSE
+C_warning<- FALSE
+
+options(width=120) #So the output is 50% wider than the default.
+read_chunk("./reports/data_analysis/basic_analysis.R") # the file to which knitr calls for the chunks
+```
+
+##Load Packages
+Prepare RStudio environment for all tasks to follow. 
+```{r LoadPackages, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r load_sources, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r DeclareGlobals, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+We load the data derived by the script "./reports/data_preparation/dsL_hrs.R"" 
+Variables chosen are age in years, eduction in years, gender, race, if they drink currently, if they smoked ever,
+```{r LoadData, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Load graph settings for creating figures
+```{r LoadGraphSettings, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Chooses variables for model - End up with model of ~6 or 7 due to conflicting results (seemed reasonable - dropped the least significant factors which were gender, mstot, depressive symptoms and sample weight
+```{r model_selection, echo=C_echo, message=C_message, warning=C_warning}
+```
+Create Plots of cognition, number of chronic conditions, education in years and age in years by BMI (with gender, if they drank, and race included as factors)
+```{r add_graphs, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Creates prediction function for models
+```{r get_prediction_function, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Creates models of variables of interest
+```{r define_models, echo=TRUE, message=C_message, warning=C_warning}
+```
+
+Adds models to figures produced above
+```{r add_model_data, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+## Conclusions
+
+### Health conditions
+
+Data show that the more health conditions you have, the higher your BMI. Given the high co-incidence of obesity (see Patterson et al., 2004) with certain health conditions such as diabetes and heart disease, this is not a surprising finding.
+
+### Age
+
+Data show that the older you are, the lower your BMI is. This is not a suprising finding, given that people who live longer tend to have better health, which would ideally correlate with a lower BMI.
+
+###Cogtot
+
+Data show that the higher your cognition, the lower your BMI.
+
+###Education
+
+Data seem show that the more years of education you have, the higher your BMI. This is somewhat suprising given that conventional wisdom (my bias?) says that education tends to correlate with wealth which correlates with better health. This could either indicate a problem with my conflation of BMI as a measurement of overall health or with differences in the retired population.
+
+###Race
+
+Race seems to show that being african american correlates with a higher BMI, this is not a super suprising finding, somewhat expected.
+
+###Drink
+
+Drinking data seems to show that when participants drink, they are more likely to have a lower BMI. This is a very suprising finding, although it could indicate a problem with their definition of drinking. Unfortunately I was unable to find the operation definition of if a participant drank or not, which could mean either quite a bit of drinking or just a certain number of drinks per week. 
+
+
+###Shlt
+
+Participants rating of their health (self-rated health score) indicates that people who rate their health lower tend to have a higher BMI.
+
+
+## Appendix
+
+Removes all variables except variables conisdered for models
+```{r CleanUp, echo=C_echo, message=C_message, warning=C_warning}
+```
+

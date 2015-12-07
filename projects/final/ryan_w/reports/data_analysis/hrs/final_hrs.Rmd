@@ -1,0 +1,124 @@
+---
+title: 'PSYC 532: Final Analysis'
+author: "Ryan Wong"
+date: "November 29, 2015"
+output: html_document
+---
+<!--  Set the working directory to the repository's base directory; this assumes the report is nested inside of only one directory.-->
+```{r, echo=F, message=F} 
+library(knitr)
+opts_knit$set(root.dir='../../../')  #Don't combine this call with any other chunk -especially one that uses file paths.
+```
+
+<!-- Set the report-wide options, and point to the external script file. -->
+```{r, echo=F, message=T}
+require(knitr)
+opts_chunk$set(
+  results='show', # Set
+  message = TRUE, # De
+  comment = NA,   #   fau
+  tidy = FALSE,   #     lts
+#   fig.height = 4.8, # physical dimensions
+#   fig.width = 6.5,  # of produced impage
+  out.width = NULL, # how it looks in html document
+  fig.path = 'figure_rmd/', # where images from this report are stored
+  dev = "png",
+  dpi = 100 # resolution: dots per inch. Use 100 to develop, 300-400 to print. adjust
+)
+C_echo <- TRUE
+C_message<- FALSE
+C_warning<- FALSE
+
+options(width=120) #So the output is 50% wider than the default.
+read_chunk("./reports/data_preparation/hrs_final/hrs_final.R") # the file to which knitr calls for the chunks
+```
+
+##Load Packages
+Prepare RStudio environment for all tasks
+```{r LoadPackages, echo=C_echo, message=C_message, warning=C_warning}
+```
+```{r LoadGraphSettings, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+##Load Data
+Link to the data source
+```{r LoadAnalysisData, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+
+##Start Analysis
+For this analysis, I will use linear mixed effects modeling to explore the data.
+
+I plot each individual's BMI and age as I expect there to be significant individual difference in the changes of BMI over time.
+```{r AnalysisStart, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+A cursory examination indicates that there is a great deal of variation between people.
+
+##Modeling
+
+#####Fixed Effect Only Model (M00)
+We begin by modeling a fixed-effect only model. Note that for this model and all subsequent models, indicators of model fit are calculated for later use (AIC, BIC, and deviance).
+```{r MakingModel00, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+
+
+#####Model 0 (Empty)
+We now create a model that contains the random intercept of BMI. The corresponding estimate indicates the mean BMI (~26) and its SE (~4.2). This model would be considered an "empty" model.
+```{r MakingModel0, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+
+
+#####Model 1
+Next, age is modeled as a fixed-effect.
+```{r MakingModel1, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+
+
+#####Model 2
+Next, we input the intercept and slope of age as random-effects (estimated for each person)
+```{r MakingModel2, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+
+
+#####Model 3
+Next, we add in arthritis as a fixed-effect that predicts the random intercept.
+```{r MakingModel3, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+
+
+#####Model 4
+Finally, we add arthritis as a predictor of both the intercept and the slope at the second level.
+```{r MakingModel4, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+
+##Graphing Models
+We add each model as a new variable into the dataset. We then melt the data into a long form.
+```{r GeneratePredictions, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Finally we graph all the models onto the data to see how well they fit. We see that there are 3 models that fit the data quite well: Models 2, 3, and 4. Due to graph size constraints, we are unable to ascertain just by looking which model is the best fit. Thus we must calculate the model that best fits the data.
+
+```{r GraphPredictions, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+
+##Checking the Model Fits
+
+We first combine the AIC, BIC, and deviance values for each model into 3 variables. We set these new variables into a new dataset. We use Model as the indicator for grouping.
+```{r CombiningFits, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Note that for the indices of fit, the lower the number, the better the fit. There is a small caveat when looking at deviance. Deviance will always go down when you add more variables into the model. This is a statistical artifact and does not always tell use the most efficient use of predictors that we might fit in a model.
+
+Now we can see which model fits the data the best: Model 2
+```{r GraphFits, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Therefore, when predicting BMI in this group, using a model that contains a fixed-effect of age, random-effects of individual age slopes/intercepts, and a random intercept is the best option. Arthritis is not a good measure when trying to predict BMI in this group.

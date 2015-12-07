@@ -1,0 +1,173 @@
+---
+title: "Individual Differences in Procedural and Conceptual Fraction Learning"
+author: "Aishah Bakhtiar"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    toc: yes
+---
+
+##Research Background##
+Mathematical cognition researchers often discuss students’ acquisition of two types of math knowledge: conceptual and procedural (e.g., Rittle-Johnson & Siegler, 1998.   
+  **Conceptual knowledge** refers to the ability to meaningfully understand separate pieces of information that exists in a subject domain, and to “know that” those pieces of information are interconnected in some ways.       
+  **Procedural knowledge** is an implicit type of knowledge that is formed by performing a set or sets of actions. In the mathematics domain, procedural knowledge is interchangeably referred to as math computational skills. This skill involves “knowing how” to use mathematical symbols and to apply rules pertaining to the mathematical problems at hand. 
+  
+In addition to conceptual and procedural knowledge being different ways of thinking, recent research has suggested that there are different profiles in how people learn these types of knowledge (e.g., Hallett, Nunes, & Bryant, 2010; Hallett, Nunes, Bryant, & Thorpe, 2012). Some people can be classified as relying more on conceptual knowledge (referred to as conceptual learners), while others can be classified as relying more on procedural knowledge (referred to as procedural learners).    
+
+##Objectives##
+In this report, I aim to examine whether procedural and conceptual fraction learners can be differentiated based on motivation characteristics. In doing so, I will first cluster the learners using their residualized procedural and conceptual fraction scores. These residualized scores represent the part of conceptual (or procedural) scale that was independent of the other knowledge type. For example, if a student had a positive conceptual residualized score, this means that the student had a higher conceptual score than would be predicted given the student’s procedural score. 
+
+```{r, echo=F, message=F} 
+library(knitr)
+opts_knit$set(root.dir='../../')  #Don't combine this call with any other chunk -especially one that uses file paths. #the root of the folder is two levels up 
+```
+
+<!-- Set the report-wide options, and point to the external script file. -->
+```{r, echo=F, message=T}
+require(knitr)
+opts_chunk$set(
+  results='show', # Set
+  message = TRUE, # De
+  comment = NA,   #   fau
+  tidy = FALSE,   #     lts
+#   fig.height = 4.8, # physical dimensions
+#   fig.width = 6.5,  # of produced impage
+  out.width = NULL, # how it looks in html document
+  fig.path = 'figure_rmd/', # where images from this report are stored
+  dev = "png",
+  dpi = 100 # resolution: dots per inch. Use 100 to develop, 300-400 to print. adjust
+)
+C_echo <- TRUE
+C_message<- FALSE
+C_warning<- FALSE
+
+options(width=120) #So the output is 50% wider than the default.
+read_chunk("./reports/data_analysis/adolescent2015_analysis.R") # the file to which knitr calls for the chunks
+```
+
+####Load Packages
+Prepare RStudio environment for all tasks to follow. 
+```{r LoadPackages, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r DeclareGlobals, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Access to this data is limited to researchers listed on the research ethics application. 
+```{r LoadData, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+##Cluster Analysis##
+
+It is possible that within a procedural and a conceptual cluster, there is a mixture between high-ability and low-ability learners. High-ability learners can be described as having perfomed well on both procedural and conceptual scales. In constrast, low-ability learners are those who performed poorly on the same two scales. This mixture between high-low ability in procedural or conceptual cluster may result in having no significant differences in motivation scores between the two groups. Thus, a four-cluster solution is chosen in order to separate out high-ability and low-ability learners from the procedural and conceptual clusters.This 4-cluster solution has proven to have a good fit with sample collected in Hallett et al. (2010). 
+
+```{r ClusterAnalysis, echo=C_echo, message=C_message, warning=C_warning}
+```
+     
+| Cluster Number  | Label |
+|:-: |---|
+| 1  | Conceptual Learners  |
+| 2  | High Achievers  |
+| 3  | Low Achievers |
+| 4  | Procedural Learners |
+
+#####Chi Square Analysis: Gender x Cluster
+```{r DescriptiveCluster, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+**Section Summary**
+
+From the table above, we may see that there is a large proportion of males in the conceptual group and a large proportion of females in the procedural group. In other words, in the mid-range ability group, females tend to rely more on procedural skills and males tend to rely more on conceptual skills
+
+```{r MergeData, echo=C_echo, message=C_message, warning=C_warning}
+```
+    
+```{r DataForModel, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+###Question 1:Which motivation variables are important in predicting performance on the fraction test?###
+
+Best subset selection is performed from a pool of motivation variables
+```{r SubsetSelection, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+
+**Section Summary**
+
+As demonstrated in the plot above, beyond 3-predictor model, the BIC value tends to increase as the model gets more complex. Hence, the best number of variables to include in a model is around 3-4 variables.
+Fraction performance can be best predicted by how favourable one perceived one's math ability (math self-concept), one's tendency to attribute previous math successes to ability, and one's tendency to approach a learning situation with a goal to master the content (mastery orientation). 
+
+Although the resulting 3-predictor model gives the best fit to the data, the beta coefficients are not that large. This is especially true for mastery orientation. 
+
+Below is a series of scatterplot showing the relation between fraction performance and each of the motivation variable in the model:
+
+Side note: For mainTheme script, refer to this [link](https://github.com/andkov/psy532/blob/master/scripts/graphs/main_theme.R) 
+```{r BasicGraph1, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+
+###Question 2: How are the clusters different in terms of motivation characteristics?###
+
+####I. Math Self-Concept and Clusters 
+```{r MeanComparison1, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r MSCPlot, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+
+**Section Summary**
+
+Althogh proecedural and conceptual learners are not significantly different in terms of math self-concept, the conceptual learners are significantly different from the high achievers. This suggests a trend that conceptual learners tend to have lower math self-concept than procedural learners. 
+
+
+####II. Attribution Style and Clusters####
+```{r MeanComparison2, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r AttributionPlot1, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r MeanComparison2_2, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r AttributionPlot2, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+
+
+**Section Summary**
+
+Two sets of a two-way repeated measure Anova were performed with attribution type (within-subject variable) and cluster membership (between-subject variable). Both tests reveal a significant interaction between attribution.type and cluster membership. 
+
+When it comes to previous math successes, it appears that high achievers tend to attribute successes to ability and low achievers tend to attribute successes to effort. Also, there doesnt seem to be any marked differences for external attribution across clusters. 
+
+When it comes to previous math failures, it appears that procedural learners and high achievers are less likely to attribute them to lack of ability compared to the other two clusters. Procedural learners are also less likely to attribute math failures to lack of effort compared to other clusters. Again, there doesnt seem to be any marked differences for external attribution across clusters
+
+
+####III. Goal Orientation and Cluster####
+```{r MeanComparison3, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+**Section Summary**
+
+A two-way repeated measure, with goal type being the within-subject variable and cluster membership being the between-subject variable, reveal no significant interaction between goal type and cluster membership. This suggest all clusters' goal orientation patterns are relatively similar. 
+
+##Conclusions
+In this analysis, fraction learners were grouped into four clusters: (i) procedural, (ii) conceptual, (iii) high achievers, (iv) low achievers. The proportion of males and females in both the procedural and conceptual clusters was significantly different; more males were considered as conceptual leaners and more females were considered as procedural learners. In addition, the learners' differences were examined based on their math self-concept, attribution styles, and goal orientation. Although the learners were no different in terms of the goals they adopt for learning math, they were different in the way they appraised their math self-concept and in the way they attribute past successes and failures. 
+
+```{r SaveDerivedData, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r CleanUp, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+##References##
+
+Hallett, D., Nunes, T., & Bryant, P. (2010). Individual differences in conceptual and procedural knowledge when learning fractions. *Journal of Educational Psychology, 102*(2), 395-406.
+
+Hallett, D., Nunes, T., Bryant, P., & Thorpe, C. M. (2012). Individual differences in conceptual and procedural fraction understanding: The role of abilities and school experience. *Journal of Experimental Child Psychology, 113*(4), 469-486. 
+
+Rittle-Johnson, B., & Siegler, R. S. (1998). The relation between conceptual and procedural knowledge in learning mathematics: A review. In C. Donlan (Ed.), *The development of mathematical skills* (pp. 75–110). East Sussex, UK: Psychology Press.
+
+

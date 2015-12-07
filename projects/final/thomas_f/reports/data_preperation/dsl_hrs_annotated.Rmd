@@ -1,0 +1,167 @@
+---
+title: "Data preperation for final report - Thomas Ferguson"
+output:
+  html_document:
+    toc: yes
+    self_containted: false
+    keep_md: true
+---  
+<!-- for more options study http://rmarkdown.rstudio.com/html_document_format.html  -->
+<!-- The report is produced from
+REPOSITORY: Finalproject
+BRANCH: the-name-of-the-branch
+PATH: ../Reports/
+-->
+
+<!--  Set the working directory to the repository's base directory; this assumes the report is nested inside of only one directory.-->
+```{r, echo=F, message=F} 
+library(knitr)
+opts_knit$set(root.dir='../../')  #Don't combine this call with any other chunk -especially one that uses file paths.
+```
+
+<!-- Set the report-wide options, and point to the external script file. -->
+```{r, echo=F, message=T}
+require(knitr)
+opts_chunk$set(
+  results='show', # Set
+  message = TRUE, # De
+  comment = NA,   #   fau
+  tidy = FALSE,   #     lts
+#   fig.height = 4.8, # physical dimensions
+#   fig.width = 6.5,  # of produced impage
+  out.width = NULL, # how it looks in html document
+  fig.path = 'figure_rmd/', # where images from this report are stored
+  dev = "png",
+  dpi = 100 # resolution: dots per inch. Use 100 to develop, 300-400 to print. adjust
+)
+C_echo <- TRUE
+C_message<- FALSE
+C_warning<- FALSE
+
+options(width=120) #So the output is 50% wider than the default.
+read_chunk("./reports/data_preperation/dsL_hrs.R") # the file to which knitr calls for the chunks
+```
+
+To load desired packages
+```{r load_packages, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r load_sources, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Find file path for data
+```{r declare_global, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Set file path for data
+```{r load_data, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Examine data and select wave (describes what portion of sample...) - done because of file size
+```{r inspect_data, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r tweak_data, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Inspect data and examine relationships between data
+```{r basic_table, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r query_data, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Create vector  containing only variables of interest to BMI
+#These variables are 
+```{r arrivedsW1, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r remove_na, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r mutate_data1, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r mutate_data2, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r mutate_data3, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r mutate_data4, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r mutate_data5, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r arrivedsW2, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Load graph settings for creating figures
+```{r LoadGraphSettings, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Use GAM or Stepwise selection to select best model - Variables chosen are age in years, number of health conditions, eduction in years and self-rated health score
+```{r model_selection, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Create figures for modeling
+```{r add_models_smoothers, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Creates prediction function for models
+```{r get_prediction_function, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Creates models of variables of interest
+```{r define_models, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Adds models to figures produced above
+```{r add_model_data, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+## Conclusions
+
+
+### Health conditions
+
+Data show that the more health conditions you have, the higher your BMI. Given the high co-incidence of obesity (see Patterson et al., 2004) with certain health conditions such as diabetes and heart disease, this is not a surprising finding.
+
+### Age
+
+Data show that the older you are, the lower your BMI is. This is not a suprising finding, given that people who live longer tend to have better health, which would ideally correlate with a lower BMI.
+
+###Cogtot
+
+Data show that the higher your cognition, the lower your BMI.
+
+###Education
+
+Data seem show that the more years of education you have, the higher your BMI. This is somewhat suprising given that conventional wisdom (my bias?) says that education tends to correlate with wealth which correlates with better health. This could either indicate a problem with my conflation of BMI as a measurement of overall health or with differences in the retired population.
+
+###Race
+
+Race seems to show that being african american correlates with a higher BMI, this is not a super suprising finding, somewhat expected.
+
+###Drink
+
+Drinking data seems to show that when participants drink, they are more likely to have a lower BMI. This is a very suprising finding, although it could indicate a problem with their definition of drinking. Unfortunately I was unable to find the operation definition of if a participant drank or not, which could mean either quite a bit of drinking or just a certain number of drinks per week. 
+
+
+###Shlt
+
+Participants rating of their health (self-rated health score) indicates that people who rate their health lower tend to have a higher BMI.
+
+## Appendix
+
+Removes all variables except variables conisdered for models
+```{r arrivedsW3, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Creates an rds and a csv file that contains only the variables of interest for models (reduces data set size)
+```{r SaveDerivedData, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r CleanUp, echo=C_echo, message=C_message, warning=C_warning}
+```

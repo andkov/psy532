@@ -1,0 +1,144 @@
+---
+title: "Analyzing the Community Health Status Indicator Data"
+output:
+  html_document:
+    toc: yes
+    self_containted: false
+    keep_md: true
+---  
+<!-- for more options study http://rmarkdown.rstudio.com/html_document_format.html  -->
+<!-- The report is produced from
+REPOSITORY: the-name-of-the-repository
+BRANCH: the-name-of-the-branch
+PATH: ../Reports/
+-->
+
+<!--  Set the working directory to the repository's base directory; this assumes the report is nested inside of only one directory.-->
+```{r, echo=F, message=F} 
+library(knitr)
+opts_knit$set(root.dir='../../')  #Don't combine this call with any other chunk -especially one that uses file paths.
+```
+
+<!-- Set the report-wide options, and point to the external script file. -->
+```{r, echo=F, message=T}
+require(knitr)
+opts_chunk$set(
+  results='show', # Set
+  message = TRUE, # De
+  comment = NA,   #   fau
+  tidy = FALSE,   #     lts
+#   fig.height = 4.8, # physical dimensions
+#   fig.width = 6.5,  # of produced impage
+  out.width = NULL, # how it looks in html document
+  fig.path = 'figure_rmd/', # where images from this report are stored
+  dev = "png",
+  dpi = 100 # resolution: dots per inch. Use 100 to develop, 300-400 to print. adjust
+)
+C_echo <- TRUE
+C_message<- FALSE
+C_warning<- FALSE
+
+options(width=120) #So the output is 50% wider than the default.
+read_chunk("./scripts/data/data_analysis_script.R") # the file to which knitr calls for the chunks
+```
+
+By: **Myles A. Maillet** ![](https://www.uvic.ca/socialsciences/psychology/assets/images/photos/grad_student_photos/maillet.jpg)
+
+***
+
+![](http://www.museandcompass.com/wp-content/uploads/2013/02/us-healthcare.jpg)
+
+This dataset provides key health indicators for 
+local communities and encourages dialogue about actions that can be taken to improve community health 
+(e.g., obesity, heart disease, cancer). The CHSI and dataset, published in 2000, was designed not only for public health 
+professionals but also for members of the community who are interested in the health of their community. 
+The CHSI report contains over 200 measures for each of the 3,141 United States counties. Although CHSI presents 
+indicators like deaths due to heart disease and cancer, it is imperative to understand that behavioral factors 
+such as obesity, tobacco use, diet, physical activity, alcohol and drug use, sexual behavior and others substantially 
+contribute to these deaths.
+
+The CHSI data set can be examined and downloaded [here](https://catalog.data.gov/dataset/community-health-status-indicators-chsi-to-combat-obesity-heart-disease-and-cancer), and specific county data investigated [here](http://wwwn.cdc.gov/communityhealth).
+
+Let's load the data and necessary packages for analysis.
+```{r LoadPackages, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+```{r LoadData, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+***
+
+##The Problem of Obesity
+Obesity rates have been rising in Canada, with 1 in 5 adults and youth currently Obese. This US county data provides data on a number of factors that are known to be associated with the development of obesity. This dataset can be used to examine how various factors within and between counties can be used to predict obesity rates. In other words, this county data can help us examine the development of *obese-city*.
+
+###Obesity across counties
+The following section indicates percentage of the population that is obese in each county, with a mean of 24% and a standard deviation of 4.9.
+```{r QueryData1, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+###Obesity by race
+The following section indicates the obesity rates by racial distribution. It appears that obesity rates decrease with greater proportions of the population being white, and increase with greater proportions of the population being black. Obesity rates also appear to be generally higher in counties with more Native American and Hispanic people than Asian people.
+```{r QueryData2, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+###Obesity by age
+Next, let's examine how obesity rates differ across age groups. It appears that are relatively consist across age groups, however this should be taken with caution. Firstly, the section between 19-64 is far too large of a range to make any conclusions, and BMI is an ineffective measure of obesity for those under 18 years of age.
+```{r QueryData3, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+***
+
+###Predictors of Obesity
+This dataset has a number of factors that may be associated with obesity rates. Let's perform best subset selection to determine which predictors account for the most variance in obesity rates.
+
+```{r DataForModel, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+####Our 15 factor model is as follows
+obesity estimate = 50.82 + 0.02(CHSI State Name) + (-0.13(Poverty)) +
+  0.21(Age 19 Under) + (-0.03(Hispanic)) + (-0.41(LBW)) + 0.18(Premature Birth)+
+  (-1.09(Over 40 Births) + 0.08(Unmarried) + (-.2(Suicide)) + 0.08(High Blood Pressure)+
+  0.29(Diabetes) + (-0.01(Physician Rate)) + (-0.47(ALE)) + 0.19(Health Status) +
+  44.41(Unemployed %)
+  
+We use the factors in the forward selection model, because the backward selection model included major depression and unemployed counts, and we really only want the factors measured as percentages
+
+The above raises some concerns. Firstly, it is not very interpretable. Second, some of the factors may seem counterintuitive. For example, it is generally assumed that obesity rates increase as poverty rates increase (seen in the graph below), but our 15 factor model has a negative coefficient for poverty.
+
+```{r BasicGraph1, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+For the sake of simplicity and interpretability, let's create a 5 factor model.
+```{r DataForModel2, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+Our new model is as follows:
+*estimated obesity = 84.3 + (1.33(Over 40 Births)) + (-0.21(Suicide))+*
+*0.55(Diabetes)  + (-0.02(Physician Rate)) + (-0.76(ALE))*
+
+Obesity rates increase as births to mother over the age of 40 increase, and as diabetes rates increase. Obesity rates decrease as suicide rates increase, and the number of physicians in a county increases, and as average life expectancy increases.
+
+*Physician rate:* This is not surprising. A region with more physicians per capita put more resources into health care in general, and would have increased physician accessibility for those needing help.
+
+*Diabetes:* This is also not surprising: Research shows that being overweight and obese can result in the development of diabetes.
+
+*Average Life Expectancy:* Still, not surprising. Counties with fewer obese people can expect longer lifespans on average, since obesity is strongly related to a number of conditions, such as heart disease and some forms of cancer.
+
+*Suicide Rate:* Now, this is interesting. As suicide rates increase, obesity rates decrease. Other research suggests that obese individuals are more at risk for suicidal behaviour, so this requires further investigation.
+
+*Births Over 40:* Again, this is interesting. Why are increasing rates of births to mothers over the age of 40 related to increasing obesity rates? Are overweight people more likely to give birth later on in life, perhaps because they have difficulty finding a mate? Or perhaps obese women have greater difficulty getting pregnant? We can only hypothesize as to why this factor is relevant to obesity.
+
+***
+
+###Conclusion
+Obesity is a complex phenomenon, and it may be more effective to examine individual predictors as opposed to county-level predictors. It is worth noting that neither fruit and vegetable consumption nor lack of exercise were factored into our 15 and 5 factor models, yet one would assume they are predictive of the development of obesity. The graphs below plot these relationships.
+```{r BasicGraph2, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+The rising obesity rates warrant our attention. This report highlights several factors that may influence the development of obesity, but no causal relations can be determined. Future analyses would benefit from examining data at an individual-level, opposed to a county or national level.
+
+```{r CleanUp, echo=C_echo, message=C_message, warning=C_warning}
+```
+
+***
+***

@@ -1,0 +1,226 @@
+---
+title: "Data Analysis for Final Project
+        Keara Rodd"
+output: 
+  ioslides_presentation:
+    widescreen: yes
+---  
+<!-- for more options study http://rmarkdown.rstudio.com/html_document_format.html  -->
+<!-- The report is produced from
+REPOSITORY: the-name-of-the-repository
+BRANCH: the-name-of-the-branch
+PATH: ../Reports/
+-->
+
+<!--  Set the working directory to the repository's base directory; this assumes the report is nested inside of only one directory.-->
+```{r, echo=F, message=F} 
+library(knitr)
+opts_knit$set(root.dir='../../')  #Don't combine this call with any other chunk -especially one that uses file paths.
+```
+
+<!-- Set the report-wide options, and point to the external script file. -->
+```{r, echo=F, message=F}
+require(knitr)
+opts_chunk$set(
+  results='show', # Set
+  message = TRUE, # De
+  comment = NA,   #   fau
+  tidy = FALSE,   #     lts
+#   fig.height = 4.8, # physical dimensions
+#   fig.width = 6.5,  # of produced impage
+  out.width = NULL, # how it looks in html document
+  fig.path = 'figure_rmd/', # where images from this report are stored
+  dev = "png",
+  dpi = 100 # resolution: dots per inch. Use 100 to develop, 300-400 to print. adjust
+)
+C_echo <- TRUE
+C_message<- FALSE
+C_warning<- FALSE
+
+options(width=120) #So the output is 50% wider than the default.
+read_chunk("./reports/data_analyses/data_analyses.R") # the file to which knitr calls for the chunks
+```
+
+```{r LoadData, echo=FALSE, message=FALSE, warning=FALSE}
+```
+```{r LoadPackages, echo=FALSE, message=FALSE, warning=FALSE}
+```
+
+##My Data
+```{r SelectWave, echo=FALSE, message=FALSE, warning=FALSE, results="hide"}
+```
+
+- I used data from [the Health and Retirement Study](http://hrsonline.isr.umich.edu/).  This study is a longitudinal panel study surveying a representative sample of approximately 20,000 Americans over the age of 50 every two years. 
+- The data was collected across different time points, so I choose to explore what is going on at one point in time.  The data for Wave 4 was collected in 1996.
+- I choose to remove missing values because the data set is quite large, there are many participants so the sample size will still be large.  Additionally, the missing values could skew my results.
+
+
+
+```{r SummarizeWave2, echo=FALSE, message=FALSE, warning=FALSE, results="hide"}
+```
+
+
+##BMI
+What is the distribution of BMI in the sample?
+
+
+```{r hist_1, echo=FALSE, message=FALSE, warning=FALSE}
+```
+
+- BMI is typically between between 11.7 and 74.5, the mean BMI is 26.94.
+
+
+##Chronic Conditions 
+What is the distribution of chronic conditions in the sample.
+```{r hist_2, echo=FALSE, message=FALSE, warning=FALSE}
+```
+
+
+####Chronic conditions range from 0-8, people most frequently report having one chronic condition, although reports of no chronic conditions and two chronic conditions are also quite common.
+
+##Smoking Distribution{.smaller}
+
+
+```{r hist_3, echo=FALSE, message=FALSE, warning=FALSE, results="hide"}
+```
+
+- The majority of people do not smoke. Specifically, only 16.1% of the sample currently smokes.  
+
+##Best Subset Selection
+
+
+```{r bestss, echo=FALSE, message=FALSE, warning=FALSE, results="hide"}
+```
+
+![Best Subset Selection](https://scontent-sea1-1.xx.fbcdn.net/hphotos-xlt1/v/t1.0-9/12299159_10204193082461701_9096876856851383569_n.jpg?oh=cfe8237e271ed1a33da0902590deb9f0&oe=56E507F6)
+
+- I conducted a best subset selection which creates a set of models, each of which contains a subset of the p predictors
+- Each row has an '*' for which variable should be included in that model
+- For example, the first row has a star under 'agey', thus we know that if we were to use a model with one predictor, the predictor we would include would be Age in Years. 
+
+
+##R^2 
+- How much variance does R^2 account for when only one variable is included compared to when 13 variables are included?
+```{r R2, echo=FALSE, message=FALSE, warning=FALSE, results="hide"}
+```
+
+- The R^2 statistic increases from 4.8% (only age is included) to 14.4% when 13 variables are included; thus 13 predictors together explain more than 14% of the variability in BMI
+- R^2 will always increase monotonically as more variables are included in the model, thus this isn't sufficient for selecting which model we should use. 
+
+##RSS Plotted {.smaller}
+```{r PlotRSS, echo=FALSE, message=FALSE, warning=FALSE}
+```
+
+- The model containing the greatest number of predictors will always have the smallest RSS.  
+
+##Adjusted R squared {.smaller}
+```{r Plotadjr2, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
+```
+
+- R^2 increases with each added predictor.  The model with the highest R^2 is the model with 13 predictors.
+
+##Cp(AIC) {.smaller}
+- The Cp adds penalty for underestimate of test error, penalty increases with number of predictors 
+- For least squares models, Cp and AIC are proportional to each other
+
+```{r Plotcp, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
+```
+
+
+##BIC 
+- BIC statistic tends to place a heavier penalty on models with many variables
+```{r Plotbic, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
+```
+- The lowest BIC occurs in the model with 11 variables. 
+
+
+##M13 vs. M11
+- The model with 13 predictors includes chronic conditions, cognitive slope, depressive symptoms, expected cognition, age in years, current smoking, drinking, stroke, psychiatric condition, diabetes, arthritis, cancer, and vigorous activity. 
+```{r Coefficients13, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
+```
+
+- The model with 11 predictors takes out expected cognition and depressive symptoms.  
+```{r Coefficients7, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
+```
+
+
+##Linear Model with Thirteen Predictors
+```{r lm, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
+```
+
+![Model 13](https://scontent-sea1-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/12301542_10204193229385374_6286230244160386065_n.jpg?oh=387c74c866d2b7784eace5d0239b321a&oe=56D53E66)
+
+- All variables are significant expect cognitive slope.  
+
+##Linear Model with Eleven Predictors
+```{r lm2, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
+```
+![Model 11](https://scontent-sea1-1.xx.fbcdn.net/hphotos-xlf1/v/t1.0-9/12342467_10204193231465426_3074279482366630233_n.jpg?oh=1a93bdc6c4c5f60d90f4ba5ccb3f28e3&oe=56E43EF2)
+
+- In the model with 11 predictors, all predictors are significant (p=0) and it is more parsimonious
+
+
+
+##Age and BMI {.smaller}
+```{r ggplot, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
+```
+
+- It appears that as age increases BMI linearly decreases. 
+- Green = 'Model 13', Red = 'Model 11'
+
+
+##Chronic Conditions and BMI {.smaller}
+```{r ggplot2, echo=FALSE, message=FALSE, warning=FALSE, results = 'hide'}
+```
+
+- It appears that, on average, as the number of chronic conditions increase, so does BMI.  
+- Green = 'Model 13', Red = 'Model 11'
+
+
+##Smoking and BMI {.smaller}
+```{r ggplot3, echo=FALSE, message=FALSE, warning=FALSE, results = 'hide'}
+```
+
+- As you can see in the plot, smoking (value 1) appears to be associated with a lower BMI on average.  
+
+##Model Decision {.smaller}
+![Question Mark](https://giftsandcollectiblesgalore.files.wordpress.com/2012/12/question-mark-face.gif)
+
+- There does not seem to be a big difference in prediction between the two models. 
+- Therefore, I will choose the eleven variable model because it is more parsimonious.  
+
+##Thinking further...
+- The negative correlation between BMI and Age is well supported by current literature.  Andersen and Olsen (2015) reported that "BMI decreases as age increases (P < 0·001) from about 60 years and up."  
+
+- When looking further at the model with 11 predictors, I wanted to further explore whether any of the variables within this model could have been related to one another, in addition to BMI.  The positive association between the number of chronic conditions and BMI is also well established.  However, less research examines the possible explanations for this association
+
+- One possible reason for this association may involve the effect of chronic conditions on activity levels.  For example, an individual with multiple chronic conditions may be less likely to engage in vigourous activity.  Is this supported by our data?
+
+##Chronic Condiitons and Vigorous Activity
+```{r explorem11.1, echo=FALSE, message=FALSE, warning=FALSE}
+```
+
+##Chronic Conditions and BMI
+```{r explorem11.2, echo=FALSE, message=FALSE, warning=FALSE}
+```
+
+##Chronic Conditions and Vigorous Activity
+```{r explorem11.3, echo=FALSE, message=FALSE, warning=FALSE}
+```
+
+##Vigorous Activity and BMI 
+```{r explorem11.4, echo=FALSE, message=FALSE, warning=FALSE}
+```
+
+## BMI, Chronic Conditions and Vigorous Activity
+```{r explorem11.5, echo=FALSE, message=FALSE, warning=FALSE}
+```
+
+
+##Conclusion
+- Having chronic conditions, diabetes and arthritis is associated with a higher BMI.  
+- BMI decreases as expected cognition, age and vigorous activity increase.  
+- Smoking is also associated with a lower BMI. 
+- The more chronic conditions an individual is diagnosed with, the higher their BMI.  
+- One explanation: More chronic conditions = less activity = higher BMI 
+- Future interventions could focus on examining what kinds of exercise would be comfortable for individual's with multiple chronic conditions, and whether or not increasing vigorous activity in this population is effective in decreasing BMI and improving longevity.  
