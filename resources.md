@@ -7,6 +7,7 @@
 - [Quick-R](http://www.statmethods.net/) - thorough and convenient resource for R reference. One of the first results to show up in search engines.   
 - [Most useful R commands](http://www.personality-project.org/r/r.commands.html) according to [personality-project.org](http://www.personality-project.org/index.html) ([William Revelle](http://www.personality-project.org/revelle.html)), creator of the [pysch]() package. Useful to peruse and as a quick cheat-sheet. Also, see their [R-guide](http://personality-project.org/r/r.guide.html)
 - (**CC**) [R Graphics Cookbook](http://www.cookbook-r.com/), the best resource for your ggplot2 reference
+- [quick markdown intro](http://cpsievert.github.io/slides/markdown), sexy graphs.  
 
 
 
