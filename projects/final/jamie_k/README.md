@@ -25,4 +25,4 @@ To begin you will want to click on [Slides.Rmd](reports/presentations/presentati
 
 Next, click on [data preparation](reports/data_preparation/data_preparationFINAL.html)
 
-Finally, [data analysis](reports/data_analysis/data_analysisFINAL.html) 
+Finally, [data analysis](http://htmlpreview.github.io/?https://github.com/andkov/psy532/blob/master/projects/final/jamie_k/reports/data_analysis/data_analysisFINAL.html) 
