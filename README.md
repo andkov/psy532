@@ -52,5 +52,5 @@ Dec 03|                          |                |Slides       (20)|  |
 07    |                          |                |Presentation (30)|  |   
 
 </br>
-The development of the course materials is partially funded by the ICRR grant from [Learning and Teaching Centre](http://www.uvic.ca/learningandteaching/) at [UVic](http://www.uvic.ca/). The [mid-way report](http://htmlpreview.github.io/?https://github.com/andkov/psy532/blob/master/documentation/LTDG/LTC_UVic_18_Sep_2015.html) was given at the begining of the second week of the course (on 18 Sep 2015). Grant [completion report]() presented at the ICRR and LWB Grant Recipients meeting on 21 Jan 2016, six week after the course completion.
+The development of the course materials is partially funded by the ICRR grant from [Learning and Teaching Centre](http://www.uvic.ca/learningandteaching/) at [UVic](http://www.uvic.ca/). The [mid-way report](http://htmlpreview.github.io/?https://github.com/andkov/psy532/blob/master/documentation/LTDG/LTC_UVic_18_Sep_2015.html) was given at the begining of the second week of the course (on 18 Sep 2015). Grant [completion report](http://htmlpreview.github.io/?https://github.com/andkov/psy532/blob/master/documentation/LTDG/LTC_UVic_21_Jan_2016.html) presented at the ICRR and LWB Grant Recipients meeting on 21 Jan 2016, six week after the course completion.
 
