@@ -36,3 +36,14 @@ Progress Report
 - comprehensive review of [online resources](https://github.com/andkov/psy532/blob/master/resources.md)     
 - practice-oriented collection of tips and resources based on [skill sets of data science](https://github.com/andkov/psy532/blob/master/skills.md)
 - extendable [timeline](https://github.com/andkov/psy532/blob/master/materials/people/timeline.md) with key figures in the history of the discipline and the general history of science. 
+
+
+That was...
+========================================================
+long, long time ago  
+back on **16 Sep 2015**
+</br>  
+Now, 4 months and 4 days later
+</br>  
+After the dust [settled](http://htmlpreview.github.io/?https://raw.githubusercontent.com/andkov/psy532/master/documentation/LTDG/LTC_UVic_21_Jan_2016.html#/),  1 month and 12 days after the course ended.
+
