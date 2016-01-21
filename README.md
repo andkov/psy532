@@ -49,7 +49,7 @@ Nov 02|History  Of Graphs and Models                          |Wickham (2014)  |
 26    | workshop         |                |                 |Production: Slides |   
 30    |                          |                |Report       (40)| |   
 Dec 03|                          |                |Slides       (20)|  |   
-07    |                          |                |Poster       (30)|  |   
+07    |                          |                |Presentation (30)|  |   
 
 </br>
 The development of the course materials is partially funded by the ICRR grant from [Learning and Teaching Centre](http://www.uvic.ca/learningandteaching/) at [UVic](http://www.uvic.ca/). See current (18 Sep 2015) [progress report](http://htmlpreview.github.io/?https://github.com/andkov/psy532/blob/master/documentation/LTDG/LTC_UVic_18_Sep_2015.html).
