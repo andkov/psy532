@@ -23,6 +23,6 @@ In this root directory folder we have several sub-folders:
 
 To begin you will want to click on [Slides.Rmd](reports/presentations/presentation_final.Rmd) and the [html](reports/presentations/presentation_final.html) to get an overall view of the project
 
-Next, click on [data preparation](reports/data_preparation/data_preparationFINAL.html)
+Next, click on [data preparation](http://htmlpreview.github.io/?https://github.com/andkov/psy532/blob/master/projects/final/jamie_k/reports/data_preparation/data_preparationFINAL.html)
 
 Finally, [data analysis](http://htmlpreview.github.io/?https://github.com/andkov/psy532/blob/master/projects/final/jamie_k/reports/data_analysis/data_analysisFINAL.html) 
