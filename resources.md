@@ -1,6 +1,7 @@
 [edit me](https://github.com/andkov/psy532/edit/master/resources.md)  
 
 **CC** - *Chef's Choice*   
+- [flip through topics](flip-through.md) 
 
 ##Goto places 
 - (**CC**) [Online Learning](http://www.rstudio.com/resources/training/online-learning/) by RStudio team,  a continuously updated collection of learning reasorces.    
