@@ -1,0 +1,2 @@
+- 2. [dplyr: verbs for manipulating data-frames](http://rpubs.com/tjmahr/dplyr_2015)
+- 1. [Pipelines in R](http://rpubs.com/tjmahr/pipelines_2015). using `magrittr`. 
