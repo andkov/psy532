@@ -9,6 +9,7 @@
 - (**CC**) [R Graphics Cookbook](http://www.cookbook-r.com/), the best resource for your ggplot2 reference
 - [quick markdown intro](http://cpsievert.github.io/slides/markdown), sexy graphs.  
 - making [interactive data tables](http://rstudio.github.io/DT/)
+- a course on stats using R at UBC [link](https://stat545-ubc.github.io/index.html)
 
 
 ##Collections
