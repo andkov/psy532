@@ -2,6 +2,10 @@
 
 **CC** - *Chef's Choice*   
 - flip through these [flash-cards](flash-cards.md)  
+ 
+
+## New additions
+- [private resource](http://www.uni-kiel.de/psychologie/rexrepos/index.html)
 
 ##Goto places 
 - (**CC**) [Online Learning](http://www.rstudio.com/resources/training/online-learning/) by RStudio team,  a continuously updated collection of learning reasorces.    
