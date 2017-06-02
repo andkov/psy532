@@ -8,7 +8,7 @@
 
 [References](./library.md#references)
 
-##Designs and Methods
+## Designs and Methods
 
 [![Shadish](./materials/texts/images/shadish.png)](http://impact.cgiar.org/pdf/147.pdf)    
 - William R. Shadish, Cook, T. D., & Campbell, D. T. (2002). [*Experimental and quasi-experimental designs for generalized causal inference*](https://scholar.google.ca/scholar?q=Experimental+and+quasi-experimental+designs+for+generalized+causal+inference&btnG=&hl=en&as_sdt=0%2C5). Wadsworth Cengage learning.   
@@ -22,7 +22,7 @@
 
 
  
-##Statistical Modeling
+## Statistical Modeling
 
 [![James](./materials/texts/images/james.png)](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20First%20Printing.pdf)     
 - James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). [*An introduction to statistical learning*](https://scholar.google.ca/scholar?q=An+introduction+to+statistical+learning&btnG=&hl=en&as_sdt=0%2C5). New York: Springer.   
@@ -35,7 +35,7 @@
 - [publisher](http://www.cambridge.org/us/academic/subjects/statistics-probability/statistical-theory-and-methods/data-analysis-using-regression-and-multilevelhierarchical-models), [amazon](http://www.amazon.ca/Analysis-Regression-Multilevel-Hierarchical-Models/dp/052168689X),  Uvic Library has a [hardcopy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1553520)    
 
 
-##R
+## R
 
 [![Spector](./materials/texts/images/spector.png)](http://download.springer.com.ezproxy.library.uvic.ca/static/pdf/189/bok%253A978-0-387-74731-6.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-0-387-74731-6&token2=exp=1441288256~acl=%2Fstatic%2Fpdf%2F189%2Fbok%25253A978-0-387-74731-6.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Fbook%252F10.1007%252F978-0-387-74731-6*~hmac=c8954468cfa04c69bf2161ee9c6cac32257939209a208c3681221f76558c09a9)  
 - Spector, P. (2008). [Data manipulation with R](https://scholar.google.ca/scholar?hl=en&q=data+manipulation+with+R&btnG=&as_sdt=1%2C5&as_sdtp=). Springer Science & Business Media.  
@@ -47,7 +47,7 @@
 - Venables, W. N., Smith, D. M., & R Development Core Team. (2002). [An introduction to R](https://scholar.google.ca/scholar?q=An+introduction+to+R&btnG=&hl=en&as_sdt=0%2C5).
 
 
-##R for Statistics
+## R for Statistics
 
 [![Dalgaard](./materials/texts/images/dalgaard.png)](http://link.springer.com.ezproxy.library.uvic.ca/book/10.1007/978-0-387-79054-1)   
 - Dalgaard, P. (2008). [Introductory Statistics with R](https://scholar.google.ca/scholar?q=Introductory+Statistics+with+R&btnG=&hl=en&as_sdt=0%2C5). Springer Science & Business Media. Peter Dalgaard walks through the major statistical methods in R. 
@@ -66,12 +66,12 @@
 - [publisher](https://www.crcpress.com/A-Handbook-of-Statistical-Analyses-using-R-Third-Edition/Hothorn-Everitt/9781482204582), [amazon](http://www.amazon.com/Handbook-Statistical-Analyses-Using-Second/dp/1420079336/ref=sr_1_2?ie=UTF8&qid=1435986045&sr=8-2&keywords=A+Handbook+of+Statistical+Analyses+Using+R&pebp=1435986048108&perid=177DZ3S2R9QC4EQ6H5TD), UVic Library has an [hard copy](http://voyager.library.uvic.ca/vwebv/holdingsInfo?bibId=1551977), 
  [direct download link](http://xa.yimg.com/kq/groups/16412409/783160322/name/A%2BHandbook%2Bof%2BStatistical%2BAnalyses%2BUsing%2BR.pdf)
 
-##Statistics and Graphics
+## Statistics and Graphics
 
 [![Deshea](./materials/texts/images/deshea.png)](http://www.amazon.com/Introductory-Statistics-Health-Sciences-DeShea/dp/1466565330/ref=sr_1_1?ie=UTF8&qid=1435986355&sr=8-1&keywords=Introductory+Statistics+for+the+Health+Sciences&pebp=1435986356585&perid=14VVYKK768NKSE8AB6RE)     
 [Introductory Statistics for the Health Sciences](http://desheastats.com/) covers an undergraduate statistics course and offers a collection of templates for visualizing basic statistical tests in R. See their [GitHub repository](https://github.com/OuhscBbmc/DeSheaToothakerIntroStats) for scripts and graph examples.
 
-##Graphics
+## Graphics
 
 [![R Cookbook](./materials/texts/images/chang.png)](http://www.cookbook-r.com/)   
 - Chang, W. (2012). [R Cookbook](https://scholar.google.ca/scholar?hl=en&q=r+graphic+cookbook&btnG=&as_sdt=1%2C5&as_sdtp=). O'Reilly Media, Inc.
@@ -96,7 +96,7 @@
 
 
 
-##Academic Sources
+## Academic Sources
 
 
 #### Articles  
