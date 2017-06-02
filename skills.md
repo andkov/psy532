@@ -7,12 +7,12 @@ Reproducible Research requires fou4 sets of skills:
 You can review my discussion of toolbox and skillset of reproducible research in slides and videoes [here](http://ialsa.github.io/COAG-colloquium-2014F/)
 
 
-#Skill sets
+# Skill sets
   Links grouped by the skillset. 
 
 
 
-##Data Management
+## Data Management
 
 -  [Introduction to data cleaning in R](http://cran.r-project.org/doc/contrib/de_Jonge+van_der_Loo-Introduction_to_data_cleaning_with_R.pdf), a discussion paper by Edwin de Jonge and 
 Mark van der Loo.
@@ -23,7 +23,7 @@ Mark van der Loo.
 
 
 
-##Graph Production
+## Graph Production
 - Winston Chang's [R Graphics Cookbook](http://www.cookbook-r.com/) is a perfect book to get you started with producing graphs with RStudio.  
 - [ggplots for publication](http://www.noamross.net/blog/2013/11/20/formatting-plots-for-pubs.html).  
 - working with [multiple plots](http://www.sthda.com/english/wiki/ggplot2-easy-way-to-mix-multiple-graphs-on-the-same-page-r-software-and-data-visualization) examples
@@ -32,7 +32,7 @@ Mark van der Loo.
 
 
 
-##Statistical Modeling 
+## Statistical Modeling 
 - [regressing "x on y" or "x on y"?](http://stats.stackexchange.com/questions/22718/what-is-the-difference-between-linear-regression-on-y-with-x-and-x-with-y) 
    - Doug Bates on statistical modeling with Julia([video](https://www.youtube.com/watch?v=v9Io-p_iymI)   
 
@@ -74,9 +74,9 @@ Mark van der Loo.
 
 
 
-##Dynamic Reporting
+## Dynamic Reporting
 
-###Git and GitHub
+### Git and GitHub
 - [GitHub cheat sheet](https://github.com/justmarkham/github-cheat-sheet) by Kevin Markham. All issues have screen-shots. More resources in the README after the link.
 - [Git quick reference for beginners](http://www.dataschool.io/git-quick-reference-for-beginners/) by Kevin Markham
 
