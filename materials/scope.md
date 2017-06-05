@@ -1,7 +1,7 @@
 See the [full list of videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/)
 The following material constitue the content convered during the course. You are responsible for reading and viewing this material. 
 
-##Chapter 1: Introduction 
+## Chapter 1: Introduction 
 (slides, playlist)
 
 - Opening Remarks and Examples (18:18)
@@ -10,7 +10,7 @@ The following material constitue the content convered during the course. You are
 
 
 
-##Chapter 2: Statistical Learning 
+## Chapter 2: Statistical Learning 
 pages 15 - 57
 - what is statistical learning? (2.1)  
 - Assessing model accuracy (2.2)  
@@ -26,7 +26,7 @@ pages 15 - 57
 - LAB: Introduction to R (14:12)
 
 
-##Chapter 3: Linear Regression 
+## Chapter 3: Linear Regression 
 page 59 - 126  
 - simple linear regressing (3.1)
 - multiple linear regression (3.2)  
@@ -44,7 +44,7 @@ page 59 - 126
 - Lab: Linear Regression (22:10)
 
 
-##Chapter 5: Resampling Methods 
+## Chapter 5: Resampling Methods 
 (slides, playlist)
 
 - Estimating Prediction Error and Validation Set Approach (14:01)
@@ -56,7 +56,7 @@ page 59 - 126
 - Lab: The Bootstrap (7:40)
 
 
-##Chapter 6: Linear Model Selection and Regularization
+## Chapter 6: Linear Model Selection and Regularization
 pages 203 - 214; 244 - 250
 - subset selection (6.1)  
 - LAB: Sebset selection methods (6.5)
@@ -73,7 +73,7 @@ pages 203 - 214; 244 - 250
 - Lab: Model Selection Using Cross-Validation (5:32)
 
 
-##Chapter 7: Moving Beyond Linearity 
+## Chapter 7: Moving Beyond Linearity 
 pages 265-270 ; 282-286 
 - polynomial regression (7.1)  
 - step functions (7.2)  
