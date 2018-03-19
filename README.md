@@ -5,7 +5,7 @@
 [![Maxwell & Delaney](./materials/texts/images/maxwell.png)](./materials/texts/toc/core_MD_toc.pdf) [![Gelman & Hill](./materials/texts/images/gelman.png)](./materials/texts/toc/model_GH_toc.pdf) [![Venables](./materials/texts/images/venables.png)](./materials/texts/toc/R_Venables_toc.pdf)  [![Verzani](./materials/texts/images/verzani.png)](./materials/texts/toc/stat_Verzani_toc.pdf) [![Everitt](./materials/texts/images/everitt.png)](./materials/texts/toc/stat_EH_toc.pdf) [![Murrell](./materials/texts/images/murrell.png)](./materials/texts/toc/graph_Murrell_toc.pdf)   
 [ToC](https://github.com/andkov/psy532/raw/master/materials/texts/toc/toc.pdf)
 
-*PSYC-532* at [University of Victoria](http://www.uvic.ca/socialsciences/psychology/)  by Dr. **[Andriy V. Koval](https://github.com/andkov)** 
+A graduate course (**PSYC 532 - Introduction to Statistical Modeling for Social Sciences**) taught  by Dr.**[Andriy V. Koval](https://github.com/andkov)** at the [University of Victoria](http://www.uvic.ca/socialsciences/psychology/)   in the Fall of 2015. 
 
 | When  | Where  | Semester  | Dates  | Email   |Office   | Hours | Phone  |
 |---|---|---|---|---|---|---|---|
