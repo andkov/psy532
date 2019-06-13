@@ -74,7 +74,7 @@ nteractive course by DataCamp.
 
 ### Video
 - [lady tasting tea](https://www.youtube.com/watch?v=lgs7d5saFFc) short video on designing experiment in words of R.A. Fisher.    
-- [dude tapping bear](https://www.youtube.com/watch?v=bVMVGHkt2cg) or p-value extravaganza.   
+- [dude tapping beer](https://www.youtube.com/watch?v=bVMVGHkt2cg) or p-value extravaganza.   
 - C-SPAN Booknotes: An [hour-long interview](http://www.booknotes.org/Watch/181230-1/Nicholas+Capaldi.aspx) with Nicholas Capaldi, the author of "*John Stuart Mill: A Biography*" , [publisher](http://www.cambridge.org/ca/academic/subjects/philosophy/nineteenth-century-philosophy/john-stuart-mill-biography) [amazon](http://www.amazon.ca/John-Stuart-Mill-Nicholas-Capaldi-ebook/dp/B001CP9LO8/ref=sr_1_2?ie=UTF8&qid=1439638025&sr=8-2&keywords=John+Stuart+Mill%3A+A+Biography), [google books](https://books.google.ca/books/about/John_Stuart_Mill.html?id=rq-tLkiXsdUC&redir_esc=y). 
 
 
